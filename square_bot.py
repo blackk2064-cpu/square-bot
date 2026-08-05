@@ -27,7 +27,16 @@ import requests
 # ---------------------------------------------------------------------------
 
 SQUARE_POST_URL = "https://www.binance.com/bapi/composite/v1/public/pgc/openApi/content/add"
-SPOT_TICKER_URL = "https://api.binance.com/api/v3/ticker/24hr"
+
+# data-api.binance.vision is Binance's official *unrestricted* mirror for
+# public spot market data — use this instead of api.binance.com, which
+# blocks requests coming from US-hosted servers (incl. GitHub Actions),
+# returning HTTP 451 "restricted location".
+SPOT_TICKER_URL = "https://data-api.binance.vision/api/v3/ticker/24hr"
+
+# Futures (funding rate / open interest) has no unrestricted mirror, so it
+# may still fail with 451 from GitHub Actions runners. We fetch it best-effort
+# and simply skip funding-dependent content if it's unavailable.
 FAPI_FUNDING_URL = "https://fapi.binance.com/fapi/v1/premiumIndex"
 FAPI_OI_URL = "https://fapi.binance.com/fapi/v1/openInterest"
 
@@ -41,20 +50,39 @@ API_KEY = os.environ.get("SQUARE_OPENAPI_KEY")
 # ---------------------------------------------------------------------------
 
 def get_market_data(symbol: str) -> dict:
-    """Pull 24h price change, funding rate, and open interest for a symbol."""
+    """Pull 24h price change (required) and funding/OI (best-effort) for a symbol."""
     pair = f"{symbol}USDT"
 
-    ticker = requests.get(SPOT_TICKER_URL, params={"symbol": pair}, timeout=10).json()
-    funding = requests.get(FAPI_FUNDING_URL, params={"symbol": pair}, timeout=10).json()
-    oi = requests.get(FAPI_OI_URL, params={"symbol": pair}, timeout=10).json()
+    ticker_resp = requests.get(SPOT_TICKER_URL, params={"symbol": pair}, timeout=10)
+    ticker_resp.raise_for_status()
+    ticker = ticker_resp.json()
 
-    return {
+    if "lastPrice" not in ticker:
+        raise RuntimeError(f"Unexpected spot ticker response: {ticker}")
+
+    data = {
         "symbol": symbol,
         "price": float(ticker["lastPrice"]),
         "change_pct": float(ticker["priceChangePercent"]),
-        "funding_rate": float(funding["lastFundingRate"]) * 100,
-        "open_interest": float(oi["openInterest"]),
+        "funding_rate": None,
+        "open_interest": None,
     }
+
+    # Futures data is best-effort — if fapi.binance.com is geo-blocked or
+    # errors out, we just proceed without it instead of crashing the run.
+    try:
+        funding = requests.get(FAPI_FUNDING_URL, params={"symbol": pair}, timeout=10).json()
+        data["funding_rate"] = float(funding["lastFundingRate"]) * 100
+    except Exception as e:
+        print(f"⚠️ Funding rate unavailable ({e}), skipping.")
+
+    try:
+        oi = requests.get(FAPI_OI_URL, params={"symbol": pair}, timeout=10).json()
+        data["open_interest"] = float(oi["openInterest"])
+    except Exception as e:
+        print(f"⚠️ Open interest unavailable ({e}), skipping.")
+
+    return data
 
 
 # ---------------------------------------------------------------------------
@@ -62,6 +90,7 @@ def get_market_data(symbol: str) -> dict:
 # ---------------------------------------------------------------------------
 
 def template_price_funding(d: dict) -> str:
+    """Requires funding_rate and open_interest to be present (not None)."""
     direction = "إيجابي → الطويلون يدفعون" if d["funding_rate"] > 0 else "سلبي → القصيرون يدفعون"
     trend = "صاعد 📈" if d["change_pct"] > 0 else "هابط 📉"
     return (
@@ -105,7 +134,8 @@ def template_general(d: dict) -> str:
     )
 
 
-TEMPLATES = [template_price_funding, template_technical, template_general]
+TEMPLATES_NEEDS_FUNDING = [template_price_funding]
+TEMPLATES_SPOT_ONLY = [template_technical, template_general]
 
 
 # ---------------------------------------------------------------------------
@@ -134,11 +164,16 @@ def post_to_square(text: str) -> dict:
 
 def main():
     symbol = random.choice(SYMBOLS)
-    template_fn = random.choice(TEMPLATES)
 
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Fetching data for {symbol}...")
     data = get_market_data(symbol)
 
+    # Only offer the funding-rate template if that data actually came through.
+    available_templates = list(TEMPLATES_SPOT_ONLY)
+    if data["funding_rate"] is not None and data["open_interest"] is not None:
+        available_templates += TEMPLATES_NEEDS_FUNDING
+
+    template_fn = random.choice(available_templates)
     text = template_fn(data)
     print("---- Generated post ----")
     print(text)
