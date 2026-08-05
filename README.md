@@ -1,5 +1,6 @@
 # Binance Square Auto-Poster
 
+
 بوت بسيط بينشر تحديثات سوق تلقائيًا على حسابك في Binance Square كل ساعة،
 باستخدام الـ **Square OpenAPI الرسمي**.
 
