@@ -1,0 +1,27 @@
+name: Binance Square Hourly Post
+
+on:
+  schedule:
+    # Runs at minute 0 of every hour (UTC)
+    - cron: "0 * * * *"
+  workflow_dispatch: {}   # allows manual runs from the Actions tab
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          SQUARE_OPENAPI_KEY: ${{ secrets.SQUARE_OPENAPI_KEY }}
+        run: python square_bot.py
