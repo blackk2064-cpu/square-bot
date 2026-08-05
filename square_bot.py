@@ -2,18 +2,19 @@
 """
 Binance Square Auto-Poster Bot
 ================================
-Fetches live market data from Binance's public REST API (no auth needed)
-and posts an auto-generated Arabic market update to Binance Square using
-the official Square OpenAPI (X-Square-OpenAPI-Key).
+Fetches live market data + crypto news from public APIs and posts an
+auto-generated Arabic update to Binance Square using the official
+Square OpenAPI (X-Square-OpenAPI-Key).
 
-Run once per invocation — schedule it externally (cron / GitHub Actions)
-to run hourly.
+Each run randomly picks ONE post type:
+  - "market"    (55%): price / technical / funding-rate style updates
+  - "sarcastic" (25%): witty/sarcastic commentary on the day's move
+  - "news"      (20%): roundup of top market-moving headlines
+
+Run once per invocation — scheduled hourly via GitHub Actions.
 
 Required environment variable:
     SQUARE_OPENAPI_KEY   -> your Binance Square OpenAPI key (Creator Center)
-
-Docs referenced:
-    Square post endpoint: POST /bapi/composite/v1/public/pgc/openApi/content/add
 """
 
 import os
@@ -28,19 +29,21 @@ import requests
 
 SQUARE_POST_URL = "https://www.binance.com/bapi/composite/v1/public/pgc/openApi/content/add"
 
-# data-api.binance.vision is Binance's official *unrestricted* mirror for
-# public spot market data — use this instead of api.binance.com, which
-# blocks requests coming from US-hosted servers (incl. GitHub Actions),
-# returning HTTP 451 "restricted location".
+# Unrestricted mirror for public spot market data (api.binance.com blocks
+# requests from US-hosted servers, incl. GitHub Actions, with HTTP 451).
 SPOT_TICKER_URL = "https://data-api.binance.vision/api/v3/ticker/24hr"
 
-# Futures (funding rate / open interest) has no unrestricted mirror, so it
-# may still fail with 451 from GitHub Actions runners. We fetch it best-effort
-# and simply skip funding-dependent content if it's unavailable.
+# Futures data has no unrestricted mirror — fetched best-effort.
 FAPI_FUNDING_URL = "https://fapi.binance.com/fapi/v1/premiumIndex"
 FAPI_OI_URL = "https://fapi.binance.com/fapi/v1/openInterest"
 
+# Free public news feed, no API key required.
+NEWS_URL = "https://min-api.cryptocompare.com/data/v2/news/"
+
 SYMBOLS = ["BTC", "ETH", "SOL", "BNB"]
+
+# Relative weights for post type selection per run.
+CATEGORY_WEIGHTS = {"market": 55, "sarcastic": 25, "news": 20}
 
 API_KEY = os.environ.get("SQUARE_OPENAPI_KEY")
 
@@ -68,8 +71,6 @@ def get_market_data(symbol: str) -> dict:
         "open_interest": None,
     }
 
-    # Futures data is best-effort — if fapi.binance.com is geo-blocked or
-    # errors out, we just proceed without it instead of crashing the run.
     try:
         funding = requests.get(FAPI_FUNDING_URL, params={"symbol": pair}, timeout=10).json()
         data["funding_rate"] = float(funding["lastFundingRate"]) * 100
@@ -85,8 +86,26 @@ def get_market_data(symbol: str) -> dict:
     return data
 
 
+def get_news(limit: int = 4) -> list:
+    """Fetch top recent crypto headlines. Returns [] on any failure."""
+    try:
+        resp = requests.get(NEWS_URL, params={"lang": "EN"}, timeout=10)
+        resp.raise_for_status()
+        articles = resp.json().get("Data", [])
+        # Sort newest first and keep only the fields we need.
+        articles = sorted(articles, key=lambda a: a.get("published_on", 0), reverse=True)
+        return [
+            {"title": a["title"].strip(), "source": a.get("source_info", {}).get("name") or a.get("source", "")}
+            for a in articles[:limit]
+            if a.get("title")
+        ]
+    except Exception as e:
+        print(f"⚠️ News fetch failed ({e}), skipping news category.")
+        return []
+
+
 # ---------------------------------------------------------------------------
-# Post templates (Arabic) — mirrors the account's existing style
+# Market update templates (Arabic)
 # ---------------------------------------------------------------------------
 
 def template_price_funding(d: dict) -> str:
@@ -139,6 +158,72 @@ TEMPLATES_SPOT_ONLY = [template_technical, template_general]
 
 
 # ---------------------------------------------------------------------------
+# Sarcastic / humorous templates (Arabic) — picked by current mood (pump/dump)
+# ---------------------------------------------------------------------------
+
+def sarcastic_pump_1(d: dict) -> str:
+    return (
+        f"😂 {d['symbol']} طالع {d['change_pct']:.2f}% ودلوقتي فجأة كل اللي كانوا\n"
+        f"بيقولوا \"الكريبتو نصب\" بقوا محللين فنيين ومستثمرين للأجل الطويل 🎩\n\n"
+        f"الذاكرة السمكية أسطورة بجد 🐟\n\n"
+        f"⚠️ استمتعوا بس متنسوش تاخدوا أرباحكم أحيانًا 😅\n"
+        f"#{d['symbol']} #كريبتو #كوميك_السوق"
+    )
+
+
+def sarcastic_pump_2(d: dict) -> str:
+    return (
+        f"🚀 ${d['price']:,.0f} على {d['symbol']}!\n\n"
+        f"المجموعات دلوقتي بقت فيها إيموجي صاروخ أكتر من كلام 🚀🚀🚀\n"
+        f"واللي كان \"هيبيع لو نزل تاني\" بقى \"هولد لحد القمر\" 🌕\n\n"
+        f"يا رب سلامة القلوب 😂\n"
+        f"⚠️ الفرحة حلوة بس الخطة أهم.\n"
+        f"#{d['symbol']} #كريبتو"
+    )
+
+
+def sarcastic_dump_1(d: dict) -> str:
+    return (
+        f"😅 {d['symbol']} نازل {abs(d['change_pct']):.2f}% والمجموعات فجأة\n"
+        f"بقت هادية أوي... حتى البوتات مبتردش 🤖\n\n"
+        f"فاكرين لما كان طالع وكل واحد \"محلل\"؟ وحشتونا 🥲\n\n"
+        f"⚠️ التصحيحات جزء من اللعبة، خليكوا هادئين.\n"
+        f"#{d['symbol']} #كريبتو #السوق_الهابط"
+    )
+
+
+def sarcastic_dump_2(d: dict) -> str:
+    return (
+        f"📉 {d['symbol']} نازل شوية، وبقى فيه صنفين بس في السوق دلوقتي:\n"
+        f"1) اللي بيقول \"ده تصحيح صحي\" 🧘\n"
+        f"2) اللي بيقفل التطبيق ويفتحه بعد أسبوع 🙈\n\n"
+        f"انتوا مين فيهم؟ 😂\n"
+        f"⚠️ محتوى ترفيهي، والتداول فيه مخاطرة حقيقية.\n"
+        f"#{d['symbol']} #كريبتو"
+    )
+
+
+SARCASTIC_PUMP = [sarcastic_pump_1, sarcastic_pump_2]
+SARCASTIC_DUMP = [sarcastic_dump_1, sarcastic_dump_2]
+
+
+# ---------------------------------------------------------------------------
+# News roundup
+# ---------------------------------------------------------------------------
+
+def build_news_post(articles: list) -> str:
+    lines = ["📰 أهم العناوين المؤثرة على السوق الآن:"]
+    for i, a in enumerate(articles, 1):
+        src = f" — {a['source']}" if a["source"] else ""
+        lines.append(f"{i}. {a['title']}{src}")
+    lines.append("")
+    lines.append("👀 تابعونا لمزيد من تحديثات الأخبار لحظة بلحظة.")
+    lines.append("⚠️ أخبار فقط، وليست نصيحة استثمارية.")
+    lines.append("#أخبار_الكريبتو #بايننس #سوق_العملات_الرقمية")
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
 # Posting
 # ---------------------------------------------------------------------------
 
@@ -162,19 +247,38 @@ def post_to_square(text: str) -> dict:
 # Main
 # ---------------------------------------------------------------------------
 
+def choose_category() -> str:
+    categories = list(CATEGORY_WEIGHTS.keys())
+    weights = list(CATEGORY_WEIGHTS.values())
+    return random.choices(categories, weights=weights, k=1)[0]
+
+
 def main():
-    symbol = random.choice(SYMBOLS)
+    category = choose_category()
+    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Category selected: {category}")
 
-    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Fetching data for {symbol}...")
-    data = get_market_data(symbol)
+    if category == "news":
+        articles = get_news()
+        if articles:
+            text = build_news_post(articles)
+        else:
+            print("No news available, falling back to market update.")
+            category = "market"
 
-    # Only offer the funding-rate template if that data actually came through.
-    available_templates = list(TEMPLATES_SPOT_ONLY)
-    if data["funding_rate"] is not None and data["open_interest"] is not None:
-        available_templates += TEMPLATES_NEEDS_FUNDING
+    if category in ("market", "sarcastic"):
+        symbol = random.choice(SYMBOLS)
+        print(f"Fetching data for {symbol}...")
+        data = get_market_data(symbol)
 
-    template_fn = random.choice(available_templates)
-    text = template_fn(data)
+        if category == "sarcastic":
+            pool = SARCASTIC_PUMP if data["change_pct"] > 0 else SARCASTIC_DUMP
+            text = random.choice(pool)(data)
+        else:
+            available_templates = list(TEMPLATES_SPOT_ONLY)
+            if data["funding_rate"] is not None and data["open_interest"] is not None:
+                available_templates += TEMPLATES_NEEDS_FUNDING
+            text = random.choice(available_templates)(data)
+
     print("---- Generated post ----")
     print(text)
     print("-------------------------")
