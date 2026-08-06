@@ -2,9 +2,9 @@ name: Binance Square Hourly Post
 
 on:
   schedule:
-    # Runs at minute 0 of every hour (UTC)
-    - cron: "0 * * * *"
-  workflow_dispatch: {}   # allows manual runs from the Actions tab
+    # Runs at minute 1 of every hour (UTC = Algeria time, since Algeria is UTC+1 with no fractional offset)
+    - cron: "1 * * * *"  # Runs at :01 every hour, Algeria time included
+  workflow_dispatch: {}  # allows manual runs from the Actions tab
 
 jobs:
   post:
