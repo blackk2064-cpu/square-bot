@@ -3,7 +3,7 @@
 Binance Square Auto-Poster Bot
 ================================
 Fetches live market data / news / announcements from public APIs and posts
-an auto-generated Arabic update to Binance Square using the official
+an auto-generated English update to Binance Square using the official
 Square OpenAPI (X-Square-OpenAPI-Key).
 
 Each run randomly picks ONE post type, roughly matching:
@@ -12,6 +12,9 @@ Each run randomly picks ONE post type, roughly matching:
   - 15%  education (trading term glossary)
   - 15%  memes/sarcastic
   - 10%  Binance events explainer (Launchpool, Megadrop, Alpha, etc.)
+
+Posts open with a hook line, use short paragraphs, and end with a question
+to invite comments — text-only for now (no image/video support yet).
 
 Run once per invocation — scheduled hourly via GitHub Actions.
 
@@ -72,28 +75,28 @@ REQUEST_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; SquareBot/1.0)"}
 # ---------------------------------------------------------------------------
 
 GLOSSARY = {
-    "الرافعة المالية (Leverage)": "استخدام مبلغ صغير من رأس المال للتحكم في مركز أكبر، بيضاعف الأرباح والخسائر مع بعض.",
-    "معدل التمويل (Funding Rate)": "رسوم دورية بين المتداولين الطويلين والقصيرين في عقود الفيوتشرز الدائمة، بتحافظ على سعر العقد قريب من السعر الفوري.",
-    "الفائدة المفتوحة (Open Interest)": "إجمالي عدد العقود المفتوحة (اللي لسه متقفلتش) في سوق المشتقات، بيعكس حجم السيولة النشطة.",
-    "الدعم والمقاومة (Support/Resistance)": "مستويات سعرية بيميل السعر يرتد عندها لأعلى (دعم) أو لأسفل (مقاومة) بناءً على التاريخ السعري.",
-    "الشمعة اليابانية (Candlestick)": "طريقة رسم بيانية بتوضح سعر الفتح والإغلاق وأعلى وأقل سعر خلال فترة زمنية معينة.",
-    "التصحيح (Correction)": "انخفاض مؤقت في السعر بعد ارتفاع قوي، قبل ما يكمل الاتجاه الأساسي.",
-    "الحيتان (Whales)": "محافظ ضخمة بتمتلك كميات كبيرة من عملة معينة، وتحركاتها ممكن تأثر على السعر بشكل ملحوظ.",
-    "DCA (متوسط التكلفة الدولاري)": "استراتيجية شراء مبلغ ثابت بشكل دوري بغض النظر عن السعر، لتقليل تأثير التقلبات.",
-    "السيولة (Liquidity)": "سهولة شراء أو بيع أصل من غير ما يأثر بشكل كبير على سعره.",
-    "التصفية (Liquidation)": "إغلاق إجباري لمركز تداول بالرافعة المالية لما الخسائر توصل لحد معين، وبيخسر المتداول الهامش المستخدم.",
-    "السوق الصاعد/الهابط (Bull/Bear Market)": "فترة طويلة من الارتفاع المستمر (صاعد) أو الانخفاض المستمر (هابط) في السوق.",
-    "القمة/القاع (ATH/ATL)": "أعلى سعر أو أقل سعر وصلت له عملة في تاريخها.",
+    "Leverage": "Using a small amount of capital to control a larger position — it multiplies both gains and losses.",
+    "Funding Rate": "A periodic payment between long and short traders in perpetual futures, keeping the contract price close to spot.",
+    "Open Interest": "The total number of futures contracts still open — a signal of how much liquidity is actively in play.",
+    "Support & Resistance": "Price levels where an asset tends to bounce (support) or struggle to break through (resistance).",
+    "Candlestick": "A charting method showing the open, close, high, and low price over a set time period.",
+    "Correction": "A temporary price decline, usually 10-20%, after a strong rally — before the broader trend resumes.",
+    "Whales": "Wallets holding very large amounts of an asset. Their moves can noticeably shift the market.",
+    "DCA (Dollar-Cost Averaging)": "Buying a fixed amount at regular intervals regardless of price, to smooth out volatility.",
+    "Liquidity": "How easily an asset can be bought or sold without significantly moving its price.",
+    "Liquidation": "The forced closing of a leveraged position once losses hit a threshold — the trader loses the margin used.",
+    "Bull / Bear Market": "An extended period of sustained price increases (bull) or sustained declines (bear).",
+    "ATH / ATL": "All-Time High or All-Time Low — the highest or lowest price an asset has ever reached.",
 }
 
 EVENTS = {
-    "Word of the Day": "مسابقة يومية بسيطة على تطبيق باينانس، بتسأل سؤال قصير عن السوق أو المنصة، والإجابة الصحيحة بتديك فرصة في مكافأة صغيرة.",
-    "Red Packet": "هدية رقمية يقدر المستخدمين يبعتوها لبعض جوه التطبيق، بتحتوي على عملات رقمية بقيمة معينة.",
-    "Megadrop": "منصة إطلاق مشاريع جديدة بتدي المستخدمين فرصة يحصلوا على توكنات مشروع قبل إدراجه رسميًا، غالبًا عن طريق قفل BNB أو أداء مهام.",
-    "Binance Alpha": "قسم بيعرض مشاريع كريبتو ناشئة قبل الإدراج الكامل على باينانس، بيدي وصول مبكر لتوكنات واعدة.",
-    "Launchpool": "برنامج بيتيح قفل عملات زي BNB أو FDUSD عشان تكسب توكنات مشروع جديد مجانًا قبل إدراجه.",
-    "Launchpad": "منصة باينانس لإطلاق مشاريع جديدة (IEO) بيقدر المستخدمين يشتروا فيها توكنات في مرحلة مبكرة جدًا.",
-    "HODLer Airdrops": "توزيعات مجانية لتوكنات مشاريع جديدة على المستخدمين اللي عندهم BNB محتفظ بيه في فترة معينة.",
+    "Word of the Day": "A simple daily quiz on the Binance app — a quick question about the market or platform, with a small reward for a correct answer.",
+    "Red Packet": "A digital gift users can send each other in-app, containing a set amount of crypto.",
+    "Megadrop": "A launch platform giving users a chance to earn tokens from new projects before they're officially listed, usually by locking BNB or completing tasks.",
+    "Binance Alpha": "A section showcasing early-stage crypto projects before their full listing, giving users early access to promising tokens.",
+    "Launchpool": "A program where locking coins like BNB or FDUSD earns you free tokens from a new project before it lists.",
+    "Launchpad": "Binance's platform for launching new projects (IEOs), letting users buy tokens at a very early stage.",
+    "HODLer Airdrops": "Free token distributions to users holding BNB in eligible products during a specific snapshot period.",
 }
 
 
@@ -205,22 +208,20 @@ def get_announcements(catalog_id: int, limit: int = 4) -> list:
 
 
 # ---------------------------------------------------------------------------
-# Market update templates (Arabic)
+# Market update templates — hook-first, short paragraphs, closing question
 # ---------------------------------------------------------------------------
 
 def template_price_funding(d: dict) -> str:
     """Requires funding_rate and open_interest to be present (not None)."""
-    direction = "إيجابي → الطويلون يدفعون" if d["funding_rate"] > 0 else "سلبي → القصيرون يدفعون"
-    trend = "صاعد 📈" if d["change_pct"] > 0 else "هابط 📉"
+    direction = "longs are paying shorts" if d["funding_rate"] > 0 else "shorts are paying longs"
     return (
-        f"🔥 تحديث {d['symbol']} (بيانات باينانس):\n"
-        f"• السعر الحالي: ${d['price']:,.2f}\n"
-        f"• التغير 24 ساعة: {d['change_pct']:.2f}% {trend}\n"
-        f"• معدل التمويل: {d['funding_rate']:.4f}% → {direction}\n"
-        f"• الفائدة المفتوحة: {d['open_interest']:,.0f} عقد\n\n"
-        f"📊 السوق يتحرك بسرعة، تابعوا معنا التحديثات.\n"
-        f"⚠️ ليست نصيحة استثمارية — التداول فيه مخاطرة.\n"
-        f"#{d['symbol']} #كريبتو #بايننس #تداول"
+        f"{d['symbol']} moved {abs(d['change_pct']):.2f}% in the last 24 hours — "
+        f"but the funding rate is telling a different story than the price chart.\n\n"
+        f"Price: ${d['price']:,.2f} ({d['change_pct']:+.2f}%)\n"
+        f"Funding rate: {d['funding_rate']:.4f}% → {direction}\n"
+        f"Open interest: {d['open_interest']:,.0f} contracts\n\n"
+        f"Funding flips like this often show up right before short-term reversals.\n\n"
+        f"Not financial advice. Where do you see {d['symbol']} going from here?"
     )
 
 
@@ -228,28 +229,23 @@ def template_technical(d: dict) -> str:
     support = d["price"] * 0.97
     resistance = d["price"] * 1.03
     return (
-        f"📊 قراءة فنية سريعة على ${d['symbol']}:\n"
-        f"السعر الحالي حول ${d['price']:,.2f}\n"
-        f"منطقة الدعم القريبة: ~${support:,.2f}\n"
-        f"منطقة المقاومة القريبة: ~${resistance:,.2f}\n\n"
-        f"الاحتفاظ فوق الدعم = استمرار الاتجاه الحالي\n"
-        f"كسر الدعم = احتمال تصحيح أعمق\n\n"
-        f"👇 رأيك: صعود أم تصحيح؟\n"
-        f"⚠️ للتوضيح فقط، وليست نصيحة استثمارية.\n"
-        f"#{d['symbol']} #تحليل_فني #كريبتو"
+        f"{d['symbol']} is sitting right at a level that usually decides the next move.\n\n"
+        f"Current price: ${d['price']:,.2f}\n"
+        f"Nearby support: ~${support:,.2f}\n"
+        f"Nearby resistance: ~${resistance:,.2f}\n\n"
+        f"Hold above support and the trend likely continues. Lose it, and a deeper pullback opens up.\n\n"
+        f"Not financial advice, just structure. Continuation or correction?"
     )
 
 
 def template_general(d: dict) -> str:
-    mood = "تفاؤل واضح 🟢" if d["change_pct"] > 0 else "حذر وترقب 🟡"
+    mood = "cautious optimism" if d["change_pct"] > 0 else "quiet nerves"
     return (
-        f"🚨 نبض السوق الآن على ${d['symbol']}:\n"
-        f"مزاج المتداولين: {mood}\n"
-        f"التغير اليومي: {d['change_pct']:.2f}%\n\n"
-        f"السوق دايمًا بيكافئ الصبور مش المستعجل.\n"
-        f"تابعونا لتحديثات مستمرة عن حركة السوق.\n\n"
-        f"⚠️ محتوى تعليمي فقط، استثمر بما يمكنك تحمل خسارته.\n"
-        f"#كريبتو #بايننس #سوق_الكريبتو"
+        f"Something shifted in {d['symbol']} sentiment today.\n\n"
+        f"24h change: {d['change_pct']:+.2f}%\n"
+        f"Market mood right now: {mood}\n\n"
+        f"Markets tend to reward patience over panic — history keeps proving that one out.\n\n"
+        f"Educational content only. Holding, or watching from the sidelines?"
     )
 
 
@@ -259,9 +255,9 @@ TEMPLATES_SPOT_ONLY = [template_technical, template_general]
 
 def template_top_movers(kind: str, movers: list) -> str:
     headers = {
-        "gainers": "🚀 الأعلى ارتفاعًا في آخر 24 ساعة:",
-        "losers": "🔻 الأعلى انخفاضًا في آخر 24 ساعة:",
-        "volume": "📊 الأعلى في حجم التداول (24 ساعة):",
+        "gainers": "The biggest movers of the last 24 hours — starting with the winners:",
+        "losers": "The biggest movers of the last 24 hours — starting with the pain:",
+        "volume": "Here's where the real trading volume went in the last 24 hours:",
     }
     lines = [headers[kind]]
     for i, t in enumerate(movers, 1):
@@ -272,54 +268,48 @@ def template_top_movers(kind: str, movers: list) -> str:
         else:
             lines.append(f"{i}. {sym}: {float(t['priceChangePercent']):+.2f}%")
     lines.append("")
-    lines.append("⚠️ بيانات لحظية من باينانس، وليست نصيحة استثمارية.")
-    lines.append("#كريبتو #بايننس #تداول")
+    lines.append("Live data from Binance. Not financial advice — which one surprises you?")
     return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
-# Sarcastic / humorous templates (Arabic) — picked by current mood (pump/dump)
+# Sarcastic / humorous templates — picked by current mood (pump/dump)
 # ---------------------------------------------------------------------------
 
 def sarcastic_pump_1(d: dict) -> str:
     return (
-        f"😂 {d['symbol']} طالع {d['change_pct']:.2f}% ودلوقتي فجأة كل اللي كانوا\n"
-        f"بيقولوا \"الكريبتو نصب\" بقوا محللين فنيين ومستثمرين للأجل الطويل 🎩\n\n"
-        f"الذاكرة السمكية أسطورة بجد 🐟\n\n"
-        f"⚠️ استمتعوا بس متنسوش تاخدوا أرباحكم أحيانًا 😅\n"
-        f"#{d['symbol']} #كريبتو #كوميك_السوق"
+        f"Funny how everyone becomes a \"long-term investor\" the second {d['symbol']} turns green.\n\n"
+        f"Up {d['change_pct']:.2f}% today, and suddenly the group chats are full of technical analysts again.\n\n"
+        f"Selective memory is undefeated.\n\n"
+        f"Enjoy the move — just don't forget to take profit sometimes."
     )
 
 
 def sarcastic_pump_2(d: dict) -> str:
     return (
-        f"🚀 ${d['price']:,.0f} على {d['symbol']}!\n\n"
-        f"المجموعات دلوقتي بقت فيها إيموجي صاروخ أكتر من كلام 🚀🚀🚀\n"
-        f"واللي كان \"هيبيع لو نزل تاني\" بقى \"هولد لحد القمر\" 🌕\n\n"
-        f"يا رب سلامة القلوب 😂\n"
-        f"⚠️ الفرحة حلوة بس الخطة أهم.\n"
-        f"#{d['symbol']} #كريبتو"
+        f"${d['price']:,.0f} on {d['symbol']} and the rocket emojis are back in full force.\n\n"
+        f"Yesterday: \"I'll sell if it drops again.\"\n"
+        f"Today: \"Holding to the moon.\"\n\n"
+        f"Nothing changes a trader's conviction like one green candle.\n\n"
+        f"Enjoy it, but a plan still beats an emotion."
     )
 
 
 def sarcastic_dump_1(d: dict) -> str:
     return (
-        f"😅 {d['symbol']} نازل {abs(d['change_pct']):.2f}% والمجموعات فجأة\n"
-        f"بقت هادية أوي... حتى البوتات مبتردش 🤖\n\n"
-        f"فاكرين لما كان طالع وكل واحد \"محلل\"؟ وحشتونا 🥲\n\n"
-        f"⚠️ التصحيحات جزء من اللعبة، خليكوا هادئين.\n"
-        f"#{d['symbol']} #كريبتو #السوق_الهابط"
+        f"Notice how quiet the group chats get when {d['symbol']} drops {abs(d['change_pct']):.2f}%?\n\n"
+        f"Yesterday everyone was a market analyst. Today: silence.\n\n"
+        f"Corrections are part of the game, not the end of it.\n\n"
+        f"Who's still here?"
     )
 
 
 def sarcastic_dump_2(d: dict) -> str:
     return (
-        f"📉 {d['symbol']} نازل شوية، وبقى فيه صنفين بس في السوق دلوقتي:\n"
-        f"1) اللي بيقول \"ده تصحيح صحي\" 🧘\n"
-        f"2) اللي بيقفل التطبيق ويفتحه بعد أسبوع 🙈\n\n"
-        f"انتوا مين فيهم؟ 😂\n"
-        f"⚠️ محتوى ترفيهي، والتداول فيه مخاطرة حقيقية.\n"
-        f"#{d['symbol']} #كريبتو"
+        f"{d['symbol']} dips a bit and the market instantly splits into two types of people:\n\n"
+        f"1. \"This is just a healthy correction.\"\n"
+        f"2. *closes the app for a week*\n\n"
+        f"For entertainment only — trading carries real risk. Which one are you today?"
     )
 
 
@@ -332,46 +322,41 @@ SARCASTIC_DUMP = [sarcastic_dump_1, sarcastic_dump_2]
 # ---------------------------------------------------------------------------
 
 def build_news_post(articles: list) -> str:
-    lines = ["📰 أهم العناوين المؤثرة على السوق الآن:"]
+    lines = ["The headlines actually moving crypto right now:"]
     for i, a in enumerate(articles, 1):
         src = f" — {a['source']}" if a["source"] else ""
         lines.append(f"{i}. {a['title']}{src}")
     lines.append("")
-    lines.append("👀 تابعونا لمزيد من تحديثات الأخبار لحظة بلحظة.")
-    lines.append("⚠️ أخبار فقط، وليست نصيحة استثمارية.")
-    lines.append("#أخبار_الكريبتو #بايننس #سوق_العملات_الرقمية")
+    lines.append("Which of these matters for price, and which is just noise? Curious what you think.")
     return "\n".join(lines)
 
 
 def template_binance_news(articles: list, kind: str) -> str:
-    header = "📢 إعلانات إدراج جديدة على باينانس:" if kind == "listing" else "⚠️ إعلانات شطب على باينانس:"
+    header = "New listing alert on Binance:" if kind == "listing" else "Delisting notice on Binance:"
     lines = [header]
     for a in articles[:3]:
         lines.append(f"• {a['title']}")
     lines.append("")
-    lines.append("🔗 راجعوا التفاصيل الكاملة في صفحة الإعلانات الرسمية على التطبيق.")
-    lines.append("⚠️ ليست نصيحة استثمارية.")
-    lines.append("#باينانس #Binance #كريبتو")
+    lines.append("Full details are on the official Announcements page in the app.")
+    lines.append("Not financial advice.")
     return "\n".join(lines)
 
 
 def template_glossary() -> str:
     term, explanation = random.choice(list(GLOSSARY.items()))
     return (
-        f"📚 مصطلح تداول اليوم: {term}\n\n"
-        f"{explanation}\n\n"
-        f"تابعونا لمزيد من المصطلحات المبسطة كل يوم.\n"
-        f"#تعلم_التداول #كريبتو #بايننس"
+        f"Most traders skip this term, then wonder why the chart doesn't make sense.\n\n"
+        f"{term}: {explanation}\n\n"
+        f"Simple concepts, real trading edge. What term should we break down next?"
     )
 
 
 def template_event() -> str:
     name, explanation = random.choice(list(EVENTS.items()))
     return (
-        f"🎁 إيه هو {name} على باينانس؟\n\n"
+        f"Most users scroll right past {name} without knowing what it actually does.\n\n"
         f"{explanation}\n\n"
-        f"تابعوا صفحة المكافآت (Rewards Hub) في التطبيق عشان متفوتوش الفرص الجديدة.\n"
-        f"#بايننس #Binance"
+        f"Check the Rewards Hub in the app so you don't miss the next one."
     )
 
 
