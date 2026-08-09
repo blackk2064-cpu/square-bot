@@ -15,8 +15,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch Binance's official square-post skill
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/binance/binance-skills-hub.git skill-src
+          cd skill-src
+          git sparse-checkout set skills/binance/square-post
+        continue-on-error: true   # if this fails, the bot still posts text-only
 
       - name: Run bot
         env:
