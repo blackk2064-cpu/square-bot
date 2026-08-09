@@ -27,6 +27,7 @@ import random
 import sys
 import time
 import re
+import subprocess
 import requests
 
 # ---------------------------------------------------------------------------
@@ -498,6 +499,84 @@ def template_event() -> str:
 
 
 # ---------------------------------------------------------------------------
+# Chart image + image posting via Binance's official square-post skill
+# ---------------------------------------------------------------------------
+
+SQUARE_POST_SKILL_SCRIPT = "skill-src/skills/binance/square-post/scripts/post-image.mjs"
+CHART_PATH = "chart.png"
+KLINES_URL = "https://data-api.binance.vision/api/v3/klines"
+
+
+def generate_price_chart(symbol: str) -> bool:
+    """Builds a simple 24h price line chart for the symbol. Returns True on success."""
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+
+        resp = requests.get(
+            KLINES_URL,
+            params={"symbol": f"{symbol}USDT", "interval": "1h", "limit": 24},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        klines = resp.json()
+        closes = [float(k[4]) for k in klines]
+        if len(closes) < 2:
+            return False
+
+        color = "#0ECB81" if closes[-1] >= closes[0] else "#F6465D"
+        fig, ax = plt.subplots(figsize=(6, 3.2), dpi=150)
+        ax.plot(range(len(closes)), closes, color=color, linewidth=2.2)
+        ax.fill_between(range(len(closes)), closes, min(closes), color=color, alpha=0.08)
+        ax.set_title(f"{symbol}/USDT — Last 24h", fontsize=13, color="#EAECEF", pad=12)
+        ax.set_facecolor("#181A20")
+        fig.patch.set_facecolor("#181A20")
+        ax.tick_params(colors="#848E9C", labelsize=8)
+        ax.set_xticks([])
+        for spine in ax.spines.values():
+            spine.set_color("#2B3139")
+        ax.grid(axis="y", color="#2B3139", linewidth=0.5)
+        fig.tight_layout()
+        fig.savefig(CHART_PATH, facecolor=fig.get_facecolor())
+        plt.close(fig)
+        return True
+    except Exception as e:
+        print(f"⚠️ Chart generation failed ({e}), skipping image.")
+        return False
+
+
+def post_to_square_with_image(text: str, image_path: str) -> bool:
+    """
+    Posts text + one image using Binance's official Node.js square-post skill
+    script (cloned into skill-src/ by the workflow), instead of hand-coding
+    the presigned-upload flow. Returns True on success, False on any failure
+    so the caller can fall back to a text-only post.
+    """
+    if not os.path.exists(SQUARE_POST_SKILL_SCRIPT):
+        print("⚠️ Official post-image script not found, skipping image.")
+        return False
+    try:
+        env = os.environ.copy()
+        env["BINANCE_SQUARE_OPENAPI_KEY"] = API_KEY or ""
+        result = subprocess.run(
+            ["node", SQUARE_POST_SKILL_SCRIPT, "--text", text, "--images", image_path],
+            capture_output=True,
+            text=True,
+            timeout=60,
+            env=env,
+        )
+        print(result.stdout)
+        if result.returncode != 0:
+            print(f"⚠️ Image post script failed: {result.stderr}")
+            return False
+        return "Success" in result.stdout
+    except Exception as e:
+        print(f"⚠️ Image post script errored ({e}).")
+        return False
+
+
+# ---------------------------------------------------------------------------
 # Posting
 # ---------------------------------------------------------------------------
 
@@ -644,6 +723,19 @@ def main():
     print("---- Generated post ----")
     print(text)
     print("-------------------------")
+
+    # Only single-symbol analysis posts get a chart image attached (that's
+    # the one case where a real, meaningful chart exists). Everything else
+    # stays text-only. If chart generation or the image post fails for any
+    # reason, fall straight back to the normal text-only post.
+    posted_with_image = False
+    if category == "analysis" and "symbol" in locals().get("data", {}):
+        if generate_price_chart(data["symbol"]):
+            posted_with_image = post_to_square_with_image(text, CHART_PATH)
+
+    if posted_with_image:
+        print("✅ Posted successfully with image.")
+        return
 
     result = post_to_square(text)
 
