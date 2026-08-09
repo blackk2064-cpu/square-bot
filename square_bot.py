@@ -69,6 +69,108 @@ CATEGORY_WEIGHTS = {
 API_KEY = os.environ.get("SQUARE_OPENAPI_KEY")
 REQUEST_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; SquareBot/1.0)"}
 
+# --- AI content generation (optional — falls back to static templates) ---
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
+ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages"
+ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
+
+AI_SYSTEM_PROMPT = """You are a professional Binance Square content creator with a track record
+of high-reach posts. Write ONE Binance Square post using the live market
+data provided in the user message.
+
+FORMAT RULES:
+- Always include at least one real cashtag as a standalone token, e.g. "$BTC"
+  on its own line or clause -- never write it attached to a dollar amount
+  (correct: "$BTC" ... "trading near $64,200" -- wrong: "$64,200 BTC").
+- Two content shapes are equally valid -- pick whichever fits the data:
+  (a) Short-form: 1-3 lines total, just the cashtag + a terse data point
+      (price ladder, a single striking number, a yes/no setup).
+  (b) Long-form: 80-180 words, hook-first opening line, short paragraphs
+      (1-2 lines each), grounded in the data given, ending with a genuine
+      question inviting a reply.
+- Never fabricate a news event, quote, price, or percentage that isn't in
+  the data provided. If the data is thin, prefer the short-form shape
+  instead of padding with generic filler.
+- No more than 2 hashtags. No more than 2 emoji per post.
+- Do not sound like generic AI copy -- avoid "In today's fast-paced crypto
+  world", stock disclaimers beyond one short risk line, and clickbait that
+  isn't backed by the actual data.
+- If the data includes a real current event, you may frame it as a live,
+  unfolding situation -- but only using the facts given, never invented ones.
+- End most posts with a specific, answerable question (not a generic
+  "thoughts?") -- e.g. "Bullish or bearish if it clears $65k?" rather than
+  "What do you think?".
+
+Return ONLY the final post text, nothing else -- no preamble, no quotation
+marks around it, no explanation."""
+
+
+# Groq (free tier, no credit card, ~1000 req/day) — tried first since it
+# costs nothing. Anthropic is tried second if a key is provided (small
+# per-post cost, ~$0.01). If neither key is set or both fail, the caller
+# falls back to a static template.
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+
+
+def generate_with_groq(context: str) -> str:
+    if not GROQ_API_KEY:
+        return None
+    try:
+        headers = {"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"}
+        payload = {
+            "model": GROQ_MODEL,
+            "max_tokens": 400,
+            "messages": [
+                {"role": "system", "content": AI_SYSTEM_PROMPT},
+                {"role": "user", "content": context},
+            ],
+        }
+        resp = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=20)
+        resp.raise_for_status()
+        text = resp.json()["choices"][0]["message"]["content"].strip()
+        return text or None
+    except Exception as e:
+        print(f"⚠️ Groq generation failed ({e}).")
+        return None
+
+
+def generate_with_anthropic(context: str) -> str:
+    if not ANTHROPIC_API_KEY:
+        return None
+    try:
+        headers = {
+            "x-api-key": ANTHROPIC_API_KEY,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        }
+        payload = {
+            "model": ANTHROPIC_MODEL,
+            "max_tokens": 400,
+            "system": AI_SYSTEM_PROMPT,
+            "messages": [{"role": "user", "content": context}],
+        }
+        resp = requests.post(ANTHROPIC_API_URL, headers=headers, json=payload, timeout=20)
+        resp.raise_for_status()
+        result = resp.json()
+        text = "\n".join(
+            block["text"] for block in result.get("content", []) if block.get("type") == "text"
+        ).strip()
+        return text or None
+    except Exception as e:
+        print(f"⚠️ Anthropic generation failed ({e}).")
+        return None
+
+
+def generate_with_ai(context: str) -> str:
+    """
+    Tries free (Groq) first, then paid (Anthropic) if a key is set, then
+    gives up. Returns None only if every option is unavailable/failed, so
+    the caller can fall back to a static template.
+    """
+    return generate_with_groq(context) or generate_with_anthropic(context)
+
 
 # ---------------------------------------------------------------------------
 # Static reference content
@@ -400,7 +502,9 @@ def main():
         catalog_id = CATALOG_NEW_LISTING if kind == "listing" else CATALOG_DELISTING
         articles = get_announcements(catalog_id)
         if articles:
-            text = template_binance_news(articles, kind)
+            label = "New listing announcements" if kind == "listing" else "Delisting announcements"
+            context = f"Category: Binance official {label}\nHeadlines:\n" + "\n".join(f"- {a['title']}" for a in articles)
+            text = generate_with_ai(context) or template_binance_news(articles, kind)
         else:
             print("No Binance announcements available, falling back to general news.")
             category = "general_news"
@@ -408,7 +512,10 @@ def main():
     if category == "general_news":
         articles = get_news()
         if articles:
-            text = build_news_post(articles)
+            context = "Category: general crypto news roundup\nHeadlines:\n" + "\n".join(
+                f"- {a['title']} ({a['source']})" for a in articles
+            )
+            text = generate_with_ai(context) or build_news_post(articles)
         else:
             print("No general news available, falling back to analysis.")
             category = "analysis"
@@ -424,28 +531,76 @@ def main():
                 print(f"⚠️ Top movers unavailable ({e}), falling back to symbol analysis.")
                 movers = []
             if movers:
-                text = template_top_movers(kind, movers)
+                label = {"gainers": "top gainers", "losers": "top losers", "volume": "top volume"}[kind]
+                lines = []
+                for t in movers:
+                    sym = t["symbol"].replace("USDT", "")
+                    if kind == "volume":
+                        lines.append(f"- {sym}: ${float(t['quoteVolume'])/1_000_000:,.1f}M 24h volume")
+                    else:
+                        lines.append(f"- {sym}: {float(t['priceChangePercent']):+.2f}% 24h")
+                context = f"Category: market analysis ({label}, last 24h)\n" + "\n".join(lines)
+                text = generate_with_ai(context) or template_top_movers(kind, movers)
         if text is None:
             symbol = random.choice(SYMBOLS)
             print(f"Fetching data for {symbol}...")
             data = get_market_data(symbol)
-            available_templates = list(TEMPLATES_SPOT_ONLY)
-            if data["funding_rate"] is not None and data["open_interest"] is not None:
-                available_templates += TEMPLATES_NEEDS_FUNDING
-            text = random.choice(available_templates)(data)
+            context_lines = [
+                "Category: market analysis (single asset)",
+                f"Symbol: {data['symbol']}",
+                f"Price: ${data['price']:,.2f}",
+                f"24h change: {data['change_pct']:+.2f}%",
+            ]
+            if data["funding_rate"] is not None:
+                context_lines.append(f"Funding rate: {data['funding_rate']:.4f}%")
+            if data["open_interest"] is not None:
+                context_lines.append(f"Open interest: {data['open_interest']:,.0f} contracts")
+            context = "\n".join(context_lines)
+            ai_text = generate_with_ai(context)
+            if ai_text:
+                text = ai_text
+            else:
+                available_templates = list(TEMPLATES_SPOT_ONLY)
+                if data["funding_rate"] is not None and data["open_interest"] is not None:
+                    available_templates += TEMPLATES_NEEDS_FUNDING
+                text = random.choice(available_templates)(data)
 
     if category == "education":
-        text = template_glossary()
+        term, explanation = random.choice(list(GLOSSARY.items()))
+        context = f"Category: trading education\nTerm: {term}\nDefinition: {explanation}"
+        text = generate_with_ai(context) or (
+            f"Most traders skip this term, then wonder why the chart doesn't make sense.\n\n"
+            f"{term}: {explanation}\n\n"
+            f"Simple concepts, real trading edge. What term should we break down next?"
+        )
 
     if category == "sarcastic":
         symbol = random.choice(SYMBOLS)
         print(f"Fetching data for {symbol}...")
         data = get_market_data(symbol)
-        pool = SARCASTIC_PUMP if data["change_pct"] > 0 else SARCASTIC_DUMP
-        text = random.choice(pool)(data)
+        mood = "pumping" if data["change_pct"] > 0 else "dumping"
+        context = (
+            f"Category: sarcastic/meme market commentary\n"
+            f"Symbol: {data['symbol']}\n"
+            f"24h change: {data['change_pct']:+.2f}%\n"
+            f"Mood: {mood}\n"
+            f"Tone: witty, self-aware, poking fun at trader psychology (not mean-spirited)."
+        )
+        ai_text = generate_with_ai(context)
+        if ai_text:
+            text = ai_text
+        else:
+            pool = SARCASTIC_PUMP if data["change_pct"] > 0 else SARCASTIC_DUMP
+            text = random.choice(pool)(data)
 
     if category == "events":
-        text = template_event()
+        name, explanation = random.choice(list(EVENTS.items()))
+        context = f"Category: Binance platform event explainer\nEvent name: {name}\nDescription: {explanation}"
+        text = generate_with_ai(context) or (
+            f"Most users scroll right past {name} without knowing what it actually does.\n\n"
+            f"{explanation}\n\n"
+            f"Check the Rewards Hub in the app so you don't miss the next one."
+        )
 
     if text is None:
         print("❌ No content could be generated for this run.")
