@@ -26,6 +26,7 @@ import os
 import random
 import sys
 import time
+import re
 import requests
 
 # ---------------------------------------------------------------------------
@@ -170,13 +171,40 @@ def generate_with_anthropic(context: str) -> str:
         return None
 
 
-def generate_with_ai(context: str) -> str:
+def clean_ai_text(text: str, allow_cashtag: bool) -> str:
+    """
+    Enforces formatting rules in code instead of trusting the model to
+    follow them perfectly every time (small free models are inconsistent
+    about spacing and can ignore "don't invent a symbol" instructions).
+    """
+    if not text:
+        return text
+
+    # Ensure exactly one space between back-to-back hashtags, whichever
+    # way the model glued them: "#a#b" -> "#a #b", "# a" -> "#a".
+    text = re.sub(r"#\s+", "#", text)          # "# word" -> "#word"
+    text = re.sub(r"(#\w+)(?=#)", r"\1 ", text)  # "#a#b" -> "#a #b"
+
+    if not allow_cashtag:
+        # Strip any invented "$SYMBOL" cashtag when the data had no symbol.
+        text = re.sub(r"\$[A-Z]{2,10}\b", "", text)
+        text = re.sub(r"[ \t]+\n", "\n", text)   # trim trailing spaces left behind
+        text = re.sub(r"\n{3,}", "\n\n", text)   # collapse resulting blank lines
+        text = text.strip()
+
+    return text
+
+
+def generate_with_ai(context: str, allow_cashtag: bool = True) -> str:
     """
     Tries free (Groq) first, then paid (Anthropic) if a key is set, then
     gives up. Returns None only if every option is unavailable/failed, so
-    the caller can fall back to a static template.
+    the caller can fall back to a static template. Cleans up formatting
+    issues (hashtag spacing, invented cashtags) that small models sometimes
+    get wrong regardless of the system prompt.
     """
-    return generate_with_groq(context) or generate_with_anthropic(context)
+    text = generate_with_groq(context) or generate_with_anthropic(context)
+    return clean_ai_text(text, allow_cashtag) if text else text
 
 
 # ---------------------------------------------------------------------------
@@ -511,7 +539,7 @@ def main():
         if articles:
             label = "New listing announcements" if kind == "listing" else "Delisting announcements"
             context = f"Category: Binance official {label}\nHeadlines:\n" + "\n".join(f"- {a['title']}" for a in articles)
-            text = generate_with_ai(context) or template_binance_news(articles, kind)
+            text = generate_with_ai(context, allow_cashtag=False) or template_binance_news(articles, kind)
         else:
             print("No Binance announcements available, falling back to general news.")
             category = "general_news"
@@ -522,7 +550,7 @@ def main():
             context = "Category: general crypto news roundup\nHeadlines:\n" + "\n".join(
                 f"- {a['title']} ({a['source']})" for a in articles
             )
-            text = generate_with_ai(context) or build_news_post(articles)
+            text = generate_with_ai(context, allow_cashtag=False) or build_news_post(articles)
         else:
             print("No general news available, falling back to analysis.")
             category = "analysis"
@@ -547,7 +575,7 @@ def main():
                     else:
                         lines.append(f"- {sym}: {float(t['priceChangePercent']):+.2f}% 24h")
                 context = f"Category: market analysis ({label}, last 24h)\n" + "\n".join(lines)
-                text = generate_with_ai(context) or template_top_movers(kind, movers)
+                text = generate_with_ai(context, allow_cashtag=False) or template_top_movers(kind, movers)
         if text is None:
             symbol = random.choice(SYMBOLS)
             print(f"Fetching data for {symbol}...")
@@ -575,7 +603,7 @@ def main():
     if category == "education":
         term, explanation = random.choice(list(GLOSSARY.items()))
         context = f"Category: trading education\nTerm: {term}\nDefinition: {explanation}"
-        text = generate_with_ai(context) or (
+        text = generate_with_ai(context, allow_cashtag=False) or (
             f"Most traders skip this term, then wonder why the chart doesn't make sense.\n\n"
             f"{term}: {explanation}\n\n"
             f"Simple concepts, real trading edge. What term should we break down next?"
@@ -603,7 +631,7 @@ def main():
     if category == "events":
         name, explanation = random.choice(list(EVENTS.items()))
         context = f"Category: Binance platform event explainer\nEvent name: {name}\nDescription: {explanation}"
-        text = generate_with_ai(context) or (
+        text = generate_with_ai(context, allow_cashtag=False) or (
             f"Most users scroll right past {name} without knowing what it actually does.\n\n"
             f"{explanation}\n\n"
             f"Check the Rewards Hub in the app so you don't miss the next one."
