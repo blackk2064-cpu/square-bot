@@ -94,9 +94,11 @@ FORMAT RULES:
 - Never fabricate a news event, quote, price, or percentage that isn't in
   the data provided. If the data is thin, prefer the short-form shape
   instead of padding with generic filler.
-- No more than 2 hashtags, and always put a space before each "#" so they
-  never run together (correct: "#trading #education" -- wrong:
-  "#trading#education"). No more than 2 emoji per post.
+- No more than 2 hashtags. Each hashtag must be written with NO space
+  between the "#" and the word right after it, and exactly one space
+  separating one hashtag from the next (correct: "#trading #education" --
+  wrong: "#trading#education" and wrong: "# trading # education").
+  No more than 2 emoji per post.
 - Do not sound like generic AI copy -- avoid "In today's fast-paced crypto
   world", stock disclaimers beyond one short risk line, and clickbait that
   isn't backed by the actual data.
