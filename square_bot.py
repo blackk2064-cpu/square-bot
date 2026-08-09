@@ -28,6 +28,7 @@ import sys
 import time
 import re
 import subprocess
+import xml.etree.ElementTree as ET
 import requests
 
 # ---------------------------------------------------------------------------
@@ -46,6 +47,12 @@ FAPI_OI_URL = "https://fapi.binance.com/fapi/v1/openInterest"
 
 # Free public news feed, no API key required.
 NEWS_URL = "https://min-api.cryptocompare.com/data/v2/news/"
+# Official RSS feeds — free, legitimate syndication (not scraping).
+RSS_SOURCES = {
+    "Cointelegraph": "https://cointelegraph.com/rss",
+    "Decrypt": "https://decrypt.co/feed",
+    "The Block": "https://www.theblock.co/rss.xml",
+}
 
 # NOTE: this is an *unofficial* internal endpoint used by binance.com's own
 # website to render its announcements page. It is not part of Binance's
@@ -313,6 +320,31 @@ def get_news(limit: int = 4) -> list:
     except Exception as e:
         print(f"⚠️ News fetch failed ({e}), skipping.")
         return []
+
+
+def get_rss_news(source_name: str, url: str, limit: int = 3) -> list:
+    """Fetch top recent headlines from a single official RSS feed. Best-effort."""
+    try:
+        resp = requests.get(url, headers=REQUEST_HEADERS, timeout=10)
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+        items = root.findall(".//item")[:limit]
+        return [
+            {"title": item.findtext("title", "").strip(), "source": source_name}
+            for item in items
+            if item.findtext("title")
+        ]
+    except Exception as e:
+        print(f"⚠️ {source_name} RSS unavailable ({e}), skipping.")
+        return []
+
+
+def get_all_rss_news() -> list:
+    """Pulls a few headlines from every configured RSS source."""
+    articles = []
+    for name, url in RSS_SOURCES.items():
+        articles += get_rss_news(name, url)
+    return articles
 
 
 def get_announcements(catalog_id: int, limit: int = 4) -> list:
@@ -624,7 +656,9 @@ def main():
             category = "general_news"
 
     if category == "general_news":
-        articles = get_news()
+        articles = get_news() + get_all_rss_news()
+        random.shuffle(articles)
+        articles = articles[:4]
         if articles:
             context = "Category: general crypto news roundup\nHeadlines:\n" + "\n".join(
                 f"- {a['title']} ({a['source']})" for a in articles
