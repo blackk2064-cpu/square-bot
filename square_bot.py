@@ -286,6 +286,107 @@ even when the underlying idea repeats (e.g. don't always start with
 "Notice how...")."""
 
 
+CEREBRAS_API_KEY = os.environ.get("CEREBRAS_API_KEY")
+CEREBRAS_API_URL = "https://api.cerebras.ai/v1/chat/completions"
+CEREBRAS_MODEL = "llama-3.3-70b"
+
+
+def call_cerebras(system_prompt: str, user_prompt: str) -> str:
+    if not CEREBRAS_API_KEY:
+        return None
+    try:
+        headers = {"Authorization": f"Bearer {CEREBRAS_API_KEY}", "Content-Type": "application/json"}
+        payload = {
+            "model": CEREBRAS_MODEL,
+            "max_tokens": 300,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+        }
+        resp = requests.post(CEREBRAS_API_URL, headers=headers, json=payload, timeout=20)
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"].strip() or None
+    except Exception as e:
+        print(f"⚠️ Cerebras call failed ({e}).")
+        return None
+
+
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+# "openrouter/free" auto-routes to whichever free model is currently up --
+# OpenRouter's free catalog churns weekly, so a hardcoded specific model ID
+# (e.g. "meta-llama/...:free") can silently vanish. This router is their
+# own answer to that problem.
+OPENROUTER_MODEL = "openrouter/free"
+
+
+def call_openrouter(system_prompt: str, user_prompt: str) -> str:
+    if not OPENROUTER_API_KEY:
+        return None
+    try:
+        headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"}
+        payload = {
+            "model": OPENROUTER_MODEL,
+            "max_tokens": 400,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+        }
+        resp = requests.post(OPENROUTER_API_URL, headers=headers, json=payload, timeout=25)
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"].strip() or None
+    except Exception as e:
+        print(f"⚠️ OpenRouter call failed ({e}).")
+        return None
+
+
+GH_MODELS_TOKEN = os.environ.get("GH_MODELS_TOKEN")
+GITHUB_MODELS_API_URL = "https://models.github.ai/inference/chat/completions"
+GITHUB_MODELS_MODEL = "openai/gpt-4.1"
+
+
+def call_github_models(system_prompt: str, user_prompt: str) -> str:
+    if not GH_MODELS_TOKEN:
+        return None
+    try:
+        headers = {
+            "Authorization": f"Bearer {GH_MODELS_TOKEN}",
+            "Accept": "application/vnd.github+json",
+            "Content-Type": "application/json",
+        }
+        payload = {
+            "model": GITHUB_MODELS_MODEL,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+        }
+        resp = requests.post(GITHUB_MODELS_API_URL, headers=headers, json=payload, timeout=25)
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"].strip() or None
+    except Exception as e:
+        print(f"⚠️ GitHub Models call failed ({e}).")
+        return None
+
+
+ANALYST_PROMPT = (
+    "You are a fast data analyst for a Binance Square bot. Given raw market "
+    "data, extract the 2-3 most noteworthy facts as short bullet points -- "
+    "no commentary, no opinions, just the sharpest, most specific facts a "
+    "content writer could build a post around."
+)
+
+EDITOR_PROMPT = AI_SYSTEM_PROMPT + """
+
+You are the final editor. You'll receive a draft post. Check it against
+every rule above (cashtag usage, hashtag formatting, hook under 10 words,
+at least one concrete number, 4-line max, two-option closing question) and
+fix anything that's off. If the draft already follows every rule, return it
+unchanged. Return ONLY the final post text -- nothing else."""
+
+
 def discuss_and_write(context: str) -> str:
     """
     Runs a short 3-step discussion (Strategist -> Critic -> Writer) across
@@ -294,21 +395,33 @@ def discuss_and_write(context: str) -> str:
     blocking the whole pipeline. Returns None only if the final Writer step
     itself fails on both providers.
     """
-    angle = call_groq(STRATEGIST_PROMPT, context) or call_gemini(STRATEGIST_PROMPT, context)
+    # 1) Analyst (Cerebras) -- distill the raw data into sharp facts.
+    insights = call_cerebras(ANALYST_PROMPT, context)
+    working_context = f"{context}\n\nKEY INSIGHTS:\n{insights}" if insights else context
 
+    # 2) Strategist (Groq) -- pick the angle.
+    angle = call_groq(STRATEGIST_PROMPT, working_context) or call_gemini(STRATEGIST_PROMPT, working_context)
+
+    # 3) Critic (Gemini) -- challenge/refine the angle.
     critique = None
     if angle:
-        critic_input = f"DATA:\n{context}\n\nSTRATEGIST'S ANGLE:\n{angle}"
+        critic_input = f"DATA:\n{working_context}\n\nSTRATEGIST'S ANGLE:\n{angle}"
         critique = call_gemini(CRITIC_PROMPT, critic_input) or call_groq(CRITIC_PROMPT, critic_input)
 
-    writer_input = f"DATA:\n{context}"
+    writer_input = f"DATA:\n{working_context}"
     if angle:
         writer_input += f"\n\nSTRATEGIST'S ANGLE:\n{angle}"
     if critique:
         writer_input += f"\n\nCRITIC'S VERDICT:\n{critique}"
 
-    text = call_groq(WRITER_PROMPT, writer_input) or call_gemini(WRITER_PROMPT, writer_input)
-    return text
+    # 4) Writer (OpenRouter first, Groq/Gemini as backup) -- first draft.
+    draft = call_openrouter(WRITER_PROMPT, writer_input) or call_groq(WRITER_PROMPT, writer_input) or call_gemini(WRITER_PROMPT, writer_input)
+    if not draft:
+        return None
+
+    # 5) Editor (GitHub Models) -- final compliance pass.
+    edited = call_github_models(EDITOR_PROMPT, draft)
+    return edited or draft
 
 
 def generate_with_ai(context: str, allow_cashtag: bool = True) -> str:
