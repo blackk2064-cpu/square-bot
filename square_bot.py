@@ -264,13 +264,26 @@ CRITIC_PROMPT = (
 WRITER_PROMPT = AI_SYSTEM_PROMPT + """
 
 You will receive: the raw data, a strategist's angle, and a critic's verdict.
-Follow this exact structure:
-1. Hook line -- one sentence that creates curiosity (first 5-7 words matter most).
-2. The data -- the specific number(s), cleanly stated.
-3. Your read -- one short sentence on why it matters or what it usually means.
-4. Closing question -- give two clear, concrete options to choose between
-   (e.g. "Breakout or fakeout?"), not a vague "what do you think?".
-Keep it to 3-6 short lines total."""
+Follow this exact structure and these hard rules:
+
+1. HOOK (first line, 10 words or fewer): must contain a striking number, a
+   contradiction, or a personal/relatable scenario. Never open with a known
+   fact or a textbook definition (bad: "Leverage multiplies gains and
+   losses." -- good: "A 5% move with 20x leverage wipes your position.").
+2. BODY (1-2 sentences): the specific data, stated cleanly. At least one
+   concrete number must appear somewhere in the post -- numbers build
+   instant credibility, vague language doesn't.
+3. YOUR READ (1 sentence): why this matters, or what it usually means. This
+   is where personality shows -- not just relaying information.
+4. CLOSING QUESTION: exactly two clear, concrete options to pick between,
+   answerable in a few seconds (bad: "What do you think?" -- good: "5x with
+   room to breathe, or 50x and hope?").
+
+Hard limits: 4 short lines maximum (blank lines between them are fine and
+encouraged for readability, but don't exceed 4 lines of actual content).
+Never reuse the same opening pattern as recent posts -- vary the hook style
+even when the underlying idea repeats (e.g. don't always start with
+"Notice how...")."""
 
 
 def discuss_and_write(context: str) -> str:
