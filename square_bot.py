@@ -203,15 +203,108 @@ def clean_ai_text(text: str, allow_cashtag: bool) -> str:
     return text
 
 
+def call_groq(system_prompt: str, user_prompt: str) -> str:
+    if not GROQ_API_KEY:
+        return None
+    try:
+        headers = {"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"}
+        payload = {
+            "model": GROQ_MODEL,
+            "max_tokens": 400,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+        }
+        resp = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=20)
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"].strip() or None
+    except Exception as e:
+        print(f"⚠️ Groq call failed ({e}).")
+        return None
+
+
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+
+
+def call_gemini(system_prompt: str, user_prompt: str) -> str:
+    if not GEMINI_API_KEY:
+        return None
+    try:
+        headers = {"x-goog-api-key": GEMINI_API_KEY, "Content-Type": "application/json"}
+        payload = {
+            "contents": [{"parts": [{"text": user_prompt}]}],
+            "systemInstruction": {"parts": [{"text": system_prompt}]},
+        }
+        resp = requests.post(GEMINI_API_URL, headers=headers, json=payload, timeout=20)
+        resp.raise_for_status()
+        text = resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+        return text or None
+    except Exception as e:
+        print(f"⚠️ Gemini call failed ({e}).")
+        return None
+
+
+STRATEGIST_PROMPT = (
+    "You are a Binance Square content strategist. Given the market data below, "
+    "pick the single most compelling angle for a post -- the one specific number, "
+    "contrast, or development worth leading with. Reply in 2-3 short sentences: "
+    "state the angle and why it's the strongest choice. Do not write the post itself."
+)
+
+CRITIC_PROMPT = (
+    "You are a blunt content critic for Binance Square. You'll get the market data "
+    "and a strategist's proposed angle. If the angle is cliche, generic, or doesn't "
+    "use the specific numbers well, say so and propose a sharper alternative in 1-2 "
+    "sentences. If it's genuinely strong, say so briefly and confirm it. Do not write "
+    "the post itself -- just the critique/verdict."
+)
+
+WRITER_PROMPT = AI_SYSTEM_PROMPT + """
+
+You will receive: the raw data, a strategist's angle, and a critic's verdict.
+Follow this exact structure:
+1. Hook line -- one sentence that creates curiosity (first 5-7 words matter most).
+2. The data -- the specific number(s), cleanly stated.
+3. Your read -- one short sentence on why it matters or what it usually means.
+4. Closing question -- give two clear, concrete options to choose between
+   (e.g. "Breakout or fakeout?"), not a vague "what do you think?".
+Keep it to 3-6 short lines total."""
+
+
+def discuss_and_write(context: str) -> str:
+    """
+    Runs a short 3-step discussion (Strategist -> Critic -> Writer) across
+    Groq and Gemini before producing the final post. Degrades gracefully:
+    if a step's model is unavailable, that step is skipped rather than
+    blocking the whole pipeline. Returns None only if the final Writer step
+    itself fails on both providers.
+    """
+    angle = call_groq(STRATEGIST_PROMPT, context) or call_gemini(STRATEGIST_PROMPT, context)
+
+    critique = None
+    if angle:
+        critic_input = f"DATA:\n{context}\n\nSTRATEGIST'S ANGLE:\n{angle}"
+        critique = call_gemini(CRITIC_PROMPT, critic_input) or call_groq(CRITIC_PROMPT, critic_input)
+
+    writer_input = f"DATA:\n{context}"
+    if angle:
+        writer_input += f"\n\nSTRATEGIST'S ANGLE:\n{angle}"
+    if critique:
+        writer_input += f"\n\nCRITIC'S VERDICT:\n{critique}"
+
+    text = call_groq(WRITER_PROMPT, writer_input) or call_gemini(WRITER_PROMPT, writer_input)
+    return text
+
+
 def generate_with_ai(context: str, allow_cashtag: bool = True) -> str:
     """
-    Tries free (Groq) first, then paid (Anthropic) if a key is set, then
-    gives up. Returns None only if every option is unavailable/failed, so
-    the caller can fall back to a static template. Cleans up formatting
-    issues (hashtag spacing, invented cashtags) that small models sometimes
-    get wrong regardless of the system prompt.
+    Tries the multi-step discussion pipeline first (Groq + Gemini, free).
+    Falls back to a single-shot call (Groq, then Anthropic if a paid key is
+    set), then gives up so the caller can use a static template.
     """
-    text = generate_with_groq(context) or generate_with_anthropic(context)
+    text = discuss_and_write(context) or generate_with_groq(context) or generate_with_anthropic(context)
     return clean_ai_text(text, allow_cashtag) if text else text
 
 
