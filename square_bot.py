@@ -54,6 +54,12 @@ RSS_SOURCES = {
     "The Block": "https://www.theblock.co/rss.xml",
 }
 
+# Macro-economic news (Fed, CPI, jobs, GDP, geopolitics, earnings) that
+# moves crypto/markets broadly, separate from crypto-native headlines.
+MACRO_RSS_SOURCES = {
+    "MarketWatch": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+}
+
 # NOTE: this is an *unofficial* internal endpoint used by binance.com's own
 # website to render its announcements page. It is not part of Binance's
 # documented developer API, has no stability guarantee, and has been known
@@ -67,12 +73,13 @@ SYMBOLS = ["BTC", "ETH", "SOL", "BNB"]
 # Relative weights for post type selection per run (~ matches 40/20/15/15/10
 # split, with "news" broken into Binance-official vs general crypto news).
 CATEGORY_WEIGHTS = {
-    "binance_news": 24,
-    "general_news": 16,
-    "analysis": 20,
-    "education": 15,
-    "sarcastic": 15,
-    "events": 10,
+    "binance_news": 20,
+    "general_news": 14,
+    "macro_news": 15,
+    "analysis": 17,
+    "education": 13,
+    "sarcastic": 13,
+    "events": 8,
 }
 
 API_KEY = os.environ.get("SQUARE_OPENAPI_KEY")
@@ -566,6 +573,14 @@ def get_all_rss_news() -> list:
     return articles
 
 
+def get_macro_news() -> list:
+    """Pulls headlines from macro-economic (non-crypto-native) sources."""
+    articles = []
+    for name, url in MACRO_RSS_SOURCES.items():
+        articles += get_rss_news(name, url, limit=6)
+    return articles
+
+
 def get_announcements(catalog_id: int, limit: int = 4) -> list:
     """
     Best-effort fetch of Binance's own listing/delisting announcements via
@@ -886,6 +901,32 @@ def main():
         else:
             print("No general news available, falling back to analysis.")
             category = "analysis"
+
+    if category == "macro_news":
+        articles = get_macro_news()
+        if articles:
+            random.shuffle(articles)
+            articles = articles[:4]
+            context = (
+                "Category: macro-economic news affecting crypto/markets broadly "
+                "(Fed policy, CPI/inflation, jobs data, GDP, geopolitics, corporate "
+                "earnings -- NOT crypto-native news)\nHeadlines:\n"
+                + "\n".join(f"- {a['title']} ({a['source']})" for a in articles)
+            )
+            text = generate_with_ai(context, allow_cashtag=False) or build_news_post(articles)
+        else:
+            print("No macro news available, falling back to general news.")
+            category = "general_news"
+            articles = get_news() + get_all_rss_news()
+            random.shuffle(articles)
+            articles = articles[:4]
+            if articles:
+                context = "Category: general crypto news roundup\nHeadlines:\n" + "\n".join(
+                    f"- {a['title']} ({a['source']})" for a in articles
+                )
+                text = generate_with_ai(context, allow_cashtag=False) or build_news_post(articles)
+            else:
+                category = "analysis"
 
     if category == "analysis":
         sub = random.choice(["symbol", "movers"])
