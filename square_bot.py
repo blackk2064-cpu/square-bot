@@ -6,15 +6,11 @@ Fetches live market data / news / announcements from public APIs and posts
 an auto-generated English update to Binance Square using the official
 Square OpenAPI (X-Square-OpenAPI-Key).
 
-Each run randomly picks ONE post type, roughly matching:
-  - 40%  news     (24% Binance official listing/delisting, 16% general crypto news)
-  - 20%  analysis (price/technical/funding OR top gainers-losers-volume)
-  - 15%  education (trading term glossary)
-  - 15%  memes/sarcastic
-  - 10%  Binance events explainer (Launchpool, Megadrop, Alpha, etc.)
-
-Posts open with a hook line, use short paragraphs, and end with a question
-to invite comments — text-only for now (no image/video support yet).
+Content is written by a 5-station free-AI pipeline (Cerebras -> Groq ->
+Gemini -> OpenRouter -> GitHub Models), with every output run through a
+code-level validator before it's ever allowed to post -- this catches
+leaked "thinking" text, safety-filter messages, or other non-post garbage
+that a model occasionally returns instead of the actual post.
 
 Run once per invocation — scheduled hourly via GitHub Actions.
 
@@ -47,6 +43,7 @@ FAPI_OI_URL = "https://fapi.binance.com/fapi/v1/openInterest"
 
 # Free public news feed, no API key required.
 NEWS_URL = "https://min-api.cryptocompare.com/data/v2/news/"
+
 # Official RSS feeds — free, legitimate syndication (not scraping).
 RSS_SOURCES = {
     "Cointelegraph": "https://cointelegraph.com/rss",
@@ -70,8 +67,6 @@ CATALOG_DELISTING = 161
 
 SYMBOLS = ["BTC", "ETH", "SOL", "BNB"]
 
-# Relative weights for post type selection per run (~ matches 40/20/15/15/10
-# split, with "news" broken into Binance-official vs general crypto news).
 CATEGORY_WEIGHTS = {
     "binance_news": 20,
     "general_news": 14,
@@ -123,9 +118,52 @@ FORMAT RULES:
 - End most posts with a specific, answerable question (not a generic
   "thoughts?") -- e.g. "Bullish or bearish if it clears $65k?" rather than
   "What do you think?".
+- CRITICAL: Output ONLY the literal final post text. Never include your
+  reasoning, analysis of the request, step-by-step thinking, rule
+  restatement, or any meta-commentary about what you're about to write.
+  The very first character of your reply must be the first character of
+  the post itself.
 
 Return ONLY the final post text, nothing else -- no preamble, no quotation
 marks around it, no explanation."""
+
+
+# ---------------------------------------------------------------------------
+# Output validator — the real safety net. Runs on every AI response before
+# it's allowed anywhere near post_to_square(). Catches leaked reasoning
+# traces, safety-filter messages, and other non-post garbage that a model
+# occasionally returns instead of following the system prompt.
+# ---------------------------------------------------------------------------
+
+BANNED_SNIPPETS = [
+    "<think", "</think", "chain of thought", "chain-of-thought",
+    "تحليل الطلب", "قواعد التنسيق", "سلامة المستخدم", "إليك عملية تفكير",
+    "here's my thinking", "let me think", "let me analyze", "i need to write",
+    "i'll write", "step 1:", "step 1.", "1. تحليل", "format rules:",
+    "hook line", "closing question:", "strategist's angle", "critic's verdict",
+    "user safety", "safety: safe", "content filter", "as an ai",
+    "i cannot", "i can't help with that",
+]
+
+
+def validate_post_text(text: str) -> bool:
+    """Returns False if the text looks like leaked reasoning, a safety
+    message, or anything else that isn't an actual finished post."""
+    if not text:
+        return False
+    stripped = text.strip()
+    if len(stripped) < 15:
+        return False
+    lowered = stripped.lower()
+    for snippet in BANNED_SNIPPETS:
+        if snippet in lowered:
+            print(f"🚫 AI output rejected — contained banned snippet: '{snippet}'")
+            return False
+    # A real post shouldn't be mostly numbered meta-lines like "1. Analysis: ..."
+    if re.match(r"^\s*\d+\.\s*(analysis|thinking|reasoning|plan)\b", lowered):
+        print("🚫 AI output rejected — looked like a numbered reasoning list.")
+        return False
+    return True
 
 
 # Groq (free tier, no credit card, ~1000 req/day) — tried first since it
@@ -195,16 +233,13 @@ def clean_ai_text(text: str, allow_cashtag: bool) -> str:
     if not text:
         return text
 
-    # Ensure exactly one space between back-to-back hashtags, whichever
-    # way the model glued them: "#a#b" -> "#a #b", "# a" -> "#a".
     text = re.sub(r"#\s+", "#", text)          # "# word" -> "#word"
     text = re.sub(r"(#\w+)(?=#)", r"\1 ", text)  # "#a#b" -> "#a #b"
 
     if not allow_cashtag:
-        # Strip any invented "$SYMBOL" cashtag when the data had no symbol.
         text = re.sub(r"\$[A-Z]{2,10}\b", "", text)
-        text = re.sub(r"[ \t]+\n", "\n", text)   # trim trailing spaces left behind
-        text = re.sub(r"\n{3,}", "\n\n", text)   # collapse resulting blank lines
+        text = re.sub(r"[ \t]+\n", "\n", text)
+        text = re.sub(r"\n{3,}", "\n\n", text)
         text = text.strip()
 
     return text
@@ -243,10 +278,17 @@ def call_gemini(system_prompt: str, user_prompt: str) -> str:
         payload = {
             "contents": [{"parts": [{"text": user_prompt}]}],
             "systemInstruction": {"parts": [{"text": system_prompt}]},
+            # Explicitly disable "thinking" — Gemini 2.5 models can emit an
+            # internal reasoning trace by default, which previously leaked
+            # into the published post when we only read parts[0].
+            "generationConfig": {"thinkingConfig": {"thinkingBudget": 0}},
         }
         resp = requests.post(GEMINI_API_URL, headers=headers, json=payload, timeout=20)
         resp.raise_for_status()
-        text = resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+        parts = resp.json()["candidates"][0]["content"]["parts"]
+        # Join every non-thought text part (defense in depth, in case
+        # thinkingBudget=0 isn't honored for some model/account combo).
+        text = "\n".join(p["text"] for p in parts if p.get("text") and not p.get("thought")).strip()
         return text or None
     except Exception as e:
         print(f"⚠️ Gemini call failed ({e}).")
@@ -321,10 +363,6 @@ def call_cerebras(system_prompt: str, user_prompt: str) -> str:
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-# "openrouter/free" auto-routes to whichever free model is currently up --
-# OpenRouter's free catalog churns weekly, so a hardcoded specific model ID
-# (e.g. "meta-llama/...:free") can silently vanish. This router is their
-# own answer to that problem.
 OPENROUTER_MODEL = "openrouter/free"
 
 
@@ -340,6 +378,10 @@ def call_openrouter(system_prompt: str, user_prompt: str) -> str:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
+            # Ask providers that support it to exclude chain-of-thought
+            # reasoning tokens from the content field. Ignored harmlessly
+            # by models/providers that don't support it.
+            "reasoning": {"exclude": True},
         }
         resp = requests.post(OPENROUTER_API_URL, headers=headers, json=payload, timeout=25)
         resp.raise_for_status()
@@ -372,7 +414,14 @@ def call_github_models(system_prompt: str, user_prompt: str) -> str:
         }
         resp = requests.post(GITHUB_MODELS_API_URL, headers=headers, json=payload, timeout=25)
         resp.raise_for_status()
-        return resp.json()["choices"][0]["message"]["content"].strip() or None
+        data = resp.json()
+        choice = data["choices"][0]
+        # If the response was content-filtered, don't treat whatever's left
+        # in `content` as usable text.
+        if choice.get("finish_reason") == "content_filter":
+            print("⚠️ GitHub Models response was content-filtered, discarding.")
+            return None
+        return (choice["message"]["content"] or "").strip() or None
     except Exception as e:
         print(f"⚠️ GitHub Models call failed ({e}).")
         return None
@@ -391,25 +440,24 @@ You are the final editor. You'll receive a draft post. Check it against
 every rule above (cashtag usage, hashtag formatting, hook under 10 words,
 at least one concrete number, 4-line max, two-option closing question) and
 fix anything that's off. If the draft already follows every rule, return it
-unchanged. Return ONLY the final post text -- nothing else."""
+unchanged. Return ONLY the final post text -- nothing else. Never return
+anything other than the post itself, even a safety note or disclaimer
+about the request."""
 
 
 def discuss_and_write(context: str) -> str:
     """
-    Runs a short 3-step discussion (Strategist -> Critic -> Writer) across
-    Groq and Gemini before producing the final post. Degrades gracefully:
-    if a step's model is unavailable, that step is skipped rather than
-    blocking the whole pipeline. Returns None only if the final Writer step
-    itself fails on both providers.
+    Runs the 5-station discussion pipeline (Analyst -> Strategist -> Critic
+    -> Writer -> Editor) across Cerebras/Groq/Gemini/OpenRouter/GitHub
+    Models. Degrades gracefully: if a step's model is unavailable, that
+    step is skipped rather than blocking the whole pipeline. Returns None
+    only if the Writer step itself fails on every provider.
     """
-    # 1) Analyst (Cerebras) -- distill the raw data into sharp facts.
     insights = call_cerebras(ANALYST_PROMPT, context)
     working_context = f"{context}\n\nKEY INSIGHTS:\n{insights}" if insights else context
 
-    # 2) Strategist (Groq) -- pick the angle.
     angle = call_groq(STRATEGIST_PROMPT, working_context) or call_gemini(STRATEGIST_PROMPT, working_context)
 
-    # 3) Critic (Gemini) -- challenge/refine the angle.
     critique = None
     if angle:
         critic_input = f"DATA:\n{working_context}\n\nSTRATEGIST'S ANGLE:\n{angle}"
@@ -421,24 +469,31 @@ def discuss_and_write(context: str) -> str:
     if critique:
         writer_input += f"\n\nCRITIC'S VERDICT:\n{critique}"
 
-    # 4) Writer (OpenRouter first, Groq/Gemini as backup) -- first draft.
     draft = call_openrouter(WRITER_PROMPT, writer_input) or call_groq(WRITER_PROMPT, writer_input) or call_gemini(WRITER_PROMPT, writer_input)
     if not draft:
         return None
 
-    # 5) Editor (GitHub Models) -- final compliance pass.
     edited = call_github_models(EDITOR_PROMPT, draft)
     return edited or draft
 
 
 def generate_with_ai(context: str, allow_cashtag: bool = True) -> str:
     """
-    Tries the multi-step discussion pipeline first (Groq + Gemini, free).
-    Falls back to a single-shot call (Groq, then Anthropic if a paid key is
-    set), then gives up so the caller can use a static template.
+    Tries the multi-step discussion pipeline first (free providers), then a
+    single-shot call (Groq, then Anthropic if a paid key is set). Every
+    candidate is cleaned and then validated -- if it fails validation
+    (looks like leaked reasoning, a safety message, etc.) it's discarded
+    entirely and the caller falls back to a static template, rather than
+    risking a bad post going live.
     """
-    text = discuss_and_write(context) or generate_with_groq(context) or generate_with_anthropic(context)
-    return clean_ai_text(text, allow_cashtag) if text else text
+    for candidate in (discuss_and_write(context), generate_with_groq(context), generate_with_anthropic(context)):
+        if not candidate:
+            continue
+        cleaned = clean_ai_text(candidate, allow_cashtag)
+        if validate_post_text(cleaned):
+            return cleaned
+        print("⚠️ Discarding invalid AI output, trying next fallback...")
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -476,7 +531,6 @@ EVENTS = {
 # ---------------------------------------------------------------------------
 
 def get_market_data(symbol: str) -> dict:
-    """Pull 24h price change (required) and funding/OI (best-effort) for a symbol."""
     pair = f"{symbol}USDT"
 
     ticker_resp = requests.get(SPOT_TICKER_URL, params={"symbol": pair}, timeout=10)
@@ -510,7 +564,6 @@ def get_market_data(symbol: str) -> dict:
 
 
 def get_top_movers(limit: int = 5):
-    """Returns (gainers, losers, by_volume) lists of USDT-pair ticker dicts."""
     resp = requests.get(SPOT_TICKER_URL, timeout=15)
     resp.raise_for_status()
     data = resp.json()
@@ -522,7 +575,7 @@ def get_top_movers(limit: int = 5):
         d for d in data
         if isinstance(d, dict)
         and d.get("symbol", "").endswith("USDT")
-        and float(d.get("quoteVolume", 0)) > 500_000  # filter out illiquid noise
+        and float(d.get("quoteVolume", 0)) > 500_000
     ]
 
     gainers = sorted(usdt, key=lambda x: float(x["priceChangePercent"]), reverse=True)[:limit]
@@ -532,7 +585,6 @@ def get_top_movers(limit: int = 5):
 
 
 def get_news(limit: int = 4) -> list:
-    """Fetch top recent general crypto headlines. Returns [] on any failure."""
     try:
         resp = requests.get(NEWS_URL, params={"lang": "EN"}, timeout=10)
         resp.raise_for_status()
@@ -549,7 +601,6 @@ def get_news(limit: int = 4) -> list:
 
 
 def get_rss_news(source_name: str, url: str, limit: int = 3) -> list:
-    """Fetch top recent headlines from a single official RSS feed. Best-effort."""
     try:
         resp = requests.get(url, headers=REQUEST_HEADERS, timeout=10)
         resp.raise_for_status()
@@ -566,7 +617,6 @@ def get_rss_news(source_name: str, url: str, limit: int = 3) -> list:
 
 
 def get_all_rss_news() -> list:
-    """Pulls a few headlines from every configured RSS source."""
     articles = []
     for name, url in RSS_SOURCES.items():
         articles += get_rss_news(name, url)
@@ -574,7 +624,6 @@ def get_all_rss_news() -> list:
 
 
 def get_macro_news() -> list:
-    """Pulls headlines from macro-economic (non-crypto-native) sources."""
     articles = []
     for name, url in MACRO_RSS_SOURCES.items():
         articles += get_rss_news(name, url, limit=6)
@@ -582,12 +631,6 @@ def get_macro_news() -> list:
 
 
 def get_announcements(catalog_id: int, limit: int = 4) -> list:
-    """
-    Best-effort fetch of Binance's own listing/delisting announcements via
-    the internal endpoint their website uses. NOT an officially documented
-    API — may return 403 or change shape at any time. Always returns []
-    instead of raising, so the caller can fall back to another post type.
-    """
     try:
         resp = requests.get(
             BAPI_ANNOUNCE_URL,
@@ -616,7 +659,6 @@ def get_announcements(catalog_id: int, limit: int = 4) -> list:
 # ---------------------------------------------------------------------------
 
 def template_price_funding(d: dict) -> str:
-    """Requires funding_rate and open_interest to be present (not None)."""
     direction = "longs are paying shorts" if d["funding_rate"] > 0 else "shorts are paying longs"
     return (
         f"{d['symbol']} moved {abs(d['change_pct']):.2f}% in the last 24 hours — "
@@ -676,10 +718,6 @@ def template_top_movers(kind: str, movers: list) -> str:
     return "\n".join(lines)
 
 
-# ---------------------------------------------------------------------------
-# Sarcastic / humorous templates — picked by current mood (pump/dump)
-# ---------------------------------------------------------------------------
-
 def sarcastic_pump_1(d: dict) -> str:
     return (
         f"Funny how everyone becomes a \"long-term investor\" the second {d['symbol']} turns green.\n\n"
@@ -720,10 +758,6 @@ def sarcastic_dump_2(d: dict) -> str:
 SARCASTIC_PUMP = [sarcastic_pump_1, sarcastic_pump_2]
 SARCASTIC_DUMP = [sarcastic_dump_1, sarcastic_dump_2]
 
-
-# ---------------------------------------------------------------------------
-# News / announcements / education / events builders
-# ---------------------------------------------------------------------------
 
 def build_news_post(articles: list) -> str:
     lines = ["The headlines actually moving crypto right now:"]
@@ -774,7 +808,6 @@ KLINES_URL = "https://data-api.binance.vision/api/v3/klines"
 
 
 def generate_price_chart(symbol: str) -> bool:
-    """Builds a simple 24h price line chart for the symbol. Returns True on success."""
     try:
         import matplotlib
         matplotlib.use("Agg")
@@ -813,12 +846,6 @@ def generate_price_chart(symbol: str) -> bool:
 
 
 def post_to_square_with_image(text: str, image_path: str) -> bool:
-    """
-    Posts text + one image using Binance's official Node.js square-post skill
-    script (cloned into skill-src/ by the workflow), instead of hand-coding
-    the presigned-upload flow. Returns True on success, False on any failure
-    so the caller can fall back to a text-only post.
-    """
     if not os.path.exists(SQUARE_POST_SKILL_SCRIPT):
         print("⚠️ Official post-image script not found, skipping image.")
         return False
@@ -1010,18 +1037,16 @@ def main():
             f"Check the Rewards Hub in the app so you don't miss the next one."
         )
 
-    if text is None:
-        print("❌ No content could be generated for this run.")
+    # Final safety net -- even a static template is checked (cheap, and
+    # guarantees nothing bypasses validation regardless of code path).
+    if text is None or not validate_post_text(text):
+        print("❌ No valid content could be generated for this run.")
         sys.exit(1)
 
     print("---- Generated post ----")
     print(text)
     print("-------------------------")
 
-    # Only single-symbol analysis posts get a chart image attached (that's
-    # the one case where a real, meaningful chart exists). Everything else
-    # stays text-only. If chart generation or the image post fails for any
-    # reason, fall straight back to the normal text-only post.
     posted_with_image = False
     if category == "analysis" and "symbol" in locals().get("data", {}):
         if generate_price_chart(data["symbol"]):
