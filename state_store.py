@@ -58,7 +58,8 @@ def in_cooldown(state, field, value, hours):
 
 
 def record_post(state, category, symbol, topic, text, ai_provider, data_snapshot,
-                 quality_score, published, template_id=None):
+                 quality_score, published, template_id=None, hook_type=None,
+                 whale_events=None):
     entry = {
         "timestamp": time.time(),
         "category": category,
@@ -70,6 +71,8 @@ def record_post(state, category, symbol, topic, text, ai_provider, data_snapshot
         "quality_score": quality_score,
         "published": published,
         "template_id": template_id,
+        "hook_type": hook_type,
+        "whale_events": whale_events,
     }
     state["posts"].append(entry)
     cutoff = time.time() - 30 * 86400
