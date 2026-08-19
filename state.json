@@ -275,6 +275,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787144516.624303,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Solana Policy Institute CEO says Clarity Act in ‘August recess purgatory,’ gives it 10% odds before midterms",
+      "text_hash": "3b93c7ea2f59dc2266dcdbf3a5bdafdf2ae1a7043d2f42189bdb9b88caf2b1ca",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 64849.33,
+          "change_pct": 1.028,
+          "volume": 10595.15431,
+          "quote_volume": 683711870.433964,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 1935.5,
+          "change_pct": 1.951,
+          "volume": 168165.6196,
+          "quote_volume": 322396778.101791,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 78.35,
+          "change_pct": 2.808,
+          "volume": 1514541.819,
+          "quote_volume": 117011881.63691,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 604.25,
+          "change_pct": 0.524,
+          "volume": 70955.705,
+          "quote_volume": 42763110.15235,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
