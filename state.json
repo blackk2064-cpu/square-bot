@@ -44,6 +44,51 @@
       "quality_score": 0,
       "published": false,
       "template_id": null
+    },
+    {
+      "timestamp": 1787102696.3767664,
+      "category": "events",
+      "symbol": "BTC",
+      "topic": "events",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 64505.08,
+          "change_pct": 0.278,
+          "volume": 11670.39694,
+          "quote_volume": 751771277.212991,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 1914.81,
+          "change_pct": 0.364,
+          "volume": 147277.6477,
+          "quote_volume": 280786280.229277,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 76.85,
+          "change_pct": 1.238,
+          "volume": 1485700.624,
+          "quote_volume": 113557787.67453,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 603.89,
+          "change_pct": -0.111,
+          "volume": 76972.006,
+          "quote_volume": 46389922.71261,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null
     }
   ]
 }
