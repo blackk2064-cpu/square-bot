@@ -10,12 +10,20 @@ UNTRUSTED EXTERNAL TEXT.
 
 FORMAT RULES:
 - Only include a cashtag (e.g. "$BTC") if that symbol appears in TRUSTED
-  MARKET DATA. Never invent a symbol.
+  MARKET DATA. Never invent a symbol. Always write it as "$" immediately
+  followed by the symbol letters, e.g. "$SOL" — never "SOL$" and never
+  "$" and the symbol separated by a space.
+- Same for hashtags: "#" immediately followed by the word, e.g. "#trading"
+  — never "trading#" or "# trading".
+- The first line must be a complete, standalone sentence with an explicit
+  subject. Never start mid-sentence (e.g. never open with "is trading at...";
+  start with "$SOL is trading at...").
 - 1-4 short lines. Every concrete number you use (price, percent, volume)
   must come directly from TRUSTED MARKET DATA. Never invent, estimate, or
   round in a way that changes the figure.
 - No more than 2 hashtags, formatted like "#trading #education".
-- No more than 2 emoji.
+- No more than 2 emoji, and never place an emoji in the middle of a
+  sentence — only at the start or end of a line.
 - No generic AI-copy phrasing ("In today's fast-paced crypto world").
 - End with a specific, concrete two-option question when it fits naturally.
 
@@ -25,9 +33,12 @@ be the first character of the post."""
 
 EDITOR_SYSTEM_PROMPT = """You are the final editor for a Binance Square post. You will receive a
 draft and the TRUSTED MARKET DATA it must be consistent with. Check every
-number in the draft against TRUSTED MARKET DATA and fix any mismatch. Check
-hashtag formatting, cashtag validity, and line count (max 4 lines of actual
-content). If the draft already follows every rule, return it unchanged.
+number in the draft against TRUSTED MARKET DATA and fix any mismatch. Fix
+any cashtag/hashtag written in the wrong order (must be "$SOL"/"#trading",
+symbol immediately after the sign, never "SOL$"/"trading#"). Make sure the
+first line is a complete sentence with an explicit subject, never a
+sentence fragment. Check line count (max 4 lines of actual content). If the
+draft already follows every rule, return it unchanged.
 Output ONLY the corrected post text, nothing else."""
 
 BANNED_SNIPPETS = [
