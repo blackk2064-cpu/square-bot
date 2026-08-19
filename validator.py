@@ -15,18 +15,25 @@ def clean_text(text, allow_cashtag):
     return text.strip()
 
 
-def basic_validate(text, max_lines=6, max_hashtags=2, max_emojis=2):
+def basic_validate(text, max_lines=6, max_hashtags=2, max_emojis=2, max_chars=480):
     if not text:
         return False, "empty"
     stripped = text.strip()
     if len(stripped) < 15:
         return False, "too_short"
+    if len(stripped) > max_chars:
+        return False, "too_long"
     lowered = stripped.lower()
     for snippet in BANNED_SNIPPETS:
         if snippet in lowered:
             return False, f"banned_snippet:{snippet}"
     if re.match(r"^\s*\d+\.\s*(analysis|thinking|reasoning|plan)\b", lowered):
         return False, "looks_like_reasoning_list"
+
+    sentence_count = len(re.findall(r"[.!?]+", stripped))
+    word_count = len(stripped.split())
+    if sentence_count >= 4 and word_count > 60:
+        return False, "too_many_sentences_for_a_post"
 
     lines = [l for l in stripped.split("\n") if l.strip()]
     if len(lines) > max_lines:
