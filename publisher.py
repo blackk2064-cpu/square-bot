@@ -54,12 +54,16 @@ def _publish_via_direct_api(text, api_key):
     headers = {
         "X-Square-OpenAPI-Key": api_key,
         "Content-Type": "application/json",
+        "clienttype": "binanceSkill",
     }
-    payload = {"content": text, "type": "text"}
+    payload = {"bodyTextOnly": text}
     try:
         resp = request_with_retry("POST", SQUARE_POST_URL, headers=headers, json=payload)
         data = resp.json()
-        return PublishResult("published", detail=json.dumps(data)[:500])
+        if str(data.get("code")) not in ("000000", "0"):
+            return PublishResult("failed", detail=json.dumps(data)[:500])
+        post_id = (data.get("data") or {}).get("id")
+        return PublishResult("published", detail=json.dumps(data)[:500], post_url=post_id)
     except Exception as e:
         msg = str(e)
         if "504" in msg:
