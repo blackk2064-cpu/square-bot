@@ -89,6 +89,51 @@
       "quality_score": 100,
       "published": true,
       "template_id": null
+    },
+    {
+      "timestamp": 1787115696.3175063,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis",
+      "text_hash": "ad1fe4da40658b2109aa3b88c07e47bc39287a0cf54770b0e04d0fe607d243c7",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 64319.31,
+          "change_pct": 0.171,
+          "volume": 11091.8394,
+          "quote_volume": 714933445.1264666,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 1910.74,
+          "change_pct": 0.759,
+          "volume": 139231.9451,
+          "quote_volume": 265839103.061324,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 76.86,
+          "change_pct": 1.358,
+          "volume": 1353038.958,
+          "quote_volume": 103707675.56184,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 601.9,
+          "change_pct": -0.26,
+          "volume": 76126.454,
+          "quote_volume": 45871063.83098,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null
     }
   ]
 }
