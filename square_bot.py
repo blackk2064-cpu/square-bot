@@ -68,6 +68,7 @@ def run():
         )]
         symbol = random.choice(candidates) if candidates else None
 
+    whale_data_provided = False
     if category in ("binance_news", "general_news", "macro_news"):
         stories = get_top_stories(symbols, max_stories=3)
         untrusted_text = build_news_untrusted_text(stories)
@@ -84,6 +85,7 @@ def run():
         if not moves:
             print("No significant public on-chain moves detected, skipping this run.")
             return 0
+        whale_data_provided = True
         untrusted_text = "\n".join(moves)
         topic = "onchain_watchlist_move"
         allow_cashtag = symbol is not None
@@ -106,6 +108,7 @@ def run():
         untrusted_text=untrusted_text,
         allow_cashtag=allow_cashtag,
         hook_style=hook_style,
+        whale_data_provided=whale_data_provided,
     )
 
     if not result or not result.get("text"):
