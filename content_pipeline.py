@@ -2,14 +2,17 @@ from ai_providers import call_in_order
 from prompts import WRITER_SYSTEM_PROMPT, EDITOR_SYSTEM_PROMPT, build_context
 from validator import clean_text, basic_validate, fact_check
 from config_loader import load_config
+from hooks import hook_instruction
 
 
-def generate_post(trusted_data_text, data_snapshot, untrusted_text="", allow_cashtag=True):
+def generate_post(trusted_data_text, data_snapshot, untrusted_text="", allow_cashtag=True, hook_style=None):
     cfg = load_config()
     provider_order = cfg["providers"]["order"]
     posting_cfg = cfg["posting"]
 
     context = build_context(trusted_data_text, untrusted_text)
+    if hook_style:
+        context = f"HOOK STYLE FOR THIS POST: {hook_instruction(hook_style)}\n\n{context}"
 
     draft, provider = call_in_order(provider_order, WRITER_SYSTEM_PROMPT, context)
     if not draft:
@@ -43,6 +46,7 @@ def generate_post(trusted_data_text, data_snapshot, untrusted_text="", allow_cas
         "provider": provider,
         "reject_reason": None,
         "quality_score": score,
+        "hook_style": hook_style,
     }
 
 
