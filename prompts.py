@@ -36,6 +36,11 @@ BANNED_SNIPPETS = [
     "i'll write this post", "step 1:", "step 1.", "format rules:", "hook line:",
     "closing question:", "content filter", "as an ai language model",
     "i cannot help with that", "i can't help with that",
+    "we need to", "the draft", "trusted market data", "must fix",
+    "let's rewrite", "probably include", "that's one line", "we can produce",
+    "we can have", "must keep", "avoid using", "keep under", "as few",
+    "consistent with", "avoid colons", "avoid the words", "must avoid",
+    "we can mention", "the post text", "rewrite the", "is not consistent",
 ]
 
 
