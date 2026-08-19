@@ -44,6 +44,51 @@
       "quality_score": 100,
       "published": true,
       "template_id": null
+    },
+    {
+      "timestamp": 1787105018.6094089,
+      "category": "events",
+      "symbol": "SOL",
+      "topic": "events",
+      "text_hash": "969bc9e8f2c5f6bb272a2d92d53d2d5b0734aed65b2e0145d36ac590b144a10e",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 64385.18,
+          "change_pct": 0.251,
+          "volume": 11650.41306,
+          "quote_volume": 750519555.9317816,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 1912.69,
+          "change_pct": 0.564,
+          "volume": 146484.8768,
+          "quote_volume": 279318127.028324,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 76.78,
+          "change_pct": 1.574,
+          "volume": 1480953.534,
+          "quote_volume": 113229931.19399,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 603.41,
+          "change_pct": -0.109,
+          "volume": 76096.268,
+          "quote_volume": 45859947.73599,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null
     }
   ]
 }
