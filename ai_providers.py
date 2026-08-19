@@ -35,7 +35,8 @@ def _call_openai_style(name, api_key, url, model, system_prompt, user_prompt, ma
         text = resp.json()["choices"][0]["message"]["content"].strip()
         record_provider_success(name)
         return text or None
-    except Exception:
+    except Exception as e:
+        print(f"⚠️ Provider '{name}' failed: {e}")
         record_provider_failure(name)
         return None
 
@@ -62,7 +63,8 @@ def call_openrouter(system_prompt, user_prompt):
         text = resp.json()["choices"][0]["message"]["content"].strip()
         record_provider_success("openrouter")
         return text or None
-    except Exception:
+    except Exception as e:
+        print(f"⚠️ Provider 'openrouter' failed: {e}")
         record_provider_failure("openrouter")
         return None
 
@@ -82,7 +84,8 @@ def call_gemini(system_prompt, user_prompt):
         text = "\n".join(p["text"] for p in parts if p.get("text") and not p.get("thought")).strip()
         record_provider_success("gemini")
         return text or None
-    except Exception:
+    except Exception as e:
+        print(f"⚠️ Provider 'gemini' failed: {e}")
         record_provider_failure("gemini")
         return None
 
@@ -109,7 +112,8 @@ def call_anthropic(system_prompt, user_prompt):
         ).strip()
         record_provider_success("anthropic")
         return text or None
-    except Exception:
+    except Exception as e:
+        print(f"⚠️ Provider 'anthropic' failed: {e}")
         record_provider_failure("anthropic")
         return None
 
