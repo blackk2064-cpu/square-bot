@@ -6,7 +6,11 @@ from prompts import BANNED_SNIPPETS
 def clean_text(text, allow_cashtag):
     if not text:
         return text
+    # Fix reversed cashtags/hashtags: "SOL$" -> "$SOL", "trading#" -> "#trading"
+    text = re.sub(r"\b([A-Za-z]{2,10})\$", r"$\1", text)
+    text = re.sub(r"\b([A-Za-z]{2,15})#", r"#\1", text)
     text = re.sub(r"#\s+", "#", text)
+    text = re.sub(r"\$\s+([A-Z])", r"$\1", text)
     text = re.sub(r"(#\w+)(?=#)", r"\1 ", text)
     if not allow_cashtag:
         text = re.sub(r"\$[A-Z]{2,10}\b", "", text)
@@ -61,6 +65,36 @@ def fact_check(text, data_snapshot, tolerance=0.05):
     """
     Compares numeric percentage/price claims in the generated text against
     the trusted data snapshot. Returns (passed, reason). Conservative: only
+    flags a hard mismatch when a number in the text looks like a percent or
+    price that doesn't correspond to anything in the snapshot within
+    tolerance.
+    """
+    if not data_snapshot:
+        return True, "no_data_to_check"
+
+    known_values = set()
+    for sym, fields in data_snapshot.items():
+        for key, val in fields.items():
+            if isinstance(val, (int, float)):
+                known_values.add(round(val, 2))
+                known_values.add(round(val, 1))
+                known_values.add(round(val, 0))
+
+    percent_claims = re.findall(r"(-?\d+(?:\.\d+)?)\s?%", text)
+    for claim in percent_claims:
+        try:
+            claim_val = float(claim)
+        except ValueError:
+            continue
+        matched = False
+        for known in known_values:
+            if abs(claim_val - known) <= max(tolerance * abs(known), 0.15):
+                matched = True
+                break
+        if not matched:
+            return False, f"unmatched_percent_claim:{claim}"
+
+    return True, "ok"
     flags a hard mismatch when a number in the text looks like a percent or
     price that doesn't correspond to anything in the snapshot within
     tolerance.
