@@ -95,33 +95,3 @@ def fact_check(text, data_snapshot, tolerance=0.05):
             return False, f"unmatched_percent_claim:{claim}"
 
     return True, "ok"
-    flags a hard mismatch when a number in the text looks like a percent or
-    price that doesn't correspond to anything in the snapshot within
-    tolerance.
-    """
-    if not data_snapshot:
-        return True, "no_data_to_check"
-
-    known_values = set()
-    for sym, fields in data_snapshot.items():
-        for key, val in fields.items():
-            if isinstance(val, (int, float)):
-                known_values.add(round(val, 2))
-                known_values.add(round(val, 1))
-                known_values.add(round(val, 0))
-
-    percent_claims = re.findall(r"(-?\d+(?:\.\d+)?)\s?%", text)
-    for claim in percent_claims:
-        try:
-            claim_val = float(claim)
-        except ValueError:
-            continue
-        matched = False
-        for known in known_values:
-            if abs(claim_val - known) <= max(tolerance * abs(known), 0.15):
-                matched = True
-                break
-        if not matched:
-            return False, f"unmatched_percent_claim:{claim}"
-
-    return True, "ok"
