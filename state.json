@@ -89,6 +89,51 @@
       "quality_score": 0,
       "published": false,
       "template_id": null
+    },
+    {
+      "timestamp": 1787103230.7780693,
+      "category": "sarcastic",
+      "symbol": "BTC",
+      "topic": "sarcastic",
+      "text_hash": "748cd8a85f3aff3aa8d56be7728118f9f3f076e2ab6a3cd5b5311e2795ddbcff",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 64462.08,
+          "change_pct": 0.193,
+          "volume": 11690.30436,
+          "quote_volume": 753060936.0865248,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 1914.2,
+          "change_pct": 0.365,
+          "volume": 148315.2056,
+          "quote_volume": 282774988.725738,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 76.78,
+          "change_pct": 1.213,
+          "volume": 1494824.05,
+          "quote_volume": 114260094.81213,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 603.77,
+          "change_pct": -0.165,
+          "volume": 76637.134,
+          "quote_volume": 46187201.68434,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null
     }
   ]
 }
