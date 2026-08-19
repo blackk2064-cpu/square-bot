@@ -66,7 +66,7 @@ def fact_check(text, data_snapshot, tolerance=0.05):
     Compares numeric percentage/price claims in the generated text against
     the trusted data snapshot. Returns (passed, reason). Conservative: only
     flags a hard mismatch when a number in the text looks like a percent or
-    price that doesn't correspond to anything in the snapshot within
+    price that does not correspond to anything in the snapshot within
     tolerance.
     """
     if not data_snapshot:
@@ -95,3 +95,22 @@ def fact_check(text, data_snapshot, tolerance=0.05):
             return False, f"unmatched_percent_claim:{claim}"
 
     return True, "ok"
+
+
+WHALE_CLAIM_PATTERN = re.compile(
+    r"\b(whale|on-chain|onchain|blockchain data|wallet transfer|labeled wallet)\b",
+    re.IGNORECASE,
+)
+
+
+def check_whale_claim_grounded(text, whale_data_provided):
+    """
+    If the generated text makes any on-chain/whale-style claim, that claim
+    must have actually come from real data we fetched this run (passed as
+    whale_data_provided=True). Otherwise the model fabricated it and the
+    post must be rejected.
+    """
+    if WHALE_CLAIM_PATTERN.search(text) and not whale_data_provided:
+        return False, "fabricated_onchain_claim"
+    return True, "ok"
+    
