@@ -1,1 +1,49 @@
-{"posts": []}
+{
+  "posts": [
+    {
+      "timestamp": 1787104622.475723,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "FalconX, Interstice Connect Canton to Ethereum, Solana and Robinhood Chain",
+      "text_hash": "381755753f6d54093e60fd0b44c226c336931f1ea2669ed37ac011407f0a8082",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 64424.84,
+          "change_pct": 0.391,
+          "volume": 11635.63916,
+          "quote_volume": 749564248.253727,
+          "funding_rate": 1.491e-05,
+          "open_interest": 106171.776
+        },
+        "ETH": {
+          "price": 1914.52,
+          "change_pct": 0.727,
+          "volume": 146563.7282,
+          "quote_volume": 279463343.325934,
+          "funding_rate": 3.057e-05,
+          "open_interest": 2383123.382
+        },
+        "SOL": {
+          "price": 76.81,
+          "change_pct": 1.574,
+          "volume": 1487955.832,
+          "quote_volume": 113754143.01021,
+          "funding_rate": 9.853e-05,
+          "open_interest": 9033237.73
+        },
+        "BNB": {
+          "price": 603.56,
+          "change_pct": -0.045,
+          "volume": 76214.789,
+          "quote_volume": 45931553.79828,
+          "funding_rate": 2.836e-05,
+          "open_interest": 604921.99
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null
+    }
+  ]
+}
