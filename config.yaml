@@ -1,0 +1,42 @@
+posting:
+  min_quality_score: 78
+  max_lines: 6
+  max_hashtags: 2
+  max_emojis: 2
+  cooldown_hours:
+    same_symbol: 3
+    same_topic: 24
+    same_template: 72
+  dedup_window_days: 14
+
+symbols:
+  - BTC
+  - ETH
+  - SOL
+  - BNB
+
+category_weights:
+  binance_news: 20
+  general_news: 14
+  macro_news: 15
+  analysis: 17
+  education: 13
+  sarcastic: 13
+  events: 8
+  min_weight: 5
+  max_weight: 30
+
+providers:
+  order:
+    - openrouter
+    - groq
+    - gemini
+    - anthropic
+  circuit_breaker:
+    failure_threshold: 5
+    cooldown_minutes: 30
+
+http:
+  timeout_seconds: 20
+  max_retries: 3
+  backoff_base_seconds: 2
