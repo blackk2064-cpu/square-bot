@@ -4,10 +4,10 @@ from http_utils import request_with_retry, provider_available, record_provider_f
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent"
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
@@ -32,9 +32,14 @@ def _call_openai_style(name, api_key, url, model, system_prompt, user_prompt, ma
             ],
         }
         resp = request_with_retry("POST", url, headers=headers, json=payload)
-        text = resp.json()["choices"][0]["message"]["content"].strip()
+        message = resp.json()["choices"][0].get("message", {})
+        text = (message.get("content") or "").strip()
+        if not text:
+            print(f"⚠️ Provider '{name}' returned empty content.")
+            record_provider_failure(name)
+            return None
         record_provider_success(name)
-        return text or None
+        return text
     except Exception as e:
         print(f"⚠️ Provider '{name}' failed: {e}")
         record_provider_failure(name)
@@ -60,9 +65,14 @@ def call_openrouter(system_prompt, user_prompt):
             "reasoning": {"exclude": True},
         }
         resp = request_with_retry("POST", OPENROUTER_API_URL, headers=headers, json=payload)
-        text = resp.json()["choices"][0]["message"]["content"].strip()
+        message = resp.json()["choices"][0].get("message", {})
+        text = (message.get("content") or "").strip()
+        if not text:
+            print("⚠️ Provider 'openrouter' returned empty content.")
+            record_provider_failure("openrouter")
+            return None
         record_provider_success("openrouter")
-        return text or None
+        return text
     except Exception as e:
         print(f"⚠️ Provider 'openrouter' failed: {e}")
         record_provider_failure("openrouter")
