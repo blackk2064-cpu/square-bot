@@ -6,7 +6,9 @@ from config_loader import load_config
 from market_data import build_market_snapshot
 from news_data import get_top_stories, get_macro_headlines
 from content_pipeline import generate_post
-from state_store import load_state, is_duplicate, in_cooldown, record_post
+from state_store import load_state, save_state, is_duplicate, in_cooldown, record_post
+from hooks import pick_hook_style
+from whale_tracker import get_watchlist_snapshot, detect_significant_moves
 
 API_KEY = os.environ.get("SQUARE_OPENAPI_KEY")
 
@@ -72,6 +74,20 @@ def run():
         topic = stories[0]["title"] if stories else "market_update"
         allow_cashtag = symbol is not None
         trusted_data_text = build_trusted_data_text(symbol, market_snapshot) if symbol else "No symbol-specific data for this post."
+    elif category == "events":
+        prev_snapshot = state.get("whale_watch", {})
+        current_snapshot = get_watchlist_snapshot()
+        eth_price = market_snapshot.get("ETH", {}).get("price")
+        moves = detect_significant_moves(prev_snapshot, current_snapshot, eth_price)
+        state["whale_watch"] = current_snapshot
+        save_state(state)
+        if not moves:
+            print("No significant public on-chain moves detected, skipping this run.")
+            return 0
+        untrusted_text = "\n".join(moves)
+        topic = "onchain_watchlist_move"
+        allow_cashtag = symbol is not None
+        trusted_data_text = build_trusted_data_text(symbol, market_snapshot) if symbol else "No symbol-specific market data."
     else:
         untrusted_text = ""
         topic = category
@@ -82,11 +98,14 @@ def run():
         print(f"Topic '{topic}' is in cooldown, skipping this run.")
         return 0
 
+    hook_style = pick_hook_style(state)
+
     result = generate_post(
         trusted_data_text=trusted_data_text,
         data_snapshot=market_snapshot,
         untrusted_text=untrusted_text,
         allow_cashtag=allow_cashtag,
+        hook_style=hook_style,
     )
 
     if not result or not result.get("text"):
@@ -96,6 +115,7 @@ def run():
             state, category=category, symbol=symbol, topic=topic, text=reason or "rejected",
             ai_provider=result.get("provider") if result else None,
             data_snapshot=market_snapshot, quality_score=0, published=False,
+            hook_type=hook_style,
         )
         return 0
 
@@ -107,7 +127,7 @@ def run():
         record_post(
             state, category=category, symbol=symbol, topic=topic, text=text,
             ai_provider=result["provider"], data_snapshot=market_snapshot,
-            quality_score=score, published=False,
+            quality_score=score, published=False, hook_type=hook_style,
         )
         return 0
 
@@ -122,6 +142,7 @@ def run():
         state, category=category, symbol=symbol, topic=topic, text=text,
         ai_provider=result["provider"], data_snapshot=market_snapshot,
         quality_score=score, published=(publish_result.status == "published"),
+        hook_type=hook_style,
     )
 
     print(f"Publish status: {publish_result.status} detail={publish_result.detail}")
