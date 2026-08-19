@@ -33,9 +33,9 @@ Output ONLY the corrected post text, nothing else."""
 BANNED_SNIPPETS = [
     "<think", "</think", "chain of thought", "chain-of-thought",
     "here's my thinking", "let me think", "let me analyze", "i need to write",
-    "i'll write", "step 1:", "step 1.", "format rules:", "hook line",
-    "closing question:", "user safety", "safety: safe", "content filter",
-    "as an ai", "i cannot", "i can't help with that",
+    "i'll write this post", "step 1:", "step 1.", "format rules:", "hook line:",
+    "closing question:", "content filter", "as an ai language model",
+    "i cannot help with that", "i can't help with that",
 ]
 
 
