@@ -28,10 +28,12 @@ def generate_post(trusted_data_text, data_snapshot, untrusted_text="", allow_cas
         max_emojis=posting_cfg["max_emojis"],
     )
     if not ok:
+        print(f"⚠️ Rejected by validator ({reason}). Raw text was:\n---\n{final_text}\n---")
         return {"text": None, "provider": provider, "reject_reason": reason}
 
     fact_ok, fact_reason = fact_check(final_text, data_snapshot)
     if not fact_ok:
+        print(f"⚠️ Rejected by fact-check ({fact_reason}). Raw text was:\n---\n{final_text}\n---")
         return {"text": None, "provider": provider, "reject_reason": fact_reason}
 
     score = score_post(final_text, data_snapshot)
