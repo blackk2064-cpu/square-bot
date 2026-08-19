@@ -36,6 +36,8 @@ def is_duplicate(state, text, window_days):
     for post in state["posts"]:
         if post["timestamp"] < cutoff:
             continue
+        if not post.get("published"):
+            continue
         if post.get("text_hash") == h:
             return True
     return False
@@ -47,6 +49,8 @@ def in_cooldown(state, field, value, hours):
     cutoff = time.time() - hours * 3600
     for post in state["posts"]:
         if post["timestamp"] < cutoff:
+            continue
+        if not post.get("published"):
             continue
         if post.get(field) == value:
             return True
