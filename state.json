@@ -134,6 +134,51 @@
       "quality_score": 0,
       "published": false,
       "template_id": null
+    },
+    {
+      "timestamp": 1787103653.2487948,
+      "category": "events",
+      "symbol": "BNB",
+      "topic": "events",
+      "text_hash": "748cd8a85f3aff3aa8d56be7728118f9f3f076e2ab6a3cd5b5311e2795ddbcff",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 64458.0,
+          "change_pct": 0.213,
+          "volume": 11684.16742,
+          "quote_volume": 752668635.4787558,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 1914.09,
+          "change_pct": 0.374,
+          "volume": 148737.8565,
+          "quote_volume": 283585999.453159,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 76.79,
+          "change_pct": 1.306,
+          "volume": 1493033.501,
+          "quote_volume": 114126770.63801,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 603.9,
+          "change_pct": -0.136,
+          "volume": 76625.139,
+          "quote_volume": 46179774.3656,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null
     }
   ]
 }
