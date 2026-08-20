@@ -651,6 +651,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787234509.761615,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "GnosisDAO approves Gnosis Chain for Ethereum Economic Zone",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 71668.01,
+          "change_pct": 10.164,
+          "volume": 46631.10668,
+          "quote_volume": 3241830239.108432,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2276.41,
+          "change_pct": 17.711,
+          "volume": 1073865.5985,
+          "quote_volume": 2343328901.525838,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 86.52,
+          "change_pct": 10.329,
+          "volume": 5393870.527,
+          "quote_volume": 455209104.77474,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 641.58,
+          "change_pct": 6.185,
+          "volume": 364363.341,
+          "quote_volume": 229018624.88384,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
