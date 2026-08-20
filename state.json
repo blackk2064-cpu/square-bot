@@ -322,6 +322,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787202123.958009,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "FalconX, Ethena bring USDe backing assets into $1B institutional credit facility",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 69498.32,
+          "change_pct": 8.052,
+          "volume": 32124.33888,
+          "quote_volume": 2176821631.4230423,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2251.37,
+          "change_pct": 17.827,
+          "volume": 894985.3841,
+          "quote_volume": 1903423636.037089,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 84.87,
+          "change_pct": 10.407,
+          "volume": 4500738.244,
+          "quote_volume": 370400630.26304,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 626.9,
+          "change_pct": 4.154,
+          "volume": 262199.852,
+          "quote_volume": 162410015.48893,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
