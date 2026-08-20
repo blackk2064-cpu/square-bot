@@ -745,6 +745,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787241725.6914723,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Congress can still ‘land this plane’ on crypto bill as ethics talks stall, says Democratic Sen. Gallego",
+      "text_hash": "85c4ff2e5b99fca8e9245534f44952b01d96626ef1484234f5864a4cc7cf0653",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 72400.36,
+          "change_pct": 5.51,
+          "volume": 39341.64712,
+          "quote_volume": 2771412677.3413754,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2321.82,
+          "change_pct": 11.183,
+          "volume": 897404.1191,
+          "quote_volume": 2007131142.710008,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 87.25,
+          "change_pct": 6.519,
+          "volume": 4542800.135,
+          "quote_volume": 388635262.36106,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 651.59,
+          "change_pct": 5.58,
+          "volume": 330525.972,
+          "quote_volume": 209104886.61536,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
