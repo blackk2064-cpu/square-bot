@@ -839,6 +839,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787252522.3224936,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Inside the Oval Office meeting: Trump appears ‘bullish’ on Clarity Act as he solicits feedback from crypto, finance CEOs",
+      "text_hash": "f992444875b4d10374836888498cca3e9cfc95d6fab397bbdb8d88349df3f6f3",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 72404.23,
+          "change_pct": 5.915,
+          "volume": 38587.5197,
+          "quote_volume": 2734704471.9995575,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2315.42,
+          "change_pct": 10.769,
+          "volume": 894472.8571,
+          "quote_volume": 2028348786.446011,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 86.87,
+          "change_pct": 5.72,
+          "volume": 4551934.768,
+          "quote_volume": 392189596.36843,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 647.23,
+          "change_pct": 4.903,
+          "volume": 325866.457,
+          "quote_volume": 207193601.31043,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
