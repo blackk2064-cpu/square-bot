@@ -792,6 +792,53 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787248990.436192,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "US debt tops $40T stoking debate on what it means for Bitcoin",
+      "text_hash": "0e3c9328aa764ef5d37cf1d2ebdcab445505bf7934fa1e108fd17459e14c1c83",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 72798.0,
+          "change_pct": 6.739,
+          "volume": 38245.33876,
+          "quote_volume": 2707175802.449553,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2347.72,
+          "change_pct": 12.248,
+          "volume": 879220.0246,
+          "quote_volume": 1988694854.464812,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 87.64,
+          "change_pct": 7.284,
+          "volume": 4566373.997,
+          "quote_volume": 392736065.06377,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 654.0,
+          "change_pct": 5.913,
+          "volume": 325043.911,
+          "quote_volume": 206478726.30275,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
