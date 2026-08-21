@@ -1074,6 +1074,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787299329.9573607,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "South Korea’s Shinhan partners with Solana Foundation, Etherfuse, Orca for tokenized fund issuance",
+      "text_hash": "3b32a6f75ae9878d3a463a22099deb9660ee57886b6e0c8b8cba15992f9a9a5d",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 76330.01,
+          "change_pct": 9.39,
+          "volume": 41308.14374,
+          "quote_volume": 3021900417.530398,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2373.44,
+          "change_pct": 5.454,
+          "volume": 653416.6979,
+          "quote_volume": 1516962523.567944,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 90.42,
+          "change_pct": 5.03,
+          "volume": 4676922.528,
+          "quote_volume": 412532338.96945,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 669.73,
+          "change_pct": 6.242,
+          "volume": 300445.886,
+          "quote_volume": 195883746.31786,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
