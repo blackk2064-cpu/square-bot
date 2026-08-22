@@ -1309,6 +1309,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787360543.8767705,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Bitget CEO sees Bitcoin near current levels at year-end, doubts US will buy BTC",
+      "text_hash": "c9ec7b5845d83dd1ad56ea0f0f633b63f12802085b924fae5d061b2ad04519ac",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77947.99,
+          "change_pct": 5.773,
+          "volume": 43239.02931,
+          "quote_volume": 3324207888.2141237,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2521.77,
+          "change_pct": 7.736,
+          "volume": 751297.7632,
+          "quote_volume": 1816510793.699763,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.88,
+          "change_pct": 6.428,
+          "volume": 5833765.069,
+          "quote_volume": 532474779.46839,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 688.55,
+          "change_pct": 4.86,
+          "volume": 356059.663,
+          "quote_volume": 240354439.76995,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
