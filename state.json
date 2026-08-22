@@ -1450,6 +1450,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787418174.907383,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Solana cuts blockchain slot time to 350 milliseconds",
+      "text_hash": "47008fbea37826d7fc1aced4df81a8423c33ddf68023cc00e442c4838d0b4037",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77298.84,
+          "change_pct": -0.245,
+          "volume": 23040.06568,
+          "quote_volume": 1786448143.931846,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2423.4,
+          "change_pct": 0.754,
+          "volume": 644753.0679,
+          "quote_volume": 1586038992.223359,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.35,
+          "change_pct": 3.036,
+          "volume": 7697462.61,
+          "quote_volume": 727405183.48288,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 696.59,
+          "change_pct": 2.538,
+          "volume": 449340.244,
+          "quote_volume": 313374013.64495,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
