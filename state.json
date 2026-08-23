@@ -1685,6 +1685,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787504527.3911262,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Bitget CEO sees Bitcoin near current levels at year-end, doubts US will buy BTC",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77427.59,
+          "change_pct": 0.167,
+          "volume": 14801.37182,
+          "quote_volume": 1137543095.583578,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2452.53,
+          "change_pct": 1.202,
+          "volume": 353900.0036,
+          "quote_volume": 856803123.282861,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.45,
+          "change_pct": 1.166,
+          "volume": 3901830.959,
+          "quote_volume": 367895360.74959,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 698.94,
+          "change_pct": 0.337,
+          "volume": 160748.064,
+          "quote_volume": 111182651.63091,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
