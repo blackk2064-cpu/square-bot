@@ -2155,6 +2155,53 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787572984.5559266,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Solana Just Got Faster—Is It Bullish for SOL?",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78340.0,
+          "change_pct": 1.353,
+          "volume": 17985.49945,
+          "quote_volume": 1392168680.2640393,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2490.3,
+          "change_pct": 2.379,
+          "volume": 414647.8075,
+          "quote_volume": 1017218593.491824,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.68,
+          "change_pct": 1.152,
+          "volume": 3304854.434,
+          "quote_volume": 313306470.40736,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 702.71,
+          "change_pct": 1.106,
+          "volume": 138825.709,
+          "quote_volume": 97056277.08287,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
