@@ -2390,6 +2390,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787619740.6470697,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79716.01,
+          "change_pct": 2.595,
+          "volume": 30675.71798,
+          "quote_volume": 2408456600.0551224,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2493.03,
+          "change_pct": 1.106,
+          "volume": 469339.6591,
+          "quote_volume": 1163659655.13479,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.85,
+          "change_pct": 6.683,
+          "volume": 5297243.673,
+          "quote_volume": 511246353.48951,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 709.83,
+          "change_pct": 0.698,
+          "volume": 183602.565,
+          "quote_volume": 129125864.70998,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
