@@ -2625,6 +2625,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787655753.7626588,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 79324.0,
+          "change_pct": 2.222,
+          "volume": 34378.56257,
+          "quote_volume": 2732634894.9570107,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2481.99,
+          "change_pct": 0.747,
+          "volume": 462381.9436,
+          "quote_volume": 1153367827.821336,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 99.66,
+          "change_pct": 5.327,
+          "volume": 6124626.398,
+          "quote_volume": 604524359.99435,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 699.61,
+          "change_pct": 0.076,
+          "volume": 223262.0,
+          "quote_volume": 157889513.22741,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
