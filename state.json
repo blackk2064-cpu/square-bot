@@ -3236,6 +3236,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787770941.4481072,
+      "category": "education",
+      "symbol": "BNB",
+      "topic": "education",
+      "text_hash": "01b3b2c18b491ef27f7aa5eae63f80bd8f1c8cd5c559d8d0e8c38635efda78a7",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78466.4,
+          "change_pct": -0.848,
+          "volume": 15356.00181,
+          "quote_volume": 1206427473.3213253,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2471.11,
+          "change_pct": 0.141,
+          "volume": 240371.2531,
+          "quote_volume": 589724094.886998,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.75,
+          "change_pct": -1.777,
+          "volume": 2311694.33,
+          "quote_volume": 223642131.54668,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 698.01,
+          "change_pct": -0.216,
+          "volume": 134235.885,
+          "quote_volume": 93743656.87871,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
