@@ -2907,6 +2907,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787702520.1850212,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Galaxy expands retail crypto lending with new BTC, ETH and SOL-backed credit line",
+      "text_hash": "2b01255d04604880f6c3da1f54474bc1e39ea243bd5a282e852f828a36b1bb1a",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78548.15,
+          "change_pct": -0.577,
+          "volume": 24776.81808,
+          "quote_volume": 1972506712.744188,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2442.66,
+          "change_pct": -1.626,
+          "volume": 341358.1177,
+          "quote_volume": 845917991.098204,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.59,
+          "change_pct": -2.257,
+          "volume": 4968758.877,
+          "quote_volume": 496003312.26627,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 694.44,
+          "change_pct": -1.418,
+          "volume": 174456.318,
+          "quote_volume": 122854096.0935,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
