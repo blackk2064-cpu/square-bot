@@ -3283,6 +3283,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787781774.5900288,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Galaxy Opens Retail Crypto-Backed Credit Lines on Bitcoin, Ethereum and Solana",
+      "text_hash": "8957c4438a8f59e0b700c7adfd4776a4d8c1cf0a1d1b2f9514b0b13240f9a1a6",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78728.0,
+          "change_pct": 0.13,
+          "volume": 14251.13818,
+          "quote_volume": 1119571711.0218542,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2496.55,
+          "change_pct": 2.142,
+          "volume": 237318.6792,
+          "quote_volume": 583959328.501674,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 98.17,
+          "change_pct": 0.905,
+          "volume": 2148852.152,
+          "quote_volume": 207858277.42602,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 703.41,
+          "change_pct": 1.439,
+          "volume": 131217.164,
+          "quote_volume": 91707101.98291,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
