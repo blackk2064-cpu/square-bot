@@ -3565,6 +3565,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787850099.3249362,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Charles Schwab adda Solana, Avalanche and Chainlink to nascent crypto platform",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80386.84,
+          "change_pct": 3.057,
+          "volume": 16465.6555,
+          "quote_volume": 1307250315.0880075,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2521.98,
+          "change_pct": 3.155,
+          "volume": 347038.6466,
+          "quote_volume": 869607836.827564,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.01,
+          "change_pct": 13.588,
+          "volume": 4976372.726,
+          "quote_volume": 513750037.73362,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 711.78,
+          "change_pct": 2.267,
+          "volume": 130213.788,
+          "quote_volume": 92035611.88654,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
