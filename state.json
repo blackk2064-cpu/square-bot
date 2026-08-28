@@ -4364,6 +4364,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787954512.9721363,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Solana validators approve proposal to accelerate SOL disinflation",
+      "text_hash": "c632546363879901f489bffa746805c437c4c3274b9db2c34de5b054f5468174",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77394.0,
+          "change_pct": -3.499,
+          "volume": 19684.97763,
+          "quote_volume": 1557599545.2166302,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2425.64,
+          "change_pct": -3.187,
+          "volume": 360799.0602,
+          "quote_volume": 893610044.71695,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.5,
+          "change_pct": -4.889,
+          "volume": 4666782.348,
+          "quote_volume": 494459745.79428,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 687.49,
+          "change_pct": -3.258,
+          "volume": 144951.12,
+          "quote_volume": 101848881.80596,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
