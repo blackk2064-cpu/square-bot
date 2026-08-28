@@ -4035,6 +4035,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787929313.1978693,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "ENA token rises 10% as Ethena puts revenue-funded token buybacks to vote",
+      "text_hash": "f28c59541191b4501efaf89dc8cd5b2405fd6b9e12f6aad4b87e66e6e2fe72ed",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79736.67,
+          "change_pct": -0.546,
+          "volume": 18172.00885,
+          "quote_volume": 1452216223.8663247,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2516.21,
+          "change_pct": -0.059,
+          "volume": 296819.1889,
+          "quote_volume": 743578277.601602,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.34,
+          "change_pct": -0.598,
+          "volume": 4575746.913,
+          "quote_volume": 490589572.41446,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 705.32,
+          "change_pct": -0.662,
+          "volume": 123950.42,
+          "quote_volume": 87880090.26152,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
