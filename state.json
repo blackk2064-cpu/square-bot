@@ -4599,6 +4599,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1787990573.4321384,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77615.27,
+          "change_pct": -2.616,
+          "volume": 16627.24998,
+          "quote_volume": 1302809104.4152882,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2435.08,
+          "change_pct": -2.503,
+          "volume": 319484.4772,
+          "quote_volume": 787181586.110064,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.62,
+          "change_pct": -2.686,
+          "volume": 3843964.782,
+          "quote_volume": 403019993.7098,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 687.96,
+          "change_pct": -2.712,
+          "volume": 124351.603,
+          "quote_volume": 86535415.6146,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
