@@ -5116,6 +5116,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788109305.4419725,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
+      "text_hash": "c2dfc00dab254da0a9a72a74bf87279d9ede15d9f9a96fea55b6c73f6e0dbbc9",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79292.42,
+          "change_pct": 1.613,
+          "volume": 6737.85414,
+          "quote_volume": 528494399.4672864,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2525.69,
+          "change_pct": 3.024,
+          "volume": 163996.9689,
+          "quote_volume": 405932997.402821,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.8,
+          "change_pct": 1.821,
+          "volume": 1470431.798,
+          "quote_volume": 155450006.09644,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 703.25,
+          "change_pct": 1.726,
+          "volume": 79551.043,
+          "quote_volume": 55298310.84269,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 80,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
