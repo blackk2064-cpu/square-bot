@@ -5304,6 +5304,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788138141.0480165,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Bitcoin’s new quantum defenses, 18.9M SOL cancelled: Hodler’s Digest",
+      "text_hash": "395981825264b14dc238f5825a8ed1409c355e4fc8b0365b064b8ed5b58fdec3",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77953.75,
+          "change_pct": -0.287,
+          "volume": 9616.35314,
+          "quote_volume": 753746309.0759258,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2429.13,
+          "change_pct": -1.208,
+          "volume": 284653.7418,
+          "quote_volume": 702122625.632334,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.14,
+          "change_pct": -2.955,
+          "volume": 2138287.33,
+          "quote_volume": 224330947.17974,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 686.47,
+          "change_pct": -0.835,
+          "volume": 100735.189,
+          "quote_volume": 69920935.28108,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
