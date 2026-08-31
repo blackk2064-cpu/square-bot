@@ -5445,6 +5445,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788184912.702572,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Mutiny? Metaplanet moves 4,800 BTC worth $377M to Coinbase",
+      "text_hash": "5d2ac1b83298f3f7cfbdea2fcd16f2160a3c4d13995fd745a025d579024ba076",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77879.09,
+          "change_pct": -1.202,
+          "volume": 14845.03977,
+          "quote_volume": 1161199304.265571,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2440.58,
+          "change_pct": -1.33,
+          "volume": 355797.9425,
+          "quote_volume": 873863291.586547,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.41,
+          "change_pct": -4.191,
+          "volume": 2662661.034,
+          "quote_volume": 275985282.27376,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 685.56,
+          "change_pct": -1.921,
+          "volume": 111194.215,
+          "quote_volume": 76712989.23374,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
