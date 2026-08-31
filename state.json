@@ -5633,6 +5633,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788206567.9525065,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Bitmine now controls 4.9% of Ethereum supply after adding 53.5K ETH",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78884.96,
+          "change_pct": 0.001,
+          "volume": 16758.81038,
+          "quote_volume": 1310669953.140746,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2481.65,
+          "change_pct": -0.979,
+          "volume": 349862.4678,
+          "quote_volume": 855917508.37079,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.58,
+          "change_pct": -2.191,
+          "volume": 2629078.664,
+          "quote_volume": 270573881.2547,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 691.66,
+          "change_pct": -1.172,
+          "volume": 110009.274,
+          "quote_volume": 75669416.84355,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
