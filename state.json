@@ -6009,6 +6009,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788296556.148598,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Ethena launches USDe payments app, offers 6% rewards",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77449.98,
+          "change_pct": -1.794,
+          "volume": 14168.33199,
+          "quote_volume": 1105974448.515837,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2421.18,
+          "change_pct": -2.093,
+          "volume": 259233.1746,
+          "quote_volume": 633799692.188291,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.05,
+          "change_pct": -3.585,
+          "volume": 2419434.938,
+          "quote_volume": 246612330.70826,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 680.88,
+          "change_pct": -1.522,
+          "volume": 86479.717,
+          "quote_volume": 59410720.62936,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
