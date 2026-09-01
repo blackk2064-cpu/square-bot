@@ -5868,6 +5868,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788271312.4647694,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "George Santos Bet on Whether He'd Show Up to the State of the Union—Kalshi Just Banned Him for Life",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78113.31,
+          "change_pct": 0.292,
+          "volume": 14362.31534,
+          "quote_volume": 1126649473.79229,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2444.26,
+          "change_pct": 0.137,
+          "volume": 241462.2199,
+          "quote_volume": 594900041.224152,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.99,
+          "change_pct": -0.41,
+          "volume": 2102650.439,
+          "quote_volume": 216665721.51376,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 687.17,
+          "change_pct": 0.235,
+          "volume": 80411.383,
+          "quote_volume": 55475147.01604,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
