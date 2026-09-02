@@ -6526,6 +6526,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788354165.8008869,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Japan’s Remixpoint dumps altcoins, leaves 1,506 BTC as sole crypto bet",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 76663.72,
+          "change_pct": -1.733,
+          "volume": 14631.65264,
+          "quote_volume": 1130729436.050604,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2379.81,
+          "change_pct": -2.74,
+          "volume": 328651.2502,
+          "quote_volume": 791825615.621776,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 97.81,
+          "change_pct": -4.042,
+          "volume": 2398326.857,
+          "quote_volume": 239680602.72719,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 683.47,
+          "change_pct": -0.47,
+          "volume": 105048.641,
+          "quote_volume": 71855138.07412,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
