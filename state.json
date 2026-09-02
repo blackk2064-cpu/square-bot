@@ -6479,6 +6479,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788347024.1792035,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August",
+      "text_hash": "ad0eb26d0fa20cad047bdc9debb63912757df743783d693d1afd346e33b2f717",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 76706.75,
+          "change_pct": -1.648,
+          "volume": 14222.30604,
+          "quote_volume": 1100359149.7359166,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2374.99,
+          "change_pct": -3.256,
+          "volume": 317306.605,
+          "quote_volume": 766163871.782932,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 98.26,
+          "change_pct": -3.968,
+          "volume": 2450266.651,
+          "quote_volume": 245638564.37031,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 682.97,
+          "change_pct": -0.5,
+          "volume": 102878.919,
+          "quote_volume": 70392389.39159,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
