@@ -6573,6 +6573,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788357730.422739,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77114.01,
+          "change_pct": -1.226,
+          "volume": 14145.30519,
+          "quote_volume": 1092210276.9403973,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2401.54,
+          "change_pct": -1.694,
+          "volume": 333661.4469,
+          "quote_volume": 803002191.188889,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 99.15,
+          "change_pct": -2.718,
+          "volume": 2380201.917,
+          "quote_volume": 237447408.42256,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 687.39,
+          "change_pct": 0.063,
+          "volume": 105918.059,
+          "quote_volume": 72455248.81811,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
