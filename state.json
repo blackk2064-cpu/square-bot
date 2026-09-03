@@ -7137,6 +7137,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788472920.8262603,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "CFTC files to dismiss CME lawsuit over crypto perpetual futures",
+      "text_hash": "4718e98c5da7fe1e2e19fdb579a7cae1218b4b33275363411e009bfba1da6e4f",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81560.01,
+          "change_pct": 5.58,
+          "volume": 19069.97723,
+          "quote_volume": 1518278921.7949548,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2510.65,
+          "change_pct": 5.099,
+          "volume": 345939.8228,
+          "quote_volume": 847707055.179841,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.19,
+          "change_pct": 5.612,
+          "volume": 2774599.978,
+          "quote_volume": 284539475.01369,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 724.96,
+          "change_pct": 5.544,
+          "volume": 162109.532,
+          "quote_volume": 115197754.06519,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
