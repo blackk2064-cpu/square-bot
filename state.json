@@ -6902,6 +6902,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788418986.8227255,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Hyperscale Data ends Michigan BTC mining as holdings fall 79%",
+      "text_hash": "d4bd6ecf5fa00cc5c055bbbfef9d551215fedb9c785218472c2d23e9c839bcd5",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77862.89,
+          "change_pct": 0.291,
+          "volume": 13139.52557,
+          "quote_volume": 1014161314.2662585,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2409.98,
+          "change_pct": -0.488,
+          "volume": 281429.7337,
+          "quote_volume": 672793693.809287,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.95,
+          "change_pct": 0.809,
+          "volume": 2034434.744,
+          "quote_volume": 202283358.56864,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 698.23,
+          "change_pct": 1.425,
+          "volume": 87071.276,
+          "quote_volume": 59889258.59313,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
