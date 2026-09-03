@@ -7043,6 +7043,53 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788436910.3596678,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Standard Chartered launches spot Bitcoin and Ether trading in UAE",
+      "text_hash": "661df3c50166dbb174e304a72bcab76bc5f627a5f16d8cfea4e9f0f76139acb0",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77902.01,
+          "change_pct": 1.456,
+          "volume": 11515.35016,
+          "quote_volume": 891505268.1302999,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2405.87,
+          "change_pct": 1.09,
+          "volume": 245164.215,
+          "quote_volume": 587297231.976793,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.77,
+          "change_pct": 2.774,
+          "volume": 1951646.337,
+          "quote_volume": 194921417.77263,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 711.49,
+          "change_pct": 4.08,
+          "volume": 113866.317,
+          "quote_volume": 79233647.33852,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
