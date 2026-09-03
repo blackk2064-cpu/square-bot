@@ -6949,6 +6949,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788422535.6441495,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Ether, XRP ETF inflow streaks end as Bitcoin funds rebound",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77720.0,
+          "change_pct": 0.289,
+          "volume": 13310.89571,
+          "quote_volume": 1027701838.7462322,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2400.11,
+          "change_pct": -0.761,
+          "volume": 289156.2568,
+          "quote_volume": 691308049.42501,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.45,
+          "change_pct": 0.591,
+          "volume": 2104860.998,
+          "quote_volume": 209426239.71757,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 698.76,
+          "change_pct": 1.589,
+          "volume": 90998.388,
+          "quote_volume": 62650972.68744,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
