@@ -7090,6 +7090,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788465718.0869782,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks",
+      "text_hash": "88d4fb2b26c558d28bcd1dd571f84befe4d3692212a61597cc70200e29648bea",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81626.01,
+          "change_pct": 5.54,
+          "volume": 17859.21426,
+          "quote_volume": 1416466517.901042,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2512.74,
+          "change_pct": 5.051,
+          "volume": 333633.7477,
+          "quote_volume": 815411381.100435,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.06,
+          "change_pct": 5.705,
+          "volume": 2716716.512,
+          "quote_volume": 277766884.24791,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 723.84,
+          "change_pct": 5.421,
+          "volume": 159876.916,
+          "quote_volume": 113399559.32176,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
