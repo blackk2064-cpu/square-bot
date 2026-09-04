@@ -7654,6 +7654,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788555705.4738421,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "A16z-Backed OpenReserve Gets Approval for Full-Service National Bank",
+      "text_hash": "89c35e8e59704bad96c3e9e155df0658a17bd84fa2c5dc8a428b73793fcfd2ad",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79705.46,
+          "change_pct": -2.163,
+          "volume": 20313.80995,
+          "quote_volume": 1631678015.530588,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2451.24,
+          "change_pct": -2.152,
+          "volume": 429649.2781,
+          "quote_volume": 1067283054.934305,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.78,
+          "change_pct": -3.03,
+          "volume": 2440766.695,
+          "quote_volume": 251182356.22671,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 718.08,
+          "change_pct": -0.887,
+          "volume": 156077.53,
+          "quote_volume": 112332613.06144,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
