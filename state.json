@@ -7466,6 +7466,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788523311.5998201,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Bitcoin ETF inflows hit $731M, highest since January as BTC reclaims $80K",
+      "text_hash": "7bb4b115b75579c1dedbd7db70a05f7d3b956ca2b864f065db21003c9aa0b83f",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81251.99,
+          "change_pct": 4.255,
+          "volume": 21595.83654,
+          "quote_volume": 1742512841.9751468,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2524.68,
+          "change_pct": 4.897,
+          "volume": 405194.6273,
+          "quote_volume": 1011315375.933086,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.13,
+          "change_pct": 3.293,
+          "volume": 2869065.8,
+          "quote_volume": 298198721.35524,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 724.68,
+          "change_pct": 1.808,
+          "volume": 171028.748,
+          "quote_volume": 123258337.48125,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
