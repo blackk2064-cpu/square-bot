@@ -7889,6 +7889,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788634945.1323278,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
+      "text_hash": "a214f4ed247760a4a8f86340af3c591fe688459127524497a7771e21426035d3",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79948.04,
+          "change_pct": 0.358,
+          "volume": 8897.3358,
+          "quote_volume": 709450595.7588112,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2478.18,
+          "change_pct": 1.066,
+          "volume": 133402.7693,
+          "quote_volume": 328059270.178326,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.79,
+          "change_pct": 2.055,
+          "volume": 1489650.234,
+          "quote_volume": 152910750.41913,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 775.57,
+          "change_pct": 7.839,
+          "volume": 317868.699,
+          "quote_volume": 239375964.56377,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
