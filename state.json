@@ -7701,6 +7701,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788598940.7574618,
+      "category": "sarcastic",
+      "symbol": "BTC",
+      "topic": "sarcastic",
+      "text_hash": "f1204b2321f8a09da9439c96d7de2db1e6b25797cd72885676cc4c9df36f33d1",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79650.01,
+          "change_pct": -1.826,
+          "volume": 16554.62161,
+          "quote_volume": 1320888405.9725149,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2456.83,
+          "change_pct": -2.733,
+          "volume": 336976.8267,
+          "quote_volume": 831759513.804213,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.6,
+          "change_pct": -1.649,
+          "volume": 1901141.709,
+          "quote_volume": 194035342.61615,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.05,
+          "change_pct": 4.32,
+          "volume": 192580.616,
+          "quote_volume": 140203173.6814,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
