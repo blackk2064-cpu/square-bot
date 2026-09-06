@@ -7936,6 +7936,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788688915.6302865,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
+      "text_hash": "6a09a0aa4b740766f553ec2d495ebaf371ffc9b5d642b07c92bbc8539cca2332",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79896.0,
+          "change_pct": 0.332,
+          "volume": 10027.86073,
+          "quote_volume": 800713038.6291288,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2500.16,
+          "change_pct": 1.693,
+          "volume": 182339.1771,
+          "quote_volume": 453323226.564173,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.53,
+          "change_pct": 3.891,
+          "volume": 2393467.72,
+          "quote_volume": 250089344.81666,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 757.64,
+          "change_pct": 1.294,
+          "volume": 289133.388,
+          "quote_volume": 221048947.68858,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
