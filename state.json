@@ -8359,6 +8359,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788807735.2805107,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Capital B adds 376 Bitcoin in $29M purchase, boosting holdings to 3,521 BTC",
+      "text_hash": "d20d8cb1bdccef5181bd35a4ae43e495d30f455de1252ee5b9cd67edb31aca1e",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79196.15,
+          "change_pct": -0.95,
+          "volume": 11428.49433,
+          "quote_volume": 909671917.810893,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2491.8,
+          "change_pct": -0.105,
+          "volume": 270991.9431,
+          "quote_volume": 676685055.634664,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.92,
+          "change_pct": -1.935,
+          "volume": 2261283.481,
+          "quote_volume": 237607873.04519,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.81,
+          "change_pct": -1.322,
+          "volume": 131672.27,
+          "quote_volume": 98203451.01334,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
