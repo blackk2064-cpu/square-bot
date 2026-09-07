@@ -8265,6 +8265,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788782534.6052501,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Bitcoin sidechain Liquid pauses after purported ‘white hats’ withdraw $320M in BTC",
+      "text_hash": "72b7332e3269a590a1cf74dcc8e6e70163776a0e5831afe91307eca23cd157f6",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79423.97,
+          "change_pct": -0.62,
+          "volume": 10440.90922,
+          "quote_volume": 832892689.5539308,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2489.75,
+          "change_pct": -0.478,
+          "volume": 251593.6537,
+          "quote_volume": 628414543.074514,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.94,
+          "change_pct": -1.446,
+          "volume": 2442153.508,
+          "quote_volume": 258067405.93247,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.0,
+          "change_pct": -1.732,
+          "volume": 150400.153,
+          "quote_volume": 112567361.79234,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
