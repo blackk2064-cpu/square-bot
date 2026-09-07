@@ -8453,6 +8453,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788818516.06247,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Ethereum Foundation names 2 ‘must ship’ EIPs for Hegotá upgrade",
+      "text_hash": "975ef12e1f9b88658435b26cef81c9d1f09fa0f420b6a1423773dc68941ce9d7",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79165.99,
+          "change_pct": -0.929,
+          "volume": 11201.97402,
+          "quote_volume": 891172732.8296413,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2490.64,
+          "change_pct": -0.627,
+          "volume": 269164.7019,
+          "quote_volume": 671969161.76888,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.83,
+          "change_pct": -1.89,
+          "volume": 2226721.209,
+          "quote_volume": 233731091.58021,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.15,
+          "change_pct": -1.591,
+          "volume": 127338.111,
+          "quote_volume": 94876191.81163,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
