@@ -8218,6 +8218,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788742906.6995995,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "‘White hats’ take 4000 BTC from Liquid, ETFs see best inflows of 2026: Hodler’s Digest",
+      "text_hash": "ea93868bae2481035d380e701ee4ec2e8816ce88c4b8d5f4fc4647b99c36f6e1",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80151.1,
+          "change_pct": 0.302,
+          "volume": 9177.90637,
+          "quote_volume": 733392697.2300355,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2512.67,
+          "change_pct": 0.87,
+          "volume": 219814.5071,
+          "quote_volume": 549262758.873551,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.13,
+          "change_pct": 2.7,
+          "volume": 2755724.95,
+          "quote_volume": 291982434.48405,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.49,
+          "change_pct": -2.14,
+          "volume": 180122.714,
+          "quote_volume": 135986365.32403,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
