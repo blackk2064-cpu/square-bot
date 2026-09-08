@@ -8782,6 +8782,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788894129.2901003,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Bitmine buys 28k ETH, completes 97% of treasury accumulation goal",
+      "text_hash": "c5826ab5afdd886aae5e6d3d9126638920b219b30b7dea4ba966d8b608a39a98",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78472.0,
+          "change_pct": -0.914,
+          "volume": 18736.78151,
+          "quote_volume": 1471861432.4055164,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2488.38,
+          "change_pct": -0.137,
+          "volume": 254283.9845,
+          "quote_volume": 631185326.387581,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.43,
+          "change_pct": -0.462,
+          "volume": 1978589.043,
+          "quote_volume": 204617113.41682,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 749.53,
+          "change_pct": 1.315,
+          "volume": 179136.91,
+          "quote_volume": 134421782.60915,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 80,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
