@@ -8688,6 +8688,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788868918.4100773,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "‘The chain is now earnings’: Bernstein sees 31% upside for Robinhood as fees top Solana, BNB Chain",
+      "text_hash": "3453b6b6c3fa2e86ca27b4a3890b85c3216da34c9c0f4386483dfc403e3b483a",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78392.14,
+          "change_pct": -1.299,
+          "volume": 16366.75186,
+          "quote_volume": 1289164660.4650905,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2473.5,
+          "change_pct": -0.653,
+          "volume": 233621.4949,
+          "quote_volume": 580604757.480616,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.79,
+          "change_pct": -2.039,
+          "volume": 1960356.218,
+          "quote_volume": 203366280.79462,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 752.55,
+          "change_pct": 1.015,
+          "volume": 173301.998,
+          "quote_volume": 129605914.63061,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
