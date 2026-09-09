@@ -9064,6 +9064,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788973318.2557158,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Tether, Fasanara launch $400M private credit fund targeting $3B",
+      "text_hash": "52eaabe88c8d0d572f0ccb403dad3d97a46b96926940c7bcce9d46c86de0fa1b",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78796.01,
+          "change_pct": 0.071,
+          "volume": 13802.98248,
+          "quote_volume": 1089672109.5570655,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2495.53,
+          "change_pct": -0.043,
+          "volume": 272420.3438,
+          "quote_volume": 680610543.469909,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.36,
+          "change_pct": -0.844,
+          "volume": 1917513.378,
+          "quote_volume": 198916105.11347,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 740.64,
+          "change_pct": -2.001,
+          "volume": 145415.183,
+          "quote_volume": 108933435.2972,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
