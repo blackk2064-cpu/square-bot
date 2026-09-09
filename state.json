@@ -8970,6 +8970,53 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788962571.9293807,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "10 of the greatest unsolved crypto mysteries",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 79128.0,
+          "change_pct": 1.457,
+          "volume": 12386.53348,
+          "quote_volume": 977645559.8071898,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2503.55,
+          "change_pct": 1.745,
+          "volume": 259666.3115,
+          "quote_volume": 648570622.573968,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.89,
+          "change_pct": 1.129,
+          "volume": 1811588.098,
+          "quote_volume": 188198980.82786,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.35,
+          "change_pct": -0.268,
+          "volume": 130084.331,
+          "quote_volume": 97825324.49949,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
