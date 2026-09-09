@@ -8876,6 +8876,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1788944562.981198,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79642.1,
+          "change_pct": 1.584,
+          "volume": 13740.93623,
+          "quote_volume": 1079945007.4869926,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2518.48,
+          "change_pct": 1.67,
+          "volume": 251270.6933,
+          "quote_volume": 625561317.118914,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.77,
+          "change_pct": 1.709,
+          "volume": 1787092.443,
+          "quote_volume": 185160715.44333,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 757.26,
+          "change_pct": 0.27,
+          "volume": 148128.629,
+          "quote_volume": 111467489.77846,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
