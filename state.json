@@ -9534,6 +9534,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789066905.1177552,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Nasdaq invests $100M in Kraken parent at $21B valuation: Report",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77232.01,
+          "change_pct": -1.482,
+          "volume": 15609.57503,
+          "quote_volume": 1213009536.2018576,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2467.64,
+          "change_pct": -0.514,
+          "volume": 374187.4442,
+          "quote_volume": 916387831.181707,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 99.85,
+          "change_pct": -3.274,
+          "volume": 2315625.418,
+          "quote_volume": 233436192.32401,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 714.33,
+          "change_pct": -3.462,
+          "volume": 205701.127,
+          "quote_volume": 147592916.99496,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
