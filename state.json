@@ -9628,6 +9628,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789074110.1563675,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Solana sees record 263K tokens issued in a single day",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77271.22,
+          "change_pct": -1.274,
+          "volume": 15112.26182,
+          "quote_volume": 1173498638.9002478,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2462.21,
+          "change_pct": -0.28,
+          "volume": 364897.5779,
+          "quote_volume": 893342604.511271,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.08,
+          "change_pct": -2.304,
+          "volume": 2219272.774,
+          "quote_volume": 223328175.80413,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 715.01,
+          "change_pct": -2.521,
+          "volume": 200686.584,
+          "quote_volume": 143753565.7194,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
