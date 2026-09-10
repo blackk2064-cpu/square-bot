@@ -9205,6 +9205,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789023755.033659,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
+      "text_hash": "bcdf97ff31e7ac091bbbaa5e447bb70cb194c3646f0a360f1a2b3e13b1dc11c1",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78407.84,
+          "change_pct": -0.943,
+          "volume": 14210.14255,
+          "quote_volume": 1119107709.162137,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2480.05,
+          "change_pct": -0.807,
+          "volume": 290381.2304,
+          "quote_volume": 722217481.484462,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.92,
+          "change_pct": -2.506,
+          "volume": 2103838.724,
+          "quote_volume": 216349734.72782,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 721.09,
+          "change_pct": -4.451,
+          "volume": 186251.28,
+          "quote_volume": 136995888.51908,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
