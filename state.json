@@ -10004,6 +10004,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789117374.8550453,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Blockstream rejects ransom as Liquid hackers hold nearly 600 BTC",
+      "text_hash": "2ff0251ab8df857fc87d465b4c771a546233fbec90620e7604fec47e2274f227",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77364.94,
+          "change_pct": -0.964,
+          "volume": 15245.50699,
+          "quote_volume": 1177298488.3935533,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2476.72,
+          "change_pct": 0.207,
+          "volume": 383113.1962,
+          "quote_volume": 937321506.724831,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 99.92,
+          "change_pct": -1.236,
+          "volume": 1951294.151,
+          "quote_volume": 194718838.85377,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 714.1,
+          "change_pct": -0.621,
+          "volume": 150323.448,
+          "quote_volume": 106985526.73539,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
