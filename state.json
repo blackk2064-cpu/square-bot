@@ -10286,6 +10286,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789160566.6495416,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal",
+      "text_hash": "0784cb8f5a196562c893f61c31e3d6802c0725f2778526c9f8d3b0e06b4fa22d",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77337.34,
+          "change_pct": 0.086,
+          "volume": 19170.97922,
+          "quote_volume": 1486546651.004506,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2531.03,
+          "change_pct": 2.795,
+          "volume": 624523.9509,
+          "quote_volume": 1586283912.325863,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.53,
+          "change_pct": 2.458,
+          "volume": 3130543.711,
+          "quote_volume": 317446856.60544,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 726.23,
+          "change_pct": 1.569,
+          "volume": 170341.228,
+          "quote_volume": 123265777.38237,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
