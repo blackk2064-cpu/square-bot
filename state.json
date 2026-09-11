@@ -9816,6 +9816,53 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789102988.16498,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Researchers halve quantum resource benchmark for key operation in Bitcoin, Ethereum attack",
+      "text_hash": "712a5bca1736b9c5771618d90cdb30b8c645a394618ce8e63b81bab52dab2983",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77107.14,
+          "change_pct": -1.647,
+          "volume": 15784.40419,
+          "quote_volume": 1220859701.3925986,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2458.45,
+          "change_pct": -0.821,
+          "volume": 367210.9313,
+          "quote_volume": 898170080.904796,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 99.67,
+          "change_pct": -2.284,
+          "volume": 2021388.291,
+          "quote_volume": 202160160.52399,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 716.5,
+          "change_pct": -0.869,
+          "volume": 162703.989,
+          "quote_volume": 115963065.23831,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
