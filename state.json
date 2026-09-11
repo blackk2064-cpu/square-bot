@@ -10051,6 +10051,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789121019.0249376,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "SBF asks Supreme Court to overturn conviction, $11B forfeiture: Report",
+      "text_hash": "57c4efb0e1aed33b1e0a77a9ca889d218d6a0dff6161b30e81b34ff583f1636f",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77044.55,
+          "change_pct": -1.184,
+          "volume": 15192.03735,
+          "quote_volume": 1172594788.5430498,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2469.76,
+          "change_pct": 0.075,
+          "volume": 382869.5066,
+          "quote_volume": 936720132.912913,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 99.42,
+          "change_pct": -1.642,
+          "volume": 1932356.495,
+          "quote_volume": 192719335.99813,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 713.03,
+          "change_pct": -0.617,
+          "volume": 149926.719,
+          "quote_volume": 106681434.87053,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
