@@ -10239,6 +10239,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789142508.1881413,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
+      "text_hash": "5c7c3da6a89a518a9fc07f235f8b75d0723a2f9680c18293d79bb563d5edff7a",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77897.86,
+          "change_pct": 0.849,
+          "volume": 18035.90395,
+          "quote_volume": 1398052250.0364954,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2570.06,
+          "change_pct": 5.256,
+          "volume": 595327.5984,
+          "quote_volume": 1504326072.145135,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.95,
+          "change_pct": 2.226,
+          "volume": 2822803.262,
+          "quote_volume": 285487435.54823,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 730.77,
+          "change_pct": 3.22,
+          "volume": 176449.92,
+          "quote_volume": 127219135.0982,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
