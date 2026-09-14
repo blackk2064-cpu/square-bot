@@ -11085,6 +11085,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789401714.3895702,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Morning Minute: Clarity Act Odds Soar as Trump Agrees to Ethics Provisions",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78598.0,
+          "change_pct": 1.874,
+          "volume": 12686.60195,
+          "quote_volume": 985616749.5701861,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2509.99,
+          "change_pct": 0.738,
+          "volume": 276748.5797,
+          "quote_volume": 693783776.020922,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.06,
+          "change_pct": 1.775,
+          "volume": 1827264.759,
+          "quote_volume": 184703524.34147,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 723.08,
+          "change_pct": 0.569,
+          "volume": 114746.461,
+          "quote_volume": 82819976.48792,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
