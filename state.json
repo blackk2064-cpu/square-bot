@@ -11038,6 +11038,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789398120.3813624,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Symbiosis says recovered 15 BTC from bridge hack, offers 20% bounty",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78476.0,
+          "change_pct": 1.663,
+          "volume": 12012.12474,
+          "quote_volume": 932349665.0376768,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2500.2,
+          "change_pct": 0.36,
+          "volume": 275236.4523,
+          "quote_volume": 689781651.735772,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.58,
+          "change_pct": 0.924,
+          "volume": 1741294.643,
+          "quote_volume": 175877170.26506,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 721.28,
+          "change_pct": 0.395,
+          "volume": 108641.396,
+          "quote_volume": 78408613.11681,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
