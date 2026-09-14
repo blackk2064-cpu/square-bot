@@ -10850,6 +10850,53 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789376584.3880959,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Bitcoin ETFs shed $463M in weekly reversal as Ether ETFs gain $197M",
+      "text_hash": "8de35d178037a99e18eb0fc549be162eaec2187ee27fffd35cf6b5dd342c14ec",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77742.01,
+          "change_pct": 1.203,
+          "volume": 9974.93335,
+          "quote_volume": 770221197.6668267,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2518.91,
+          "change_pct": 0.958,
+          "volume": 260930.6592,
+          "quote_volume": 651642491.466038,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.52,
+          "change_pct": 1.449,
+          "volume": 1504362.412,
+          "quote_volume": 151242585.51581,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 724.32,
+          "change_pct": 0.868,
+          "volume": 87766.235,
+          "quote_volume": 63187358.23783,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
