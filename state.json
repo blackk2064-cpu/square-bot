@@ -11132,6 +11132,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789416138.349293,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Strive adds 469 Bitcoin to reach 25,000 BTC treasury",
+      "text_hash": "3d63f4e9b0b1de4da2c974cb18359288c5db79b87c2333f9e9d4592f48c0eb58",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78998.0,
+          "change_pct": 2.212,
+          "volume": 14700.8064,
+          "quote_volume": 1145787526.4785311,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2540.81,
+          "change_pct": 1.364,
+          "volume": 296526.6004,
+          "quote_volume": 745280589.359139,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.25,
+          "change_pct": 2.248,
+          "volume": 2099772.838,
+          "quote_volume": 213179712.50675,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 725.46,
+          "change_pct": 0.581,
+          "volume": 131525.316,
+          "quote_volume": 95025370.55862,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
