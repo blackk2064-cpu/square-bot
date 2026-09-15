@@ -11555,6 +11555,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789502531.791232,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 76166.56,
+          "change_pct": -3.584,
+          "volume": 21617.24217,
+          "quote_volume": 1660298761.5580478,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2414.52,
+          "change_pct": -4.97,
+          "volume": 485595.6115,
+          "quote_volume": 1198109790.413736,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 97.89,
+          "change_pct": -5.2,
+          "volume": 2847046.92,
+          "quote_volume": 285834508.47247,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 719.53,
+          "change_pct": -0.816,
+          "volume": 144448.093,
+          "quote_volume": 103942953.00534,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
