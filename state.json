@@ -12119,6 +12119,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789578133.7434888,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Anchorage expands institutional custody to Etherlink, tokenized uranium",
+      "text_hash": "fed752d4246a81923598a2ed2097e2fa84f28db369bbb41e67329d2aca267329",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 75756.01,
+          "change_pct": -0.82,
+          "volume": 16359.91386,
+          "quote_volume": 1241724897.5878077,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2391.58,
+          "change_pct": -1.249,
+          "volume": 333261.2802,
+          "quote_volume": 800507131.200814,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 97.22,
+          "change_pct": -1.877,
+          "volume": 2522256.405,
+          "quote_volume": 245916959.55036,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 713.34,
+          "change_pct": -0.866,
+          "volume": 127248.768,
+          "quote_volume": 90792170.99193,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
