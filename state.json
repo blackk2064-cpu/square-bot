@@ -11790,6 +11790,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789538532.0254211,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Clarity Act preliminary vote falls short in Senate amid ethics fight over Trump’s crypto wealth",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 75976.01,
+          "change_pct": -2.184,
+          "volume": 21158.37668,
+          "quote_volume": 1613458648.4916296,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2407.8,
+          "change_pct": -3.591,
+          "volume": 411633.5432,
+          "quote_volume": 998781016.057785,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 97.24,
+          "change_pct": -4.093,
+          "volume": 2849177.663,
+          "quote_volume": 281164927.82346,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 715.37,
+          "change_pct": -0.891,
+          "volume": 133390.661,
+          "quote_volume": 95581592.36647,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
