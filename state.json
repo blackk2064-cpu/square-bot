@@ -11931,6 +11931,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789552998.9408484,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Tonkeeper Becomes Keeper as Wallet Adds Bitcoin, Ethereum, and Tron",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 75993.01,
+          "change_pct": -1.303,
+          "volume": 20940.63456,
+          "quote_volume": 1593814385.689299,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2405.78,
+          "change_pct": -2.793,
+          "volume": 407093.2947,
+          "quote_volume": 983911455.413688,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 97.31,
+          "change_pct": -3.51,
+          "volume": 2803358.866,
+          "quote_volume": 275586693.03378,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 710.82,
+          "change_pct": -0.975,
+          "volume": 140570.853,
+          "quote_volume": 100523554.18665,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
