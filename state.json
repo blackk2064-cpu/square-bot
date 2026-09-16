@@ -11978,6 +11978,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789560093.3691108,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 76210.54,
+          "change_pct": -0.931,
+          "volume": 20724.45962,
+          "quote_volume": 1576383946.517207,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2421.74,
+          "change_pct": -2.196,
+          "volume": 409847.9834,
+          "quote_volume": 989416721.445787,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 98.0,
+          "change_pct": -2.797,
+          "volume": 2822167.992,
+          "quote_volume": 276961072.50619,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 714.17,
+          "change_pct": -0.661,
+          "volume": 141969.9,
+          "quote_volume": 101483965.6257,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
