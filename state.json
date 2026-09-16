@@ -12025,6 +12025,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789563740.3577569,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Deutsche Bank awaits regulatory nod to launch institutional crypto custody solutions",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 75944.01,
+          "change_pct": -1.328,
+          "volume": 20770.81815,
+          "quote_volume": 1579447470.901168,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2406.61,
+          "change_pct": -2.951,
+          "volume": 410901.5124,
+          "quote_volume": 991197424.811264,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 97.58,
+          "change_pct": -3.396,
+          "volume": 2775645.381,
+          "quote_volume": 272013737.7726,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 712.91,
+          "change_pct": -1.047,
+          "volume": 142070.576,
+          "quote_volume": 101534675.05166,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
