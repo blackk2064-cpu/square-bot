@@ -12495,6 +12495,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789675344.0472784,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Bitcoin treasury firms can outperform BTC... but is the risk worth taking?",
+      "text_hash": "4248cab1a47ebb29620a2a8e451b7ff3ed0dd30e08a99c9dc0539d88f92a50ca",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 76555.24,
+          "change_pct": 0.627,
+          "volume": 11832.33911,
+          "quote_volume": 904959329.956858,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2448.86,
+          "change_pct": 1.693,
+          "volume": 256640.2215,
+          "quote_volume": 627419680.522664,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.96,
+          "change_pct": 2.884,
+          "volume": 2144064.384,
+          "quote_volume": 214624097.94327,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 732.69,
+          "change_pct": 1.856,
+          "volume": 126077.915,
+          "quote_volume": 91563692.67004,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
