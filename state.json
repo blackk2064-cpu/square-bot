@@ -12354,6 +12354,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789650145.848581,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Bitcoin treasuries buy just 5.9K BTC in three months as paper losses linger",
+      "text_hash": "493d53152ffca610b13f1cc921beffcf545d65e2f65bf8f41305abaa1b7a5302",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 76761.59,
+          "change_pct": 1.077,
+          "volume": 14580.46695,
+          "quote_volume": 1109618178.1823387,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2461.17,
+          "change_pct": 2.267,
+          "volume": 331126.0886,
+          "quote_volume": 799786025.440816,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.83,
+          "change_pct": 3.331,
+          "volume": 2440257.268,
+          "quote_volume": 240736349.99416,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 729.15,
+          "change_pct": 2.277,
+          "volume": 133489.571,
+          "quote_volume": 96287430.71752,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
