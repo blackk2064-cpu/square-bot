@@ -1,96 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787104622.475723,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "FalconX, Interstice Connect Canton to Ethereum, Solana and Robinhood Chain",
-      "text_hash": "381755753f6d54093e60fd0b44c226c336931f1ea2669ed37ac011407f0a8082",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 64424.84,
-          "change_pct": 0.391,
-          "volume": 11635.63916,
-          "quote_volume": 749564248.253727,
-          "funding_rate": 1.491e-05,
-          "open_interest": 106171.776
-        },
-        "ETH": {
-          "price": 1914.52,
-          "change_pct": 0.727,
-          "volume": 146563.7282,
-          "quote_volume": 279463343.325934,
-          "funding_rate": 3.057e-05,
-          "open_interest": 2383123.382
-        },
-        "SOL": {
-          "price": 76.81,
-          "change_pct": 1.574,
-          "volume": 1487955.832,
-          "quote_volume": 113754143.01021,
-          "funding_rate": 9.853e-05,
-          "open_interest": 9033237.73
-        },
-        "BNB": {
-          "price": 603.56,
-          "change_pct": -0.045,
-          "volume": 76214.789,
-          "quote_volume": 45931553.79828,
-          "funding_rate": 2.836e-05,
-          "open_interest": 604921.99
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null
-    },
-    {
-      "timestamp": 1787105018.6094089,
-      "category": "events",
-      "symbol": "SOL",
-      "topic": "events",
-      "text_hash": "969bc9e8f2c5f6bb272a2d92d53d2d5b0734aed65b2e0145d36ac590b144a10e",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 64385.18,
-          "change_pct": 0.251,
-          "volume": 11650.41306,
-          "quote_volume": 750519555.9317816,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 1912.69,
-          "change_pct": 0.564,
-          "volume": 146484.8768,
-          "quote_volume": 279318127.028324,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 76.78,
-          "change_pct": 1.574,
-          "volume": 1480953.534,
-          "quote_volume": 113229931.19399,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 603.41,
-          "change_pct": -0.109,
-          "volume": 76096.268,
-          "quote_volume": 45859947.73599,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null
-    },
-    {
       "timestamp": 1787115696.3175063,
       "category": "analysis",
       "symbol": "ETH",
@@ -12541,6 +12451,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1789704140.3814733,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Ethereum Founder Vitalik Buterin Says AI Won’t Doom Crypto Security",
+      "text_hash": "a3977fc0812c4f2b5485e1190147dd977b1430eb303316ef92af7c8d34d5fc60",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77383.46,
+          "change_pct": 1.237,
+          "volume": 11609.15999,
+          "quote_volume": 890055493.3245153,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2480.04,
+          "change_pct": 1.805,
+          "volume": 241508.9046,
+          "quote_volume": 593318642.405424,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.76,
+          "change_pct": 4.802,
+          "volume": 2491745.254,
+          "quote_volume": 252528359.3963,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 751.82,
+          "change_pct": 3.625,
+          "volume": 144765.23,
+          "quote_volume": 106174889.3661,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
