@@ -1,239 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787115696.3175063,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis",
-      "text_hash": "ad1fe4da40658b2109aa3b88c07e47bc39287a0cf54770b0e04d0fe607d243c7",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 64319.31,
-          "change_pct": 0.171,
-          "volume": 11091.8394,
-          "quote_volume": 714933445.1264666,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 1910.74,
-          "change_pct": 0.759,
-          "volume": 139231.9451,
-          "quote_volume": 265839103.061324,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 76.86,
-          "change_pct": 1.358,
-          "volume": 1353038.958,
-          "quote_volume": 103707675.56184,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 601.9,
-          "change_pct": -0.26,
-          "volume": 76126.454,
-          "quote_volume": 45871063.83098,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null
-    },
-    {
-      "timestamp": 1787121360.5289392,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "a9b6fdc70852aeffa6fc1675893a59cbb1b43be7a67828fe050813064b2f8adf",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 64274.26,
-          "change_pct": -0.166,
-          "volume": 9872.32445,
-          "quote_volume": 636628341.6461129,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 1910.99,
-          "change_pct": 0.504,
-          "volume": 140040.1922,
-          "quote_volume": 267489980.21325,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 76.85,
-          "change_pct": 1.185,
-          "volume": 1339963.783,
-          "quote_volume": 102781422.63381,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 601.75,
-          "change_pct": -0.521,
-          "volume": 76020.906,
-          "quote_volume": 45798067.11072,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787133698.9455104,
-      "category": "education",
-      "symbol": "BNB",
-      "topic": "education",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 64427.07,
-          "change_pct": 0.412,
-          "volume": 10034.01387,
-          "quote_volume": 647149193.7079314,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 1919.3,
-          "change_pct": 1.175,
-          "volume": 147610.3453,
-          "quote_volume": 282442204.399995,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 77.32,
-          "change_pct": 1.804,
-          "volume": 1355199.528,
-          "quote_volume": 104188206.42188,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 602.47,
-          "change_pct": 0.226,
-          "volume": 72718.087,
-          "quote_volume": 43803778.55864,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787137374.5807447,
-      "category": "education",
-      "symbol": "BNB",
-      "topic": "education",
-      "text_hash": "62f7e11b9d7b641729d66171949ff385fe1fd36f721b207be10635697815e45d",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 64454.99,
-          "change_pct": 0.409,
-          "volume": 10078.46399,
-          "quote_volume": 650064123.922469,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 1919.92,
-          "change_pct": 1.149,
-          "volume": 147836.7974,
-          "quote_volume": 282944979.339983,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 77.38,
-          "change_pct": 2.017,
-          "volume": 1341538.339,
-          "quote_volume": 103187319.75332,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 602.76,
-          "change_pct": 0.276,
-          "volume": 69323.273,
-          "quote_volume": 41765189.72553,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787144516.624303,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Solana Policy Institute CEO says Clarity Act in ‘August recess purgatory,’ gives it 10% odds before midterms",
-      "text_hash": "3b93c7ea2f59dc2266dcdbf3a5bdafdf2ae1a7043d2f42189bdb9b88caf2b1ca",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 64849.33,
-          "change_pct": 1.028,
-          "volume": 10595.15431,
-          "quote_volume": 683711870.433964,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 1935.5,
-          "change_pct": 1.951,
-          "volume": 168165.6196,
-          "quote_volume": 322396778.101791,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 78.35,
-          "change_pct": 2.808,
-          "volume": 1514541.819,
-          "quote_volume": 117011881.63691,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 604.25,
-          "change_pct": 0.524,
-          "volume": 70955.705,
-          "quote_volume": 42763110.15235,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787202123.958009,
       "category": "general_news",
       "symbol": "BNB",
@@ -12498,6 +12265,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1789740128.5824797,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80300.0,
+          "change_pct": 4.628,
+          "volume": 16946.0611,
+          "quote_volume": 1317283414.7534628,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2561.53,
+          "change_pct": 3.941,
+          "volume": 338147.9675,
+          "quote_volume": 842094361.493511,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.8,
+          "change_pct": 7.894,
+          "volume": 3443137.544,
+          "quote_volume": 358974195.56489,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 759.61,
+          "change_pct": 4.43,
+          "volume": 202785.631,
+          "quote_volume": 151288658.39088,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
