@@ -12407,6 +12407,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789750942.1969066,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80853.96,
+          "change_pct": 5.336,
+          "volume": 21601.44156,
+          "quote_volume": 1700968229.4794047,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2595.31,
+          "change_pct": 5.058,
+          "volume": 409424.0441,
+          "quote_volume": 1032101247.988517,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 111.62,
+          "change_pct": 10.079,
+          "volume": 4288198.969,
+          "quote_volume": 455740239.2848,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 758.52,
+          "change_pct": 4.085,
+          "volume": 221770.205,
+          "quote_volume": 166299468.94861,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
