@@ -1,147 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787248990.436192,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "US debt tops $40T stoking debate on what it means for Bitcoin",
-      "text_hash": "0e3c9328aa764ef5d37cf1d2ebdcab445505bf7934fa1e108fd17459e14c1c83",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 72798.0,
-          "change_pct": 6.739,
-          "volume": 38245.33876,
-          "quote_volume": 2707175802.449553,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2347.72,
-          "change_pct": 12.248,
-          "volume": 879220.0246,
-          "quote_volume": 1988694854.464812,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 87.64,
-          "change_pct": 7.284,
-          "volume": 4566373.997,
-          "quote_volume": 392736065.06377,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 654.0,
-          "change_pct": 5.913,
-          "volume": 325043.911,
-          "quote_volume": 206478726.30275,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787252522.3224936,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Inside the Oval Office meeting: Trump appears ‘bullish’ on Clarity Act as he solicits feedback from crypto, finance CEOs",
-      "text_hash": "f992444875b4d10374836888498cca3e9cfc95d6fab397bbdb8d88349df3f6f3",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 72404.23,
-          "change_pct": 5.915,
-          "volume": 38587.5197,
-          "quote_volume": 2734704471.9995575,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2315.42,
-          "change_pct": 10.769,
-          "volume": 894472.8571,
-          "quote_volume": 2028348786.446011,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 86.87,
-          "change_pct": 5.72,
-          "volume": 4551934.768,
-          "quote_volume": 392189596.36843,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 647.23,
-          "change_pct": 4.903,
-          "volume": 325866.457,
-          "quote_volume": 207193601.31043,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787256109.657083,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 72662.55,
-          "change_pct": 6.148,
-          "volume": 38673.70367,
-          "quote_volume": 2744074512.4346538,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2324.82,
-          "change_pct": 10.515,
-          "volume": 896136.9295,
-          "quote_volume": 2037980085.583867,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 87.31,
-          "change_pct": 5.959,
-          "volume": 4558436.769,
-          "quote_volume": 393236571.7207,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 650.39,
-          "change_pct": 5.448,
-          "volume": 314679.846,
-          "quote_volume": 200404145.3889,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787281302.3866036,
       "category": "education",
       "symbol": "BNB",
@@ -12218,6 +12077,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1789851702.0383866,
+      "category": "sarcastic",
+      "symbol": "BTC",
+      "topic": "sarcastic",
+      "text_hash": "0afe4d4d107d7e0dd7ab4239b30f288f49414491ab35e1e9833851221ec7a79c",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81170.88,
+          "change_pct": 0.036,
+          "volume": 10744.92951,
+          "quote_volume": 874143658.1171045,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2636.46,
+          "change_pct": 0.103,
+          "volume": 208384.8203,
+          "quote_volume": 548668321.440717,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 111.16,
+          "change_pct": -2.148,
+          "volume": 2076498.975,
+          "quote_volume": 233081639.45371,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 762.34,
+          "change_pct": -0.262,
+          "volume": 117269.627,
+          "quote_volume": 89734762.97161,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
