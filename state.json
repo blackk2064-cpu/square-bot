@@ -1,476 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787202123.958009,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "FalconX, Ethena bring USDe backing assets into $1B institutional credit facility",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 69498.32,
-          "change_pct": 8.052,
-          "volume": 32124.33888,
-          "quote_volume": 2176821631.4230423,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2251.37,
-          "change_pct": 17.827,
-          "volume": 894985.3841,
-          "quote_volume": 1903423636.037089,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 84.87,
-          "change_pct": 10.407,
-          "volume": 4500738.244,
-          "quote_volume": 370400630.26304,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 626.9,
-          "change_pct": 4.154,
-          "volume": 262199.852,
-          "quote_volume": 162410015.48893,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787209296.3498344,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 69832.01,
-          "change_pct": 8.542,
-          "volume": 33947.42223,
-          "quote_volume": 2307689248.274681,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2261.26,
-          "change_pct": 17.941,
-          "volume": 922440.9686,
-          "quote_volume": 1969281606.170017,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 85.82,
-          "change_pct": 11.368,
-          "volume": 4639719.383,
-          "quote_volume": 382946626.28129,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 629.84,
-          "change_pct": 4.529,
-          "volume": 272406.883,
-          "quote_volume": 168948213.33194,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787212928.0243287,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "FalconX, Ethena bring USDe backing assets into $1B institutional credit facility",
-      "text_hash": "052acfa9a9126d3f640692424979f637e7b915466b5e6e7f715e0981e4c9d6aa",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 69777.69,
-          "change_pct": 8.526,
-          "volume": 35450.67955,
-          "quote_volume": 2415853559.090315,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2250.69,
-          "change_pct": 17.468,
-          "volume": 935185.7096,
-          "quote_volume": 2000838753.902676,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 86.1,
-          "change_pct": 11.876,
-          "volume": 4719019.918,
-          "quote_volume": 390107632.96551,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 630.37,
-          "change_pct": 4.747,
-          "volume": 276457.962,
-          "quote_volume": 171578027.09762,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787220106.552832,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "GnosisDAO approves Gnosis Chain for Ethereum Economic Zone",
-      "text_hash": "d20d8cb1bdccef5181bd35a4ae43e495d30f455de1252ee5b9cd67edb31aca1e",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 71754.02,
-          "change_pct": 11.372,
-          "volume": 42173.0241,
-          "quote_volume": 2900547049.0616446,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2277.12,
-          "change_pct": 18.644,
-          "volume": 993899.6085,
-          "quote_volume": 2140110455.94228,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 87.29,
-          "change_pct": 12.894,
-          "volume": 5222632.614,
-          "quote_volume": 435625556.48886,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 642.69,
-          "change_pct": 6.676,
-          "volume": 329772.47,
-          "quote_volume": 205988357.3484,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787223748.3819377,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "GnosisDAO approves Gnosis Chain for Ethereum Economic Zone",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 71947.29,
-          "change_pct": 11.624,
-          "volume": 44250.24759,
-          "quote_volume": 3052174882.640897,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2283.46,
-          "change_pct": 18.935,
-          "volume": 1019201.2333,
-          "quote_volume": 2199162351.258991,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 87.28,
-          "change_pct": 12.794,
-          "volume": 5308124.93,
-          "quote_volume": 443349562.03026,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 643.75,
-          "change_pct": 6.8,
-          "volume": 344254.652,
-          "quote_volume": 215415802.93793,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787227290.117441,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "GnosisDAO approves Gnosis Chain for Ethereum Economic Zone",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 71960.0,
-          "change_pct": 11.561,
-          "volume": 45313.04565,
-          "quote_volume": 3130916195.377183,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2298.16,
-          "change_pct": 19.476,
-          "volume": 1059442.5667,
-          "quote_volume": 2294138445.017513,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 87.26,
-          "change_pct": 12.506,
-          "volume": 5424062.338,
-          "quote_volume": 454043561.10607,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 645.95,
-          "change_pct": 7.151,
-          "volume": 352301.408,
-          "quote_volume": 220787719.2864,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787230920.7291772,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "GnosisDAO approves Gnosis Chain for Ethereum Economic Zone",
-      "text_hash": "d20d8cb1bdccef5181bd35a4ae43e495d30f455de1252ee5b9cd67edb31aca1e",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 71918.0,
-          "change_pct": 10.899,
-          "volume": 46107.68157,
-          "quote_volume": 3193451057.599041,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2288.67,
-          "change_pct": 18.247,
-          "volume": 1068480.4318,
-          "quote_volume": 2322277067.76168,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 87.07,
-          "change_pct": 11.13,
-          "volume": 5310177.642,
-          "quote_volume": 446512646.45808,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 642.93,
-          "change_pct": 6.401,
-          "volume": 360084.953,
-          "quote_volume": 225965380.10285,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787234509.761615,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "GnosisDAO approves Gnosis Chain for Ethereum Economic Zone",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 71668.01,
-          "change_pct": 10.164,
-          "volume": 46631.10668,
-          "quote_volume": 3241830239.108432,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2276.41,
-          "change_pct": 17.711,
-          "volume": 1073865.5985,
-          "quote_volume": 2343328901.525838,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 86.52,
-          "change_pct": 10.329,
-          "volume": 5393870.527,
-          "quote_volume": 455209104.77474,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 641.58,
-          "change_pct": 6.185,
-          "volume": 364363.341,
-          "quote_volume": 229018624.88384,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787238098.9721193,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "GnosisDAO approves Gnosis Chain for Ethereum Economic Zone",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 71813.68,
-          "change_pct": 8.855,
-          "volume": 45697.90962,
-          "quote_volume": 3189536344.432014,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2282.14,
-          "change_pct": 15.771,
-          "volume": 1035444.831,
-          "quote_volume": 2274817972.403883,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 86.59,
-          "change_pct": 6.98,
-          "volume": 5173866.139,
-          "quote_volume": 438847485.05214,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 642.18,
-          "change_pct": 5.464,
-          "volume": 365692.166,
-          "quote_volume": 230244016.97839,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787241725.6914723,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Congress can still ‘land this plane’ on crypto bill as ethics talks stall, says Democratic Sen. Gallego",
-      "text_hash": "85c4ff2e5b99fca8e9245534f44952b01d96626ef1484234f5864a4cc7cf0653",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 72400.36,
-          "change_pct": 5.51,
-          "volume": 39341.64712,
-          "quote_volume": 2771412677.3413754,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2321.82,
-          "change_pct": 11.183,
-          "volume": 897404.1191,
-          "quote_volume": 2007131142.710008,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 87.25,
-          "change_pct": 6.519,
-          "volume": 4542800.135,
-          "quote_volume": 388635262.36106,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 651.59,
-          "change_pct": 5.58,
-          "volume": 330525.972,
-          "quote_volume": 209104886.61536,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787248990.436192,
       "category": "binance_news",
       "symbol": "ETH",
@@ -12641,6 +12171,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1789840897.269438,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
+      "text_hash": "67210502f55b0b3798809839ec59e59c0564334e2eadde7fefbb71bc590488ee",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81457.85,
+          "change_pct": 0.642,
+          "volume": 11987.08629,
+          "quote_volume": 974604686.9627309,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2643.9,
+          "change_pct": 1.507,
+          "volume": 267746.4313,
+          "quote_volume": 704285064.501794,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 111.42,
+          "change_pct": -0.872,
+          "volume": 2271589.336,
+          "quote_volume": 255823286.50355,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 762.79,
+          "change_pct": 0.198,
+          "volume": 128575.604,
+          "quote_volume": 98401850.81084,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
