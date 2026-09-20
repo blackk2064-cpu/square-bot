@@ -1,194 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787295733.6919296,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75630.0,
-          "change_pct": 8.303,
-          "volume": 39655.21968,
-          "quote_volume": 2881454010.8852143,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2371.8,
-          "change_pct": 4.888,
-          "volume": 627509.7961,
-          "quote_volume": 1452559227.694758,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 90.21,
-          "change_pct": 5.103,
-          "volume": 4503128.165,
-          "quote_volume": 396253706.41141,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 666.79,
-          "change_pct": 5.868,
-          "volume": 284095.036,
-          "quote_volume": 184636319.05227,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787299329.9573607,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "South Korea’s Shinhan partners with Solana Foundation, Etherfuse, Orca for tokenized fund issuance",
-      "text_hash": "3b32a6f75ae9878d3a463a22099deb9660ee57886b6e0c8b8cba15992f9a9a5d",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76330.01,
-          "change_pct": 9.39,
-          "volume": 41308.14374,
-          "quote_volume": 3021900417.530398,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2373.44,
-          "change_pct": 5.454,
-          "volume": 653416.6979,
-          "quote_volume": 1516962523.567944,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 90.42,
-          "change_pct": 5.03,
-          "volume": 4676922.528,
-          "quote_volume": 412532338.96945,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 669.73,
-          "change_pct": 6.242,
-          "volume": 300445.886,
-          "quote_volume": 195883746.31786,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787306514.2314632,
-      "category": "sarcastic",
-      "symbol": "ETH",
-      "topic": "sarcastic",
-      "text_hash": "d973c76a7a6c4d67fc29effeaf34b8cf9af4875ae140cfe0f672ba756ce69561",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77840.11,
-          "change_pct": 8.495,
-          "volume": 42530.48743,
-          "quote_volume": 3164158005.169409,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2402.42,
-          "change_pct": 5.522,
-          "volume": 700313.9978,
-          "quote_volume": 1639366760.26431,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 91.63,
-          "change_pct": 4.984,
-          "volume": 5103081.995,
-          "quote_volume": 454397575.65263,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 677.93,
-          "change_pct": 5.483,
-          "volume": 328690.157,
-          "quote_volume": 217172677.56119,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787335350.4736507,
-      "category": "sarcastic",
-      "symbol": "BTC",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77392.01,
-          "change_pct": 6.311,
-          "volume": 42444.59513,
-          "quote_volume": 3231367634.888652,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2423.5,
-          "change_pct": 3.227,
-          "volume": 640944.1431,
-          "quote_volume": 1522942360.139849,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 91.76,
-          "change_pct": 4.689,
-          "volume": 5222602.931,
-          "quote_volume": 471268820.87803,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 679.16,
-          "change_pct": 3.847,
-          "volume": 313710.47,
-          "quote_volume": 210385353.83729,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787349713.7553966,
       "category": "sarcastic",
       "symbol": "BTC",
@@ -12124,6 +11936,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1789934508.0586674,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81188.01,
+          "change_pct": -0.219,
+          "volume": 11737.16772,
+          "quote_volume": 948278849.0456344,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2634.42,
+          "change_pct": -0.026,
+          "volume": 205268.9744,
+          "quote_volume": 533790198.442025,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.49,
+          "change_pct": -0.612,
+          "volume": 2347299.117,
+          "quote_volume": 256448710.64918,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.95,
+          "change_pct": 0.899,
+          "volume": 111731.207,
+          "quote_volume": 84451672.26088,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
