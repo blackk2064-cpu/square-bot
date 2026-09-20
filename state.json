@@ -11984,6 +11984,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789938111.9748847,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
+      "text_hash": "45863daaab3f9b0f584352a1a01e5ed4fe7385c791485c46fa623b9b1a17bbfc",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81086.93,
+          "change_pct": -0.103,
+          "volume": 11501.51154,
+          "quote_volume": 929099706.012831,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2634.51,
+          "change_pct": -0.063,
+          "volume": 206636.3578,
+          "quote_volume": 537389870.558571,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.11,
+          "change_pct": -0.945,
+          "volume": 2358825.158,
+          "quote_volume": 257675427.24735,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 768.29,
+          "change_pct": 0.78,
+          "volume": 112225.388,
+          "quote_volume": 84850810.1024,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
