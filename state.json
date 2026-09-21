@@ -12172,6 +12172,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789999352.5915813,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Kyle Samani predicts SOL flippening, claims ‘no one’ uses ETH",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 85457.73,
+          "change_pct": 6.055,
+          "volume": 24773.91238,
+          "quote_volume": 2061429676.6529613,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2733.13,
+          "change_pct": 5.87,
+          "volume": 452736.4846,
+          "quote_volume": 1214308157.139114,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.31,
+          "change_pct": 9.283,
+          "volume": 4031839.355,
+          "quote_volume": 455901980.275,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 794.62,
+          "change_pct": 5.627,
+          "volume": 232760.863,
+          "quote_volume": 181030764.32581,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
