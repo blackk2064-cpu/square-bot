@@ -12078,6 +12078,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1789981309.6462193,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "ZetaChain holders approve plan to wind down L1, move ZETA to Solana",
+      "text_hash": "4a6a29c2ad6fe804e6caca4ebb658e22f39b96999c6a7ec6be5b0bc3fd2816bb",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83758.28,
+          "change_pct": 4.363,
+          "volume": 15364.01633,
+          "quote_volume": 1256479565.6369634,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2694.37,
+          "change_pct": 4.635,
+          "volume": 317894.6275,
+          "quote_volume": 842969824.83475,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 115.2,
+          "change_pct": 6.578,
+          "volume": 3003607.495,
+          "quote_volume": 333573256.9145,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 780.65,
+          "change_pct": 4.196,
+          "volume": 173098.563,
+          "quote_volume": 133442149.4598,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
