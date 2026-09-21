@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787418174.907383,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Solana cuts blockchain slot time to 350 milliseconds",
-      "text_hash": "47008fbea37826d7fc1aced4df81a8423c33ddf68023cc00e442c4838d0b4037",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77298.84,
-          "change_pct": -0.245,
-          "volume": 23040.06568,
-          "quote_volume": 1786448143.931846,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2423.4,
-          "change_pct": 0.754,
-          "volume": 644753.0679,
-          "quote_volume": 1586038992.223359,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 94.35,
-          "change_pct": 3.036,
-          "volume": 7697462.61,
-          "quote_volume": 727405183.48288,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 696.59,
-          "change_pct": 2.538,
-          "volume": 449340.244,
-          "quote_volume": 313374013.64495,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787432493.0526292,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77308.01,
-          "change_pct": -0.215,
-          "volume": 19868.67796,
-          "quote_volume": 1541426620.5102463,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2431.52,
-          "change_pct": -0.371,
-          "volume": 589442.8403,
-          "quote_volume": 1452574658.666912,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 94.38,
-          "change_pct": 2.799,
-          "volume": 7519445.431,
-          "quote_volume": 712082457.96984,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 697.59,
-          "change_pct": 3.157,
-          "volume": 430361.655,
-          "quote_volume": 300860019.47736,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787436136.786677,
       "category": "analysis",
       "symbol": "BNB",
@@ -12218,6 +12124,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790024539.6201546,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86937.42,
+          "change_pct": 7.223,
+          "volume": 31081.58942,
+          "quote_volume": 2620902178.02918,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2781.13,
+          "change_pct": 5.565,
+          "volume": 572436.2765,
+          "quote_volume": 1553944736.440055,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.11,
+          "change_pct": 8.183,
+          "volume": 4561272.748,
+          "quote_volume": 526486269.06852,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 804.67,
+          "change_pct": 4.735,
+          "volume": 287597.953,
+          "quote_volume": 226159132.05259,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
