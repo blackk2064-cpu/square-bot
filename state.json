@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787410908.9650235,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77015.23,
-          "change_pct": -0.422,
-          "volume": 24722.19099,
-          "quote_volume": 1916891893.0593443,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2412.96,
-          "change_pct": 0.883,
-          "volume": 682960.3516,
-          "quote_volume": 1677347511.431256,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 93.19,
-          "change_pct": 1.47,
-          "volume": 7724830.73,
-          "quote_volume": 729240754.1332,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 691.55,
-          "change_pct": 1.938,
-          "volume": 455377.415,
-          "quote_volume": 317265677.6311,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787418174.907383,
       "category": "macro_news",
       "symbol": "BNB",
@@ -12218,6 +12171,53 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790006497.4405692,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Kyle Samani predicts SOL flippening, claims ‘no one’ uses ETH",
+      "text_hash": "1114ec514f296c216cb115519686c48b593abbbc81660520d5f5fdc1135524ea",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85934.04,
+          "change_pct": 6.209,
+          "volume": 28238.05431,
+          "quote_volume": 2363339231.9151444,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2754.98,
+          "change_pct": 5.467,
+          "volume": 501212.1011,
+          "quote_volume": 1350660177.488057,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.95,
+          "change_pct": 8.53,
+          "volume": 4514296.284,
+          "quote_volume": 515155829.84746,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 802.91,
+          "change_pct": 6.045,
+          "volume": 279277.511,
+          "quote_volume": 218605628.29802,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
