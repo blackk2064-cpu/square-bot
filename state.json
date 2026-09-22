@@ -12313,6 +12313,53 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790078514.4676073,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Crypto’s wild boom-and-bust cycles are fading, Solstice CEO says",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 85992.82,
+          "change_pct": 1.337,
+          "volume": 25908.97002,
+          "quote_volume": 2223986090.279296,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2742.44,
+          "change_pct": 0.664,
+          "volume": 410836.301,
+          "quote_volume": 1129513866.934904,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.32,
+          "change_pct": 0.488,
+          "volume": 4026362.477,
+          "quote_volume": 473685843.84356,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 786.86,
+          "change_pct": -0.297,
+          "volume": 242233.389,
+          "quote_volume": 192390760.54186,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
