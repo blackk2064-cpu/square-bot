@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787518899.4554021,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Bitget CEO sees Bitcoin near current levels at year-end, doubts US will buy BTC",
-      "text_hash": "8f2ad24e07d1e9ccfc9f7194b0f385abd40ca30e416016cf95fb3f107368673d",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77418.8,
-          "change_pct": 0.143,
-          "volume": 15107.12586,
-          "quote_volume": 1161167987.2125008,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2451.18,
-          "change_pct": 0.809,
-          "volume": 354729.8906,
-          "quote_volume": 859269436.928986,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 95.09,
-          "change_pct": 0.763,
-          "volume": 3782057.809,
-          "quote_volume": 356761580.37716,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 700.24,
-          "change_pct": 0.38,
-          "volume": 163693.044,
-          "quote_volume": 113253846.37427,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787533291.4921088,
       "category": "analysis",
       "symbol": "ETH",
@@ -12453,6 +12406,53 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790110959.8700824,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "OpenAI Launches GPT-6 Sol and Luna Minutes After Anthropic Drops Claude Opus 5.5",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 86274.18,
+          "change_pct": -0.78,
+          "volume": 21766.82347,
+          "quote_volume": 1872483357.854959,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2751.43,
+          "change_pct": -1.086,
+          "volume": 294211.1749,
+          "quote_volume": 808261386.268953,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.0,
+          "change_pct": -0.924,
+          "volume": 3160933.928,
+          "quote_volume": 371301108.27555,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 784.91,
+          "change_pct": -2.48,
+          "volume": 196549.135,
+          "quote_volume": 155257244.9156,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
