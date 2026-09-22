@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787511711.4847748,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Bitget CEO sees Bitcoin near current levels at year-end, doubts US will buy BTC",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77364.38,
-          "change_pct": 0.145,
-          "volume": 15257.54177,
-          "quote_volume": 1172801452.8036554,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2448.64,
-          "change_pct": 0.903,
-          "volume": 360195.7315,
-          "quote_volume": 872436964.217673,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 95.33,
-          "change_pct": 0.942,
-          "volume": 3832453.515,
-          "quote_volume": 361471413.88267,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 699.66,
-          "change_pct": 0.238,
-          "volume": 165365.076,
-          "quote_volume": 114419943.64251,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787515301.3130493,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Bitget CEO sees Bitcoin near current levels at year-end, doubts US will buy BTC",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77321.26,
-          "change_pct": -0.125,
-          "volume": 15289.29482,
-          "quote_volume": 1175261385.3450897,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2444.0,
-          "change_pct": 0.157,
-          "volume": 355455.833,
-          "quote_volume": 860985782.380947,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 95.04,
-          "change_pct": 0.518,
-          "volume": 3796954.557,
-          "quote_volume": 358144479.59145,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 698.83,
-          "change_pct": 0.001,
-          "volume": 166519.928,
-          "quote_volume": 115229585.56631,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787518899.4554021,
       "category": "general_news",
       "symbol": "ETH",
@@ -12500,6 +12406,53 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790107342.4059103,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Binance takes $100M stake in Circle under expanded USDC deal",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86231.73,
+          "change_pct": -0.392,
+          "volume": 22386.39449,
+          "quote_volume": 1926898706.1768534,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2751.9,
+          "change_pct": -0.455,
+          "volume": 318541.0882,
+          "quote_volume": 876458941.048854,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.23,
+          "change_pct": -0.051,
+          "volume": 3282056.086,
+          "quote_volume": 385757914.84353,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 786.33,
+          "change_pct": -1.758,
+          "volume": 198149.679,
+          "quote_volume": 156625169.17939,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
