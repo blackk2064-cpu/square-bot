@@ -12407,6 +12407,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790085743.997654,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Binance takes $100M stake in Circle under expanded USDC deal",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 86179.52,
+          "change_pct": 0.814,
+          "volume": 23834.0277,
+          "quote_volume": 2048906495.1653469,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2753.07,
+          "change_pct": 0.728,
+          "volume": 390491.1678,
+          "quote_volume": 1074593214.793898,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.68,
+          "change_pct": -0.591,
+          "volume": 3759667.749,
+          "quote_volume": 442451850.37603,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 790.7,
+          "change_pct": -0.436,
+          "volume": 239474.578,
+          "quote_volume": 190195043.91704,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
