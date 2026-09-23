@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787594532.0426803,
-      "category": "education",
-      "symbol": "BTC",
-      "topic": "education",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78844.76,
-          "change_pct": 2.169,
-          "volume": 29859.81855,
-          "quote_volume": 2338571217.3987575,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2472.4,
-          "change_pct": 1.322,
-          "volume": 491800.0866,
-          "quote_volume": 1217270862.415548,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 95.56,
-          "change_pct": 0.505,
-          "volume": 4074704.44,
-          "quote_volume": 388087504.87064,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 703.48,
-          "change_pct": 0.909,
-          "volume": 187555.515,
-          "quote_volume": 131821469.6799,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787598114.7874198,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78960.89,
-          "change_pct": 2.064,
-          "volume": 29979.77595,
-          "quote_volume": 2349137466.279954,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2475.79,
-          "change_pct": 1.099,
-          "volume": 500095.79,
-          "quote_volume": 1238077421.072892,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 95.99,
-          "change_pct": 0.692,
-          "volume": 4215060.091,
-          "quote_volume": 401606581.37215,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 703.44,
-          "change_pct": 0.522,
-          "volume": 187982.032,
-          "quote_volume": 132138321.28318,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787608915.2832344,
       "category": "general_news",
       "symbol": "ETH",
@@ -12351,6 +12257,53 @@
           "change_pct": -3.045,
           "volume": 210877.385,
           "quote_volume": 164377228.97375,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790193706.252925,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "US stablecoin adoption could surge with bank-like protections: Visa survey",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84504.0,
+          "change_pct": -2.004,
+          "volume": 22812.26476,
+          "quote_volume": 1947286833.0050056,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2678.09,
+          "change_pct": -2.682,
+          "volume": 358868.9145,
+          "quote_volume": 974552668.403156,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 114.63,
+          "change_pct": -3.045,
+          "volume": 3674688.935,
+          "quote_volume": 428598643.81023,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 768.04,
+          "change_pct": -2.325,
+          "volume": 206554.714,
+          "quote_volume": 160738581.18995,
           "funding_rate": null,
           "open_interest": null
         }
