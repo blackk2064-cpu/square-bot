@@ -12313,6 +12313,53 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790197324.0249074,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "US stablecoin adoption could surge with bank-like protections: Visa survey",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84238.0,
+          "change_pct": -2.36,
+          "volume": 22591.50478,
+          "quote_volume": 1927438916.4524465,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2671.44,
+          "change_pct": -2.907,
+          "volume": 355797.0332,
+          "quote_volume": 965688871.896963,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 114.01,
+          "change_pct": -3.381,
+          "volume": 3661846.227,
+          "quote_volume": 426833635.8562,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 765.39,
+          "change_pct": -2.487,
+          "volume": 205069.174,
+          "quote_volume": 159513051.19176,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
