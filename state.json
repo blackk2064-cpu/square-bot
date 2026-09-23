@@ -1,147 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787544169.8692026,
-      "category": "education",
-      "symbol": "BTC",
-      "topic": "education",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76989.31,
-          "change_pct": 0.08,
-          "volume": 17495.8654,
-          "quote_volume": 1347309595.1971018,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2432.01,
-          "change_pct": 0.746,
-          "volume": 399059.8656,
-          "quote_volume": 970531511.304572,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 93.76,
-          "change_pct": 0.011,
-          "volume": 3328554.198,
-          "quote_volume": 313636366.1888,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 694.79,
-          "change_pct": 0.815,
-          "volume": 163996.264,
-          "quote_volume": 113729547.86947,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787547699.9618516,
-      "category": "education",
-      "symbol": "BTC",
-      "topic": "education",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76890.87,
-          "change_pct": 0.35,
-          "volume": 17526.11011,
-          "quote_volume": 1349899083.224358,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2437.98,
-          "change_pct": 2.398,
-          "volume": 387109.8942,
-          "quote_volume": 942553205.778498,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 94.22,
-          "change_pct": 1.607,
-          "volume": 3159928.88,
-          "quote_volume": 298049148.17178,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 696.74,
-          "change_pct": 2.031,
-          "volume": 153433.623,
-          "quote_volume": 106532212.43876,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787558517.191722,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77321.99,
-          "change_pct": 1.756,
-          "volume": 16525.50458,
-          "quote_volume": 1276317991.994113,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2455.55,
-          "change_pct": 2.812,
-          "volume": 381743.4387,
-          "quote_volume": 933080664.542313,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 94.12,
-          "change_pct": 1.884,
-          "volume": 3138945.464,
-          "quote_volume": 297021474.46661,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 698.83,
-          "change_pct": 2.211,
-          "volume": 137102.781,
-          "quote_volume": 95602984.70419,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787562090.0731602,
       "category": "analysis",
       "symbol": "ETH",
@@ -12500,6 +12359,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790150523.3186255,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Bitcoin ETFs take in $1.7B in 2 days as BTC tops holder cost basis",
+      "text_hash": "72c86d025e7afdfd93d60f3c36a9438b798494e81be879fd1aea694775c1aa03",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86143.51,
+          "change_pct": 0.92,
+          "volume": 20332.5764,
+          "quote_volume": 1754301038.3222032,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2743.52,
+          "change_pct": 0.632,
+          "volume": 297934.3027,
+          "quote_volume": 819897041.830317,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.91,
+          "change_pct": 1.402,
+          "volume": 2873285.927,
+          "quote_volume": 338807394.0057,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 788.71,
+          "change_pct": 0.452,
+          "volume": 160080.281,
+          "quote_volume": 126313605.65797,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
