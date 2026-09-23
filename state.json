@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787590906.7150185,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78988.01,
-          "change_pct": 2.015,
-          "volume": 28632.92081,
-          "quote_volume": 2241290341.697092,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2476.47,
-          "change_pct": 0.976,
-          "volume": 478630.493,
-          "quote_volume": 1184451673.988522,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 95.98,
-          "change_pct": 0.555,
-          "volume": 3867384.574,
-          "quote_volume": 368303920.39149,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 704.53,
-          "change_pct": 0.8,
-          "volume": 184344.019,
-          "quote_volume": 129544261.32199,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787594532.0426803,
       "category": "education",
       "symbol": "BTC",
@@ -12359,6 +12312,53 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790182910.1039422,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84040.01,
+          "change_pct": -2.705,
+          "volume": 23578.80369,
+          "quote_volume": 2019041376.6089184,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2660.9,
+          "change_pct": -3.031,
+          "volume": 368067.1758,
+          "quote_volume": 1002291886.289123,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 114.34,
+          "change_pct": -2.623,
+          "volume": 3703214.956,
+          "quote_volume": 433077831.86655,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 765.08,
+          "change_pct": -3.045,
+          "volume": 210877.385,
+          "quote_volume": 164377228.97375,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
