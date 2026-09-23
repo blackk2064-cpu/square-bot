@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787533291.4921088,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77700.0,
-          "change_pct": 0.552,
-          "volume": 15578.54905,
-          "quote_volume": 1199093657.8933024,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2465.83,
-          "change_pct": 1.471,
-          "volume": 381620.5228,
-          "quote_volume": 927500482.246221,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 95.47,
-          "change_pct": -0.81,
-          "volume": 3617368.961,
-          "quote_volume": 341434434.73763,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 704.87,
-          "change_pct": 0.713,
-          "volume": 167049.349,
-          "quote_volume": 115769731.80621,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787544169.8692026,
       "category": "education",
       "symbol": "BTC",
@@ -12500,6 +12453,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790125331.9725456,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "OpenAI Launches GPT-6 Sol and Luna Minutes After Anthropic Drops Claude Opus 5.5",
+      "text_hash": "6be648822d632c1f9636676db27188d521d81cbcf4a1431d6bd82771c250bef9",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86438.01,
+          "change_pct": 0.549,
+          "volume": 20806.22918,
+          "quote_volume": 1789054775.1856358,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2759.85,
+          "change_pct": 0.122,
+          "volume": 296993.5385,
+          "quote_volume": 815032689.347494,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.73,
+          "change_pct": 0.287,
+          "volume": 2996338.847,
+          "quote_volume": 351481271.21028,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 790.16,
+          "change_pct": -0.555,
+          "volume": 185357.888,
+          "quote_volume": 146036219.68472,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
