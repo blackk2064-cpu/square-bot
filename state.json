@@ -12360,6 +12360,53 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790204526.0276492,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Trump reveals up to $100K Strategy stock purchase in ethics filing",
+      "text_hash": "8f0b106797cf8c22074fb27741fc1edd1a32120b29295fa610101ebd072c5a2e",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84546.35,
+          "change_pct": -1.833,
+          "volume": 22561.68433,
+          "quote_volume": 1923509221.925841,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2689.74,
+          "change_pct": -2.309,
+          "volume": 344039.1461,
+          "quote_volume": 932529036.433969,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 115.09,
+          "change_pct": -2.828,
+          "volume": 3676150.378,
+          "quote_volume": 427948234.85368,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 767.69,
+          "change_pct": -2.502,
+          "volume": 203535.317,
+          "quote_volume": 158195680.10957,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
