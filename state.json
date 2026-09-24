@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787652155.9216793,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 79190.0,
-          "change_pct": 2.115,
-          "volume": 34658.17848,
-          "quote_volume": 2753132307.943294,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2474.62,
-          "change_pct": 0.49,
-          "volume": 476171.5236,
-          "quote_volume": 1187463944.462262,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.85,
-          "change_pct": 5.527,
-          "volume": 6150782.965,
-          "quote_volume": 606344453.37661,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 698.99,
-          "change_pct": -0.07,
-          "volume": 219165.333,
-          "quote_volume": 155030752.45951,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787655753.7626588,
       "category": "macro_news",
       "symbol": "SOL",
@@ -12500,6 +12453,53 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790247701.476505,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Bitcoin ETFs add $347M as BTC falls below $84K after topping $87K",
+      "text_hash": "d4bafd8a20cb85f40a9b586b778361cd56c5b088040e75b0b254c1810b2302f9",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83553.78,
+          "change_pct": -2.782,
+          "volume": 22927.17792,
+          "quote_volume": 1932899061.1469293,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2649.84,
+          "change_pct": -3.222,
+          "volume": 317254.5697,
+          "quote_volume": 849366449.951283,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 113.43,
+          "change_pct": -3.546,
+          "volume": 3138221.143,
+          "quote_volume": 360139491.8039,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 768.82,
+          "change_pct": -2.114,
+          "volume": 189012.706,
+          "quote_volume": 145404481.64248,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
