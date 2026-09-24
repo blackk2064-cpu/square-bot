@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787655753.7626588,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 79324.0,
-          "change_pct": 2.222,
-          "volume": 34378.56257,
-          "quote_volume": 2732634894.9570107,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2481.99,
-          "change_pct": 0.747,
-          "volume": 462381.9436,
-          "quote_volume": 1153367827.821336,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.66,
-          "change_pct": 5.327,
-          "volume": 6124626.398,
-          "quote_volume": 604524359.99435,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 699.61,
-          "change_pct": 0.076,
-          "volume": 223262.0,
-          "quote_volume": 157889513.22741,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787677381.6593492,
       "category": "macro_news",
       "symbol": "BNB",
@@ -12500,6 +12453,53 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790251298.9544158,
+      "category": "education",
+      "symbol": "BNB",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83460.0,
+          "change_pct": -2.585,
+          "volume": 22767.53613,
+          "quote_volume": 1918081470.689615,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2646.78,
+          "change_pct": -3.045,
+          "volume": 308464.4776,
+          "quote_volume": 824925095.00038,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 113.29,
+          "change_pct": -3.311,
+          "volume": 3095401.095,
+          "quote_volume": 354842790.53982,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.76,
+          "change_pct": -1.691,
+          "volume": 185529.953,
+          "quote_volume": 142631548.91039,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
