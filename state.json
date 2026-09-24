@@ -12454,6 +12454,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790233340.074929,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Bitcoin’s ‘last resort’ quantum-safe solution just got 79% cheaper: StarkWare",
+      "text_hash": "1072a2e39d1a5604393eb77ac5f76157cfcd858e4d56d832fc1604e6bd0fae7f",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84096.0,
+          "change_pct": -2.737,
+          "volume": 20630.57305,
+          "quote_volume": 1747743315.8022518,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2685.25,
+          "change_pct": -2.494,
+          "volume": 297375.856,
+          "quote_volume": 799827761.83497,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 114.84,
+          "change_pct": -3.407,
+          "volume": 3390293.164,
+          "quote_volume": 391822348.03158,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 772.33,
+          "change_pct": -2.481,
+          "volume": 193037.712,
+          "quote_volume": 148965307.77154,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
