@@ -12548,6 +12548,53 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790265706.378657,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Solana Foundation Hires Binance's Former Global CMO for Institutional Push",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84413.17,
+          "change_pct": 0.432,
+          "volume": 19212.18809,
+          "quote_volume": 1613948600.880045,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2682.95,
+          "change_pct": 1.013,
+          "volume": 249749.2706,
+          "quote_volume": 666096415.387189,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 116.23,
+          "change_pct": 2.037,
+          "volume": 2487578.738,
+          "quote_volume": 284924615.45347,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 780.4,
+          "change_pct": 2.508,
+          "volume": 126870.524,
+          "quote_volume": 97751971.21027,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
