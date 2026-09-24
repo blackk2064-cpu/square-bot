@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787695296.3175795,
-      "category": "sarcastic",
-      "symbol": "ETH",
-      "topic": "sarcastic",
-      "text_hash": "100f270d203255210af7041fc8e364da50714d97c3641c7578ed4ab9518fc565",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78645.6,
-          "change_pct": -0.312,
-          "volume": 24492.2779,
-          "quote_volume": 1950190655.2952914,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2444.37,
-          "change_pct": -1.488,
-          "volume": 342599.2877,
-          "quote_volume": 849401309.660077,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.29,
-          "change_pct": -0.051,
-          "volume": 5277817.8,
-          "quote_volume": 526402194.19854,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 693.43,
-          "change_pct": -1.354,
-          "volume": 176056.682,
-          "quote_volume": 124009919.88963,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787702520.1850212,
       "category": "general_news",
       "symbol": "BTC",
@@ -12453,6 +12406,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790287301.1913295,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "New York sues Polymarket over alleged illegal gambling business",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84336.0,
+          "change_pct": -0.099,
+          "volume": 18471.59752,
+          "quote_volume": 1552637149.701391,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2686.69,
+          "change_pct": 0.316,
+          "volume": 265528.1951,
+          "quote_volume": 710001885.821355,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 116.81,
+          "change_pct": 1.769,
+          "volume": 2569763.357,
+          "quote_volume": 296334885.10241,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 778.26,
+          "change_pct": 1.53,
+          "volume": 129730.622,
+          "quote_volume": 100421619.49349,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
