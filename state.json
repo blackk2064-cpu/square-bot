@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787641361.2335567,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "BNB Chain activates Pasteur hard fork to strengthen bridge security",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 80556.0,
-          "change_pct": 3.965,
-          "volume": 33212.17275,
-          "quote_volume": 2632231933.931237,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2500.73,
-          "change_pct": 1.792,
-          "volume": 477021.8632,
-          "quote_volume": 1188066712.4678,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.69,
-          "change_pct": 6.494,
-          "volume": 5936674.088,
-          "quote_volume": 582417135.03978,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 712.69,
-          "change_pct": 1.865,
-          "volume": 200998.695,
-          "quote_volume": 142067986.87892,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787652155.9216793,
       "category": "analysis",
       "symbol": "ETH",
@@ -12500,6 +12453,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790244145.7861824,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Bitcoin ETFs add $347M as BTC falls below $84K after topping $87K",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83276.0,
+          "change_pct": -2.986,
+          "volume": 22566.2043,
+          "quote_volume": 1904238412.5660775,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2642.66,
+          "change_pct": -3.312,
+          "volume": 315936.6073,
+          "quote_volume": 846685777.077461,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 113.14,
+          "change_pct": -3.629,
+          "volume": 3130543.827,
+          "quote_volume": 359793964.38693,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 766.77,
+          "change_pct": -2.049,
+          "volume": 189904.703,
+          "quote_volume": 146178948.03565,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
