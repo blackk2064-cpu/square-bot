@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787720500.4337578,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78836.07,
-          "change_pct": -1.902,
-          "volume": 19684.87635,
-          "quote_volume": 1559760822.1978395,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2457.83,
-          "change_pct": -1.473,
-          "volume": 285013.0475,
-          "quote_volume": 703435139.99948,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 96.64,
-          "change_pct": -4.591,
-          "volume": 3377409.45,
-          "quote_volume": 333392270.18494,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 694.37,
-          "change_pct": -2.782,
-          "volume": 146319.425,
-          "quote_volume": 102484614.69713,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787731365.8162935,
       "category": "analysis",
       "symbol": "SOL",
@@ -12594,6 +12547,53 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790319719.2823534,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
+      "text_hash": "ef8f0324cbe8f7f999a17ec89d73b68eef59aebf90c465e2e528dccca6ff80db",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84036.0,
+          "change_pct": -0.067,
+          "volume": 18768.49916,
+          "quote_volume": 1578329657.4949539,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2674.55,
+          "change_pct": -0.398,
+          "volume": 267868.6109,
+          "quote_volume": 716256784.899325,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 116.28,
+          "change_pct": 1.28,
+          "volume": 2696028.565,
+          "quote_volume": 312359985.08212,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 773.17,
+          "change_pct": 0.11,
+          "volume": 122347.18,
+          "quote_volume": 94939911.79187,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
