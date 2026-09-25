@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787756510.8416219,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77804.0,
-          "change_pct": -1.713,
-          "volume": 15815.60407,
-          "quote_volume": 1245187623.6800244,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2439.41,
-          "change_pct": -1.43,
-          "volume": 241114.5207,
-          "quote_volume": 592358444.817706,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 95.41,
-          "change_pct": -2.702,
-          "volume": 2349419.145,
-          "quote_volume": 228102950.59607,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 693.87,
-          "change_pct": -0.56,
-          "volume": 131215.306,
-          "quote_volume": 91668461.15092,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787763783.4947536,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Protocol upgrade decouples consensus from execution to solve scaling bottlenecks",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78009.99,
-          "change_pct": -1.39,
-          "volume": 15652.23046,
-          "quote_volume": 1230502749.6839855,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2445.2,
-          "change_pct": -0.972,
-          "volume": 242703.4282,
-          "quote_volume": 595557608.561283,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 96.0,
-          "change_pct": -2.21,
-          "volume": 2312274.719,
-          "quote_volume": 223971758.96847,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 696.15,
-          "change_pct": -0.324,
-          "volume": 132502.213,
-          "quote_volume": 92531741.81325,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787767314.8548906,
       "category": "macro_news",
       "symbol": "BTC",
@@ -12594,6 +12500,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790359307.6691086,
+      "category": "education",
+      "symbol": "SOL",
+      "topic": "education",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83818.0,
+          "change_pct": -0.304,
+          "volume": 18937.97552,
+          "quote_volume": 1595447004.2272189,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2687.02,
+          "change_pct": 0.703,
+          "volume": 268082.4381,
+          "quote_volume": 722167186.349275,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.0,
+          "change_pct": 3.64,
+          "volume": 3948909.222,
+          "quote_volume": 470166372.0289,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 773.54,
+          "change_pct": -0.601,
+          "volume": 136024.251,
+          "quote_volume": 105654714.42195,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
