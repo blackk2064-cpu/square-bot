@@ -12501,6 +12501,53 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790294509.5764077,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Sequans exits Bitcoin treasury strategy after selling remaining 314 BTC",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84410.25,
+          "change_pct": 0.015,
+          "volume": 18700.54401,
+          "quote_volume": 1571782585.2305768,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2688.08,
+          "change_pct": 0.114,
+          "volume": 266798.4794,
+          "quote_volume": 713379873.899103,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.04,
+          "change_pct": 1.765,
+          "volume": 2591171.096,
+          "quote_volume": 299069233.55898,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 776.8,
+          "change_pct": 1.218,
+          "volume": 127436.382,
+          "quote_volume": 98711710.36526,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
