@@ -12548,6 +12548,53 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790308918.73502,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84230.01,
+          "change_pct": 0.341,
+          "volume": 18732.51,
+          "quote_volume": 1575203949.9233143,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2678.07,
+          "change_pct": 0.064,
+          "volume": 270788.2381,
+          "quote_volume": 724235697.905519,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 116.87,
+          "change_pct": 1.919,
+          "volume": 2656207.945,
+          "quote_volume": 307437831.59015,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 772.95,
+          "change_pct": 0.824,
+          "volume": 120772.164,
+          "quote_volume": 93692367.44596,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
