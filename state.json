@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787731365.8162935,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 78914.18,
-          "change_pct": -1.094,
-          "volume": 18126.02907,
-          "quote_volume": 1432174417.7335846,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2461.49,
-          "change_pct": -0.832,
-          "volume": 266461.5388,
-          "quote_volume": 656394232.829235,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 96.98,
-          "change_pct": -3.445,
-          "volume": 2908572.929,
-          "quote_volume": 284939631.1918,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 698.49,
-          "change_pct": -1.16,
-          "volume": 134795.705,
-          "quote_volume": 94075801.47669,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787756510.8416219,
       "category": "analysis",
       "symbol": "BTC",
@@ -12594,6 +12547,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790330512.4494333,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "KelpDAO sues LayerZero, CEO over $292M rsETH bridge exploit",
+      "text_hash": "449d89b153a09cf6284f568a1857ac5464185bb7f1a879f77418654483c21e2d",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84566.01,
+          "change_pct": 1.537,
+          "volume": 17159.72412,
+          "quote_volume": 1444856417.359331,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2703.81,
+          "change_pct": 2.28,
+          "volume": 254519.1518,
+          "quote_volume": 681761731.075132,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.35,
+          "change_pct": 4.577,
+          "volume": 2707004.17,
+          "quote_volume": 315011448.31184,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 776.79,
+          "change_pct": 1.284,
+          "volume": 118542.235,
+          "quote_volume": 92081802.28194,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
