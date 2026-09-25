@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787702520.1850212,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Galaxy expands retail crypto lending with new BTC, ETH and SOL-backed credit line",
-      "text_hash": "2b01255d04604880f6c3da1f54474bc1e39ea243bd5a282e852f828a36b1bb1a",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78548.15,
-          "change_pct": -0.577,
-          "volume": 24776.81808,
-          "quote_volume": 1972506712.744188,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2442.66,
-          "change_pct": -1.626,
-          "volume": 341358.1177,
-          "quote_volume": 845917991.098204,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 96.59,
-          "change_pct": -2.257,
-          "volume": 4968758.877,
-          "quote_volume": 496003312.26627,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 694.44,
-          "change_pct": -1.418,
-          "volume": 174456.318,
-          "quote_volume": 122854096.0935,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787709703.6504877,
       "category": "analysis",
       "symbol": "BNB",
@@ -12547,6 +12500,53 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790298104.3613567,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Sequans exits Bitcoin treasury strategy after selling remaining 314 BTC",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84583.78,
+          "change_pct": 0.306,
+          "volume": 18787.2214,
+          "quote_volume": 1579248847.731752,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2690.31,
+          "change_pct": 0.281,
+          "volume": 267616.2043,
+          "quote_volume": 715608516.650429,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.37,
+          "change_pct": 1.901,
+          "volume": 2600399.38,
+          "quote_volume": 300306602.63135,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 777.31,
+          "change_pct": 1.309,
+          "volume": 127121.668,
+          "quote_volume": 98505799.62304,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
