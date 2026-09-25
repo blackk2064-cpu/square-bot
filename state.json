@@ -12548,6 +12548,53 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790373701.784599,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
+      "text_hash": "12e8df4fef9549d7f2210eee9b06b12324825e5be9ac7611589f8d674585ec89",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83798.01,
+          "change_pct": -0.628,
+          "volume": 18089.61684,
+          "quote_volume": 1523224563.0508175,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2682.22,
+          "change_pct": -0.137,
+          "volume": 242992.737,
+          "quote_volume": 654745735.93327,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.0,
+          "change_pct": 3.605,
+          "volume": 4083408.448,
+          "quote_volume": 488306109.77684,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 773.05,
+          "change_pct": -0.663,
+          "volume": 132675.305,
+          "quote_volume": 102996657.60097,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
