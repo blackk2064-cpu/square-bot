@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787850099.3249362,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Charles Schwab adda Solana, Avalanche and Chainlink to nascent crypto platform",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 80386.84,
-          "change_pct": 3.057,
-          "volume": 16465.6555,
-          "quote_volume": 1307250315.0880075,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2521.98,
-          "change_pct": 3.155,
-          "volume": 347038.6466,
-          "quote_volume": 869607836.827564,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 109.01,
-          "change_pct": 13.588,
-          "volume": 4976372.726,
-          "quote_volume": 513750037.73362,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 711.78,
-          "change_pct": 2.267,
-          "volume": 130213.788,
-          "quote_volume": 92035611.88654,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787857302.4390788,
       "category": "binance_news",
       "symbol": "ETH",
@@ -12451,6 +12404,53 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790442169.2276912,
+      "category": "sarcastic",
+      "symbol": "SOL",
+      "topic": "sarcastic",
+      "text_hash": "2f566009c6568e36e9ad5e20d4469a22624e4892c9e1ca411e4561a5a6a2b430",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84119.99,
+          "change_pct": 0.413,
+          "volume": 7908.51287,
+          "quote_volume": 664336484.5850261,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2691.53,
+          "change_pct": 0.255,
+          "volume": 94535.2494,
+          "quote_volume": 254196659.607981,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.6,
+          "change_pct": 0.421,
+          "volume": 2129816.326,
+          "quote_volume": 258144161.81373,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 774.35,
+          "change_pct": 0.238,
+          "volume": 58632.608,
+          "quote_volume": 45389297.96047,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
