@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787857302.4390788,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Charles Schwab adda Solana, Avalanche and Chainlink to nascent crypto platform",
-      "text_hash": "824d80351b6507eede56b41bed7006771e434a1e8a058d7cece0cca44505590c",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 80150.0,
-          "change_pct": 2.123,
-          "volume": 17173.32597,
-          "quote_volume": 1365979366.5442812,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2506.01,
-          "change_pct": 1.393,
-          "volume": 366533.851,
-          "quote_volume": 919399673.494483,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 108.52,
-          "change_pct": 12.131,
-          "volume": 5265971.585,
-          "quote_volume": 547257654.68421,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 710.85,
-          "change_pct": 1.816,
-          "volume": 131759.814,
-          "quote_volume": 93222354.25642,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787900523.3379416,
       "category": "analysis",
       "symbol": "BNB",
@@ -12500,6 +12453,53 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790470911.2682984,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84306.01,
+          "change_pct": 0.472,
+          "volume": 7857.5865,
+          "quote_volume": 660813023.9433323,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2693.76,
+          "change_pct": 0.237,
+          "volume": 85304.5304,
+          "quote_volume": 229263343.7287,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.86,
+          "change_pct": -0.527,
+          "volume": 1809177.958,
+          "quote_volume": 218805601.41546,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 772.73,
+          "change_pct": -0.41,
+          "volume": 60220.873,
+          "quote_volume": 46547636.84196,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
