@@ -16,12 +16,12 @@ symbols:
   - BNB
 
 category_weights:
-  binance_news: 20
-  general_news: 14
-  macro_news: 15
-  analysis: 17
-  education: 13
-  sarcastic: 13
+  binance_news: 25
+  general_news: 18
+  macro_news: 18
+  analysis: 15
+  education: 12
+  sarcastic: 4
   events: 8
   min_weight: 5
   max_weight: 30
