@@ -90,6 +90,13 @@ def run():
         topic = "onchain_watchlist_move"
         allow_cashtag = symbol is not None
         trusted_data_text = build_trusted_data_text(symbol, market_snapshot) if symbol else "No symbol-specific market data."
+    elif category == "analysis":
+        # فئة التحليل: تاخد بيانات إضافية (funding rate / open interest) لو
+        # متاحة، عشان ما تفضلش بس سعر+نسبة زي باقي الفئات الجافة.
+        untrusted_text = ""
+        topic = f"analysis_{symbol}" if symbol else "analysis"
+        allow_cashtag = symbol is not None
+        trusted_data_text = build_trusted_data_text(symbol, market_snapshot) if symbol else "General analysis."
     else:
         untrusted_text = ""
         topic = category
@@ -155,3 +162,4 @@ def run():
 
 if __name__ == "__main__":
     sys.exit(run())
+        
