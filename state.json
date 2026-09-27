@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787900523.3379416,
-      "category": "analysis",
-      "symbol": "BNB",
-      "topic": "analysis",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 79904.2,
-          "change_pct": 1.417,
-          "volume": 18498.04326,
-          "quote_volume": 1480682617.059779,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2503.41,
-          "change_pct": 0.462,
-          "volume": 349889.8276,
-          "quote_volume": 879337670.049112,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 107.5,
-          "change_pct": 6.162,
-          "volume": 5118198.123,
-          "quote_volume": 546123940.25403,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 712.5,
-          "change_pct": 0.981,
-          "volume": 135590.772,
-          "quote_volume": 96370712.20901,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787904115.561061,
       "category": "analysis",
       "symbol": "BNB",
@@ -12500,6 +12453,53 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790496100.6575615,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
+      "text_hash": "54ba61c81458e9352d387c96a3e035ee55af46cf017857c26f7c64d5efa431db",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84758.98,
+          "change_pct": 0.796,
+          "volume": 7952.18656,
+          "quote_volume": 669931597.9946567,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2717.42,
+          "change_pct": 0.994,
+          "volume": 102419.8958,
+          "quote_volume": 275774426.268935,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 124.36,
+          "change_pct": 3.024,
+          "volume": 1952543.924,
+          "quote_volume": 236558592.03005,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 778.66,
+          "change_pct": 0.658,
+          "volume": 63459.864,
+          "quote_volume": 49054437.94494,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 100,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
