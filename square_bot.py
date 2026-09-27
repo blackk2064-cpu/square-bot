@@ -57,13 +57,13 @@ def run():
 
     state = load_state()
 
-    market_snapshot = build_market_snapshot(symbols)
+    market_snapshot = build_market_snapshot(symbols, include_top_movers=2)
     category = pick_category(cfg["category_weights"])
 
-    symbol = random.choice(symbols) if market_snapshot else None
+    symbol = random.choice(list(market_snapshot.keys())) if market_snapshot else None
 
     if symbol and in_cooldown(state, "symbol", symbol, posting_cfg["cooldown_hours"]["same_symbol"]):
-        candidates = [s for s in symbols if not in_cooldown(
+        candidates = [s for s in market_snapshot.keys() if not in_cooldown(
             state, "symbol", s, posting_cfg["cooldown_hours"]["same_symbol"]
         )]
         symbol = random.choice(candidates) if candidates else None
@@ -162,4 +162,4 @@ def run():
 
 if __name__ == "__main__":
     sys.exit(run())
-        
+    
