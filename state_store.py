@@ -66,6 +66,7 @@ def record_post(state, category, symbol, topic, text, ai_provider, data_snapshot
         "symbol": symbol,
         "topic": topic,
         "text_hash": content_hash(text),
+        "text_for_similarity": text,  # النص الكامل — لازم لمقارنة التشابه الهيكلي
         "ai_provider": ai_provider,
         "data_snapshot": data_snapshot,
         "quality_score": quality_score,
