@@ -109,6 +109,7 @@ def run():
         allow_cashtag=allow_cashtag,
         hook_style=hook_style,
         whale_data_provided=whale_data_provided,
+        recent_posts=state["posts"],
     )
 
     if not result or not result.get("text"):
