@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788030135.264214,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis",
-      "text_hash": "fd11bcf784ad3e46398ed256e05cd2cf3df6f58f8b58104b545a234b7d049e8a",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78158.01,
-          "change_pct": 0.737,
-          "volume": 7990.10214,
-          "quote_volume": 620741100.2522926,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2452.45,
-          "change_pct": 0.936,
-          "volume": 126052.969,
-          "quote_volume": 307591340.174829,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 105.13,
-          "change_pct": 1.86,
-          "volume": 1612043.439,
-          "quote_volume": 167858614.34924,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 693.58,
-          "change_pct": 0.75,
-          "volume": 67907.045,
-          "quote_volume": 46839286.49528,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788033712.5469887,
       "category": "education",
       "symbol": "BNB",
@@ -12123,6 +12076,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790622144.7197473,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Strategy buys 1,665 Bitcoin for $143M as BTC stack hits 847,666",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84027.58,
+          "change_pct": -0.948,
+          "volume": 21013.29236,
+          "quote_volume": 1752855178.7474856,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2699.33,
+          "change_pct": 0.024,
+          "volume": 290315.6125,
+          "quote_volume": 775174784.706318,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.95,
+          "change_pct": -2.662,
+          "volume": 2592110.963,
+          "quote_volume": 310596305.62791,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 770.23,
+          "change_pct": -1.142,
+          "volume": 129417.941,
+          "quote_volume": 99383139.4848,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HBAR": {
+          "price": 0.12742,
+          "change_pct": 33.999,
+          "volume": 1493388152.0,
+          "quote_volume": 171865211.10353,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 246.1,
+          "change_pct": 29.861,
+          "volume": 1271247.681,
+          "quote_volume": 320088705.00435,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
