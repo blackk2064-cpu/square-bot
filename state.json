@@ -11851,6 +11851,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790596937.617536,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Bitget resumes Bitcoin withdrawals as hacker swaps ETH via THORChain",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83069.78,
+          "change_pct": -2.179,
+          "volume": 16026.98087,
+          "quote_volume": 1339989646.5621986,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2667.34,
+          "change_pct": -1.596,
+          "volume": 227383.5778,
+          "quote_volume": 606645134.948531,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.68,
+          "change_pct": -4.306,
+          "volume": 2484139.001,
+          "quote_volume": 300462976.61846,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 763.85,
+          "change_pct": -2.111,
+          "volume": 98149.838,
+          "quote_volume": 75694426.0357,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 235.96,
+          "change_pct": 44.203,
+          "volume": 1216544.407,
+          "quote_volume": 294266086.23494,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.007673,
+          "change_pct": -24.634,
+          "volume": 665203365.7,
+          "quote_volume": 5617571.643706,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
