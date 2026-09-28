@@ -11958,6 +11958,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790575340.5084155,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83168.66,
+          "change_pct": -1.55,
+          "volume": 13452.18043,
+          "quote_volume": 1133648427.8272967,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2651.65,
+          "change_pct": -1.981,
+          "volume": 199025.5343,
+          "quote_volume": 534329725.05218,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.16,
+          "change_pct": -1.618,
+          "volume": 2888274.809,
+          "quote_volume": 353554324.29256,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 766.15,
+          "change_pct": -0.923,
+          "volume": 88997.084,
+          "quote_volume": 69080761.34391,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 268.17,
+          "change_pct": 56.486,
+          "volume": 1021904.259,
+          "quote_volume": 237220509.03792,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ONE": {
+          "price": 0.002858,
+          "change_pct": 32.56,
+          "volume": 6559812181.7,
+          "quote_volume": 16883299.1862629,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
