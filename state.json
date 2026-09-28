@@ -1,241 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787986941.215866,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77478.12,
-          "change_pct": -3.036,
-          "volume": 16702.66582,
-          "quote_volume": 1310799729.9561327,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2435.36,
-          "change_pct": -2.718,
-          "volume": 325500.7799,
-          "quote_volume": 802405720.428349,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.62,
-          "change_pct": -3.6,
-          "volume": 3912074.799,
-          "quote_volume": 410393357.39776,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 687.51,
-          "change_pct": -3.506,
-          "volume": 127867.955,
-          "quote_volume": 89074027.62624,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787990573.4321384,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77615.27,
-          "change_pct": -2.616,
-          "volume": 16627.24998,
-          "quote_volume": 1302809104.4152882,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2435.08,
-          "change_pct": -2.503,
-          "volume": 319484.4772,
-          "quote_volume": 787181586.110064,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.62,
-          "change_pct": -2.686,
-          "volume": 3843964.782,
-          "quote_volume": 403019993.7098,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 687.96,
-          "change_pct": -2.712,
-          "volume": 124351.603,
-          "quote_volume": 86535415.6146,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787994160.7031636,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77649.99,
-          "change_pct": -2.331,
-          "volume": 16372.0231,
-          "quote_volume": 1281900469.9934976,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2434.81,
-          "change_pct": -2.146,
-          "volume": 313021.8966,
-          "quote_volume": 770804440.375658,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.48,
-          "change_pct": -2.451,
-          "volume": 3804123.9,
-          "quote_volume": 398637978.34978,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 688.1,
-          "change_pct": -2.451,
-          "volume": 120214.474,
-          "quote_volume": 83561247.57769,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1787997749.209403,
-      "category": "education",
-      "symbol": "ETH",
-      "topic": "education",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77650.03,
-          "change_pct": -2.069,
-          "volume": 16041.75915,
-          "quote_volume": 1255327577.2454188,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2435.08,
-          "change_pct": -2.201,
-          "volume": 307900.7913,
-          "quote_volume": 757876566.349672,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.3,
-          "change_pct": -2.409,
-          "volume": 3749115.637,
-          "quote_volume": 392651595.56555,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 688.61,
-          "change_pct": -2.247,
-          "volume": 118539.823,
-          "quote_volume": 82321545.8663,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788001327.8177476,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77634.0,
-          "change_pct": -2.44,
-          "volume": 15722.2233,
-          "quote_volume": 1229646702.762385,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2434.17,
-          "change_pct": -2.885,
-          "volume": 302235.2798,
-          "quote_volume": 743574856.572649,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.43,
-          "change_pct": -2.608,
-          "volume": 3624890.879,
-          "quote_volume": 379476792.38596,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 688.87,
-          "change_pct": -2.546,
-          "volume": 116652.241,
-          "quote_volume": 80953634.65091,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788005022.6487875,
       "category": "general_news",
       "symbol": "ETH",
@@ -12021,6 +11786,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790593343.3637192,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Scammers steal $2M in ETH as fake GIWA network fools DYORSWAP",
+      "text_hash": "40487bfb94f0c49dfd4b1fbca07caff73c1e3cb1feef03f785d97337bd3fcc27",
+      "text_for_similarity": "Are you monitoring the latest dip",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83051.66,
+          "change_pct": -2.133,
+          "volume": 15463.17319,
+          "quote_volume": 1293645413.315084,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2660.58,
+          "change_pct": -1.825,
+          "volume": 224955.7716,
+          "quote_volume": 600419435.772764,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.67,
+          "change_pct": -4.314,
+          "volume": 2467664.59,
+          "quote_volume": 298934331.01428,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 762.34,
+          "change_pct": -2.12,
+          "volume": 97096.866,
+          "quote_volume": 74926488.41658,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 232.34,
+          "change_pct": 35.562,
+          "volume": 1168320.38,
+          "quote_volume": 280293985.43543,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.007728,
+          "change_pct": -24.206,
+          "volume": 727904567.4,
+          "quote_volume": 6257962.736329,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
