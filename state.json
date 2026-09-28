@@ -12060,6 +12060,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790618553.862101,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Strategy buys 1,665 Bitcoin for $143M as BTC stack hits 847,666",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83851.46,
+          "change_pct": -0.85,
+          "volume": 20824.82337,
+          "quote_volume": 1737225081.1470098,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2693.57,
+          "change_pct": 0.096,
+          "volume": 290452.2249,
+          "quote_volume": 775556397.827227,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.62,
+          "change_pct": -1.999,
+          "volume": 2630320.243,
+          "quote_volume": 315424318.74855,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.36,
+          "change_pct": -1.074,
+          "volume": 128387.634,
+          "quote_volume": 98601630.57199,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HBAR": {
+          "price": 0.12957,
+          "change_pct": 37.899,
+          "volume": 1429343300.0,
+          "quote_volume": 163504341.95999,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 246.63,
+          "change_pct": 33.277,
+          "volume": 1263087.785,
+          "quote_volume": 317144505.33198,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
