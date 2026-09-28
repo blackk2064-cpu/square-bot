@@ -11877,6 +11877,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790557348.2225254,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest",
+      "text_hash": "aeb3c471dc5ff1eb58071aa5f5ad291b4403e0ddab8124702787ade9da629055",
+      "text_for_similarity": "2642554.904 in 24h volume has moved through $SOL as the price sits at 121.7.\nThe asset has recorded a modest gain of 0.695% over the past 24 hours.\nWill $SOL break above 125 next, or consolidate back toward 120? 📊\n\n#SOL #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84113.66,
+          "change_pct": -0.228,
+          "volume": 10235.67224,
+          "quote_volume": 866476802.0867928,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2675.47,
+          "change_pct": -0.681,
+          "volume": 162830.1384,
+          "quote_volume": 439387092.283822,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.7,
+          "change_pct": 0.695,
+          "volume": 2642554.904,
+          "quote_volume": 324248580.86294,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 778.62,
+          "change_pct": 0.762,
+          "volume": 72972.514,
+          "quote_volume": 56756024.75404,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 269.58,
+          "change_pct": 68.994,
+          "volume": 1057049.686,
+          "quote_volume": 227283215.53878,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GRT": {
+          "price": 0.03417,
+          "change_pct": 25.856,
+          "volume": 294170575.0,
+          "quote_volume": 9698035.28892,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
