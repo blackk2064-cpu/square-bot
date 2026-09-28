@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788033712.5469887,
-      "category": "education",
-      "symbol": "BNB",
-      "topic": "education",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78183.99,
-          "change_pct": 0.854,
-          "volume": 7716.09419,
-          "quote_volume": 599621253.4110165,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2453.0,
-          "change_pct": 0.786,
-          "volume": 118311.6102,
-          "quote_volume": 288814433.853796,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 105.4,
-          "change_pct": 2.003,
-          "volume": 1546834.91,
-          "quote_volume": 161289873.52563,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 693.21,
-          "change_pct": 0.649,
-          "volume": 67699.458,
-          "quote_volume": 46705874.35403,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788040906.1721869,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "164224ce3395fb4a1113364eba1e332d7af605c295de75c65751db3f46c5a613",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78166.01,
-          "change_pct": 0.998,
-          "volume": 7327.98045,
-          "quote_volume": 569762734.4558038,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2451.05,
-          "change_pct": 1.048,
-          "volume": 112540.1389,
-          "quote_volume": 274912196.187706,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.98,
-          "change_pct": 1.43,
-          "volume": 1489773.437,
-          "quote_volume": 155519863.69473,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 692.59,
-          "change_pct": 0.742,
-          "volume": 66212.701,
-          "quote_volume": 45694388.36496,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788080486.3326209,
       "category": "education",
       "symbol": "BNB",
@@ -12138,6 +12044,70 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790632964.0085275,
+      "category": "binance_news",
+      "symbol": "NMR",
+      "topic": "Strategy buys 1,665 Bitcoin for $143M as BTC stack hits 847,666",
+      "text_hash": "e567e87984a9c8f4497deaf0fe4bf174e0a7375fbcc6b3814717db1a78bf6f73",
+      "text_for_similarity": "You are staring at $NMR surging 37.661% in a single day, wondering if it is time to take profit.\n\nThe token is currently priced at 13.89 with a 24-hour volume reaching 1099665.74. 📈\n\nAre you locking in gains now or holding for another push?\n\n#trading #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83210.01,
+          "change_pct": -1.81,
+          "volume": 21344.53617,
+          "quote_volume": 1779705196.2677195,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2673.52,
+          "change_pct": -0.474,
+          "volume": 297136.7449,
+          "quote_volume": 793326543.189151,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.69,
+          "change_pct": -4.309,
+          "volume": 2635208.689,
+          "quote_volume": 314930411.57134,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 761.56,
+          "change_pct": -2.38,
+          "volume": 131711.555,
+          "quote_volume": 101062580.10738,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 13.89,
+          "change_pct": 37.661,
+          "volume": 1099665.74,
+          "quote_volume": 12462930.6619,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HBAR": {
+          "price": 0.12149,
+          "change_pct": 27.898,
+          "volume": 1672487866.0,
+          "quote_volume": 194232249.66234,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
