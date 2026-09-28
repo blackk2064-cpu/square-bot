@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788005022.6487875,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-      "text_hash": "ed288876c93359ff3aacca1e12a95730d3cb04b09c28ee54807fee3351a374aa",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77584.67,
-          "change_pct": -2.537,
-          "volume": 15598.39501,
-          "quote_volume": 1219238131.4984958,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2435.87,
-          "change_pct": -2.767,
-          "volume": 297134.2918,
-          "quote_volume": 730623193.710586,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.49,
-          "change_pct": -2.211,
-          "volume": 3454531.965,
-          "quote_volume": 361309689.07953,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 689.37,
-          "change_pct": -2.369,
-          "volume": 116639.445,
-          "quote_volume": 80898820.14061,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788030135.264214,
       "category": "analysis",
       "symbol": "BTC",
@@ -11914,6 +11867,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790600555.4249544,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Strategy buys 1,665 Bitcoin for $143M as BTC stack hits 847,666",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83482.01,
+          "change_pct": -1.496,
+          "volume": 16955.41133,
+          "quote_volume": 1416941265.7281468,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2687.36,
+          "change_pct": -0.686,
+          "volume": 245076.5271,
+          "quote_volume": 654001489.739483,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.85,
+          "change_pct": -2.743,
+          "volume": 2604110.406,
+          "quote_volume": 314603084.14668,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 768.68,
+          "change_pct": -1.45,
+          "volume": 100860.452,
+          "quote_volume": 77715862.24405,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 233.92,
+          "change_pct": 45.509,
+          "volume": 1238874.104,
+          "quote_volume": 301378859.71414,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HBAR": {
+          "price": 0.11917,
+          "change_pct": 26.413,
+          "volume": 959326477.0,
+          "quote_volume": 104928707.21253,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
