@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1787972549.9145894,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77671.19,
-          "change_pct": -2.822,
-          "volume": 17510.47502,
-          "quote_volume": 1377445076.1135907,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2438.86,
-          "change_pct": -2.145,
-          "volume": 338400.3931,
-          "quote_volume": 835354176.203569,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.97,
-          "change_pct": -2.431,
-          "volume": 4090770.661,
-          "quote_volume": 430192830.52138,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 690.36,
-          "change_pct": -2.449,
-          "volume": 127677.244,
-          "quote_volume": 89190516.59529,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1787986941.215866,
       "category": "general_news",
       "symbol": "BTC",
@@ -11938,6 +11891,70 @@
       },
       "quality_score": 90,
       "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790571741.0337074,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83513.99,
+          "change_pct": -0.967,
+          "volume": 12352.37807,
+          "quote_volume": 1042740200.5069592,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2659.84,
+          "change_pct": -1.195,
+          "volume": 192357.8345,
+          "quote_volume": 517034758.430539,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.03,
+          "change_pct": -0.083,
+          "volume": 2839639.404,
+          "quote_volume": 347941530.87409,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 771.99,
+          "change_pct": 0.134,
+          "volume": 81628.97,
+          "quote_volume": 63453599.27128,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 260.68,
+          "change_pct": 37.606,
+          "volume": 1034457.015,
+          "quote_volume": 237287101.87902,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ONE": {
+          "price": 0.002684,
+          "change_pct": 20.901,
+          "volume": 6114035300.3,
+          "quote_volume": 15565286.6769233,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
