@@ -12111,6 +12111,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790640157.6719718,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83493.35,
+          "change_pct": -1.143,
+          "volume": 20962.45742,
+          "quote_volume": 1747052161.5406559,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2688.98,
+          "change_pct": 0.021,
+          "volume": 291773.6095,
+          "quote_volume": 779007125.847254,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.77,
+          "change_pct": -2.608,
+          "volume": 2540994.784,
+          "quote_volume": 303059546.29808,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 763.77,
+          "change_pct": -1.906,
+          "volume": 133719.464,
+          "quote_volume": 102522387.07714,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 14.03,
+          "change_pct": 35.556,
+          "volume": 1490461.41,
+          "quote_volume": 18135064.1458,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MARSCOIN": {
+          "price": 0.1576,
+          "change_pct": 28.026,
+          "volume": 429294620.6,
+          "quote_volume": 62563896.55504,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
