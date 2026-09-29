@@ -12576,6 +12576,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790679747.2386887,
+      "category": "binance_news",
+      "symbol": "CELO",
+      "topic": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84034.01,
+          "change_pct": 1.178,
+          "volume": 15993.40471,
+          "quote_volume": 1335416140.690322,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2714.81,
+          "change_pct": 2.031,
+          "volume": 290972.4438,
+          "quote_volume": 782969816.157449,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.44,
+          "change_pct": 0.657,
+          "volume": 2244661.566,
+          "quote_volume": 266639206.71906,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 764.3,
+          "change_pct": 0.253,
+          "volume": 133295.449,
+          "quote_volume": 101776353.73622,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CELO": {
+          "price": 0.11676,
+          "change_pct": 27.886,
+          "volume": 50720193.3,
+          "quote_volume": 5309976.945629,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 13.07,
+          "change_pct": 23.302,
+          "volume": 2146672.56,
+          "quote_volume": 27914423.7245,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
