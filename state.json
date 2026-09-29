@@ -12303,6 +12303,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790661747.6038518,
+      "category": "analysis",
+      "symbol": "HBAR",
+      "topic": "analysis_HBAR",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83466.0,
+          "change_pct": 0.353,
+          "volume": 18430.16165,
+          "quote_volume": 1533995888.1542473,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2677.98,
+          "change_pct": 0.993,
+          "volume": 255854.2532,
+          "quote_volume": 683729172.385493,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.32,
+          "change_pct": -0.705,
+          "volume": 2302175.281,
+          "quote_volume": 273019076.72283,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 759.72,
+          "change_pct": -0.841,
+          "volume": 126104.334,
+          "quote_volume": 96171451.68781,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 13.47,
+          "change_pct": 33.234,
+          "volume": 1950468.17,
+          "quote_volume": 25008519.6355,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HBAR": {
+          "price": 0.11965,
+          "change_pct": 22.882,
+          "volume": 1855800292.0,
+          "quote_volume": 218532044.67078,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
