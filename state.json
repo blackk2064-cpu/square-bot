@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788105702.388687,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 78831.33,
-          "change_pct": 1.238,
-          "volume": 6401.34491,
-          "quote_volume": 501506355.8281334,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2480.55,
-          "change_pct": 1.45,
-          "volume": 132117.4592,
-          "quote_volume": 325134122.596167,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 106.22,
-          "change_pct": 1.095,
-          "volume": 1469675.736,
-          "quote_volume": 155155199.93857,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 699.45,
-          "change_pct": 1.243,
-          "volume": 73849.371,
-          "quote_volume": 51267559.37307,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788109305.4419725,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-      "text_hash": "c2dfc00dab254da0a9a72a74bf87279d9ede15d9f9a96fea55b6c73f6e0dbbc9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79292.42,
-          "change_pct": 1.613,
-          "volume": 6737.85414,
-          "quote_volume": 528494399.4672864,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2525.69,
-          "change_pct": 3.024,
-          "volume": 163996.9689,
-          "quote_volume": 405932997.402821,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 106.8,
-          "change_pct": 1.821,
-          "volume": 1470431.798,
-          "quote_volume": 155450006.09644,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 703.25,
-          "change_pct": 1.726,
-          "volume": 79551.043,
-          "quote_volume": 55298310.84269,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 80,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788123731.393565,
       "category": "analysis",
       "symbol": "BTC",
@@ -12784,6 +12690,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790701314.1623795,
+      "category": "education",
+      "symbol": "ETH",
+      "topic": "education",
+      "text_hash": "dfb948116189541d10902ef5c0a52d31a095d4b0feb664231a41576bfe86a967",
+      "text_for_similarity": "Have you noticed the recent dip in $ETH? ETH is currently trading at $2676.1, down 0.344% in the last 24 hours, with a trading volume of 325095.8804. #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83062.0,
+          "change_pct": -0.713,
+          "volume": 13933.77174,
+          "quote_volume": 1165971825.3372004,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2676.1,
+          "change_pct": -0.344,
+          "volume": 325095.8804,
+          "quote_volume": 878829120.718879,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.11,
+          "change_pct": -0.848,
+          "volume": 2531341.826,
+          "quote_volume": 301718388.97508,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 753.68,
+          "change_pct": -1.685,
+          "volume": 130452.267,
+          "quote_volume": 99473406.31322,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "0G": {
+          "price": 0.3301,
+          "change_pct": 29.961,
+          "volume": 94996543.78,
+          "quote_volume": 29690718.665853,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CRV": {
+          "price": 0.3976,
+          "change_pct": 18.263,
+          "volume": 58870406.1,
+          "quote_volume": 22741967.18313,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
