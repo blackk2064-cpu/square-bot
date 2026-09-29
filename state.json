@@ -12512,6 +12512,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790676169.7580483,
+      "category": "binance_news",
+      "symbol": "NMR",
+      "topic": "BitMine could hit its 5% Ether supply target within weeks — then what?",
+      "text_hash": "d9eb15d0376b126f76525d8b2b0279932c1201605b7c02bb63a2050ff96f2c67",
+      "text_for_similarity": "$NMR is surging 27.517% to 12.79 despite\n24h volume sitting at just 2132613.97.\nDoes this rally have genuine momentum, or is low liquidity driving a trap? #trading #crypto",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84246.0,
+          "change_pct": 1.872,
+          "volume": 16310.71687,
+          "quote_volume": 1361075456.395617,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2717.07,
+          "change_pct": 2.812,
+          "volume": 295696.5857,
+          "quote_volume": 795189449.77349,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.91,
+          "change_pct": 1.765,
+          "volume": 2266110.387,
+          "quote_volume": 269095714.00713,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 764.63,
+          "change_pct": 0.621,
+          "volume": 134584.379,
+          "quote_volume": 102748523.85394,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 12.79,
+          "change_pct": 27.517,
+          "volume": 2132613.97,
+          "quote_volume": 27512546.7741,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CRV": {
+          "price": 0.3954,
+          "change_pct": 21.326,
+          "volume": 42695849.6,
+          "quote_volume": 15955702.81139,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
