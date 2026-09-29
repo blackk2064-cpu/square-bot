@@ -12239,6 +12239,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790650943.9094186,
+      "category": "macro_news",
+      "symbol": "MARSCOIN",
+      "topic": "Strive Buys $94.5 Million in Bitcoin, Pushing Holdings Past 27,000 BTC",
+      "text_hash": "76005def99417839d04c70fda7e4376181da5210f8c85c0c8616e98bda750d6e",
+      "text_for_similarity": "$MARSCOIN has surged past the $\n0.15 mark, currently trading at $0.1536 after a massive 28.859% gain over the last 24 hours. The token has witnessed substantial market activity, registering a 24-hour trading volume of $437,344,890.10. Keep a close watch on momentum as high volume continues to drive price action. #MARSCOIN #crypto",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82966.5,
+          "change_pct": -0.639,
+          "volume": 20038.24042,
+          "quote_volume": 1667922926.845774,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2657.36,
+          "change_pct": 0.051,
+          "volume": 273077.985,
+          "quote_volume": 729136837.443227,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 116.95,
+          "change_pct": -2.785,
+          "volume": 2423836.106,
+          "quote_volume": 287846143.61564,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 756.33,
+          "change_pct": -2.129,
+          "volume": 133158.774,
+          "quote_volume": 101702191.17157,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 14.48,
+          "change_pct": 41.406,
+          "volume": 1681959.81,
+          "quote_volume": 21086535.7341,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MARSCOIN": {
+          "price": 0.1536,
+          "change_pct": 28.859,
+          "volume": 437344890.1,
+          "quote_volume": 64370011.55349,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
