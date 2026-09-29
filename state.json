@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788094911.38122,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 78812.62,
-          "change_pct": 1.576,
-          "volume": 5891.55036,
-          "quote_volume": 460413866.6952998,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2469.39,
-          "change_pct": 1.43,
-          "volume": 119581.4704,
-          "quote_volume": 293498822.555715,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 106.21,
-          "change_pct": 2.529,
-          "volume": 1379995.193,
-          "quote_volume": 145022156.12962,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 696.07,
-          "change_pct": 1.135,
-          "volume": 67906.237,
-          "quote_volume": 47048163.62401,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788105702.388687,
       "category": "binance_news",
       "symbol": "ETH",
@@ -12639,6 +12592,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790686943.7343664,
+      "category": "analysis",
+      "symbol": "BTC",
+      "topic": "analysis_BTC",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84344.01,
+          "change_pct": 1.033,
+          "volume": 15027.60502,
+          "quote_volume": 1256127589.551781,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2737.72,
+          "change_pct": 1.881,
+          "volume": 307639.8008,
+          "quote_volume": 830257843.180015,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.91,
+          "change_pct": 0.884,
+          "volume": 2324186.476,
+          "quote_volume": 276520720.57544,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 765.66,
+          "change_pct": -0.392,
+          "volume": 131728.704,
+          "quote_volume": 100566792.70492,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "0G": {
+          "price": 0.35,
+          "change_pct": 39.276,
+          "volume": 77236552.07,
+          "quote_volume": 23288506.081738,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CELO": {
+          "price": 0.11271,
+          "change_pct": 22.698,
+          "volume": 73885545.4,
+          "quote_volume": 7983572.643212,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
