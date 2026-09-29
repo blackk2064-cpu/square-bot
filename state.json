@@ -12721,6 +12721,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790694211.112152,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
+      "text_hash": "9caad56de30e6ee9286e39a416341fd8238d313c8adf15b2878cd33c84a00fbc",
+      "text_for_similarity": "$BNB recorded 125000.006 in 24-hour volume as the price edged up 0.498% to $763.31.\nTrading activity remains active at these current levels.\nAre you accumulating more here or taking profits? #BNB #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83720.09,
+          "change_pct": 0.779,
+          "volume": 14283.28096,
+          "quote_volume": 1195512076.60896,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2709.22,
+          "change_pct": 1.482,
+          "volume": 313823.4363,
+          "quote_volume": 848476084.250717,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.09,
+          "change_pct": 1.53,
+          "volume": 2340334.792,
+          "quote_volume": 279111006.42798,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 763.31,
+          "change_pct": 0.498,
+          "volume": 125000.006,
+          "quote_volume": 95449313.13289,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "0G": {
+          "price": 0.3454,
+          "change_pct": 42.492,
+          "volume": 87759558.77,
+          "quote_volume": 27134707.253071,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CRV": {
+          "price": 0.4078,
+          "change_pct": 25.015,
+          "volume": 51363590.0,
+          "quote_volume": 19620738.52172,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
