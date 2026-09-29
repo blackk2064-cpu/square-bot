@@ -12175,6 +12175,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790647368.398304,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Strive Buys $94.5 Million in Bitcoin, Pushing Holdings Past 27,000 BTC",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83087.61,
+          "change_pct": -0.664,
+          "volume": 20455.08077,
+          "quote_volume": 1703008828.0470798,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2666.48,
+          "change_pct": 0.406,
+          "volume": 277153.0895,
+          "quote_volume": 739921557.129263,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.25,
+          "change_pct": -2.762,
+          "volume": 2527841.2,
+          "quote_volume": 300587748.75988,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 757.98,
+          "change_pct": -2.009,
+          "volume": 132766.748,
+          "quote_volume": 101485233.05985,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 14.41,
+          "change_pct": 42.11,
+          "volume": 1620227.32,
+          "quote_volume": 20163332.6265,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MARSCOIN": {
+          "price": 0.1561,
+          "change_pct": 31.397,
+          "volume": 430830307.4,
+          "quote_volume": 63197258.39706,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
