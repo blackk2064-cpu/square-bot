@@ -12431,6 +12431,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790668961.5153794,
+      "category": "sarcastic",
+      "symbol": "BNB",
+      "topic": "sarcastic",
+      "text_hash": "139a9b036a7ed6ed370f45dccaf960daa9a8bc21db4d6879a54614194665b92f",
+      "text_for_similarity": "Are you watching how $BNB is performing today?\n$BNB is trading at 765.98 after a\n 0.754% gain over the last 24 hours.\nThe 24h trading volume has reached 135483.437.\nWill BNB push higher or consolidate around this level? #BNB",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84039.68,
+          "change_pct": 1.321,
+          "volume": 17927.41263,
+          "quote_volume": 1493296717.7257092,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2715.03,
+          "change_pct": 2.707,
+          "volume": 283435.1812,
+          "quote_volume": 759590455.66473,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.57,
+          "change_pct": 1.27,
+          "volume": 2302766.082,
+          "quote_volume": 273209584.73436,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 765.98,
+          "change_pct": 0.754,
+          "volume": 135483.437,
+          "quote_volume": 103388436.38691,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 12.88,
+          "change_pct": 31.697,
+          "volume": 2082342.93,
+          "quote_volume": 26788750.9395,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CRV": {
+          "price": 0.3976,
+          "change_pct": 22.301,
+          "volume": 39812977.6,
+          "quote_volume": 14699791.71452,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 80,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
