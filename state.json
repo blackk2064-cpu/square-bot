@@ -12657,6 +12657,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790690551.8042426,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84240.0,
+          "change_pct": 0.822,
+          "volume": 14715.3879,
+          "quote_volume": 1230638006.2914371,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2729.06,
+          "change_pct": 1.531,
+          "volume": 312995.0328,
+          "quote_volume": 845409759.158645,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.11,
+          "change_pct": 1.169,
+          "volume": 2378693.954,
+          "quote_volume": 283277178.43968,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 765.21,
+          "change_pct": -0.12,
+          "volume": 129122.17,
+          "quote_volume": 98565952.45652,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "0G": {
+          "price": 0.3456,
+          "change_pct": 38.462,
+          "volume": 83476671.85,
+          "quote_volume": 25457573.259368,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CRV": {
+          "price": 0.3991,
+          "change_pct": 20.793,
+          "volume": 49739202.8,
+          "quote_volume": 18860625.76927,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
