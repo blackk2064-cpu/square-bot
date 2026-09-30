@@ -1,147 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788184912.702572,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "Mutiny? Metaplanet moves 4,800 BTC worth $377M to Coinbase",
-      "text_hash": "5d2ac1b83298f3f7cfbdea2fcd16f2160a3c4d13995fd745a025d579024ba076",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77879.09,
-          "change_pct": -1.202,
-          "volume": 14845.03977,
-          "quote_volume": 1161199304.265571,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2440.58,
-          "change_pct": -1.33,
-          "volume": 355797.9425,
-          "quote_volume": 873863291.586547,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.41,
-          "change_pct": -4.191,
-          "volume": 2662661.034,
-          "quote_volume": 275985282.27376,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 685.56,
-          "change_pct": -1.921,
-          "volume": 111194.215,
-          "quote_volume": 76712989.23374,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788188518.4581745,
-      "category": "macro_news",
-      "symbol": "BTC",
-      "topic": "Metaplanet moves 4,800 BTC worth $377M to Coinbase",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78616.76,
-          "change_pct": -0.212,
-          "volume": 15804.92265,
-          "quote_volume": 1236061869.4638815,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2469.41,
-          "change_pct": -0.315,
-          "volume": 368980.319,
-          "quote_volume": 906047437.336624,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.59,
-          "change_pct": -2.897,
-          "volume": 2700672.909,
-          "quote_volume": 279553781.23101,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 691.11,
-          "change_pct": -1.04,
-          "volume": 113227.545,
-          "quote_volume": 78083982.32756,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788192109.2649865,
-      "category": "education",
-      "symbol": "ETH",
-      "topic": "education",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 78565.99,
-          "change_pct": -0.323,
-          "volume": 16337.94491,
-          "quote_volume": 1277762720.7840168,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2467.18,
-          "change_pct": -0.537,
-          "volume": 374777.2187,
-          "quote_volume": 920268220.135208,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.82,
-          "change_pct": -3.21,
-          "volume": 2685160.895,
-          "quote_volume": 277602980.13802,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 689.42,
-          "change_pct": -1.434,
-          "volume": 112473.705,
-          "quote_volume": 77525235.7453,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788202930.1431916,
       "category": "analysis",
       "symbol": "ETH",
@@ -13176,6 +13035,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790791340.2923672,
+      "category": "education",
+      "symbol": "ETH",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84078.55,
+          "change_pct": 0.973,
+          "volume": 17777.39755,
+          "quote_volume": 1494954018.4553504,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2684.7,
+          "change_pct": 0.15,
+          "volume": 286519.692,
+          "quote_volume": 771621041.414655,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.33,
+          "change_pct": 1.007,
+          "volume": 2648973.03,
+          "quote_volume": 317208804.56052,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.72,
+          "change_pct": 2.151,
+          "volume": 128384.42,
+          "quote_volume": 98283213.94797,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.746,
+          "change_pct": 62.268,
+          "volume": 28939282.157,
+          "quote_volume": 45905390.314672,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.009025,
+          "change_pct": 20.898,
+          "volume": 703940025.4,
+          "quote_volume": 6392993.5769192,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
