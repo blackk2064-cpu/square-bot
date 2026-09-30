@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788202930.1431916,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis",
-      "text_hash": "bceea1802a369c13a2ca1ea4c2a29f8652c1151ca809bb71c8d8fa6a962c0d44",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79069.99,
-          "change_pct": 0.04,
-          "volume": 16569.33503,
-          "quote_volume": 1295651386.9062362,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2479.5,
-          "change_pct": -1.238,
-          "volume": 342734.8187,
-          "quote_volume": 838331616.304392,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.52,
-          "change_pct": -2.034,
-          "volume": 2635033.305,
-          "quote_volume": 271370854.02493,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 693.18,
-          "change_pct": -1.225,
-          "volume": 108286.073,
-          "quote_volume": 74486876.28846,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788206567.9525065,
       "category": "binance_news",
       "symbol": "SOL",
@@ -13099,6 +13052,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790798535.2750819,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Introducing The Information Exchange on Solana, Powered by Decrypt and MYR",
+      "text_hash": "f134bed80010124f0d83b5f04313a842746c0496c1a2665e3eaeda5cef8d559c",
+      "text_for_similarity": "$BTC stays above $83,000 as market shows minimal movement.\nThe asset trades at $83646.01 with a 0.089% 24h gain and $18014.43 in volume.\nLow volatility continues — just another quiet session in crypto’s rollercoaster?\n📈 #trading #education",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83646.01,
+          "change_pct": 0.089,
+          "volume": 18014.42858,
+          "quote_volume": 1515022703.829349,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2670.81,
+          "change_pct": -0.676,
+          "volume": 285460.6799,
+          "quote_volume": 768568544.479836,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.42,
+          "change_pct": -1.12,
+          "volume": 2797717.618,
+          "quote_volume": 334654106.20819,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 765.8,
+          "change_pct": 1.396,
+          "volume": 125327.089,
+          "quote_volume": 96022284.00127,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.748,
+          "change_pct": 50.172,
+          "volume": 28828372.163,
+          "quote_volume": 46829079.63075,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NIGHT": {
+          "price": 0.03758,
+          "change_pct": 18.325,
+          "volume": 400755301.0,
+          "quote_volume": 14293900.29094,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
