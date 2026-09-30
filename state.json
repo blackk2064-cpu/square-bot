@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788156156.7855895,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77972.01,
-          "change_pct": -0.199,
-          "volume": 11089.94644,
-          "quote_volume": 867904399.9518892,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2435.03,
-          "change_pct": -0.834,
-          "volume": 317314.8208,
-          "quote_volume": 780388712.38435,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.6,
-          "change_pct": -2.323,
-          "volume": 2449761.247,
-          "quote_volume": 255438348.0871,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 686.44,
-          "change_pct": -1.138,
-          "volume": 107718.627,
-          "quote_volume": 74564883.76233,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788184912.702572,
       "category": "binance_news",
       "symbol": "BNB",
@@ -12967,6 +12920,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790755333.7665706,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Ethereum Gets Another Privacy Boost as Aztec Brings Back zk.money",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83299.99,
+          "change_pct": -0.88,
+          "volume": 12795.04448,
+          "quote_volume": 1070271140.4835943,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2673.81,
+          "change_pct": -1.508,
+          "volume": 283933.4337,
+          "quote_volume": 766741848.285735,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.43,
+          "change_pct": -0.953,
+          "volume": 2350155.377,
+          "quote_volume": 280756302.34633,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 759.28,
+          "change_pct": -0.859,
+          "volume": 112359.408,
+          "quote_volume": 85403386.22677,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.685,
+          "change_pct": 71.414,
+          "volume": 13938422.673,
+          "quote_volume": 18462171.915092,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "0G": {
+          "price": 0.3441,
+          "change_pct": 19.479,
+          "volume": 74259107.18,
+          "quote_volume": 24738853.238123,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
