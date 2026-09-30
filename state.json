@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788138141.0480165,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "Bitcoin’s new quantum defenses, 18.9M SOL cancelled: Hodler’s Digest",
-      "text_hash": "395981825264b14dc238f5825a8ed1409c355e4fc8b0365b064b8ed5b58fdec3",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77953.75,
-          "change_pct": -0.287,
-          "volume": 9616.35314,
-          "quote_volume": 753746309.0759258,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2429.13,
-          "change_pct": -1.208,
-          "volume": 284653.7418,
-          "quote_volume": 702122625.632334,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.14,
-          "change_pct": -2.955,
-          "volume": 2138287.33,
-          "quote_volume": 224330947.17974,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 686.47,
-          "change_pct": -0.835,
-          "volume": 100735.189,
-          "quote_volume": 69920935.28108,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788141706.1129355,
-      "category": "sarcastic",
-      "symbol": "ETH",
-      "topic": "sarcastic",
-      "text_hash": "7a22390efcfd8c84ce8b7d0cbdf90687ae326318b99d39539ecc2a81bbe77f72",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77618.06,
-          "change_pct": -0.6,
-          "volume": 9922.31622,
-          "quote_volume": 777449096.8199886,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2411.72,
-          "change_pct": -1.831,
-          "volume": 297752.0148,
-          "quote_volume": 733643985.973074,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.48,
-          "change_pct": -3.564,
-          "volume": 2183888.545,
-          "quote_volume": 228804938.77686,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 682.68,
-          "change_pct": -1.308,
-          "volume": 100895.349,
-          "quote_volume": 70000127.98834,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788156156.7855895,
       "category": "analysis",
       "symbol": "BTC",
@@ -12933,6 +12839,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790733863.8003008,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Bitwise launches first US spot NEAR ETF after token’s recent surge",
+      "text_hash": "14d516c0fe0dffe60aeff2c4915018b822eac03c4bd471fe978ad8b026fe3f03",
+      "text_for_similarity": "$SOL is hovering\n at $119.48 as traders decide whether to take profit after a 1.911% bump.\nVolume sits at 2317912.09, keeping the current range tight for both sides.\nAre you holding through this level or setting tight stops?\n#SOL #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83438.01,
+          "change_pct": 0.422,
+          "volume": 12981.66122,
+          "quote_volume": 1086346007.604495,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2672.1,
+          "change_pct": 0.21,
+          "volume": 312683.947,
+          "quote_volume": 845130890.683057,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.48,
+          "change_pct": 1.911,
+          "volume": 2317912.09,
+          "quote_volume": 276604320.0619,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 760.02,
+          "change_pct": 0.266,
+          "volume": 124709.674,
+          "quote_volume": 94827681.43122,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 283.6,
+          "change_pct": 36.787,
+          "volume": 652019.631,
+          "quote_volume": 166312903.31417,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.239,
+          "change_pct": 30.696,
+          "volume": 7339492.751,
+          "quote_volume": 8524874.565533,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 80,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
