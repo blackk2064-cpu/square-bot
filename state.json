@@ -13049,6 +13049,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790766139.31842,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Bitcoin ETFs stretch $3.1B inflow streak as Ether funds turn red",
+      "text_hash": "03a21e8864e6856c3177ccaadc7818994b5e8a6a960052b81f858c45221dc76d",
+      "text_for_similarity": "$BTC ETFs logged a $3.1B inflow streak while Ether funds turned red 📉. BNB holds firm at $770.7, up 0.837% on $121790.082 volume. Will BNB extend",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83890.01,
+          "change_pct": -0.171,
+          "volume": 12783.332,
+          "quote_volume": 1068115961.4890966,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2694.51,
+          "change_pct": -0.748,
+          "volume": 259534.7731,
+          "quote_volume": 699692805.094499,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.8,
+          "change_pct": 0.301,
+          "volume": 2418221.657,
+          "quote_volume": 288755544.32557,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 770.7,
+          "change_pct": 0.837,
+          "volume": 121790.082,
+          "quote_volume": 92629356.37532,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.787,
+          "change_pct": 77.106,
+          "volume": 20804074.684,
+          "quote_volume": 31354724.663572,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ARK": {
+          "price": 0.3168,
+          "change_pct": 28.052,
+          "volume": 24832958.0,
+          "quote_volume": 7077199.8781,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
