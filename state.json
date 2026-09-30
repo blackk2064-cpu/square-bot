@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788206567.9525065,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Bitmine now controls 4.9% of Ethereum supply after adding 53.5K ETH",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 78884.96,
-          "change_pct": 0.001,
-          "volume": 16758.81038,
-          "quote_volume": 1310669953.140746,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2481.65,
-          "change_pct": -0.979,
-          "volume": 349862.4678,
-          "quote_volume": 855917508.37079,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.58,
-          "change_pct": -2.191,
-          "volume": 2629078.664,
-          "quote_volume": 270573881.2547,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 691.66,
-          "change_pct": -1.172,
-          "volume": 110009.274,
-          "quote_volume": 75669416.84355,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788217363.132552,
       "category": "macro_news",
       "symbol": "BNB",
@@ -13116,6 +13069,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790805725.323958,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Standard Chartered sees Ethena’s USDe reaching $40B, ENA hitting $2",
+      "text_hash": "00bbbb941ce1da182d2f505cff4137398ef08df29de81cc67a6e3ad0350ef4bc",
+      "text_for_similarity": "SOL is at $118.07, sitting just above the $118 round number despite a -0.715% 24h dip. The token's 24h volume of $2.88M shows steady interest. With Standard Chartered projecting strong Ethena growth and new Solana initiatives ramping up, #SOL holders may find this near-term pullback compelling.",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83781.78,
+          "change_pct": 0.333,
+          "volume": 18184.22437,
+          "quote_volume": 1529321805.7655113,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2684.8,
+          "change_pct": 0.22,
+          "volume": 274082.8634,
+          "quote_volume": 737981193.833789,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.07,
+          "change_pct": -0.715,
+          "volume": 2882212.904,
+          "quote_volume": 344539403.80956,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 767.36,
+          "change_pct": 1.366,
+          "volume": 123266.768,
+          "quote_volume": 94494269.8032,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.105,
+          "change_pct": 73.967,
+          "volume": 31112472.938,
+          "quote_volume": 52758169.606607,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.009361,
+          "change_pct": 21.666,
+          "volume": 768562805.2,
+          "quote_volume": 7027559.423265,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
