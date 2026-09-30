@@ -13113,6 +13113,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790773353.3309314,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis_SOL",
+      "text_hash": "da21bb212768379b3638e9adfec32c948e8c52d3f4b3db5a36d8cbf3d95f3517",
+      "text_for_similarity": "$SOL is holding in green territory at 121.93, but the 0.852% gain comes alongside a quiet 24h volume of 2644482.99.\n\nIs this modest climb setting up a stronger breakout, or will low momentum trigger a pullback? 📈\n\n#SOL #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85302.81,
+          "change_pct": 1.137,
+          "volume": 16024.28642,
+          "quote_volume": 1343308105.6510766,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2731.34,
+          "change_pct": -0.233,
+          "volume": 268489.3572,
+          "quote_volume": 723322258.671857,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.93,
+          "change_pct": 0.852,
+          "volume": 2644482.99,
+          "quote_volume": 316135084.80711,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 776.83,
+          "change_pct": 1.468,
+          "volume": 129521.356,
+          "quote_volume": 98664474.5723,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ARK": {
+          "price": 0.3915,
+          "change_pct": 60.912,
+          "volume": 60301889.0,
+          "quote_volume": 20083528.3663,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.601,
+          "change_pct": 52.042,
+          "volume": 23435464.429,
+          "quote_volume": 35943979.728703,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
