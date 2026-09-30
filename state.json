@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788134576.6128,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "Bitcoin’s new quantum defenses, 18.9M SOL cancelled: Hodler’s Digest",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77604.01,
-          "change_pct": -0.789,
-          "volume": 9094.29341,
-          "quote_volume": 713193903.3680867,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2413.17,
-          "change_pct": -1.793,
-          "volume": 268762.5252,
-          "quote_volume": 663770714.880328,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.35,
-          "change_pct": -4.006,
-          "volume": 2074422.553,
-          "quote_volume": 217985943.9976,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 684.0,
-          "change_pct": -1.21,
-          "volume": 96354.315,
-          "quote_volume": 66925749.10088,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788138141.0480165,
       "category": "general_news",
       "symbol": "SOL",
@@ -12916,6 +12869,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790730139.0952961,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Bitwise launches first US spot NEAR ETF after token’s recent surge",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83404.01,
+          "change_pct": 0.342,
+          "volume": 13302.62271,
+          "quote_volume": 1112795005.5618844,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2670.84,
+          "change_pct": -0.173,
+          "volume": 316242.4825,
+          "quote_volume": 854559669.166953,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.82,
+          "change_pct": 0.652,
+          "volume": 2411693.718,
+          "quote_volume": 287452008.70227,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 759.24,
+          "change_pct": -0.126,
+          "volume": 130854.836,
+          "quote_volume": 99469998.63024,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.245,
+          "change_pct": 30.366,
+          "volume": 6825259.006,
+          "quote_volume": 7865248.25105,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "QNT": {
+          "price": 272.27,
+          "change_pct": 22.424,
+          "volume": 656337.283,
+          "quote_volume": 165710110.88321,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
