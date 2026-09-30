@@ -12985,6 +12985,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790762614.3406277,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Ethereum Gets Another Privacy Boost as Aztec Brings Back zk.money",
+      "text_hash": "68b307bb506896156d58cdd3f9614e9698c0a77c23ceab0e32db493355406a66",
+      "text_for_similarity": "Where is the market taking Bitcoin after its recent pause? 📉\n$BTC is trading at $83,656.99, showing a slight 24h dip of -0.699% with 12552.24299 BTC in volume.\nWill Bitcoin hold above $83,000, or are we heading toward a deeper correction? #BTC",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83656.99,
+          "change_pct": -0.699,
+          "volume": 12552.24299,
+          "quote_volume": 1048932408.9042487,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2689.11,
+          "change_pct": -1.029,
+          "volume": 256601.099,
+          "quote_volume": 691897471.455108,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.42,
+          "change_pct": -0.409,
+          "volume": 2374333.489,
+          "quote_volume": 283501922.83967,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 764.79,
+          "change_pct": 0.022,
+          "volume": 113710.438,
+          "quote_volume": 86412413.0192,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.827,
+          "change_pct": 82.154,
+          "volume": 18922280.657,
+          "quote_volume": 27924306.579931,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PHA": {
+          "price": 0.0813,
+          "change_pct": 23.933,
+          "volume": 176347111.0,
+          "quote_volume": 12785940.4899,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
