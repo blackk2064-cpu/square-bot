@@ -12853,6 +12853,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790726522.1395872,
+      "category": "analysis",
+      "symbol": "MOVR",
+      "topic": "analysis_MOVR",
+      "text_hash": "448a957a1a96e651b7f5e9ddf8b14a97b9477e6e73c1df235c1e5af0a6cf9b7b",
+      "text_for_similarity": "MOVR’s price surged 29.339% to $1.252, yet 24‑hour volume sits at just 6,113,035.916, a modest amount for such a jump.\nThe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83689.04,
+          "change_pct": 0.234,
+          "volume": 13458.37401,
+          "quote_volume": 1125779911.7342389,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2678.94,
+          "change_pct": -0.373,
+          "volume": 315847.9189,
+          "quote_volume": 853598213.814946,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.19,
+          "change_pct": 0.345,
+          "volume": 2423053.875,
+          "quote_volume": 288792410.03353,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 759.0,
+          "change_pct": -0.627,
+          "volume": 129790.068,
+          "quote_volume": 98671886.14644,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.252,
+          "change_pct": 29.339,
+          "volume": 6113035.916,
+          "quote_volume": 6995957.604805,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PUMP": {
+          "price": 0.005881,
+          "change_pct": 19.411,
+          "volume": 14216547340.0,
+          "quote_volume": 78447498.360943,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
