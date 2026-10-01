@@ -13104,6 +13104,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790820153.9801953,
+      "category": "binance_news",
+      "symbol": "GLMR",
+      "topic": "MetaMask exits Ethereum validators amid undisclosed security incident",
+      "text_hash": "6a6ad62f5f5daa30d87a243b275ace3bec3688322da1d249861ba89cabe4982f",
+      "text_for_similarity": "$GLMR is approaching the 0.01 mark after jumping 24.919% to 0.00963. 📈\n\n24-hour trading volume has reached 888761289.8.\n\nWill $GLMR break above 0.01 next, or pull back below 0.009?\n\n#GLMR #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83550.03,
+          "change_pct": 0.134,
+          "volume": 18500.98945,
+          "quote_volume": 1555892589.0346673,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2691.25,
+          "change_pct": 0.74,
+          "volume": 269086.1342,
+          "quote_volume": 724817509.192172,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.16,
+          "change_pct": -1.088,
+          "volume": 2925660.558,
+          "quote_volume": 349458628.08114,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.21,
+          "change_pct": 1.211,
+          "volume": 117524.2,
+          "quote_volume": 90230946.70861,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.298,
+          "change_pct": 85.173,
+          "volume": 34289068.382,
+          "quote_volume": 62044474.483648,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.00963,
+          "change_pct": 24.919,
+          "volume": 888761289.8,
+          "quote_volume": 8228331.9182314,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
