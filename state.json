@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788264119.2428749,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 78068.0,
-          "change_pct": -0.291,
-          "volume": 14499.95147,
-          "quote_volume": 1137703315.6048405,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2457.98,
-          "change_pct": 0.522,
-          "volume": 235457.5435,
-          "quote_volume": 580448238.392188,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.23,
-          "change_pct": -1.055,
-          "volume": 2069055.851,
-          "quote_volume": 213437379.50177,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 687.21,
-          "change_pct": 0.022,
-          "volume": 80574.054,
-          "quote_volume": 55593859.54616,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788271312.4647694,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "George Santos Bet on Whether He'd Show Up to the State of the Union—Kalshi Just Banned Him for Life",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 78113.31,
-          "change_pct": 0.292,
-          "volume": 14362.31534,
-          "quote_volume": 1126649473.79229,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2444.26,
-          "change_pct": 0.137,
-          "volume": 241462.2199,
-          "quote_volume": 594900041.224152,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.99,
-          "change_pct": -0.41,
-          "volume": 2102650.439,
-          "quote_volume": 216665721.51376,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 687.17,
-          "change_pct": 0.235,
-          "volume": 80411.383,
-          "quote_volume": 55475147.01604,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788278510.4878328,
       "category": "general_news",
       "symbol": "BNB",
@@ -13312,6 +13218,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790863355.0250764,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Bitcoin ETFs draw $6.3B in Q3 as BTC price rises nearly 43%",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83838.96,
+          "change_pct": -0.952,
+          "volume": 15141.80511,
+          "quote_volume": 1268813293.185711,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2693.94,
+          "change_pct": -0.579,
+          "volume": 249131.2521,
+          "quote_volume": 670048921.188795,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.77,
+          "change_pct": -2.645,
+          "volume": 2344259.278,
+          "quote_volume": 277549801.49065,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.81,
+          "change_pct": -0.196,
+          "volume": 81789.923,
+          "quote_volume": 62849305.68689,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.662,
+          "change_pct": 69.446,
+          "volume": 37252461.361,
+          "quote_volume": 88294381.32931,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ARK": {
+          "price": 0.2428,
+          "change_pct": -39.451,
+          "volume": 90289714.0,
+          "quote_volume": 25970063.8335,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
