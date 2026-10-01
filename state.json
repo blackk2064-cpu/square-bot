@@ -13509,6 +13509,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790888528.6290429,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Ethereum staking reward burn proposal EIP-8363 pulled from Hegota upgrade",
+      "text_hash": "6717946c0e7a8beb7955c4682f2e25e1c1ce42f2a2c917b9841583a805739355",
+      "text_for_similarity": "Is $ETH showing strength with a steady daily gain? $ETH is trading at 2698.57, up 0.548% in 24h with volume of 261569.6867. The market reacts to EIP‑8363 changes and clearer SEC guidance on digital asset holdings. Would you buy the dip or wait for the next",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84634.01,
+          "change_pct": 1.116,
+          "volume": 16882.75685,
+          "quote_volume": 1418167964.526602,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2698.57,
+          "change_pct": 0.548,
+          "volume": 261569.6867,
+          "quote_volume": 704300096.000138,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.15,
+          "change_pct": 0.034,
+          "volume": 2168328.477,
+          "quote_volume": 255839895.65343,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 770.04,
+          "change_pct": 0.275,
+          "volume": 91899.306,
+          "quote_volume": 70664380.96552,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.938,
+          "change_pct": 44.587,
+          "volume": 38816255.851,
+          "quote_volume": 103239906.875627,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALICE": {
+          "price": 0.2289,
+          "change_pct": 38.727,
+          "volume": 74445144.43,
+          "quote_volume": 15724453.276814,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
