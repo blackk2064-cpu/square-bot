@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788289318.0535114,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Ethena launches USDe payments app, offers 6% rewards",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77171.99,
-          "change_pct": -2.403,
-          "volume": 14248.89713,
-          "quote_volume": 1113530061.9069219,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2413.55,
-          "change_pct": -2.671,
-          "volume": 259162.4972,
-          "quote_volume": 634781760.625681,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.66,
-          "change_pct": -4.65,
-          "volume": 2351479.701,
-          "quote_volume": 240367873.69999,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 679.64,
-          "change_pct": -1.96,
-          "volume": 86618.34,
-          "quote_volume": 59566076.88476,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788296556.148598,
       "category": "macro_news",
       "symbol": "ETH",
@@ -13491,6 +13444,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790884997.650656,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Citi Lifts 12-Month Bitcoin Target to $113K, Ethereum to $3K",
+      "text_hash": "55a066dbc0b8666825985eb529366afebf737600fac87d675a71171f658ff5a3",
+      "text_for_similarity": "$BTC is holding above the84000 mark at 84696.0 after gaining 1.255% in the last 24 hours.\nTrading volume currently sits at 16904.79929 as markets digest Citi raising its 12-month target to $113K.\nWill $BTC continue toward the 90000 level next, or pull back below 84000? 📈\n#trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84696.0,
+          "change_pct": 1.255,
+          "volume": 16904.79929,
+          "quote_volume": 1419584983.983699,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2701.33,
+          "change_pct": 1.142,
+          "volume": 260928.7515,
+          "quote_volume": 702454442.873765,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.35,
+          "change_pct": 0.801,
+          "volume": 2220729.99,
+          "quote_volume": 261988090.82549,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.72,
+          "change_pct": 0.512,
+          "volume": 91463.121,
+          "quote_volume": 70323984.24817,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.945,
+          "change_pct": 68.382,
+          "volume": 39398563.795,
+          "quote_volume": 103498163.141663,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALICE": {
+          "price": 0.2209,
+          "change_pct": 35.438,
+          "volume": 63973967.09,
+          "quote_volume": 13316803.939808,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
