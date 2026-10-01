@@ -13364,6 +13364,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790874149.4495478,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Citi Lifts 12-Month Bitcoin Target to $113K, Ethereum to $3K",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84212.01,
+          "change_pct": -0.141,
+          "volume": 15981.17316,
+          "quote_volume": 1339873188.7783597,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2681.11,
+          "change_pct": -0.509,
+          "volume": 253324.9806,
+          "quote_volume": 681418616.264549,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.19,
+          "change_pct": -2.577,
+          "volume": 2227733.208,
+          "quote_volume": 262885591.99115,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 766.96,
+          "change_pct": -0.417,
+          "volume": 82961.976,
+          "quote_volume": 63748378.73236,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 3.251,
+          "change_pct": 83.465,
+          "volume": 39047491.939,
+          "quote_volume": 98452592.497065,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALICE": {
+          "price": 0.2061,
+          "change_pct": 25.213,
+          "volume": 47907893.91,
+          "quote_volume": 9893798.268977,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
