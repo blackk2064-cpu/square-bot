@@ -13283,6 +13283,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790866955.0835235,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Bitcoin ETFs draw $6.3B in Q3 as BTC price rises nearly 43%",
+      "text_hash": "dcd7811302f85c4b355c3f07758c1383c65a0a83d6d789270bf471efb412d10d",
+      "text_for_similarity": "Watching $BTC hover near $84,092.44 can be a test of patience.\nThe asset has seen a 24h change of 0.388% with a 24h volume of 14368.14143. 📉\nWill the price reach the $113K target or pull back first? #BTC #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84092.44,
+          "change_pct": 0.388,
+          "volume": 14368.14143,
+          "quote_volume": 1203974278.4089034,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2691.47,
+          "change_pct": 0.485,
+          "volume": 231987.3747,
+          "quote_volume": 624202124.726869,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.47,
+          "change_pct": -1.178,
+          "volume": 2197360.863,
+          "quote_volume": 259743500.27765,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 767.28,
+          "change_pct": 0.074,
+          "volume": 81474.01,
+          "quote_volume": 62626150.05762,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.594,
+          "change_pct": 60.52,
+          "volume": 37292458.406,
+          "quote_volume": 89701556.075025,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ARK": {
+          "price": 0.2394,
+          "change_pct": -27.455,
+          "volume": 69569940.0,
+          "quote_volume": 18288229.504,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
