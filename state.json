@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788228161.7269385,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Bitmine now controls 4.9% of Ethereum supply after adding 53.5K ETH",
-      "text_hash": "067b037a8fef8fcfb02ea98332374ceca0aec5241d366ef6b554a5fa8f4a7113",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78345.1,
-          "change_pct": 0.937,
-          "volume": 14994.49548,
-          "quote_volume": 1174935911.3250885,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2461.22,
-          "change_pct": 2.052,
-          "volume": 239726.5469,
-          "quote_volume": 588412309.56545,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.14,
-          "change_pct": 1.646,
-          "volume": 2094071.382,
-          "quote_volume": 215655374.51773,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 691.13,
-          "change_pct": 1.238,
-          "volume": 87154.94,
-          "quote_volume": 59973217.87152,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788264119.2428749,
       "category": "sarcastic",
       "symbol": "BNB",
@@ -13167,6 +13120,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790830945.075526,
+      "category": "education",
+      "symbol": "BTC",
+      "topic": "education",
+      "text_hash": "26ce9785a5c05af652429e37e648e440b20322627f1805fb3d4a6fec943137cf",
+      "text_for_similarity": "1.012% is the 24h gain pushing $BTC to $84063.65. 📈\n24h trading volume sits at 18816.19916.\nWill Bitcoin push past $85,000 next, or retest the $83,000 support level?\n#BTC #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84063.65,
+          "change_pct": 1.012,
+          "volume": 18816.19916,
+          "quote_volume": 1582592124.3724768,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2707.45,
+          "change_pct": 1.39,
+          "volume": 275686.9952,
+          "quote_volume": 742945814.745028,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.08,
+          "change_pct": 0.219,
+          "volume": 2932246.453,
+          "quote_volume": 350062302.61582,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.55,
+          "change_pct": 0.958,
+          "volume": 116192.193,
+          "quote_volume": 89265628.32101,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.232,
+          "change_pct": 69.605,
+          "volume": 36797546.021,
+          "quote_volume": 69209339.622448,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.009795,
+          "change_pct": 28.865,
+          "volume": 1033561274.1,
+          "quote_volume": 9707373.919689,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 86,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
