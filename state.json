@@ -13185,6 +13185,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790838220.3240755,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "db7be57c5322751efc9aa9fb8698edef7ece3bfe236e5919476b348c01afe523",
+      "text_for_similarity": "$BNB is trading at 770.69, up 1.794% on 109941.987 volume.\nPrice is up 1.794% while volume holds at 109",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84114.0,
+          "change_pct": 1.342,
+          "volume": 18647.63219,
+          "quote_volume": 1569387584.079445,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2715.21,
+          "change_pct": 2.031,
+          "volume": 274133.1194,
+          "quote_volume": 739638548.777501,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.25,
+          "change_pct": 1.008,
+          "volume": 2882856.477,
+          "quote_volume": 344244023.14133,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 770.69,
+          "change_pct": 1.794,
+          "volume": 109941.987,
+          "quote_volume": 84544299.17679,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.921,
+          "change_pct": 79.643,
+          "volume": 38960087.926,
+          "quote_volume": 78678149.947522,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STX": {
+          "price": 0.4114,
+          "change_pct": 32.071,
+          "volume": 31028096.9,
+          "quote_volume": 11321151.75822,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
