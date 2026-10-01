@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788217363.132552,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Bitmine now controls 4.9% of Ethereum supply after adding 53.5K ETH",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 78555.01,
-          "change_pct": 0.198,
-          "volume": 16732.14166,
-          "quote_volume": 1308932304.5772872,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2468.14,
-          "change_pct": -0.006,
-          "volume": 326699.9813,
-          "quote_volume": 798426532.107801,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.13,
-          "change_pct": -0.607,
-          "volume": 2433975.899,
-          "quote_volume": 250056181.5495,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 690.68,
-          "change_pct": -0.407,
-          "volume": 105012.492,
-          "quote_volume": 72167549.9126,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788220976.7714746,
-      "category": "education",
-      "symbol": "BTC",
-      "topic": "education",
-      "text_hash": "8179d4933cd758256b1d82763fefc14771008be60a0ac71a6e7ba0f7aeba450c",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78570.0,
-          "change_pct": 1.227,
-          "volume": 15295.65947,
-          "quote_volume": 1197520588.477191,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2466.19,
-          "change_pct": 2.17,
-          "volume": 264846.0579,
-          "quote_volume": 648638629.855533,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.01,
-          "change_pct": 1.638,
-          "volume": 2158939.804,
-          "quote_volume": 222071754.67613,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 691.3,
-          "change_pct": 1.067,
-          "volume": 91816.704,
-          "quote_volume": 63126591.24909,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788228161.7269385,
       "category": "binance_news",
       "symbol": "SOL",
@@ -13133,6 +13039,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790816544.7026348,
+      "category": "binance_news",
+      "symbol": "MOVR",
+      "topic": "MetaMask exits Ethereum validators as it investigates security incident",
+      "text_hash": "96aad51b32c87b38fad78493354dc4cbdad32dcedffbe551f94b6476f5280112",
+      "text_for_similarity": "Did you catch the massive rally on $MOVR today? 📈\n\n$MOVR is trading at 2.329 after surging 87.52% in the last 24 hours, with trading volume reaching 33210440.711.\n\nAre you taking profits now, or holding for higher targets?\n\n#trading #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83520.36,
+          "change_pct": 0.13,
+          "volume": 18567.20539,
+          "quote_volume": 1561365582.7965386,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2684.97,
+          "change_pct": 0.526,
+          "volume": 271756.5219,
+          "quote_volume": 731868740.080797,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.0,
+          "change_pct": -0.698,
+          "volume": 2929698.849,
+          "quote_volume": 350009674.71273,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 770.26,
+          "change_pct": 1.451,
+          "volume": 119786.158,
+          "quote_volume": 91924804.90184,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.329,
+          "change_pct": 87.52,
+          "volume": 33210440.711,
+          "quote_volume": 58996060.750089,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NIGHT": {
+          "price": 0.03999,
+          "change_pct": 22.669,
+          "volume": 441130705.0,
+          "quote_volume": 16058989.3194,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
