@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788278510.4878328,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "George Santos Bet on Whether He'd Show Up to the State of the Union—Kalshi Just Banned Him for Life",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77945.46,
-          "change_pct": -0.79,
-          "volume": 13230.76966,
-          "quote_volume": 1037636621.6795385,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2449.54,
-          "change_pct": -0.715,
-          "volume": 229329.5818,
-          "quote_volume": 564660043.48164,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.04,
-          "change_pct": -0.759,
-          "volume": 2125284.338,
-          "quote_volume": 218717375.95284,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 686.94,
-          "change_pct": -0.368,
-          "volume": 77838.777,
-          "quote_volume": 53689265.47465,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788289318.0535114,
       "category": "binance_news",
       "symbol": "BTC",
@@ -13346,6 +13299,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790870595.50907,
+      "category": "sarcastic",
+      "symbol": "BNB",
+      "topic": "sarcastic",
+      "text_hash": "287374fb0a0ce339319e0f48eaf024f462b03941fb2c7b20b29f8cc697081d92",
+      "text_for_similarity": "unmatched_percent_claim:0.422",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84156.01,
+          "change_pct": -0.001,
+          "volume": 15802.20651,
+          "quote_volume": 1324800580.8640046,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2682.3,
+          "change_pct": -0.045,
+          "volume": 244585.7324,
+          "quote_volume": 658000382.270511,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.35,
+          "change_pct": -1.635,
+          "volume": 2207209.01,
+          "quote_volume": 260711953.82608,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 766.44,
+          "change_pct": -0.422,
+          "volume": 83673.185,
+          "quote_volume": 64304216.77082,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.904,
+          "change_pct": 66.514,
+          "volume": 37542005.588,
+          "quote_volume": 92132720.832092,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALICE": {
+          "price": 0.2078,
+          "change_pct": 26.322,
+          "volume": 41526344.71,
+          "quote_volume": 8566310.75622,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
