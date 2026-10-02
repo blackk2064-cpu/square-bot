@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788347024.1792035,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August",
-      "text_hash": "ad0eb26d0fa20cad047bdc9debb63912757df743783d693d1afd346e33b2f717",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76706.75,
-          "change_pct": -1.648,
-          "volume": 14222.30604,
-          "quote_volume": 1100359149.7359166,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2374.99,
-          "change_pct": -3.256,
-          "volume": 317306.605,
-          "quote_volume": 766163871.782932,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 98.26,
-          "change_pct": -3.968,
-          "volume": 2450266.651,
-          "quote_volume": 245638564.37031,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 682.97,
-          "change_pct": -0.5,
-          "volume": 102878.919,
-          "quote_volume": 70392389.39159,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788354165.8008869,
       "category": "general_news",
       "symbol": "SOL",
@@ -13611,6 +13564,70 @@
         }
       },
       "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790942552.579946,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "BNB Chain crosses $1B in tokenized stocks, ETFs as market hits $3.7B",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 86388.98,
+          "change_pct": 2.871,
+          "volume": 20780.61841,
+          "quote_volume": 1771113522.2257323,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2745.55,
+          "change_pct": 1.38,
+          "volume": 319336.8653,
+          "quote_volume": 868095390.127346,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.81,
+          "change_pct": 3.211,
+          "volume": 2943356.585,
+          "quote_volume": 353181500.53827,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 777.84,
+          "change_pct": 0.915,
+          "volume": 122197.093,
+          "quote_volume": 94555592.29476,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.07238,
+          "change_pct": 67.624,
+          "volume": 477897605.0,
+          "quote_volume": 28173285.61249,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.128,
+          "change_pct": -27.248,
+          "volume": 24992128.271,
+          "quote_volume": 67892647.874599,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
