@@ -13581,6 +13581,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790924531.8920999,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
+      "text_hash": "171858b62086a26a5377fdfc831cf50ab293014cefe5ba57dfbdc6c71f249065",
+      "text_for_similarity": "Are you tracking how $BNB is performing today?\n$BNB is currently trading at 777.41, posting a 24h change of 0.871%.\nTrading activity remains solid with a 24h volume of 110467.502.\nKeep an eye on the market as privacy and layer updates continue to shape momentum. #BNB",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85966.01,
+          "change_pct": 2.202,
+          "volume": 20933.73613,
+          "quote_volume": 1772801331.4990275,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2728.52,
+          "change_pct": 0.49,
+          "volume": 308283.6534,
+          "quote_volume": 833126306.824459,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.7,
+          "change_pct": 2.055,
+          "volume": 2971139.707,
+          "quote_volume": 354701438.09902,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 777.41,
+          "change_pct": 0.871,
+          "volume": 110467.502,
+          "quote_volume": 85240670.90652,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.14465,
+          "change_pct": 49.943,
+          "volume": 127379001.1,
+          "quote_volume": 18459715.859229,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SCR": {
+          "price": 0.03136,
+          "change_pct": 23.319,
+          "volume": 371968440.5,
+          "quote_volume": 11598793.049762,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
