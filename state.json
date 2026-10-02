@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788314498.5571842,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Ethena launches USDe payments app, offers 6% rewards",
-      "text_hash": "5b00385fe7953185e400675a6dfe36b2392e2fbb1586df96f9a88e491a3c3338",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77033.09,
-          "change_pct": -1.688,
-          "volume": 14180.55414,
-          "quote_volume": 1103790322.405681,
-          "funding_rate": 7.19e-05,
-          "open_interest": 108954.623
-        },
-        "ETH": {
-          "price": 2400.17,
-          "change_pct": -2.495,
-          "volume": 284982.0485,
-          "quote_volume": 694153966.785056,
-          "funding_rate": -6.74e-06,
-          "open_interest": 2337779.549
-        },
-        "SOL": {
-          "price": 99.12,
-          "change_pct": -3.916,
-          "volume": 2527092.995,
-          "quote_volume": 256269028.12551,
-          "funding_rate": -2.173e-05,
-          "open_interest": 8470810.88
-        },
-        "BNB": {
-          "price": 682.71,
-          "change_pct": -1.221,
-          "volume": 101312.578,
-          "quote_volume": 69457323.7937,
-          "funding_rate": 8.58e-06,
-          "open_interest": 620187.25
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788318098.971145,
       "category": "education",
       "symbol": "BNB",
@@ -13398,6 +13351,70 @@
         }
       },
       "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790906562.0547857,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Ethereum Foundation launches zkAPI to let users pay for AI models without revealing identity",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84866.53,
+          "change_pct": 1.576,
+          "volume": 17146.22437,
+          "quote_volume": 1442753921.7240112,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2714.83,
+          "change_pct": 0.876,
+          "volume": 261759.9472,
+          "quote_volume": 705166611.088365,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.45,
+          "change_pct": 1.092,
+          "volume": 2157595.343,
+          "quote_volume": 254652972.76502,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 771.59,
+          "change_pct": 0.309,
+          "volume": 91399.938,
+          "quote_volume": 70299216.17971,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.17246,
+          "change_pct": 85.142,
+          "volume": 90789792.4,
+          "quote_volume": 12607396.293814,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.965,
+          "change_pct": 29.025,
+          "volume": 33638330.707,
+          "quote_volume": 93924562.902203,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
