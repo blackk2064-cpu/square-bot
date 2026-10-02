@@ -1,147 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788357730.422739,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77114.01,
-          "change_pct": -1.226,
-          "volume": 14145.30519,
-          "quote_volume": 1092210276.9403973,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2401.54,
-          "change_pct": -1.694,
-          "volume": 333661.4469,
-          "quote_volume": 803002191.188889,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.15,
-          "change_pct": -2.718,
-          "volume": 2380201.917,
-          "quote_volume": 237447408.42256,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 687.39,
-          "change_pct": 0.063,
-          "volume": 105918.059,
-          "quote_volume": 72455248.81811,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788368517.3257804,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77243.99,
-          "change_pct": -0.484,
-          "volume": 14663.20462,
-          "quote_volume": 1130896013.338457,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2387.9,
-          "change_pct": -1.878,
-          "volume": 333779.3887,
-          "quote_volume": 801204401.594759,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 98.93,
-          "change_pct": -2.098,
-          "volume": 2328977.735,
-          "quote_volume": 231445437.26191,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 686.51,
-          "change_pct": 0.336,
-          "volume": 111965.628,
-          "quote_volume": 76622505.95746,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788372129.688114,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead",
-      "text_hash": "4c8ed270feb9273a2d7b2bcde49f44a17c5ae044976e13a0858e9db7d508661e",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77381.0,
-          "change_pct": 0.079,
-          "volume": 14632.43807,
-          "quote_volume": 1128364440.1920748,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2393.18,
-          "change_pct": -1.189,
-          "volume": 333177.12,
-          "quote_volume": 799212071.725556,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.32,
-          "change_pct": -1.37,
-          "volume": 2317834.408,
-          "quote_volume": 230095375.07274,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 687.7,
-          "change_pct": 0.637,
-          "volume": 112484.775,
-          "quote_volume": 76984885.43563,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788400921.2351022,
       "category": "sarcastic",
       "symbol": "BNB",
@@ -13712,6 +13571,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790964150.0669763,
+      "category": "education",
+      "symbol": "BNB",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84796.01,
+          "change_pct": -0.094,
+          "volume": 24952.86727,
+          "quote_volume": 2139003975.2853892,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2685.04,
+          "change_pct": -0.524,
+          "volume": 396832.4572,
+          "quote_volume": 1080936756.13637,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.74,
+          "change_pct": 1.243,
+          "volume": 3011789.205,
+          "quote_volume": 364526269.70903,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 773.88,
+          "change_pct": 0.199,
+          "volume": 129247.076,
+          "quote_volume": 100372458.12683,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.16317,
+          "change_pct": 49.191,
+          "volume": 175157483.0,
+          "quote_volume": 25402472.708058,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.06372,
+          "change_pct": 43.902,
+          "volume": 856074341.0,
+          "quote_volume": 53578413.04244,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
