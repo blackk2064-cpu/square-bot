@@ -1,241 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788296556.148598,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Ethena launches USDe payments app, offers 6% rewards",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77449.98,
-          "change_pct": -1.794,
-          "volume": 14168.33199,
-          "quote_volume": 1105974448.515837,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2421.18,
-          "change_pct": -2.093,
-          "volume": 259233.1746,
-          "quote_volume": 633799692.188291,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.05,
-          "change_pct": -3.585,
-          "volume": 2419434.938,
-          "quote_volume": 246612330.70826,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 680.88,
-          "change_pct": -1.522,
-          "volume": 86479.717,
-          "quote_volume": 59410720.62936,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788300108.5067217,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Ethena launches USDe payments app, offers 6% rewards",
-      "text_hash": "ce7abdd65eea9960f5d6c918fb299d42c685ca2f6b274bce8d12c4d2a0bbbcc9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77188.01,
-          "change_pct": -2.313,
-          "volume": 14175.03484,
-          "quote_volume": 1105772070.1743505,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2414.76,
-          "change_pct": -2.658,
-          "volume": 264387.1298,
-          "quote_volume": 645816369.853686,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.64,
-          "change_pct": -3.98,
-          "volume": 2436996.497,
-          "quote_volume": 248043387.31322,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 680.43,
-          "change_pct": -1.79,
-          "volume": 87451.166,
-          "quote_volume": 60051401.5173,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788303707.093242,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Ethena launches USDe payments app, offers 6% rewards",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77260.0,
-          "change_pct": -1.653,
-          "volume": 14163.72518,
-          "quote_volume": 1104353628.385864,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2411.73,
-          "change_pct": -2.295,
-          "volume": 272797.3415,
-          "quote_volume": 665857878.291259,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.62,
-          "change_pct": -3.422,
-          "volume": 2476179.938,
-          "quote_volume": 251826290.11459,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 680.87,
-          "change_pct": -1.42,
-          "volume": 88203.654,
-          "quote_volume": 60552836.76549,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788307298.0192525,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77463.41,
-          "change_pct": -1.408,
-          "volume": 14135.03232,
-          "quote_volume": 1101724591.781711,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2418.95,
-          "change_pct": -1.916,
-          "volume": 276523.2382,
-          "quote_volume": 674688557.41275,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.03,
-          "change_pct": -2.902,
-          "volume": 2493680.833,
-          "quote_volume": 253463788.98511,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 682.95,
-          "change_pct": -1.208,
-          "volume": 89672.168,
-          "quote_volume": 61542759.68324,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788310923.5923223,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Ethena launches USDe payments app, offers 6% rewards",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77222.0,
-          "change_pct": -1.861,
-          "volume": 13960.44187,
-          "quote_volume": 1087480963.1196694,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2409.46,
-          "change_pct": -2.557,
-          "volume": 277340.014,
-          "quote_volume": 676274062.217537,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.71,
-          "change_pct": -3.382,
-          "volume": 2498045.62,
-          "quote_volume": 253651507.24631,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 684.27,
-          "change_pct": -1.355,
-          "volume": 96760.163,
-          "quote_volume": 66368815.56823,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788314498.5571842,
       "category": "macro_news",
       "symbol": "ETH",
@@ -13572,6 +13337,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790902937.1624207,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Ethereum Foundation launches zkAPI to let users pay for AI models without revealing identity",
+      "text_hash": "b036f4a1d467a67df7ff171cfe7a260c2488ce0db0c8a064391cacc17c2ee76c",
+      "text_for_similarity": "$SOL recorded over 2,150,789.45 in 24-hour trading volume as market activity builds up.\nPrice action holds steady at $118.82, marking a modest 24-hour gain of 0.686%.\nTraders are watching closely for a decisive breakout from this consolidation phase.\nKeep an eye on key support levels as momentum\n develops.",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84781.76,
+          "change_pct": 1.51,
+          "volume": 17111.03946,
+          "quote_volume": 1439379859.3794851,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2707.58,
+          "change_pct": 0.84,
+          "volume": 261107.5439,
+          "quote_volume": 703298410.414018,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.82,
+          "change_pct": 0.686,
+          "volume": 2150789.45,
+          "quote_volume": 253788375.08535,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 771.72,
+          "change_pct": 0.191,
+          "volume": 91707.714,
+          "quote_volume": 70534487.54055,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.14678,
+          "change_pct": 53.777,
+          "volume": 72287294.3,
+          "quote_volume": 9385085.473204,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALICE": {
+          "price": 0.2157,
+          "change_pct": 28.623,
+          "volume": 86602808.31,
+          "quote_volume": 18411475.625116,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
