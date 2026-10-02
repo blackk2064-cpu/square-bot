@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788354165.8008869,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "Japan’s Remixpoint dumps altcoins, leaves 1,506 BTC as sole crypto bet",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76663.72,
-          "change_pct": -1.733,
-          "volume": 14631.65264,
-          "quote_volume": 1130729436.050604,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2379.81,
-          "change_pct": -2.74,
-          "volume": 328651.2502,
-          "quote_volume": 791825615.621776,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.81,
-          "change_pct": -4.042,
-          "volume": 2398326.857,
-          "quote_volume": 239680602.72719,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 683.47,
-          "change_pct": -0.47,
-          "volume": 105048.641,
-          "quote_volume": 71855138.07412,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788357730.422739,
       "category": "binance_news",
       "symbol": "ETH",
@@ -13693,6 +13646,70 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790949729.3700655,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "BNB Chain crosses $1B in tokenized stocks, ETFs as market hits $3.7B",
+      "text_hash": "67d72db50b39f8e965cf96faa2cec5e09faf02b36e80bb2659fbb7d0248ca2ad",
+      "text_for_similarity": "BNB is trading at $780.51",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86557.81,
+          "change_pct": 3.243,
+          "volume": 22603.31075,
+          "quote_volume": 1933641319.6245103,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2744.19,
+          "change_pct": 1.865,
+          "volume": 330653.3406,
+          "quote_volume": 900752239.088527,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 122.06,
+          "change_pct": 3.634,
+          "volume": 3025686.406,
+          "quote_volume": 364603480.77792,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 780.51,
+          "change_pct": 1.39,
+          "volume": 134585.275,
+          "quote_volume": 104342187.78585,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.0681,
+          "change_pct": 58.926,
+          "volume": 658566122.0,
+          "quote_volume": 40772532.65999,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.12557,
+          "change_pct": 25.809,
+          "volume": 150701436.8,
+          "quote_volume": 21725518.601829,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
