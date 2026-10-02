@@ -13632,6 +13632,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790946155.3654764,
+      "category": "general_news",
+      "symbol": "MOVR",
+      "topic": "BNB Chain crosses $1B in tokenized stocks, ETFs as market hits $3.7B",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86775.0,
+          "change_pct": 3.622,
+          "volume": 22351.47449,
+          "quote_volume": 1908631284.570601,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2753.63,
+          "change_pct": 2.235,
+          "volume": 329600.5628,
+          "quote_volume": 896971371.287923,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 122.48,
+          "change_pct": 4.372,
+          "volume": 3049526.11,
+          "quote_volume": 366600735.783,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 781.1,
+          "change_pct": 1.636,
+          "volume": 130045.715,
+          "quote_volume": 100717579.83791,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.06779,
+          "change_pct": 57.835,
+          "volume": 589433618.0,
+          "quote_volume": 36027653.69548,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.098,
+          "change_pct": -27.755,
+          "volume": 23595548.494,
+          "quote_volume": 63505197.798814,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
