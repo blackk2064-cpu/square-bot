@@ -13764,6 +13764,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790974967.4956446,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Blast to wind down Ethereum L2 after costs outpace revenue",
+      "text_hash": "87141fa75f9c3ade32a49022161e22e47f33da8bfbdefd6ed30d38d7c42aa558",
+      "text_for_similarity": "$ETH is down -1.361% to 2661.83 despite seeing 422221.8649 in 24h volume. 📉\n\nEven with new privacy-focused AI payment features emerging, sentiment faces headwinds as Ethereum Layer-2 network Blast announced it is winding down after costs outpaced revenue.\n\nWill $ETH recover above 2700 next, or drop toward 2600? #ETH #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84459.79,
+          "change_pct": -0.206,
+          "volume": 26162.36728,
+          "quote_volume": 2240056273.247479,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2661.83,
+          "change_pct": -1.361,
+          "volume": 422221.8649,
+          "quote_volume": 1147876898.389365,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.82,
+          "change_pct": -0.279,
+          "volume": 3229375.559,
+          "quote_volume": 390159913.74792,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 764.29,
+          "change_pct": -0.747,
+          "volume": 144280.662,
+          "quote_volume": 111836680.39692,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.06198,
+          "change_pct": 39.626,
+          "volume": 924203079.0,
+          "quote_volume": 57883491.6013,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.916,
+          "change_pct": -34.763,
+          "volume": 16735867.378,
+          "quote_volume": 39926930.250609,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
