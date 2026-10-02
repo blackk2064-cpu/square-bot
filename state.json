@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788332559.9517748,
-      "category": "sarcastic",
-      "symbol": "ETH",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77627.76,
-          "change_pct": -1.417,
-          "volume": 13755.30361,
-          "quote_volume": 1067710522.2023823,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2421.55,
-          "change_pct": -2.013,
-          "volume": 292628.8873,
-          "quote_volume": 710478755.076573,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.11,
-          "change_pct": -3.135,
-          "volume": 2537993.55,
-          "quote_volume": 256057558.20661,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 688.34,
-          "change_pct": -0.298,
-          "volume": 106205.407,
-          "quote_volume": 72732250.84954,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788339756.966473,
-      "category": "sarcastic",
-      "symbol": "BTC",
-      "topic": "sarcastic",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76923.79,
-          "change_pct": -1.285,
-          "volume": 13635.11296,
-          "quote_volume": 1057172511.4066039,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2395.52,
-          "change_pct": -2.212,
-          "volume": 288214.8869,
-          "quote_volume": 698488937.225789,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.18,
-          "change_pct": -2.898,
-          "volume": 2384871.265,
-          "quote_volume": 239974519.16456,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 683.9,
-          "change_pct": -0.393,
-          "volume": 101194.548,
-          "quote_volume": 69267390.87821,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788347024.1792035,
       "category": "general_news",
       "symbol": "BNB",
@@ -13644,6 +13550,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790938923.195371,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Ethereum Foundation launches zkAPI to let users pay for AI models without revealing identity",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86328.47,
+          "change_pct": 2.85,
+          "volume": 20738.23202,
+          "quote_volume": 1766362352.226699,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2743.97,
+          "change_pct": 1.601,
+          "volume": 320185.1638,
+          "quote_volume": 870092613.094189,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 122.0,
+          "change_pct": 3.442,
+          "volume": 2928005.608,
+          "quote_volume": 351044507.85416,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 776.4,
+          "change_pct": 0.812,
+          "volume": 121137.451,
+          "quote_volume": 93704290.77464,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.06637,
+          "change_pct": 54.493,
+          "volume": 413858011.0,
+          "quote_volume": 23777387.29369,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.13259,
+          "change_pct": 32.378,
+          "volume": 142303477.0,
+          "quote_volume": 20618404.551363,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
