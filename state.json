@@ -13517,6 +13517,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790920936.3050714,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "c49ff85115fcc1bcaaffd93b7f874fa249a22af2c9b06438354f5b0f521388b3",
+      "text_for_similarity": "306883.6646 in 24-hour volume is recorded as $ETH holds steady at 2721.37.\n\nWith a slight move of 0.117% on the day, is $ETH gearing up for a breakout or heading back down? 📊\n\n#ETH #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85995.29,
+          "change_pct": 2.021,
+          "volume": 20517.21272,
+          "quote_volume": 1736289312.397522,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2721.37,
+          "change_pct": 0.117,
+          "volume": 306883.6646,
+          "quote_volume": 829206452.23233,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.86,
+          "change_pct": 2.043,
+          "volume": 2898443.458,
+          "quote_volume": 345711043.35793,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 777.1,
+          "change_pct": 0.658,
+          "volume": 108374.038,
+          "quote_volume": 83594581.72427,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.14599,
+          "change_pct": 53.431,
+          "volume": 122796359.1,
+          "quote_volume": 17771514.802875,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SCR": {
+          "price": 0.03162,
+          "change_pct": 25.976,
+          "volume": 347857482.0,
+          "quote_volume": 10802556.291431,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
