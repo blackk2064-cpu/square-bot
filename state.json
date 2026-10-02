@@ -13700,6 +13700,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1790971346.3941052,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Blast to wind down Ethereum L2 after costs outpace revenue",
+      "text_hash": "d49f283345125e1cd64d687790a1e4085556c7bb3222e6ec53722e71228b95ea",
+      "text_for_similarity": "BNB is holding steady at $766.58, down just -0.408% in the last 24 hours.\n\nTrading volume reached 142,428.43, showing consistent market activity.\n\nWith Ethereum L2s like Blast winding down, is BNB Chain your top pick for scalable DeFi 📈\n\nOr are you rotating into Ethereum-based tokens as the market consolidates\n\n$BNB #BNBChain",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84366.67,
+          "change_pct": -0.385,
+          "volume": 25935.81913,
+          "quote_volume": 2221067968.875264,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2669.35,
+          "change_pct": -1.184,
+          "volume": 421747.038,
+          "quote_volume": 1146792682.91885,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.07,
+          "change_pct": -0.262,
+          "volume": 3210407.636,
+          "quote_volume": 387938213.71357,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 766.58,
+          "change_pct": -0.408,
+          "volume": 142428.43,
+          "quote_volume": 110427604.51758,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.06216,
+          "change_pct": 40.063,
+          "volume": 898524293.0,
+          "quote_volume": 56254579.13843,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.98,
+          "change_pct": -32.745,
+          "volume": 17260941.161,
+          "quote_volume": 41774115.114508,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
