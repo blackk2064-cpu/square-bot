@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788400921.2351022,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "d519eef257345b154b7423fdf3c600b34c93a213c6be25aa2079e8fb0493abdf",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77322.0,
-          "change_pct": 0.371,
-          "volume": 12911.95713,
-          "quote_volume": 996155056.1799119,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2385.16,
-          "change_pct": -0.627,
-          "volume": 281199.0204,
-          "quote_volume": 672821294.667387,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.07,
-          "change_pct": 0.948,
-          "volume": 1934563.096,
-          "quote_volume": 191975904.20462,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 690.02,
-          "change_pct": 1.071,
-          "volume": 91237.74,
-          "quote_volume": 62632423.81654,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788408101.6614497,
       "category": "education",
       "symbol": "ETH",
@@ -13891,6 +13844,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1790996515.895013,
+      "category": "analysis",
+      "symbol": "SAND",
+      "topic": "analysis_SAND",
+      "text_hash": "88a2765b0b43c8e3f7721e0b24b406acc4f50a587475fe9c8024e7c1ffc29af1",
+      "text_for_similarity": "$SAND surged 66.875% in 24 hours, with volume reaching $1.137 billion. 🚀\n\nThe token is trading at $0.07476, reflecting strong buying interest.\n\nCould this momentum continue, or is a pullback overdue? #trading #SAND",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84600.01,
+          "change_pct": -0.702,
+          "volume": 25448.7032,
+          "quote_volume": 2178946961.028777,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2677.14,
+          "change_pct": -1.626,
+          "volume": 417414.4752,
+          "quote_volume": 1133827542.049859,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.9,
+          "change_pct": -0.991,
+          "volume": 3113410.794,
+          "quote_volume": 376335499.98877,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 768.25,
+          "change_pct": -0.779,
+          "volume": 142876.935,
+          "quote_volume": 110706715.98475,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.07476,
+          "change_pct": 66.875,
+          "volume": 1137632328.0,
+          "quote_volume": 72511651.84213,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.829,
+          "change_pct": -36.049,
+          "volume": 15070617.526,
+          "quote_volume": 33097518.692013,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
