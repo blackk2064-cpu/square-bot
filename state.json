@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788408101.6614497,
-      "category": "education",
-      "symbol": "ETH",
-      "topic": "education",
-      "text_hash": "864f7a11c86eb8777a62377cc02c694fc891b89e9dd546a82ed6b0a7aa9b8033",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77714.89,
-          "change_pct": 0.217,
-          "volume": 12809.77218,
-          "quote_volume": 988501666.3107651,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2403.84,
-          "change_pct": -0.401,
-          "volume": 277666.2207,
-          "quote_volume": 664130959.979318,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.56,
-          "change_pct": 0.309,
-          "volume": 1956263.009,
-          "quote_volume": 194354820.93278,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 692.79,
-          "change_pct": 0.759,
-          "volume": 89024.32,
-          "quote_volume": 61154662.72546,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788411699.1539488,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "7278acf9cca472dcbe165eb0b3708a93558e8681d213e22251c848b39f60b74a",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77782.0,
-          "change_pct": 0.284,
-          "volume": 12849.84387,
-          "quote_volume": 991680307.3,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2407.96,
-          "change_pct": -0.301,
-          "volume": 276583.5565,
-          "quote_volume": 661456230.648907,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.93,
-          "change_pct": 0.829,
-          "volume": 1980814.851,
-          "quote_volume": 196847126.55259,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 694.69,
-          "change_pct": 1.003,
-          "volume": 88527.694,
-          "quote_volume": 60833029.88158,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788415313.7737205,
       "category": "binance_news",
       "symbol": "BTC",
@@ -13908,6 +13814,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791003721.362915,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "4311b545dc3aef56e5e20356042e06ba335c721fce37d1d16c4501a53461a8b6",
+      "text_for_similarity": "Traders holding $BNB face a critical decision point as the price pulls back -1.901% to 766.77.\nWith 24-hour volume recorded at 133258.024, market momentum is being tested.\nAre you buying this dip at 766.77 or waiting for lower levels? 📉\n#BNB #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84577.24,
+          "change_pct": -2.378,
+          "volume": 22357.14153,
+          "quote_volume": 1912067730.3823206,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2675.52,
+          "change_pct": -2.418,
+          "volume": 377708.596,
+          "quote_volume": 1025093789.877302,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.16,
+          "change_pct": -3.514,
+          "volume": 2537028.497,
+          "quote_volume": 305955969.53805,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 766.77,
+          "change_pct": -1.901,
+          "volume": 133258.024,
+          "quote_volume": 103132388.46067,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.08088,
+          "change_pct": 75.673,
+          "volume": 1294222393.0,
+          "quote_volume": 85013203.71243,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 1.908,
+          "change_pct": -27.946,
+          "volume": 14243120.183,
+          "quote_volume": 30345738.839043,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
