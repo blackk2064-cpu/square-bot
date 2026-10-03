@@ -1,241 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788415313.7737205,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Hyperscale Data ends Michigan BTC mining as holdings fall 79%",
-      "text_hash": "d20d8cb1bdccef5181bd35a4ae43e495d30f455de1252ee5b9cd67edb31aca1e",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77765.0,
-          "change_pct": 0.13,
-          "volume": 13134.56299,
-          "quote_volume": 1013708889.1499139,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2403.66,
-          "change_pct": -0.792,
-          "volume": 280977.7104,
-          "quote_volume": 671825115.000897,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.78,
-          "change_pct": 0.489,
-          "volume": 2028513.658,
-          "quote_volume": 201646718.44779,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 695.02,
-          "change_pct": 0.827,
-          "volume": 87390.969,
-          "quote_volume": 60068046.8667,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788418986.8227255,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Hyperscale Data ends Michigan BTC mining as holdings fall 79%",
-      "text_hash": "d4bd6ecf5fa00cc5c055bbbfef9d551215fedb9c785218472c2d23e9c839bcd5",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77862.89,
-          "change_pct": 0.291,
-          "volume": 13139.52557,
-          "quote_volume": 1014161314.2662585,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2409.98,
-          "change_pct": -0.488,
-          "volume": 281429.7337,
-          "quote_volume": 672793693.809287,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.95,
-          "change_pct": 0.809,
-          "volume": 2034434.744,
-          "quote_volume": 202283358.56864,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 698.23,
-          "change_pct": 1.425,
-          "volume": 87071.276,
-          "quote_volume": 59889258.59313,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788422535.6441495,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Ether, XRP ETF inflow streaks end as Bitcoin funds rebound",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77720.0,
-          "change_pct": 0.289,
-          "volume": 13310.89571,
-          "quote_volume": 1027701838.7462322,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2400.11,
-          "change_pct": -0.761,
-          "volume": 289156.2568,
-          "quote_volume": 691308049.42501,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.45,
-          "change_pct": 0.591,
-          "volume": 2104860.998,
-          "quote_volume": 209426239.71757,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 698.76,
-          "change_pct": 1.589,
-          "volume": 90998.388,
-          "quote_volume": 62650972.68744,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788426134.281261,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Ether, XRP ETF inflow streaks end as Bitcoin funds rebound",
-      "text_hash": "37e943af3830977b7766d440d16254bcdbb5961c8a7e0246902485c62ba40589",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77826.38,
-          "change_pct": 1.159,
-          "volume": 12960.65651,
-          "quote_volume": 1000964155.8267323,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2403.02,
-          "change_pct": 0.291,
-          "volume": 282657.027,
-          "quote_volume": 675705793.888797,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.62,
-          "change_pct": 1.431,
-          "volume": 2101201.516,
-          "quote_volume": 209154993.87855,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 701.55,
-          "change_pct": 2.563,
-          "volume": 96061.262,
-          "quote_volume": 66256808.90231,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788436910.3596678,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Standard Chartered launches spot Bitcoin and Ether trading in UAE",
-      "text_hash": "661df3c50166dbb174e304a72bcab76bc5f627a5f16d8cfea4e9f0f76139acb0",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77902.01,
-          "change_pct": 1.456,
-          "volume": 11515.35016,
-          "quote_volume": 891505268.1302999,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2405.87,
-          "change_pct": 1.09,
-          "volume": 245164.215,
-          "quote_volume": 587297231.976793,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.77,
-          "change_pct": 2.774,
-          "volume": 1951646.337,
-          "quote_volume": 194921417.77263,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 711.49,
-          "change_pct": 4.08,
-          "volume": 113866.317,
-          "quote_volume": 79233647.33852,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788465718.0869782,
       "category": "binance_news",
       "symbol": "ETH",
@@ -13878,6 +13643,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791039728.6038315,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis_SOL",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84822.01,
+          "change_pct": -1.08,
+          "volume": 13534.93832,
+          "quote_volume": 1145910600.7225776,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2681.58,
+          "change_pct": -1.087,
+          "volume": 199539.8728,
+          "quote_volume": 535295257.513439,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.68,
+          "change_pct": -0.87,
+          "volume": 1520979.483,
+          "quote_volume": 180981313.4534,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 778.27,
+          "change_pct": 0.311,
+          "volume": 86014.714,
+          "quote_volume": 66118634.91601,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.011818,
+          "change_pct": 35.745,
+          "volume": 685609977.4,
+          "quote_volume": 7734582.3646429,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SUPER": {
+          "price": 0.2741,
+          "change_pct": 22.039,
+          "volume": 40903383.0,
+          "quote_volume": 10084885.7367,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
