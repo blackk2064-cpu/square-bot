@@ -13678,6 +13678,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791068537.0370097,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Blast to wind down Ethereum L2 after costs outpace revenue",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84776.02,
+          "change_pct": 0.254,
+          "volume": 6395.68237,
+          "quote_volume": 541808609.709184,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2686.59,
+          "change_pct": 0.696,
+          "volume": 81670.2351,
+          "quote_volume": 218928181.903048,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.72,
+          "change_pct": 1.03,
+          "volume": 902574.191,
+          "quote_volume": 107813671.20325,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 789.22,
+          "change_pct": 2.929,
+          "volume": 98810.501,
+          "quote_volume": 76931562.23565,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.012487,
+          "change_pct": 47.304,
+          "volume": 1044874053.9,
+          "quote_volume": 12587682.744077,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.05411,
+          "change_pct": 27.288,
+          "volume": 294893341.88,
+          "quote_volume": 14649413.6048081,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
