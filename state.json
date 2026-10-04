@@ -13742,6 +13742,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791072179.2626803,
+      "category": "analysis",
+      "symbol": "BTC",
+      "topic": "analysis_BTC",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84753.57,
+          "change_pct": 0.275,
+          "volume": 6886.46687,
+          "quote_volume": 583510401.079628,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2687.24,
+          "change_pct": 0.738,
+          "volume": 78961.0908,
+          "quote_volume": 211725118.139251,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.6,
+          "change_pct": 0.843,
+          "volume": 878870.487,
+          "quote_volume": 105029933.7066,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 787.33,
+          "change_pct": 2.517,
+          "volume": 99347.719,
+          "quote_volume": 77384184.18058,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.012611,
+          "change_pct": 46.011,
+          "volume": 1077905012.5,
+          "quote_volume": 13009934.8832394,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.0544,
+          "change_pct": 26.718,
+          "volume": 320819033.26,
+          "quote_volume": 16096560.2800331,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
