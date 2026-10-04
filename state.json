@@ -1,241 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788512539.650089,
-      "category": "analysis",
-      "symbol": "BNB",
-      "topic": "analysis",
-      "text_hash": "7dd5587e14f0b7905832cbe2ac74782877fcf822021e1f8e59f8d2f6f86f9b60",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 81131.7,
-          "change_pct": 4.24,
-          "volume": 20776.32977,
-          "quote_volume": 1672170237.2908888,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2525.85,
-          "change_pct": 5.096,
-          "volume": 376507.2789,
-          "quote_volume": 935451445.277336,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.31,
-          "change_pct": 3.647,
-          "volume": 2820748.869,
-          "quote_volume": 292384008.26808,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 718.99,
-          "change_pct": 2.498,
-          "volume": 188709.066,
-          "quote_volume": 135562560.94792,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788516128.5815744,
-      "category": "sarcastic",
-      "symbol": "SOL",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 81036.17,
-          "change_pct": 4.401,
-          "volume": 21404.80268,
-          "quote_volume": 1724304592.293044,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2520.81,
-          "change_pct": 5.334,
-          "volume": 397760.7002,
-          "quote_volume": 990403108.696702,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.04,
-          "change_pct": 3.895,
-          "volume": 2878010.17,
-          "quote_volume": 298614802.90475,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 718.46,
-          "change_pct": 2.535,
-          "volume": 189668.847,
-          "quote_volume": 136325869.26096,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788519706.0946417,
-      "category": "education",
-      "symbol": "SOL",
-      "topic": "education",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 81165.23,
-          "change_pct": 4.393,
-          "volume": 21480.00867,
-          "quote_volume": 1731775446.5474498,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2525.07,
-          "change_pct": 5.337,
-          "volume": 402395.3541,
-          "quote_volume": 1003122887.386528,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.1,
-          "change_pct": 3.644,
-          "volume": 2877046.57,
-          "quote_volume": 298764448.58746,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 722.47,
-          "change_pct": 2.43,
-          "volume": 185712.759,
-          "quote_volume": 133632789.96151,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788523311.5998201,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Bitcoin ETF inflows hit $731M, highest since January as BTC reclaims $80K",
-      "text_hash": "7bb4b115b75579c1dedbd7db70a05f7d3b956ca2b864f065db21003c9aa0b83f",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 81251.99,
-          "change_pct": 4.255,
-          "volume": 21595.83654,
-          "quote_volume": 1742512841.9751468,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2524.68,
-          "change_pct": 4.897,
-          "volume": 405194.6273,
-          "quote_volume": 1011315375.933086,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.13,
-          "change_pct": 3.293,
-          "volume": 2869065.8,
-          "quote_volume": 298198721.35524,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 724.68,
-          "change_pct": 1.808,
-          "volume": 171028.748,
-          "quote_volume": 123258337.48125,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788526914.1343687,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79383.03,
-          "change_pct": 1.037,
-          "volume": 24305.55012,
-          "quote_volume": 1960931017.7071145,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2447.85,
-          "change_pct": 1.141,
-          "volume": 490687.9055,
-          "quote_volume": 1223032753.625642,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.44,
-          "change_pct": -0.059,
-          "volume": 3201314.284,
-          "quote_volume": 332135854.60653,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 714.8,
-          "change_pct": 0.274,
-          "volume": 187592.987,
-          "quote_volume": 135180031.3496,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788541315.8163414,
       "category": "education",
       "symbol": "ETH",
@@ -13920,6 +13685,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791122528.63166,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
+      "text_hash": "ae1c22367edbd7468813b4088f69816921fc68530dda3b97e1c640133f1e0d77",
+      "text_for_similarity": "BNB is up 1.955% at $789.68, but its $108,025.9 24h volume is barely moving. Meanwhile, Ethereum news swings between privacy‑preserving AI payments and the $2.3 billion Layer‑2 Blast shutting down—and Trump taps Jay Clayton to lead a new Super Intelligence Force.\n\nIs the market pricing in strength or just noise? $BNB #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85241.14,
+          "change_pct": 0.437,
+          "volume": 7120.76335,
+          "quote_volume": 604812527.9217058,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2699.31,
+          "change_pct": 0.646,
+          "volume": 73452.6156,
+          "quote_volume": 197773278.17239,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.72,
+          "change_pct": 1.909,
+          "volume": 1045382.201,
+          "quote_volume": 125920076.53568,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 789.68,
+          "change_pct": 1.955,
+          "volume": 108025.9,
+          "quote_volume": 84973982.68973,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.002709,
+          "change_pct": 28.632,
+          "volume": 5784783787.0,
+          "quote_volume": 16038218.786239,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.05582,
+          "change_pct": 26.72,
+          "volume": 522450362.08,
+          "quote_volume": 27361548.9000694,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
