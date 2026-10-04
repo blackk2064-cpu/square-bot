@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788544901.209308,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "Trezor says data breach affects another 67K US customers",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79504.25,
-          "change_pct": -1.887,
-          "volume": 21704.68205,
-          "quote_volume": 1746456297.56204,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2446.4,
-          "change_pct": -2.162,
-          "volume": 450325.6322,
-          "quote_volume": 1120637460.563087,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.27,
-          "change_pct": -3.497,
-          "volume": 2586898.056,
-          "quote_volume": 266983459.76284,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 717.27,
-          "change_pct": -0.585,
-          "volume": 159449.809,
-          "quote_volume": 114799358.957,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788555705.4738421,
       "category": "macro_news",
       "symbol": "BNB",
@@ -13764,6 +13717,70 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791140531.7884953,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis_SOL",
+      "text_hash": "b468d06fb8b2131481bcf42e34278ad5089bc1febe9cd9f276e8278b463cb4e0",
+      "text_for_similarity": "A 1.242% gain has pushed $SOL to $121.46. 📈\n24-hour trading volume currently sits at 1080648.963.\nWill $SOL break higher from here, or are we heading back down?\n\n#SOL #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85338.83,
+          "change_pct": 0.458,
+          "volume": 6803.53394,
+          "quote_volume": 578326174.45733,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2701.03,
+          "change_pct": 0.591,
+          "volume": 69222.0551,
+          "quote_volume": 186668614.251392,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.46,
+          "change_pct": 1.242,
+          "volume": 1080648.963,
+          "quote_volume": 130644083.72535,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 789.29,
+          "change_pct": -0.025,
+          "volume": 68430.235,
+          "quote_volume": 53954487.17848,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.1593,
+          "change_pct": 40.489,
+          "volume": 47643783.5,
+          "quote_volume": 6468380.694827,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.002592,
+          "change_pct": 22.207,
+          "volume": 6767805683.0,
+          "quote_volume": 18665308.24858,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
