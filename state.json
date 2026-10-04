@@ -1,147 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788501717.5535655,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 80979.41,
-          "change_pct": 4.133,
-          "volume": 20336.51637,
-          "quote_volume": 1632239773.1349418,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2508.69,
-          "change_pct": 4.397,
-          "volume": 357169.5052,
-          "quote_volume": 883225474.288281,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.71,
-          "change_pct": 2.907,
-          "volume": 2730851.202,
-          "quote_volume": 282358735.87562,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 724.86,
-          "change_pct": 4.293,
-          "volume": 184918.684,
-          "quote_volume": 132466601.64044,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788505335.6047478,
-      "category": "sarcastic",
-      "symbol": "ETH",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 80812.59,
-          "change_pct": 3.854,
-          "volume": 20385.6112,
-          "quote_volume": 1637430150.4529827,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2508.58,
-          "change_pct": 4.186,
-          "volume": 358281.6904,
-          "quote_volume": 886924753.79192,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.64,
-          "change_pct": 2.746,
-          "volume": 2723502.529,
-          "quote_volume": 281753366.44288,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 720.49,
-          "change_pct": 3.262,
-          "volume": 184756.78,
-          "quote_volume": 132476058.64889,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788508919.4699357,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 80682.0,
-          "change_pct": 3.829,
-          "volume": 20387.31784,
-          "quote_volume": 1639553448.0704575,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2505.6,
-          "change_pct": 4.401,
-          "volume": 362237.6576,
-          "quote_volume": 898270674.374546,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.63,
-          "change_pct": 3.166,
-          "volume": 2728718.302,
-          "quote_volume": 282627001.54368,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 714.81,
-          "change_pct": 2.325,
-          "volume": 189445.974,
-          "quote_volume": 135961270.07354,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788512539.650089,
       "category": "analysis",
       "symbol": "BNB",
@@ -13997,6 +13856,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791104535.4995618,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "4553f18f28d4bf602c92a3d3db16361261cde683b6d83b35b5be3d5f2ea9efde",
+      "text_for_similarity": "Traders watching $BNB face a key decision as the price pushes up to 790.02.\nWith a 24h gain of 3.051% and volume reaching 98808.739, momentum is testing your targets. 📈\nAre you taking profits at",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85106.47,
+          "change_pct": 0.572,
+          "volume": 6955.4537,
+          "quote_volume": 589989426.0921725,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2700.55,
+          "change_pct": 0.636,
+          "volume": 70702.8153,
+          "quote_volume": 190068362.258994,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.98,
+          "change_pct": 1.417,
+          "volume": 964569.403,
+          "quote_volume": 115792805.41251,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 790.02,
+          "change_pct": 3.051,
+          "volume": 98808.739,
+          "quote_volume": 77401936.37341,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.003004,
+          "change_pct": 42.572,
+          "volume": 2628989879.0,
+          "quote_volume": 7071471.554106,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.012062,
+          "change_pct": 29.005,
+          "volume": 1392829498.6,
+          "quote_volume": 17200034.7490878,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
