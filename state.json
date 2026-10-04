@@ -13934,6 +13934,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791086539.0252392,
+      "category": "education",
+      "symbol": "STRK",
+      "topic": "education",
+      "text_hash": "d54af41bd915a674a1662ecaa9c30444b10a91df703e205ac3d66f72b7f150a0",
+      "text_for_similarity": "Did you notice the sharp move in $STRK today?\n$STRK is trading at 0.05236 after a 20.59% surge over the last 24 hours, with 24h volume of 384,621,045.56.\nAre you taking profits at this level, or holding for further upside?\n#crypto #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84840.87,
+          "change_pct": 0.167,
+          "volume": 6984.2614,
+          "quote_volume": 591992015.5434101,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2694.45,
+          "change_pct": 0.463,
+          "volume": 72996.2512,
+          "quote_volume": 195918022.121687,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.72,
+          "change_pct": 1.106,
+          "volume": 928699.814,
+          "quote_volume": 111229042.26072,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 784.61,
+          "change_pct": 2.116,
+          "volume": 100208.598,
+          "quote_volume": 78197754.88167,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.013035,
+          "change_pct": 53.101,
+          "volume": 1216898879.8,
+          "quote_volume": 14753322.8882038,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.05236,
+          "change_pct": 20.59,
+          "volume": 384621045.56,
+          "quote_volume": 19630419.9177181,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
