@@ -13870,6 +13870,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791082923.9410083,
+      "category": "education",
+      "symbol": "STRK",
+      "topic": "education",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84802.17,
+          "change_pct": 0.239,
+          "volume": 6969.42406,
+          "quote_volume": 590687715.9725764,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2692.37,
+          "change_pct": 0.569,
+          "volume": 73431.8625,
+          "quote_volume": 197057511.464472,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.4,
+          "change_pct": 1.27,
+          "volume": 873641.547,
+          "quote_volume": 104540719.16331,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 783.37,
+          "change_pct": 1.968,
+          "volume": 99453.914,
+          "quote_volume": 77583774.92468,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.01178,
+          "change_pct": 39.211,
+          "volume": 1180998533.3,
+          "quote_volume": 14306164.427676,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.0529,
+          "change_pct": 22.256,
+          "volume": 377395297.07,
+          "quote_volume": 19237236.9489876,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
