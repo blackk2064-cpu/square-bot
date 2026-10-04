@@ -13806,6 +13806,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791075731.475072,
+      "category": "macro_news",
+      "symbol": "GLMR",
+      "topic": "Blast to wind down Ethereum L2 after costs outpace revenue",
+      "text_hash": "d12fbaf611f8061670c71ee43a47573b52a4f3688deffd2bdf7c5fde461780e1",
+      "text_for_similarity": "$GLMR has broken well past the one-cent mark to trade at\n0.012423. 📈\n\nThe token recorded a 24h change of 46.205% with a 24h volume of 1115087531.6.\n\nDo you expect $GLMR to hold above one cent or pull back below it?\n\n#crypto #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84790.0,
+          "change_pct": 0.167,
+          "volume": 6959.34871,
+          "quote_volume": 589762964.6442635,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2693.52,
+          "change_pct": 0.654,
+          "volume": 76011.9434,
+          "quote_volume": 203906063.27431,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.2,
+          "change_pct": 1.051,
+          "volume": 873051.074,
+          "quote_volume": 104387593.90521,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 785.44,
+          "change_pct": 2.106,
+          "volume": 99421.928,
+          "quote_volume": 77498345.79837,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GLMR": {
+          "price": 0.012423,
+          "change_pct": 46.205,
+          "volume": 1115087531.6,
+          "quote_volume": 13506880.7674892,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.05474,
+          "change_pct": 25.522,
+          "volume": 350336893.36,
+          "quote_volume": 17758276.7413807,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 80,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
