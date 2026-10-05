@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788555705.4738421,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "A16z-Backed OpenReserve Gets Approval for Full-Service National Bank",
-      "text_hash": "89c35e8e59704bad96c3e9e155df0658a17bd84fa2c5dc8a428b73793fcfd2ad",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79705.46,
-          "change_pct": -2.163,
-          "volume": 20313.80995,
-          "quote_volume": 1631678015.530588,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2451.24,
-          "change_pct": -2.152,
-          "volume": 429649.2781,
-          "quote_volume": 1067283054.934305,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.78,
-          "change_pct": -3.03,
-          "volume": 2440766.695,
-          "quote_volume": 251182356.22671,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 718.08,
-          "change_pct": -0.887,
-          "volume": 156077.53,
-          "quote_volume": 112332613.06144,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788598940.7574618,
       "category": "sarcastic",
       "symbol": "BTC",
@@ -13783,6 +13736,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791183736.1591992,
+      "category": "education",
+      "symbol": "BNB",
+      "topic": "education",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86257.93,
+          "change_pct": 1.442,
+          "volume": 11592.4896,
+          "quote_volume": 996436562.5406083,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2726.05,
+          "change_pct": 1.107,
+          "volume": 150353.8924,
+          "quote_volume": 408141093.727376,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.58,
+          "change_pct": 0.479,
+          "volume": 1480416.485,
+          "quote_volume": 179549162.50034,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 794.28,
+          "change_pct": 0.719,
+          "volume": 133449.149,
+          "quote_volume": 106136003.23476,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.18946,
+          "change_pct": 65.222,
+          "volume": 143353616.7,
+          "quote_volume": 25648138.005831,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NIL": {
+          "price": 0.10614,
+          "change_pct": 20.875,
+          "volume": 96293526.7,
+          "quote_volume": 9369032.7904,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
