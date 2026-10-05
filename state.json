@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788631309.1152365,
-      "category": "education",
-      "symbol": "ETH",
-      "topic": "education",
-      "text_hash": "8f7b0ff648daec507ea1885fe66029019399911292a1ade9ff2e96f24d697ca6",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 80041.51,
-          "change_pct": 0.675,
-          "volume": 8839.31003,
-          "quote_volume": 704695818.8483391,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2480.14,
-          "change_pct": 1.379,
-          "volume": 136823.4943,
-          "quote_volume": 336281468.726787,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.22,
-          "change_pct": 2.913,
-          "volume": 1477973.22,
-          "quote_volume": 151605269.3457,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 776.25,
-          "change_pct": 8.221,
-          "volume": 315039.199,
-          "quote_volume": 237008974.16728,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788634945.1323278,
-      "category": "macro_news",
-      "symbol": "BTC",
-      "topic": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
-      "text_hash": "a214f4ed247760a4a8f86340af3c591fe688459127524497a7771e21426035d3",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79948.04,
-          "change_pct": 0.358,
-          "volume": 8897.3358,
-          "quote_volume": 709450595.7588112,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2478.18,
-          "change_pct": 1.066,
-          "volume": 133402.7693,
-          "quote_volume": 328059270.178326,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.79,
-          "change_pct": 2.055,
-          "volume": 1489650.234,
-          "quote_volume": 152910750.41913,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 775.57,
-          "change_pct": 7.839,
-          "volume": 317868.699,
-          "quote_volume": 239375964.56377,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788688915.6302865,
       "category": "macro_news",
       "symbol": "BNB",
@@ -13979,6 +13885,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791241341.8719604,
+      "category": "sarcastic",
+      "symbol": "RAD",
+      "topic": "sarcastic",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 85928.01,
+          "change_pct": -0.631,
+          "volume": 16634.34823,
+          "quote_volume": 1430789784.800458,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2716.0,
+          "change_pct": -0.6,
+          "volume": 275412.1489,
+          "quote_volume": 746594559.223064,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.03,
+          "change_pct": -0.567,
+          "volume": 1617151.196,
+          "quote_volume": 195119122.09751,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 788.31,
+          "change_pct": -0.945,
+          "volume": 143740.431,
+          "quote_volume": 114141377.05719,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.693,
+          "change_pct": 91.12,
+          "volume": 49951015.8,
+          "quote_volume": 30029501.46096,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RAD": {
+          "price": 0.347,
+          "change_pct": 32.443,
+          "volume": 30162244.4,
+          "quote_volume": 9562426.3615,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
