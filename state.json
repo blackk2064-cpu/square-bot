@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788598940.7574618,
-      "category": "sarcastic",
-      "symbol": "BTC",
-      "topic": "sarcastic",
-      "text_hash": "f1204b2321f8a09da9439c96d7de2db1e6b25797cd72885676cc4c9df36f33d1",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79650.01,
-          "change_pct": -1.826,
-          "volume": 16554.62161,
-          "quote_volume": 1320888405.9725149,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2456.83,
-          "change_pct": -2.733,
-          "volume": 336976.8267,
-          "quote_volume": 831759513.804213,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.6,
-          "change_pct": -1.649,
-          "volume": 1901141.709,
-          "quote_volume": 194035342.61615,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 750.05,
-          "change_pct": 4.32,
-          "volume": 192580.616,
-          "quote_volume": 140203173.6814,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788606105.8205693,
       "category": "analysis",
       "symbol": "BNB",
@@ -13864,6 +13817,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791194526.765719,
+      "category": "analysis",
+      "symbol": "BTC",
+      "topic": "analysis_BTC",
+      "text_hash": "581dadfdcc9e7a1eb675379a00d28dfd90b199d2154cbc46112da8e56fbcc5a0",
+      "text_for_similarity": "Wondering where $BTC stands after the latest session?\n$BTC is trading at 85976.0, up 0.859% in 24h with 12870.99366 volume.\nAre you buying the dip or waiting for a pullback? ##tradingeducation",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85976.0,
+          "change_pct": 0.859,
+          "volume": 12870.99366,
+          "quote_volume": 1107553954.5501554,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2717.6,
+          "change_pct": 0.571,
+          "volume": 171297.8272,
+          "quote_volume": 465501181.536574,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.6,
+          "change_pct": -0.593,
+          "volume": 1564692.961,
+          "quote_volume": 189800286.68523,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 787.56,
+          "change_pct": -0.581,
+          "volume": 141187.518,
+          "quote_volume": 112254828.74678,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.22126,
+          "change_pct": 80.179,
+          "volume": 170633201.7,
+          "quote_volume": 31662437.311827,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MOVR": {
+          "price": 2.344,
+          "change_pct": 26.909,
+          "volume": 8750470.365,
+          "quote_volume": 17312094.301982,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
