@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788606105.8205693,
-      "category": "analysis",
-      "symbol": "BNB",
-      "topic": "analysis",
-      "text_hash": "5b127c53fc9e933c84382ff342d584b29628e7115296137c464e9406a5b5784c",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79618.01,
-          "change_pct": -1.914,
-          "volume": 15818.11028,
-          "quote_volume": 1260150061.425955,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2454.15,
-          "change_pct": -2.819,
-          "volume": 303113.514,
-          "quote_volume": 745506936.342788,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.53,
-          "change_pct": -1.499,
-          "volume": 1791173.86,
-          "quote_volume": 182454013.5987,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 748.04,
-          "change_pct": 3.539,
-          "volume": 218661.79,
-          "quote_volume": 160051652.90041,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788624126.6795578,
       "category": "general_news",
       "symbol": "BNB",
@@ -13881,6 +13834,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791198178.7420416,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "BTC price fights to reclaim 2026 open: Three things to know in Bitcoin this week",
+      "text_hash": "ba393a3cccbe506feb8afa5495b30ce26e0e1d0f535e3b517a76a38d0187ef63",
+      "text_for_similarity": "$SOL is trading at 120.65.\nDown 0.519% with 1565412.487 volume 📉\nAre you buying the dip or waiting for a rebound?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86100.0,
+          "change_pct": 0.98,
+          "volume": 12959.79647,
+          "quote_volume": 1115438962.731118,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2715.7,
+          "change_pct": 0.526,
+          "volume": 172147.9465,
+          "quote_volume": 467859237.491108,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.65,
+          "change_pct": -0.519,
+          "volume": 1565412.487,
+          "quote_volume": 189853711.88952,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 789.91,
+          "change_pct": 0.152,
+          "volume": 138823.645,
+          "quote_volume": 110380739.11072,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.21785,
+          "change_pct": 71.698,
+          "volume": 175152057.9,
+          "quote_volume": 32803080.141238,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SCR": {
+          "price": 0.0308,
+          "change_pct": 23.052,
+          "volume": 267351964.0,
+          "quote_volume": 7665797.821917,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 82,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
