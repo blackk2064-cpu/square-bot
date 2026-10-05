@@ -13899,6 +13899,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791205338.3391778,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Metaplanet Sold 10,000 Bitcoin and Bought Back 11,000 to Prove a Point",
+      "text_hash": "86a063542acda4a52fd8d30ac55862748a6f65ee641737f2724b030172993909",
+      "text_for_similarity": "$ETH is nudging upward to 2712.52 with a 0.641% gain, but 24h volume remains modest at 174349.9534.\n\nThis mild price uptick lacks strong volume support to confirm a decisive breakout.\n\nWill $ETH push past 2750 next, or slide back toward 2650",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85947.88,
+          "change_pct": 0.969,
+          "volume": 13097.25462,
+          "quote_volume": 1127735816.1866412,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2712.52,
+          "change_pct": 0.641,
+          "volume": 174349.9534,
+          "quote_volume": 473942954.496744,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.44,
+          "change_pct": -0.709,
+          "volume": 1577440.661,
+          "quote_volume": 191238239.12041,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 788.76,
+          "change_pct": -0.022,
+          "volume": 138002.696,
+          "quote_volume": 109738235.78969,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.23495,
+          "change_pct": 86.988,
+          "volume": 187524363.9,
+          "quote_volume": 35820343.154045,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.5486,
+          "change_pct": 51.046,
+          "volume": 16116887.4,
+          "quote_volume": 8101106.8015,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
