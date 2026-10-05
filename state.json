@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788624126.6795578,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "AI Just Solved a 350-Year-Old Math Problem By Writing the Longest Proof Ever",
-      "text_hash": "9f0f86eecf6a4007f427f71515df7d31911f6830d2bf4ba3845ab8212b53dd36",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79806.01,
-          "change_pct": 0.496,
-          "volume": 8670.9739,
-          "quote_volume": 690696792.5649242,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2460.0,
-          "change_pct": 0.378,
-          "volume": 141139.5706,
-          "quote_volume": 346385921.396558,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.93,
-          "change_pct": 1.519,
-          "volume": 1274371.563,
-          "quote_volume": 130316397.4579,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 770.06,
-          "change_pct": 7.469,
-          "volume": 284728.012,
-          "quote_volume": 212908163.78942,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788631309.1152365,
       "category": "education",
       "symbol": "ETH",
@@ -13962,6 +13915,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791216148.7448452,
+      "category": "education",
+      "symbol": "SOL",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 85285.15,
+          "change_pct": 0.034,
+          "volume": 16496.45897,
+          "quote_volume": 1420064151.2353191,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2696.8,
+          "change_pct": -0.079,
+          "volume": 193699.3582,
+          "quote_volume": 526546891.320076,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 119.4,
+          "change_pct": -1.793,
+          "volume": 1673962.218,
+          "quote_volume": 202472771.99911,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 787.4,
+          "change_pct": 0.027,
+          "volume": 148565.541,
+          "quote_volume": 118084596.07284,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.21677,
+          "change_pct": 78.971,
+          "volume": 207802749.2,
+          "quote_volume": 40413348.012489,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.5485,
+          "change_pct": 51.352,
+          "volume": 25123639.0,
+          "quote_volume": 13314811.74029,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
