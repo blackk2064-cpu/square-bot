@@ -13801,6 +13801,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791187337.5857317,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "d1c7c1f4dc3e30ee9a768075e414d012d975c0a50c94b98110db57c0ff371551",
+      "text_for_similarity": "$ETH is holding above the $2,700 mark as it trades at 2726.51.\nThe price is up 0.797",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86292.0,
+          "change_pct": 1.377,
+          "volume": 12038.76978,
+          "quote_volume": 1035273151.1711793,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2726.51,
+          "change_pct": 0.797,
+          "volume": 164189.3178,
+          "quote_volume": 445991433.073737,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.67,
+          "change_pct": 0.429,
+          "volume": 1506319.595,
+          "quote_volume": 182727351.43015,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 791.8,
+          "change_pct": 0.514,
+          "volume": 139302.636,
+          "quote_volume": 110791501.28706,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.21012,
+          "change_pct": 79.651,
+          "volume": 152978398.8,
+          "quote_volume": 27665111.575567,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SCR": {
+          "price": 0.02994,
+          "change_pct": 18.715,
+          "volume": 213262100.3,
+          "quote_volume": 5953571.126912,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
