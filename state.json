@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788703302.1737068,
-      "category": "sarcastic",
-      "symbol": "BTC",
-      "topic": "sarcastic",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79816.81,
-          "change_pct": 0.235,
-          "volume": 9736.10434,
-          "quote_volume": 777747347.4671454,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2494.15,
-          "change_pct": 1.629,
-          "volume": 182291.532,
-          "quote_volume": 454120641.793496,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 107.01,
-          "change_pct": 4.207,
-          "volume": 2595564.656,
-          "quote_volume": 272836287.4843,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 750.36,
-          "change_pct": -1.393,
-          "volume": 240710.389,
-          "quote_volume": 184227236.61082,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788706895.1299803,
       "category": "sarcastic",
       "symbol": "ETH",
@@ -14347,6 +14300,70 @@
         }
       },
       "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791295329.155919,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Binance BTC outflows hit highest since mid-2023 as whales deposit stablecoins",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86289.35,
+          "change_pct": -0.103,
+          "volume": 13663.3131,
+          "quote_volume": 1171874200.369838,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2713.95,
+          "change_pct": -0.27,
+          "volume": 242922.5502,
+          "quote_volume": 657007285.415402,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.93,
+          "change_pct": 0.149,
+          "volume": 1450893.917,
+          "quote_volume": 174311209.41399,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 784.75,
+          "change_pct": -0.84,
+          "volume": 89699.842,
+          "quote_volume": 70392340.79959,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.8815,
+          "change_pct": 53.012,
+          "volume": 81412256.4,
+          "quote_volume": 64732575.70699,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 16.78,
+          "change_pct": 43.052,
+          "volume": 1215199.8,
+          "quote_volume": 19819137.9748,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
