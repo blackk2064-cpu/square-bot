@@ -13950,6 +13950,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791244955.9976478,
+      "category": "binance_news",
+      "symbol": "RAD",
+      "topic": "Metaplanet sold 10,000 BTC in Q3 before buying back 11,000 BTC to ‘demonstrate liquidity’",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85768.0,
+          "change_pct": -0.859,
+          "volume": 16180.03711,
+          "quote_volume": 1391223596.9128273,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2710.45,
+          "change_pct": -0.568,
+          "volume": 270456.1127,
+          "quote_volume": 733009097.939455,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.79,
+          "change_pct": -0.625,
+          "volume": 1605884.605,
+          "quote_volume": 193697078.08965,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 786.46,
+          "change_pct": -1.113,
+          "volume": 142496.936,
+          "quote_volume": 113138413.51712,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.7272,
+          "change_pct": 99.945,
+          "volume": 51798962.0,
+          "quote_volume": 31363735.57838,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RAD": {
+          "price": 0.344,
+          "change_pct": 31.298,
+          "volume": 31578299.2,
+          "quote_volume": 10064457.5853,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
