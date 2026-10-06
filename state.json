@@ -1,147 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788714090.1688151,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "6077c8b65dd3e7f73d509b7232deeafe555db93557932af195251e5a9dbab265",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79665.29,
-          "change_pct": -0.515,
-          "volume": 9592.8179,
-          "quote_volume": 766018859.8609481,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2484.11,
-          "change_pct": 0.193,
-          "volume": 192665.282,
-          "quote_volume": 480275174.929284,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 106.04,
-          "change_pct": 2.434,
-          "volume": 2679718.231,
-          "quote_volume": 282673226.05026,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 747.02,
-          "change_pct": -3.62,
-          "volume": 200768.146,
-          "quote_volume": 152790700.44537,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788717756.6583872,
-      "category": "education",
-      "symbol": "ETH",
-      "topic": "education",
-      "text_hash": "6853ee7a5f29f7bac44f22d4a02aa65ed9232c08ac38f8c5c5e6ca14a80fc0d9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79755.99,
-          "change_pct": -0.351,
-          "volume": 8878.53423,
-          "quote_volume": 708766508.8748004,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2492.14,
-          "change_pct": 0.501,
-          "volume": 190433.3731,
-          "quote_volume": 474820062.516167,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 106.23,
-          "change_pct": 1.987,
-          "volume": 2582361.609,
-          "quote_volume": 272739102.35806,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 747.88,
-          "change_pct": -3.693,
-          "volume": 185315.715,
-          "quote_volume": 140686849.05459,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788721301.2901962,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "Satoshi-era Bitcoin wakes after 16 years of dormancy as 600 BTC moves",
-      "text_hash": "8e075547fc5755414c49c45ef0e3117c5e451e9d033068607a5599600d79661d",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79955.34,
-          "change_pct": -0.016,
-          "volume": 8800.83469,
-          "quote_volume": 702526501.766752,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2494.42,
-          "change_pct": 0.619,
-          "volume": 192142.677,
-          "quote_volume": 479176807.148327,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 105.98,
-          "change_pct": 2.09,
-          "volume": 2597326.553,
-          "quote_volume": 274436470.26425,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 749.8,
-          "change_pct": -3.397,
-          "volume": 184966.404,
-          "quote_volume": 140272223.41411,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788742906.6995995,
       "category": "general_news",
       "symbol": "BNB",
@@ -14384,6 +14243,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791320534.1164281,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Pudgy Penguins' Ethereum Layer-2 Abstract Is Shutting Down",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 85621.49,
+          "change_pct": -0.189,
+          "volume": 12795.47721,
+          "quote_volume": 1099070432.6960635,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2698.46,
+          "change_pct": -0.52,
+          "volume": 231149.9515,
+          "quote_volume": 624998249.281103,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.02,
+          "change_pct": 0.315,
+          "volume": 1512051.334,
+          "quote_volume": 182267156.04582,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 779.68,
+          "change_pct": -1.033,
+          "volume": 86874.535,
+          "quote_volume": 68012049.26891,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ORCA": {
+          "price": 3.034,
+          "change_pct": 37.534,
+          "volume": 15425452.61,
+          "quote_volume": 41054681.21176,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 15.57,
+          "change_pct": 29.858,
+          "volume": 1854711.23,
+          "quote_volume": 30574344.1956,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
