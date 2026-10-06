@@ -14308,6 +14308,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791327731.6930327,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Pudgy Penguins' Ethereum Layer-2 Abstract Is Shutting Down",
+      "text_hash": "c483e75324387dfbe674badc8942340a0c7701f83a89cc30e95ee240db8f78bd",
+      "text_for_similarity": "$BNB is trading at 779.52, just below the 780 level 🚀\nThe price is down -1.115% with a 24h volume of 89122.618.\nWill it bounce above 780 or dip further?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85534.53,
+          "change_pct": -0.458,
+          "volume": 12561.52495,
+          "quote_volume": 1078781859.082338,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2696.61,
+          "change_pct": -0.714,
+          "volume": 230928.998,
+          "quote_volume": 624286268.900915,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.82,
+          "change_pct": -0.174,
+          "volume": 1480407.837,
+          "quote_volume": 178435353.38383,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 779.52,
+          "change_pct": -1.115,
+          "volume": 89122.618,
+          "quote_volume": 69733830.29805,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ORCA": {
+          "price": 3.175,
+          "change_pct": 35.916,
+          "volume": 16082225.95,
+          "quote_volume": 43845931.43333,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 16.18,
+          "change_pct": 33.609,
+          "volume": 1929982.49,
+          "quote_volume": 31792552.0087,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 89,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
