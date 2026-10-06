@@ -14078,6 +14078,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791255744.4879618,
+      "category": "analysis",
+      "symbol": "RLC",
+      "topic": "analysis_RLC",
+      "text_hash": "cf0d2469fcf9644a0959c3a381b198239507512c89b51fc9bdbf5adc7733101b",
+      "text_for_similarity": "Did you catch the massive surge on $RLC today? 📈\n\n$RLC is trading at 0.698 after gaining 80.129% over the last 24 hours, with trading volume reaching 59075665.3.\n\nAre you taking profits here, or are you holding for further upside?\n\n#RLC #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85536.01,
+          "change_pct": -1.137,
+          "volume": 14942.64605,
+          "quote_volume": 1282903334.107448,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2702.46,
+          "change_pct": -1.02,
+          "volume": 254230.1385,
+          "quote_volume": 688492453.244808,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.2,
+          "change_pct": -0.768,
+          "volume": 1538766.921,
+          "quote_volume": 185494692.30929,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 781.36,
+          "change_pct": -2.445,
+          "volume": 119090.065,
+          "quote_volume": 94066896.93026,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.698,
+          "change_pct": 80.129,
+          "volume": 59075665.3,
+          "quote_volume": 36826497.83341,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RAD": {
+          "price": 0.367,
+          "change_pct": 39.015,
+          "volume": 36311597.2,
+          "quote_volume": 11781424.2031,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
