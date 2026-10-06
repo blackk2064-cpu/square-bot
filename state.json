@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788706895.1299803,
-      "category": "sarcastic",
-      "symbol": "ETH",
-      "topic": "sarcastic",
-      "text_hash": "9ea6ca99293653f3c77f39b1ff44ccaf3ca05db7a28668b3d1889834fc5f68e6",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79526.02,
-          "change_pct": -0.243,
-          "volume": 10147.4663,
-          "quote_volume": 810452243.3298368,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2477.42,
-          "change_pct": 0.827,
-          "volume": 200075.5397,
-          "quote_volume": 498370873.269056,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 105.68,
-          "change_pct": 2.732,
-          "volume": 2681272.611,
-          "quote_volume": 282284985.40623,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 741.72,
-          "change_pct": -3.63,
-          "volume": 224778.855,
-          "quote_volume": 171660280.30489,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788714090.1688151,
       "category": "analysis",
       "symbol": "SOL",
@@ -14365,6 +14318,70 @@
       },
       "quality_score": 75,
       "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791298965.6422937,
+      "category": "binance_news",
+      "symbol": "RLC",
+      "topic": "Ethereum’s Glamsterdam upgrade launches on Sepolia testnet",
+      "text_hash": "083783dfec20b26aa72aea27b5f955b368c31374c500a41b1ef4ad17c9088fbf",
+      "text_for_similarity": "53.422% $RLC is trading at $0.8742.\n$RLC price $0.8742 with 24h volume $80,444,026.8.\nBuy or hold $RLC?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86623.92,
+          "change_pct": 1.136,
+          "volume": 12544.61947,
+          "quote_volume": 1076054037.8228767,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2722.5,
+          "change_pct": 0.65,
+          "volume": 237748.91,
+          "quote_volume": 643027350.967551,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.83,
+          "change_pct": 1.941,
+          "volume": 1397423.508,
+          "quote_volume": 168043396.21137,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 786.36,
+          "change_pct": -0.259,
+          "volume": 83065.053,
+          "quote_volume": 65134065.90397,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.8742,
+          "change_pct": 53.422,
+          "volume": 80444026.8,
+          "quote_volume": 64682028.60783,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 16.58,
+          "change_pct": 40.508,
+          "volume": 1353484.34,
+          "quote_volume": 22216925.4228,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
