@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788688915.6302865,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
-      "text_hash": "6a09a0aa4b740766f553ec2d495ebaf371ffc9b5d642b07c92bbc8539cca2332",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79896.0,
-          "change_pct": 0.332,
-          "volume": 10027.86073,
-          "quote_volume": 800713038.6291288,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2500.16,
-          "change_pct": 1.693,
-          "volume": 182339.1771,
-          "quote_volume": 453323226.564173,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 106.53,
-          "change_pct": 3.891,
-          "volume": 2393467.72,
-          "quote_volume": 250089344.81666,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 757.64,
-          "change_pct": 1.294,
-          "volume": 289133.388,
-          "quote_volume": 221048947.68858,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788703302.1737068,
       "category": "sarcastic",
       "symbol": "BTC",
@@ -14205,6 +14158,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791284569.486281,
+      "category": "education",
+      "symbol": "RLC",
+      "topic": "education",
+      "text_hash": "adeaabe2f4f4676e6bea116e44b4804c679b6c7d833326acf3768cf36f2b5a06",
+      "text_for_similarity": "$RLC is surging with a massive 91.696% gain in the last 24 hours, yet its\n price remains below the 1.00 mark at 0.9372.\n\nTrading volume has expanded sharply to 78526281.5 during this move.\n\nWill $RLC break past 1.00 next, or will it pull back below 0.90? #RLC #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86174.51,
+          "change_pct": 0.087,
+          "volume": 13666.79548,
+          "quote_volume": 1171906932.168183,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2713.99,
+          "change_pct": -0.063,
+          "volume": 239224.3587,
+          "quote_volume": 647010763.011708,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.3,
+          "change_pct": -0.298,
+          "volume": 1429442.414,
+          "quote_volume": 171743076.74847,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 783.74,
+          "change_pct": -0.781,
+          "volume": 87100.205,
+          "quote_volume": 68401582.96451,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.9372,
+          "change_pct": 91.696,
+          "volume": 78526281.5,
+          "quote_volume": 56584830.2903,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RAD": {
+          "price": 0.395,
+          "change_pct": 49.621,
+          "volume": 52441524.9,
+          "quote_volume": 18225099.3521,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
