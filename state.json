@@ -14014,6 +14014,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791248550.848463,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Metaplanet sold 10,000 BTC in Q3 before buying back 11,000 BTC to ‘demonstrate liquidity’",
+      "text_hash": "cb4f5c3e8e6b074b2573908a489b63474103a5fe8f54c9ed77ebce2c3d1f28e4",
+      "text_for_similarity": "$BNB is trading down from the $800 level at $786.1 after a -1.269% change over the past 24 hours. 📉\n\nTrading volume for the day stands at 142425.999.\n\nWill $BNB bounce back above $800 this week, or drop further below $780?\n\n#BNB #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85969.99,
+          "change_pct": -0.702,
+          "volume": 16062.80306,
+          "quote_volume": 1380739813.0420146,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2719.34,
+          "change_pct": -0.271,
+          "volume": 265048.0586,
+          "quote_volume": 718237671.682456,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 121.1,
+          "change_pct": -0.091,
+          "volume": 1569238.608,
+          "quote_volume": 189246840.27312,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 786.1,
+          "change_pct": -1.269,
+          "volume": 142425.999,
+          "quote_volume": 113058014.36509,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.7156,
+          "change_pct": 95.787,
+          "volume": 53937477.2,
+          "quote_volume": 32956018.76686,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RAD": {
+          "price": 0.356,
+          "change_pct": 34.848,
+          "volume": 32947308.8,
+          "quote_volume": 10548814.9664,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
