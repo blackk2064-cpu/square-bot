@@ -14287,6 +14287,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791291794.5410814,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Binance BTC outflows hit highest since mid-2023 as whales deposit stablecoins",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 86148.01,
+          "change_pct": 0.198,
+          "volume": 13909.37408,
+          "quote_volume": 1192994202.4953427,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2713.46,
+          "change_pct": -0.033,
+          "volume": 240935.2275,
+          "quote_volume": 651639670.944603,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.34,
+          "change_pct": -0.149,
+          "volume": 1436039.363,
+          "quote_volume": 172505656.08199,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 785.28,
+          "change_pct": -0.456,
+          "volume": 89879.69,
+          "quote_volume": 70555085.38415,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.8636,
+          "change_pct": 57.333,
+          "volume": 82472736.3,
+          "quote_volume": 64410263.63953,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 17.36,
+          "change_pct": 45.76,
+          "volume": 1060921.08,
+          "quote_volume": 17194932.6689,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
