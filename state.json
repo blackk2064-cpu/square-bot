@@ -14223,6 +14223,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791288207.3666644,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "dd54d361f65c31cb67fedc95a363748b86f180d35bbee4a5e8d5e94cde908ec3",
+      "text_for_similarity": "Holding your position through sideways action requires serious\n patience.\n\n$ETH is hovering at 2715.08 after a tiny 24h change of -0.096% on 240000.9594 volume.\n\nAre you taking profits at this level or holding for the next breakout? 📊\n\n#ETH #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 86280.01,
+          "change_pct": 0.111,
+          "volume": 13805.78659,
+          "quote_volume": 1183968086.7058444,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2715.08,
+          "change_pct": -0.096,
+          "volume": 240000.9594,
+          "quote_volume": 649107170.301019,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.36,
+          "change_pct": -0.315,
+          "volume": 1439659.803,
+          "quote_volume": 172947506.07477,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 783.83,
+          "change_pct": -0.908,
+          "volume": 88107.952,
+          "quote_volume": 69173775.68685,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 1.0157,
+          "change_pct": 112.09,
+          "volume": 83253524.3,
+          "quote_volume": 62498806.21923,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 16.79,
+          "change_pct": 41.568,
+          "volume": 782680.59,
+          "quote_volume": 12403520.7519,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 80,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
