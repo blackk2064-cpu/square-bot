@@ -14726,6 +14726,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791385321.6533177,
+      "category": "education",
+      "symbol": "BNB",
+      "topic": "education",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82998.77,
+          "change_pct": -4.195,
+          "volume": 20989.74074,
+          "quote_volume": 1769589921.3254216,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2562.68,
+          "change_pct": -5.881,
+          "volume": 451026.2397,
+          "quote_volume": 1186899094.100446,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 115.87,
+          "change_pct": -4.892,
+          "volume": 2005018.663,
+          "quote_volume": 237598482.18922,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 766.59,
+          "change_pct": -2.514,
+          "volume": 136052.137,
+          "quote_volume": 104926000.28669,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MINA": {
+          "price": 0.0953,
+          "change_pct": -24.124,
+          "volume": 148356699.8,
+          "quote_volume": 15994328.18454,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LAZIO": {
+          "price": 0.473,
+          "change_pct": 21.282,
+          "volume": 14888926.24,
+          "quote_volume": 6753775.57706,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
