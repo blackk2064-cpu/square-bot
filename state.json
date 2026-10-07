@@ -14453,6 +14453,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791356568.535648,
+      "category": "binance_news",
+      "symbol": "MINA",
+      "topic": "Kalshi’s 15-min gold markets overtake Ether just weeks after launch",
+      "text_hash": "923e54002ebe3b46c76c797280a6c3c4afcaadce33c62fb1ed9c73135ccfc0e8",
+      "text_for_similarity": "unmatched_percent_claim:23.481",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84216.02,
+          "change_pct": -1.279,
+          "volume": 15881.23418,
+          "quote_volume": 1354968494.9047866,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2617.33,
+          "change_pct": -2.972,
+          "volume": 368536.6293,
+          "quote_volume": 982933641.26336,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 118.8,
+          "change_pct": -0.843,
+          "volume": 1862729.201,
+          "quote_volume": 223172583.8809,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 768.37,
+          "change_pct": -1.375,
+          "volume": 117162.421,
+          "quote_volume": 90820749.87218,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 16.62,
+          "change_pct": 38.731,
+          "volume": 2618541.17,
+          "quote_volume": 43500896.5929,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MINA": {
+          "price": 0.1033,
+          "change_pct": -23.481,
+          "volume": 119742814.2,
+          "quote_volume": 13989139.01292,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
