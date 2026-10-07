@@ -14645,6 +14645,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791367329.3819914,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Bitcoin ETFs rebound with $119M inflow as Ether extends losses",
+      "text_hash": "c1087f15ed953d19528b3f8f76a498298dcf946b15d5c8daa124df112c9ed572",
+      "text_for_similarity": "I was watching my BTC position as the price slipped to $84,804, wondering if I should hold or cut losses.\nThe 24‑hour change shows a -2.524% decline and volume sits at 18,729.25 BTC, matching the latest market data.\nWith Bitcoin ETFs seeing a $119M inflow, the dip could be a buying opportunity for long‑term traders",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83804.0,
+          "change_pct": -2.524,
+          "volume": 18729.24816,
+          "quote_volume": 1590370082.9762492,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2596.56,
+          "change_pct": -4.192,
+          "volume": 390796.5722,
+          "quote_volume": 1037308999.854634,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 117.77,
+          "change_pct": -1.456,
+          "volume": 1783469.718,
+          "quote_volume": 213395654.5202,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.73,
+          "change_pct": -1.704,
+          "volume": 123956.297,
+          "quote_volume": 95977445.09764,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 16.53,
+          "change_pct": 39.376,
+          "volume": 2741400.0,
+          "quote_volume": 45645433.6608,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MINA": {
+          "price": 0.1001,
+          "change_pct": -24.052,
+          "volume": 136464080.7,
+          "quote_volume": 15372588.75589,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
