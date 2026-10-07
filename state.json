@@ -14841,6 +14841,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791406939.1906602,
+      "category": "macro_news",
+      "symbol": "MET",
+      "topic": "Tether, Kazakhstan cenbank mull tenge stablecoin and asset tokenization",
+      "text_hash": "50bc22c1d32e95e934c43c0a862bb99469c89fcc519b02de6eef77552923265e",
+      "text_for_similarity": "$MET surged 30.191% to reach 0.4364 despite broader market hesitation, posting a 24h volume of 47994115.0. 📈\n\nWill $MET extend this rally past current levels, or will profit-taking trigger a quick pullback?\n\n#crypto #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83440.01,
+          "change_pct": -2.548,
+          "volume": 20634.4085,
+          "quote_volume": 1730979908.5465374,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2574.93,
+          "change_pct": -4.578,
+          "volume": 424580.2936,
+          "quote_volume": 1103836675.336049,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 116.2,
+          "change_pct": -3.983,
+          "volume": 1979048.808,
+          "quote_volume": 232744566.42953,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 771.2,
+          "change_pct": -1.089,
+          "volume": 130432.173,
+          "quote_volume": 100333056.04717,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MET": {
+          "price": 0.4364,
+          "change_pct": 30.191,
+          "volume": 47994115.0,
+          "quote_volume": 18724230.91239,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MINA": {
+          "price": 0.094,
+          "change_pct": -20.204,
+          "volume": 146529273.5,
+          "quote_volume": 14994528.39802,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
