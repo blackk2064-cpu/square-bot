@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788742906.6995995,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "‘White hats’ take 4000 BTC from Liquid, ETFs see best inflows of 2026: Hodler’s Digest",
-      "text_hash": "ea93868bae2481035d380e701ee4ec2e8816ce88c4b8d5f4fc4647b99c36f6e1",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 80151.1,
-          "change_pct": 0.302,
-          "volume": 9177.90637,
-          "quote_volume": 733392697.2300355,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2512.67,
-          "change_pct": 0.87,
-          "volume": 219814.5071,
-          "quote_volume": 549262758.873551,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 106.13,
-          "change_pct": 2.7,
-          "volume": 2755724.95,
-          "quote_volume": 291982434.48405,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 750.49,
-          "change_pct": -2.14,
-          "volume": 180122.714,
-          "quote_volume": 135986365.32403,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788782534.6052501,
       "category": "general_news",
       "symbol": "BNB",
@@ -14371,6 +14324,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791335048.4972932,
+      "category": "binance_news",
+      "symbol": "NMR",
+      "topic": "Conduit sues Tether over allegedly freezing $2.8M without explanation",
+      "text_hash": "fd198fb8ec6dcf71687865619046e46d5cbe9cf0c4161cdfed73c96d0449f327",
+      "text_for_similarity": "$NMR is trading at 16.44 with a 36.772% 24h gain and 2064916.46 volume? 🤔\n💡 #trading Buy or sell?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 85530.01,
+          "change_pct": -0.484,
+          "volume": 12317.53941,
+          "quote_volume": 1057582901.3838805,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2696.19,
+          "change_pct": -0.832,
+          "volume": 230294.0548,
+          "quote_volume": 622462535.06563,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 120.55,
+          "change_pct": -0.454,
+          "volume": 1447194.456,
+          "quote_volume": 174408242.8841,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 778.76,
+          "change_pct": -0.93,
+          "volume": 91366.236,
+          "quote_volume": 71443280.5557,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NMR": {
+          "price": 16.44,
+          "change_pct": 36.772,
+          "volume": 2064916.46,
+          "quote_volume": 34029145.7772,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ORCA": {
+          "price": 3.165,
+          "change_pct": 35.662,
+          "volume": 16557097.34,
+          "quote_volume": 46427186.94433,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 86,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
