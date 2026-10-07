@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788804096.2163315,
-      "category": "analysis",
-      "symbol": "BNB",
-      "topic": "analysis",
-      "text_hash": "0d6b6c2ded02271c1164c7926ed634e79e1a25995d54f7d4b229854d1ab1764a",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79211.44,
-          "change_pct": -0.683,
-          "volume": 11340.04295,
-          "quote_volume": 902829686.5801586,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2496.7,
-          "change_pct": 0.175,
-          "volume": 272454.8862,
-          "quote_volume": 680353564.623301,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.03,
-          "change_pct": -2.071,
-          "volume": 2252998.455,
-          "quote_volume": 236895624.15586,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 740.91,
-          "change_pct": -0.98,
-          "volume": 134321.845,
-          "quote_volume": 100209187.76116,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788807735.2805107,
       "category": "binance_news",
       "symbol": "ETH",
@@ -14781,6 +14734,70 @@
           "change_pct": 21.282,
           "volume": 14888926.24,
           "quote_volume": 6753775.57706,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791396136.2266376,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Tether, Kazakhstan cenbank mull tenge stablecoin and asset tokenization",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83208.01,
+          "change_pct": -2.969,
+          "volume": 20712.07293,
+          "quote_volume": 1740063520.3062854,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2553.7,
+          "change_pct": -5.409,
+          "volume": 442795.3385,
+          "quote_volume": 1156007874.792153,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 116.41,
+          "change_pct": -3.73,
+          "volume": 1948428.12,
+          "quote_volume": 229781916.05294,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 769.8,
+          "change_pct": -1.62,
+          "volume": 130162.917,
+          "quote_volume": 100170813.67076,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SAND": {
+          "price": 0.08217,
+          "change_pct": 25.24,
+          "volume": 555950957.0,
+          "quote_volume": 42174844.62448,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MINA": {
+          "price": 0.0919,
+          "change_pct": -25.224,
+          "volume": 153563371.3,
+          "quote_volume": 16184322.86475,
           "funding_rate": null,
           "open_interest": null
         }
