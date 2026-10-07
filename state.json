@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788811308.1873987,
-      "category": "education",
-      "symbol": "SOL",
-      "topic": "education",
-      "text_hash": "99dcd88184067bd97c08e86e80c0dc0156c9710c365528b633f9b92fe6790feb",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79384.0,
-          "change_pct": -0.559,
-          "volume": 11446.1399,
-          "quote_volume": 910955487.7705002,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2496.35,
-          "change_pct": 0.227,
-          "volume": 271766.4552,
-          "quote_volume": 678639626.322335,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.38,
-          "change_pct": -1.033,
-          "volume": 2243022.211,
-          "quote_volume": 235621946.31047,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 741.99,
-          "change_pct": -0.945,
-          "volume": 131159.4,
-          "quote_volume": 97805530.1361,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788818516.06247,
       "category": "binance_news",
       "symbol": "BTC",
@@ -14823,6 +14776,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791403344.6390157,
+      "category": "education",
+      "symbol": "BTC",
+      "topic": "education",
+      "text_hash": "0315a0f1e86ac1bcb5dd10ba10819dfb7d3e539d4d8573181733b088bdafc0df",
+      "text_for_similarity": "-2.558% is the 24-hour move for $BTC as the price slides to 83436.0.\n\nTrading volume currently stands at 20602.90204.\n\nWill $BTC rebound above 84k next, or continue downward? 📉\n\n#BTC #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83436.0,
+          "change_pct": -2.558,
+          "volume": 20602.90204,
+          "quote_volume": 1728996107.2649388,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2571.25,
+          "change_pct": -4.494,
+          "volume": 424965.8545,
+          "quote_volume": 1105918532.161791,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 115.85,
+          "change_pct": -4.121,
+          "volume": 1959174.613,
+          "quote_volume": 230575596.15464,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 771.37,
+          "change_pct": -1.051,
+          "volume": 131352.067,
+          "quote_volume": 101060811.78116,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MET": {
+          "price": 0.4308,
+          "change_pct": 31.022,
+          "volume": 45405779.0,
+          "quote_volume": 17552209.75804,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MINA": {
+          "price": 0.0916,
+          "change_pct": -20.555,
+          "volume": 153658159.2,
+          "quote_volume": 15918663.45869,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
