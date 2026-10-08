@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788886922.9551895,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "8b50de4a9f3678f22f81eb6c779f1ab340af685dd10325f0dbbf5ed79940e4a2",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78739.99,
-          "change_pct": -0.364,
-          "volume": 18606.11287,
-          "quote_volume": 1461889636.5443687,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2496.61,
-          "change_pct": 0.519,
-          "volume": 246015.6422,
-          "quote_volume": 610538373.525304,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.24,
-          "change_pct": 0.356,
-          "volume": 1956404.553,
-          "quote_volume": 202317165.88779,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 755.76,
-          "change_pct": 2.177,
-          "volume": 178023.903,
-          "quote_volume": 133518895.87541,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788894129.2901003,
       "category": "binance_news",
       "symbol": "SOL",
@@ -14942,6 +14895,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791478960.8528094,
+      "category": "binance_news",
+      "symbol": "RLC",
+      "topic": "Samsung Wallet Taps Solana for USDC Transfers on 82M US Galaxy Devices",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80914.01,
+          "change_pct": -2.953,
+          "volume": 19725.39432,
+          "quote_volume": 1626182452.9026184,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2414.89,
+          "change_pct": -5.97,
+          "volume": 389534.8335,
+          "quote_volume": 982580595.982312,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 107.64,
+          "change_pct": -7.835,
+          "volume": 2816990.871,
+          "quote_volume": 318066961.0692,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 724.12,
+          "change_pct": -6.117,
+          "volume": 154981.452,
+          "quote_volume": 116576550.85608,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OGN": {
+          "price": 0.03953,
+          "change_pct": 77.424,
+          "volume": 1072083540.0,
+          "quote_volume": 36800214.96866,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.8901,
+          "change_pct": 31.847,
+          "volume": 18443595.3,
+          "quote_volume": 13940900.93049,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
