@@ -1,147 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788836498.1412632,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78944.0,
-          "change_pct": -1.108,
-          "volume": 10757.96102,
-          "quote_volume": 853448243.9932387,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2484.89,
-          "change_pct": -0.969,
-          "volume": 241748.42,
-          "quote_volume": 602357956.488923,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.28,
-          "change_pct": -2.326,
-          "volume": 2083986.337,
-          "quote_volume": 217792348.14872,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 738.56,
-          "change_pct": -1.3,
-          "volume": 110962.402,
-          "quote_volume": 82407460.40865,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788847299.9654264,
-      "category": "education",
-      "symbol": "ETH",
-      "topic": "education",
-      "text_hash": "5c37d147f701edf5953ebc045633c2cf87d80cd51e43a8385cdefc5cd51222b2",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78531.51,
-          "change_pct": -1.533,
-          "volume": 11272.66249,
-          "quote_volume": 892431730.7302628,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2472.4,
-          "change_pct": -1.29,
-          "volume": 234089.8714,
-          "quote_volume": 582629232.751886,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.9,
-          "change_pct": -2.084,
-          "volume": 2051492.209,
-          "quote_volume": 213794035.74102,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 750.56,
-          "change_pct": 0.274,
-          "volume": 129654.801,
-          "quote_volume": 96368131.34293,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788858125.9210968,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "‘The chain is now earnings’: Bernstein sees 31% upside for Robinhood as fees top Solana, BNB Chain",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78400.06,
-          "change_pct": -1.303,
-          "volume": 15653.25345,
-          "quote_volume": 1234050120.6241424,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2477.12,
-          "change_pct": -0.572,
-          "volume": 230309.4355,
-          "quote_volume": 572523661.649297,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.02,
-          "change_pct": -1.605,
-          "volume": 1953642.106,
-          "quote_volume": 203015101.06489,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 755.21,
-          "change_pct": 1.362,
-          "volume": 155934.578,
-          "quote_volume": 116337270.76888,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788865324.1649983,
       "category": "general_news",
       "symbol": "BTC",
@@ -14919,6 +14778,70 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791450185.2438438,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "8ada28290510f0c07c9253ed4ae7299dafd21cff1b49325230968a03f5c4c145",
+      "text_for_similarity": "✅ $ETH at $2560.54 tests your stop‑loss after a -1.934% drop in 24 hours.\nVolume stands at 317659.8768 as you consider your next move.\nHold or sell now? #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82881.85,
+          "change_pct": -1.305,
+          "volume": 18376.34155,
+          "quote_volume": 1529729698.8226519,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2560.54,
+          "change_pct": -1.934,
+          "volume": 317659.8768,
+          "quote_volume": 816521408.780808,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 114.89,
+          "change_pct": -2.85,
+          "volume": 1923744.325,
+          "quote_volume": 223471713.18232,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 767.23,
+          "change_pct": -0.721,
+          "volume": 88238.005,
+          "quote_volume": 67859933.40772,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MET": {
+          "price": 0.5294,
+          "change_pct": 69.408,
+          "volume": 94208413.1,
+          "quote_volume": 41654100.76588,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OGN": {
+          "price": 0.02657,
+          "change_pct": 26.826,
+          "volume": 302653397.0,
+          "quote_volume": 7144381.46103,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
