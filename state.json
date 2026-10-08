@@ -15169,6 +15169,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791500555.1769416,
+      "category": "analysis",
+      "symbol": "RLC",
+      "topic": "analysis_RLC",
+      "text_hash": "4846c33ffefb2695daeb6342f8f73ab56e3053a9940a9933c6a9de196558c4d1",
+      "text_for_similarity": "RLC is sitting near $0.8652 after a\n 27.667% rally, and the 24h volume is already at 31,671,716.8. Are you adding to the move or waiting for a retracement? #trading #RLC",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81882.0,
+          "change_pct": -1.615,
+          "volume": 21712.54607,
+          "quote_volume": 1782503050.501184,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2475.89,
+          "change_pct": -3.654,
+          "volume": 419501.3864,
+          "quote_volume": 1048806459.754379,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.33,
+          "change_pct": -4.896,
+          "volume": 3449074.766,
+          "quote_volume": 383874194.55458,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 737.18,
+          "change_pct": -4.509,
+          "volume": 187363.318,
+          "quote_volume": 139571028.38989,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OGN": {
+          "price": 0.04714,
+          "change_pct": 105.941,
+          "volume": 1383463478.0,
+          "quote_volume": 54970208.25037,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.8652,
+          "change_pct": 27.667,
+          "volume": 31671716.8,
+          "quote_volume": 26881419.2973,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
