@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788818516.06247,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Ethereum Foundation names 2 ‘must ship’ EIPs for Hegotá upgrade",
-      "text_hash": "975ef12e1f9b88658435b26cef81c9d1f09fa0f420b6a1423773dc68941ce9d7",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79165.99,
-          "change_pct": -0.929,
-          "volume": 11201.97402,
-          "quote_volume": 891172732.8296413,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2490.64,
-          "change_pct": -0.627,
-          "volume": 269164.7019,
-          "quote_volume": 671969161.76888,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.83,
-          "change_pct": -1.89,
-          "volume": 2226721.209,
-          "quote_volume": 233731091.58021,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 739.15,
-          "change_pct": -1.591,
-          "volume": 127338.111,
-          "quote_volume": 94876191.81163,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788836498.1412632,
       "category": "sarcastic",
       "symbol": "BNB",
@@ -14904,6 +14857,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791425053.7030432,
+      "category": "analysis",
+      "symbol": "MET",
+      "topic": "analysis_MET",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83094.01,
+          "change_pct": -1.617,
+          "volume": 20668.54253,
+          "quote_volume": 1729245541.5425794,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2578.19,
+          "change_pct": -2.942,
+          "volume": 430549.6186,
+          "quote_volume": 1115451566.302432,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 116.1,
+          "change_pct": -2.38,
+          "volume": 1938036.647,
+          "quote_volume": 226964706.97647,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 772.49,
+          "change_pct": 0.36,
+          "volume": 118533.291,
+          "quote_volume": 91042833.41465,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MET": {
+          "price": 0.4593,
+          "change_pct": 44.525,
+          "volume": 63132596.7,
+          "quote_volume": 25812564.38999,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.18442,
+          "change_pct": 22.449,
+          "volume": 92107456.2,
+          "quote_volume": 17126889.771215,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
