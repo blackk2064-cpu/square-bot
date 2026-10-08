@@ -15041,6 +15041,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791489741.5765004,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Securitize stock jumps over 10% after launching tokenized US equities on Solana",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81810.03,
+          "change_pct": -1.949,
+          "volume": 21553.62502,
+          "quote_volume": 1771090995.7220664,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2465.77,
+          "change_pct": -4.102,
+          "volume": 410715.5398,
+          "quote_volume": 1029275137.915153,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.22,
+          "change_pct": -5.723,
+          "volume": 3297828.001,
+          "quote_volume": 368098318.39278,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 730.79,
+          "change_pct": -5.262,
+          "volume": 180439.637,
+          "quote_volume": 134637408.46622,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OGN": {
+          "price": 0.04927,
+          "change_pct": 112.188,
+          "volume": 1290080490.0,
+          "quote_volume": 49262313.68034,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.8769,
+          "change_pct": 30.744,
+          "volume": 30522733.4,
+          "quote_volume": 25759340.49008,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
