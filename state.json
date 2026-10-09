@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788951723.0129359,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78956.93,
-          "change_pct": 0.496,
-          "volume": 13596.57156,
-          "quote_volume": 1069128865.7204671,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2488.11,
-          "change_pct": 0.277,
-          "volume": 258825.8144,
-          "quote_volume": 644547548.524304,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.85,
-          "change_pct": 0.425,
-          "volume": 1813184.147,
-          "quote_volume": 187914829.59431,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 750.55,
-          "change_pct": -0.754,
-          "volume": 139758.382,
-          "quote_volume": 105111206.71372,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788962571.9293807,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "10 of the greatest unsolved crypto mysteries",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 79128.0,
-          "change_pct": 1.457,
-          "volume": 12386.53348,
-          "quote_volume": 977645559.8071898,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2503.55,
-          "change_pct": 1.745,
-          "volume": 259666.3115,
-          "quote_volume": 648570622.573968,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.89,
-          "change_pct": 1.129,
-          "volume": 1811588.098,
-          "quote_volume": 188198980.82786,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 745.35,
-          "change_pct": -0.268,
-          "volume": 130084.331,
-          "quote_volume": 97825324.49949,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788966172.0972068,
       "category": "binance_news",
       "symbol": "ETH",
@@ -15586,6 +15492,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791558134.248933,
+      "category": "analysis",
+      "symbol": "KAIA",
+      "topic": "analysis_KAIA",
+      "text_hash": "daba865be640b1c764cda4cae082b1f8ddab7e23bf5efce08dad269d99bbd5e9",
+      "text_for_similarity": "$KAIA is surging 37.824% to reach 0.0532, yet",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83034.18,
+          "change_pct": 0.417,
+          "volume": 18207.67852,
+          "quote_volume": 1490946980.5956135,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2490.47,
+          "change_pct": -1.636,
+          "volume": 351807.8522,
+          "quote_volume": 867922140.011739,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.0,
+          "change_pct": -2.24,
+          "volume": 3162582.533,
+          "quote_volume": 345747418.15308,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 740.52,
+          "change_pct": -2.227,
+          "volume": 183397.117,
+          "quote_volume": 134918597.34311,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 1.0496,
+          "change_pct": 45.899,
+          "volume": 51006737.5,
+          "quote_volume": 51980603.96464,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KAIA": {
+          "price": 0.0532,
+          "change_pct": 37.824,
+          "volume": 462978680.3,
+          "quote_volume": 24360235.53084,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
