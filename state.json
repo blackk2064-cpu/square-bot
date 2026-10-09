@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788940961.9840193,
-      "category": "education",
-      "symbol": "SOL",
-      "topic": "education",
-      "text_hash": "9f2a3dba1bfc00fc17a3dd923519be36601c03bc393c72d9e643558311412c8f",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79289.87,
-          "change_pct": 1.13,
-          "volume": 13728.26735,
-          "quote_volume": 1077991963.6722503,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2510.41,
-          "change_pct": 1.329,
-          "volume": 242317.5763,
-          "quote_volume": 602697674.309896,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.59,
-          "change_pct": 1.712,
-          "volume": 1801496.475,
-          "quote_volume": 186525762.16434,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 754.03,
-          "change_pct": -0.09,
-          "volume": 160984.161,
-          "quote_volume": 121225351.2642,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788944562.981198,
       "category": "macro_news",
       "symbol": "BTC",
@@ -15552,6 +15505,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791536530.0204704,
+      "category": "analysis",
+      "symbol": "OGN",
+      "topic": "analysis_OGN",
+      "text_hash": "3131e6ff3c6a560817c5993e30d20d6923bc3f6ba21ec3a9ef02b0592103b79a",
+      "text_for_similarity": "Did you notice which token is leading today's market surge?\n$OGN is trading at $0.03897 after an impressive 24-hour gain of 46.174%.\nTrading volume has reached 1,584,754,956.0 as market interest explodes.\nKeep an eye on this momentum as volatility remains high.",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82681.66,
+          "change_pct": -0.238,
+          "volume": 19593.91391,
+          "quote_volume": 1603456559.7297819,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2505.54,
+          "change_pct": -2.148,
+          "volume": 395384.8727,
+          "quote_volume": 980694828.938251,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.58,
+          "change_pct": -3.751,
+          "volume": 3540843.778,
+          "quote_volume": 390007435.0,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 743.78,
+          "change_pct": -3.055,
+          "volume": 194429.093,
+          "quote_volume": 143816189.97888,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.07602,
+          "change_pct": 46.502,
+          "volume": 922433310.78,
+          "quote_volume": 58121620.1428295,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OGN": {
+          "price": 0.03897,
+          "change_pct": 46.174,
+          "volume": 1584754956.0,
+          "quote_volume": 66421410.87857,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
