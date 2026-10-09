@@ -15297,6 +15297,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791507797.4566,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Cantor Fitzgerald faces Senate Democrat’s probe over Tether ties",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81798.01,
+          "change_pct": -1.907,
+          "volume": 21518.34565,
+          "quote_volume": 1765054439.0155826,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2476.7,
+          "change_pct": -3.883,
+          "volume": 417284.1631,
+          "quote_volume": 1041599545.042241,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.28,
+          "change_pct": -6.173,
+          "volume": 3577953.703,
+          "quote_volume": 397621694.62917,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 735.02,
+          "change_pct": -5.079,
+          "volume": 192105.676,
+          "quote_volume": 142911199.45733,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OGN": {
+          "price": 0.04296,
+          "change_pct": 87.598,
+          "volume": 1461202006.0,
+          "quote_volume": 58579888.04359,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AMP": {
+          "price": 0.000728,
+          "change_pct": 25.517,
+          "volume": 13507278767.0,
+          "quote_volume": 9436720.635856,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
