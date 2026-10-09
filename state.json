@@ -15527,6 +15527,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791572525.9836602,
+      "category": "general_news",
+      "symbol": "MAGIC",
+      "topic": "Blockchain.com pursues CFTC approval for prediction markets: CNBC",
+      "text_hash": "c2a04069ee0998f63629155e381f559a783822e8176cdf44c09854c3ca89ae9d",
+      "text_for_similarity": "81.34% gains have propelled $MAGIC to a price of 0.1137 over the last 24 hours. 🚀\n\nTrading volume has also surged past 261273062.9 during this rapid rally.\n\nIs $MAGIC setting up for a continuation or a sharp correction?\n\n#MAGIC #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82458.74,
+          "change_pct": 1.144,
+          "volume": 12308.86116,
+          "quote_volume": 1014941406.3670985,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2483.77,
+          "change_pct": 1.45,
+          "volume": 209485.1272,
+          "quote_volume": 520977067.688632,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.51,
+          "change_pct": 1.286,
+          "volume": 2114032.155,
+          "quote_volume": 232528092.73406,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.77,
+          "change_pct": 1.68,
+          "volume": 92072.455,
+          "quote_volume": 68054880.66352,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MAGIC": {
+          "price": 0.1137,
+          "change_pct": 81.34,
+          "volume": 261273062.9,
+          "quote_volume": 23821863.39327,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KAIA": {
+          "price": 0.0559,
+          "change_pct": 50.674,
+          "volume": 521852104.0,
+          "quote_volume": 27641381.70248,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
