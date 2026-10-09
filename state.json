@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788966172.0972068,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "10 of the greatest unsolved crypto mysteries",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79010.0,
-          "change_pct": 0.571,
-          "volume": 12531.77749,
-          "quote_volume": 989799052.7303407,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2501.67,
-          "change_pct": 0.639,
-          "volume": 257984.6709,
-          "quote_volume": 644838631.202215,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.59,
-          "change_pct": 0.223,
-          "volume": 1823342.46,
-          "quote_volume": 189482979.10492,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 743.73,
-          "change_pct": -0.917,
-          "volume": 137575.709,
-          "quote_volume": 103352241.53888,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1788973318.2557158,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Tether, Fasanara launch $400M private credit fund targeting $3B",
-      "text_hash": "52eaabe88c8d0d572f0ccb403dad3d97a46b96926940c7bcce9d46c86de0fa1b",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78796.01,
-          "change_pct": 0.071,
-          "volume": 13802.98248,
-          "quote_volume": 1089672109.5570655,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2495.53,
-          "change_pct": -0.043,
-          "volume": 272420.3438,
-          "quote_volume": 680610543.469909,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.36,
-          "change_pct": -0.844,
-          "volume": 1917513.378,
-          "quote_volume": 198916105.11347,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 740.64,
-          "change_pct": -2.001,
-          "volume": 145415.183,
-          "quote_volume": 108933435.2972,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788987687.3068764,
       "category": "analysis",
       "symbol": "ETH",
@@ -15554,6 +15460,70 @@
       },
       "quality_score": 85,
       "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791565397.5378392,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Crypto Biz: Wealthy investors are buying crypto, but their advisers aren’t sold",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 82755.65,
+          "change_pct": 2.277,
+          "volume": 14137.80463,
+          "quote_volume": 1161499015.0100937,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2492.04,
+          "change_pct": 3.205,
+          "volume": 242657.5545,
+          "quote_volume": 600789657.493982,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.84,
+          "change_pct": 2.139,
+          "volume": 2488895.514,
+          "quote_volume": 272281945.35432,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.26,
+          "change_pct": 2.371,
+          "volume": 116564.29,
+          "quote_volume": 85696609.86236,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MAGIC": {
+          "price": 0.1042,
+          "change_pct": 70.261,
+          "volume": 197603500.3,
+          "quote_volume": 16606576.90857,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KAIA": {
+          "price": 0.0536,
+          "change_pct": 46.448,
+          "volume": 492945041.6,
+          "quote_volume": 26014845.20136,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
