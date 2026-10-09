@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788944562.981198,
-      "category": "macro_news",
-      "symbol": "BTC",
-      "topic": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 79642.1,
-          "change_pct": 1.584,
-          "volume": 13740.93623,
-          "quote_volume": 1079945007.4869926,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2518.48,
-          "change_pct": 1.67,
-          "volume": 251270.6933,
-          "quote_volume": 625561317.118914,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.77,
-          "change_pct": 1.709,
-          "volume": 1787092.443,
-          "quote_volume": 185160715.44333,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 757.26,
-          "change_pct": 0.27,
-          "volume": 148128.629,
-          "quote_volume": 111467489.77846,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1788951723.0129359,
       "category": "general_news",
       "symbol": "BTC",
@@ -15569,6 +15522,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791540131.4198468,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Bitcoin speculators move 55K BTC to exchanges amid $1.1B liquidations",
+      "text_hash": "b91a8cdb67a38fcb6235b3fa3d51ba01c78daee0bd354afb772f3e1545afa8f5",
+      "text_for_similarity": "You're staring at a -4.14% drop on SOL, price now $110.45, with 24h volume at 3.54M—holding or cutting losses?\n\nMarket jitters spread as Bitcoin speculators move 55K BTC to exchanges amid $1.1B liquidations.\n\n#trading #SOL $SOL",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82668.71,
+          "change_pct": -0.557,
+          "volume": 19279.13482,
+          "quote_volume": 1577193453.2901568,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2502.85,
+          "change_pct": -2.589,
+          "volume": 392238.6616,
+          "quote_volume": 972311847.469553,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.45,
+          "change_pct": -4.14,
+          "volume": 3543458.787,
+          "quote_volume": 390076018.31975,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 743.22,
+          "change_pct": -3.424,
+          "volume": 195853.052,
+          "quote_volume": 144814564.99313,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KAIA": {
+          "price": 0.0604,
+          "change_pct": 53.299,
+          "volume": 302507048.7,
+          "quote_volume": 14808739.53536,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 1.0887,
+          "change_pct": 42.593,
+          "volume": 47521248.6,
+          "quote_volume": 47424337.44187,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
