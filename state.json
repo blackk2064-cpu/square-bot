@@ -15425,6 +15425,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791515011.1498127,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Cantor Fitzgerald faces Senate Democrat’s questions over Tether ties",
+      "text_hash": "5b564aa94d37f45628825b39b2c6e90b9725bb50b0e0f24395f5677ad68dcf3f",
+      "text_for_similarity": "$BNB is just below the 740 round level, trading at 739.97.\nThe price is down -4.334% over the past 24 hours, with 24-hour volume reaching 198446.993.\nWill $BNB reclaim 740 next, or will it drop toward 730? 📉\n#BNB #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82101.34,
+          "change_pct": -1.283,
+          "volume": 21556.76263,
+          "quote_volume": 1766846370.4601142,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2488.79,
+          "change_pct": -3.536,
+          "volume": 417511.5942,
+          "quote_volume": 1040603772.70896,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.3,
+          "change_pct": -5.306,
+          "volume": 3686839.734,
+          "quote_volume": 408867174.20681,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.97,
+          "change_pct": -4.334,
+          "volume": 198446.993,
+          "quote_volume": 147401751.82425,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OGN": {
+          "price": 0.04212,
+          "change_pct": 84.575,
+          "volume": 1479816665.0,
+          "quote_volume": 59812486.53717,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.9382,
+          "change_pct": 33.135,
+          "volume": 32955271.2,
+          "quote_volume": 28589519.68632,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
