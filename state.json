@@ -15489,6 +15489,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791518539.7031887,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Thailand finalizes rules paving way for Bitcoin, Ether ETFs",
+      "text_hash": "56ecd60b4679d247048f761b1337da56a1c701a41a2fd3a95503793f984c9f4b",
+      "text_for_similarity": "$ETH is down -2.712% to 2494.18 even as Thailand finalized rules paving the way for Ether ETFs. Trading volume sits at 412971.0167 as the market digests the news. Is this dip a buying opportunity or a signal of further downside? 📉 #ETH #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82440.23,
+          "change_pct": -0.344,
+          "volume": 21219.39596,
+          "quote_volume": 1738581646.0877652,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2494.18,
+          "change_pct": -2.712,
+          "volume": 412971.0167,
+          "quote_volume": 1028456045.748703,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.45,
+          "change_pct": -4.562,
+          "volume": 3708645.345,
+          "quote_volume": 410900384.27017,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.04,
+          "change_pct": -3.725,
+          "volume": 197480.071,
+          "quote_volume": 146544125.93258,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OGN": {
+          "price": 0.04418,
+          "change_pct": 94.797,
+          "volume": 1505595973.0,
+          "quote_volume": 60992252.22511,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.9146,
+          "change_pct": 38.074,
+          "volume": 34062601.8,
+          "quote_volume": 29689479.53388,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
