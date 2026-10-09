@@ -15361,6 +15361,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791511431.354446,
+      "category": "sarcastic",
+      "symbol": "OGN",
+      "topic": "sarcastic",
+      "text_hash": "ee78a120a659492724b637ba28a0a61d1d4fd8f6b8e870f123157ca75e19fa34",
+      "text_for_similarity": "$OGN is trading at 0.04276 with an 81.033% 24h change.\nVolume hit 1466115315.0 🚀 Would you buy the dip or wait for a pullback?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81982.0,
+          "change_pct": -1.338,
+          "volume": 21357.51962,
+          "quote_volume": 1751022034.2932467,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2482.04,
+          "change_pct": -3.729,
+          "volume": 416026.7974,
+          "quote_volume": 1037686147.084216,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.45,
+          "change_pct": -5.728,
+          "volume": 3609670.065,
+          "quote_volume": 400741309.96469,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 736.97,
+          "change_pct": -4.598,
+          "volume": 194586.512,
+          "quote_volume": 144610899.03881,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OGN": {
+          "price": 0.04276,
+          "change_pct": 81.033,
+          "volume": 1466115315.0,
+          "quote_volume": 59089536.14775,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RLC": {
+          "price": 0.8485,
+          "change_pct": 25.611,
+          "volume": 32160215.4,
+          "quote_volume": 27735342.92786,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
