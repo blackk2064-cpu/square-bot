@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789077702.9046707,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Solana sees record 263K tokens issued in a single day",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77106.01,
-          "change_pct": -1.389,
-          "volume": 15084.95743,
-          "quote_volume": 1171093592.6084864,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2458.07,
-          "change_pct": -0.209,
-          "volume": 360652.973,
-          "quote_volume": 882868594.362242,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.73,
-          "change_pct": -2.388,
-          "volume": 2152376.82,
-          "quote_volume": 216421552.984,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 714.13,
-          "change_pct": -1.658,
-          "volume": 187784.21,
-          "quote_volume": 134315944.44713,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789081308.4395778,
       "category": "macro_news",
       "symbol": "ETH",
@@ -15538,6 +15491,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791669727.9935117,
+      "category": "analysis",
+      "symbol": "LUMIA",
+      "topic": "analysis_LUMIA",
+      "text_hash": "2ffaef2d4e414588fb8e4d735d3dd0e6d240ed60351a1348b5d7c501ec2d9e5f",
+      "text_for_similarity": "$LUMIA is surging with a 31.728% gain to reach 0.1067, yet the massive 201907786.28 24h volume raises questions about whether this momentum can last.\n\nWill $LUMIA break higher toward new resistance, or is a sharp pullback coming next? 📈\n\n#LUMIA #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83041.65,
+          "change_pct": 0.609,
+          "volume": 7953.06615,
+          "quote_volume": 658501798.3150694,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2510.14,
+          "change_pct": 1.028,
+          "volume": 111656.8392,
+          "quote_volume": 279455828.022897,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.31,
+          "change_pct": 1.276,
+          "volume": 889210.485,
+          "quote_volume": 97742961.04033,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.61,
+          "change_pct": 1.132,
+          "volume": 57977.093,
+          "quote_volume": 43394586.41441,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.10278,
+          "change_pct": 48.526,
+          "volume": 802856519.55,
+          "quote_volume": 71367956.7172616,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LUMIA": {
+          "price": 0.1067,
+          "change_pct": 31.728,
+          "volume": 201907786.28,
+          "quote_volume": 23511740.986231,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
