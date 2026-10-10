@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789063360.4576583,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Nasdaq invests $100M in Kraken parent at $21B valuation: Report",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77309.87,
-          "change_pct": -1.879,
-          "volume": 15591.4523,
-          "quote_volume": 1212033687.4639392,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2465.44,
-          "change_pct": -1.188,
-          "volume": 366100.5377,
-          "quote_volume": 896636903.665438,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.93,
-          "change_pct": -3.524,
-          "volume": 2318843.308,
-          "quote_volume": 234016522.06486,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 712.58,
-          "change_pct": -3.908,
-          "volume": 202794.093,
-          "quote_volume": 145589668.20318,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789066905.1177552,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Nasdaq invests $100M in Kraken parent at $21B valuation: Report",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77232.01,
-          "change_pct": -1.482,
-          "volume": 15609.57503,
-          "quote_volume": 1213009536.2018576,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2467.64,
-          "change_pct": -0.514,
-          "volume": 374187.4442,
-          "quote_volume": 916387831.181707,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.85,
-          "change_pct": -3.274,
-          "volume": 2315625.418,
-          "quote_volume": 233436192.32401,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 714.33,
-          "change_pct": -3.462,
-          "volume": 205701.127,
-          "quote_volume": 147592916.99496,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789070524.1283484,
       "category": "binance_news",
       "symbol": "SOL",
@@ -15598,6 +15504,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791658933.6247323,
+      "category": "sarcastic",
+      "symbol": "STRK",
+      "topic": "sarcastic",
+      "text_hash": "3131396c068ff4f9dc20cf5cc4fcf9071f0cc1bd926c10565160314361c51b93",
+      "text_for_similarity": "44.454% is the massive 24-hour gain posted by $STRK as its price hits 0.10249. 🚀\nTrading volume for the token has reached 708966593.46 over the same period.\nWill $STRK continue this rally toward new highs or pull back from here?\n\n#STRK #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83034.01,
+          "change_pct": 0.709,
+          "volume": 8364.90218,
+          "quote_volume": 692184162.9404464,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2512.39,
+          "change_pct": 1.158,
+          "volume": 98627.9883,
+          "quote_volume": 246320003.683693,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.3,
+          "change_pct": 0.74,
+          "volume": 982037.513,
+          "quote_volume": 107736608.88368,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 749.8,
+          "change_pct": 1.372,
+          "volume": 61967.208,
+          "quote_volume": 46302545.70946,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.10249,
+          "change_pct": 44.454,
+          "volume": 708966593.46,
+          "quote_volume": 60628903.0259963,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LUMIA": {
+          "price": 0.1057,
+          "change_pct": 31.468,
+          "volume": 195241651.32,
+          "quote_volume": 22803161.426304,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
