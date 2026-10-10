@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789030923.7033544,
-      "category": "education",
-      "symbol": "BTC",
-      "topic": "education",
-      "text_hash": "ab1f1badb725cf1adde06f4302ce78660f99ba88a0b3c12ee3a513861b7c2c88",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78118.01,
-          "change_pct": -1.914,
-          "volume": 13754.42908,
-          "quote_volume": 1081778803.65263,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2471.62,
-          "change_pct": -1.861,
-          "volume": 271522.3563,
-          "quote_volume": 674122897.728127,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.18,
-          "change_pct": -3.417,
-          "volume": 2159575.679,
-          "quote_volume": 221485680.07067,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 718.57,
-          "change_pct": -5.11,
-          "volume": 187737.788,
-          "quote_volume": 137633924.50787,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789038141.8410883,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "Vitalik Buterin Pushes Ethereum Plan to Slash Quantum-Safe Privacy Costs",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77833.34,
-          "change_pct": -1.423,
-          "volume": 14044.86148,
-          "quote_volume": 1103332298.8498309,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2463.14,
-          "change_pct": -1.004,
-          "volume": 259300.2734,
-          "quote_volume": 643200947.122708,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.01,
-          "change_pct": -2.735,
-          "volume": 2115481.244,
-          "quote_volume": 216556896.15184,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 716.88,
-          "change_pct": -4.485,
-          "volume": 183917.481,
-          "quote_volume": 134459103.93159,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789045331.0993042,
       "category": "binance_news",
       "symbol": "BTC",
@@ -15575,6 +15481,70 @@
       },
       "quality_score": 75,
       "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791633779.7554917,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "fcda00749ed0b6497bb24d576498529ac20a1c6dfdeedc0f2931083a58746b38",
+      "text_for_similarity": "What is BNB's price and 24‑hour change?\nBNB ($BNB) is at 748.93, up 0.789% in the last 24 hours.\n24‑hour volume is 67820.258 #trading\nWould you buy now or wait for a pullback?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82879.72,
+          "change_pct": -0.384,
+          "volume": 10467.71167,
+          "quote_volume": 866293691.7009254,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2497.43,
+          "change_pct": -0.274,
+          "volume": 109082.1024,
+          "quote_volume": 271684283.055419,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.87,
+          "change_pct": -1.205,
+          "volume": 1253975.21,
+          "quote_volume": 137548443.24202,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 748.93,
+          "change_pct": 0.789,
+          "volume": 67820.258,
+          "quote_volume": 50462255.92179,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MAGIC": {
+          "price": 0.1145,
+          "change_pct": 48.701,
+          "volume": 632390694.3,
+          "quote_volume": 76043653.69159,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LUMIA": {
+          "price": 0.1102,
+          "change_pct": 36.218,
+          "volume": 136488114.73,
+          "quote_volume": 16072338.775986,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
