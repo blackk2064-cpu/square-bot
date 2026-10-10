@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789056196.1178594,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "Nasdaq invests $100M in Kraken parent at $21B valuation: Report",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77246.0,
-          "change_pct": -1.693,
-          "volume": 15418.72063,
-          "quote_volume": 1200220729.858629,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2441.91,
-          "change_pct": -1.929,
-          "volume": 342189.166,
-          "quote_volume": 838675711.121487,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.74,
-          "change_pct": -3.203,
-          "volume": 2285090.636,
-          "quote_volume": 231122289.8157,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 708.09,
-          "change_pct": -4.165,
-          "volume": 194604.602,
-          "quote_volume": 140089951.03693,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789063360.4576583,
       "category": "general_news",
       "symbol": "ETH",
@@ -15517,6 +15470,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791651734.1664972,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83024.04,
+          "change_pct": 0.324,
+          "volume": 8724.38181,
+          "quote_volume": 721658900.3034927,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2505.48,
+          "change_pct": 0.539,
+          "volume": 95155.1166,
+          "quote_volume": 237347825.788193,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.03,
+          "change_pct": 0.182,
+          "volume": 1039174.865,
+          "quote_volume": 113967298.11014,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 749.74,
+          "change_pct": 1.151,
+          "volume": 63397.362,
+          "quote_volume": 47336538.79778,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LUMIA": {
+          "price": 0.1095,
+          "change_pct": 34.686,
+          "volume": 184747457.84,
+          "quote_volume": 21662451.451402,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.09319,
+          "change_pct": 24.853,
+          "volume": 614643033.1,
+          "quote_volume": 50105541.2447934,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
