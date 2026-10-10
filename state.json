@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1788987687.3068764,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis",
-      "text_hash": "7141df4a9eb71b0c4c39eb93dfdcedeeed4aa464a834f0dbf9e1ab2bfc376584",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78268.64,
-          "change_pct": -0.29,
-          "volume": 14129.11,
-          "quote_volume": 1115142205.799873,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2469.12,
-          "change_pct": -0.553,
-          "volume": 277670.261,
-          "quote_volume": 693052687.042381,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.44,
-          "change_pct": -0.621,
-          "volume": 1938343.286,
-          "quote_volume": 200865122.75731,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 733.53,
-          "change_pct": -2.326,
-          "volume": 148311.991,
-          "quote_volume": 110870092.23058,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789020187.7131693,
       "category": "macro_news",
       "symbol": "SOL",
@@ -15590,6 +15543,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791612138.778402,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "e893968472dc85730661ca81e901190b3b09a8a46d2c33fcc6e0297522728509",
+      "text_for_similarity": "$ETH is holding just below the 2500 level at 2498.22. 📈\n\nThe price is up 0.263% over the last 24 hours with volume reaching 146852.4043.\n\nWill $ETH break above 2500 next, or pull back lower?\n\n#ETH #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82828.78,
+          "change_pct": 0.55,
+          "volume": 10981.77036,
+          "quote_volume": 908519046.6562186,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2498.22,
+          "change_pct": 0.263,
+          "volume": 146852.4043,
+          "quote_volume": 366249067.637703,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.14,
+          "change_pct": -0.163,
+          "volume": 1489324.159,
+          "quote_volume": 163689377.40974,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 751.1,
+          "change_pct": 1.149,
+          "volume": 72217.164,
+          "quote_volume": 53623126.0082,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MAGIC": {
+          "price": 0.1573,
+          "change_pct": 136.541,
+          "volume": 479556005.0,
+          "quote_volume": 54117226.39365,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KAIA": {
+          "price": 0.0579,
+          "change_pct": 54.813,
+          "volume": 714001517.7,
+          "quote_volume": 39133922.10853,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
