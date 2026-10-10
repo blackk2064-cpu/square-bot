@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789045331.0993042,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Nasdaq invests $100M in Kraken parent at $21B valuation: Report",
-      "text_hash": "310cb921be02985120597d95688c4e092834b1a0256dabc8bfc3b3570479433e",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76914.87,
-          "change_pct": -3.342,
-          "volume": 15711.3295,
-          "quote_volume": 1228965204.242081,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2414.64,
-          "change_pct": -3.838,
-          "volume": 292560.657,
-          "quote_volume": 722603600.096268,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.01,
-          "change_pct": -5.389,
-          "volume": 2386982.497,
-          "quote_volume": 242988152.07408,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 706.24,
-          "change_pct": -5.838,
-          "volume": 208675.444,
-          "quote_volume": 151555212.01483,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789052582.419914,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Nasdaq invests $100M in Kraken parent at $21B valuation: Report",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 77350.0,
-          "change_pct": -2.138,
-          "volume": 16449.92209,
-          "quote_volume": 1282222402.555195,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2441.54,
-          "change_pct": -2.444,
-          "volume": 355574.4041,
-          "quote_volume": 872880604.674359,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.1,
-          "change_pct": -3.406,
-          "volume": 2449245.516,
-          "quote_volume": 248234868.01609,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 709.34,
-          "change_pct": -4.639,
-          "volume": 203469.338,
-          "quote_volume": 146874815.34251,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789056196.1178594,
       "category": "binance_news",
       "symbol": "BNB",
@@ -15547,6 +15453,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791648188.7265408,
+      "category": "macro_news",
+      "symbol": "ERA",
+      "topic": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83046.01,
+          "change_pct": 0.246,
+          "volume": 8959.42291,
+          "quote_volume": 741084229.8535995,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2511.46,
+          "change_pct": 0.937,
+          "volume": 97679.2943,
+          "quote_volume": 243592720.222109,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.48,
+          "change_pct": 0.785,
+          "volume": 1062352.662,
+          "quote_volume": 116493933.06359,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 751.02,
+          "change_pct": 1.44,
+          "volume": 63500.912,
+          "quote_volume": 47393022.82145,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LUMIA": {
+          "price": 0.1103,
+          "change_pct": 36.51,
+          "volume": 179753960.44,
+          "quote_volume": 21110079.466229,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ERA": {
+          "price": 0.0814,
+          "change_pct": 28.391,
+          "volume": 232462449.9,
+          "quote_volume": 19319107.35758,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
