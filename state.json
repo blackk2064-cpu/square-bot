@@ -15701,6 +15701,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791684141.7891219,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83019.65,
+          "change_pct": 0.394,
+          "volume": 6838.96859,
+          "quote_volume": 566882658.9751092,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2510.45,
+          "change_pct": 0.581,
+          "volume": 131308.7649,
+          "quote_volume": 328980212.431636,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.04,
+          "change_pct": 0.073,
+          "volume": 872004.299,
+          "quote_volume": 95991849.82807,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 748.55,
+          "change_pct": 0.366,
+          "volume": 56829.17,
+          "quote_volume": 42589585.09427,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.11775,
+          "change_pct": 56.229,
+          "volume": 910514014.48,
+          "quote_volume": 85124600.103088,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.07014,
+          "change_pct": 31.842,
+          "volume": 279304954.0,
+          "quote_volume": 17625537.20013,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
