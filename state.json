@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789095698.4260242,
-      "category": "sarcastic",
-      "symbol": "SOL",
-      "topic": "sarcastic",
-      "text_hash": "14ebaaa66a3e92f1cccd2ec6e03ca08548c735eb18ae06d04fc1c6d6ce446c09",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76847.67,
-          "change_pct": -1.934,
-          "volume": 15038.20843,
-          "quote_volume": 1164386829.950626,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2446.85,
-          "change_pct": -1.166,
-          "volume": 350522.7963,
-          "quote_volume": 857552551.240432,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.35,
-          "change_pct": -2.483,
-          "volume": 2008858.617,
-          "quote_volume": 201220788.56739,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 711.24,
-          "change_pct": -1.936,
-          "volume": 166479.451,
-          "quote_volume": 118766343.58327,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789102988.16498,
       "category": "general_news",
       "symbol": "BTC",
@@ -15764,6 +15717,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791687745.640737,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83097.39,
+          "change_pct": 0.578,
+          "volume": 6858.8875,
+          "quote_volume": 568625216.1878425,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2511.15,
+          "change_pct": 0.735,
+          "volume": 136151.8116,
+          "quote_volume": 341170145.761362,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.02,
+          "change_pct": 0.1,
+          "volume": 851732.112,
+          "quote_volume": 93768419.25038,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 748.83,
+          "change_pct": 0.42,
+          "volume": 56133.02,
+          "quote_volume": 42074632.66411,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.11907,
+          "change_pct": 58.506,
+          "volume": 977798730.08,
+          "quote_volume": 93645674.0283197,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MAGIC": {
+          "price": 0.0985,
+          "change_pct": -36.98,
+          "volume": 389723833.3,
+          "quote_volume": 47222001.63191,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
