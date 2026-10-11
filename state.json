@@ -15846,6 +15846,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791694934.4883618,
+      "category": "macro_news",
+      "symbol": "LUMIA",
+      "topic": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "text_hash": "6e4134b948ad50bfd78c6a5eeb155947f72c882b1869bd0bf8d4a3dca9d08435",
+      "text_for_similarity": "$LUMIA has surged well above the 0.10 mark to trade at 0.15 today.\n\nThe token is posting an 80.288% gain over the last 24 hours with trading volume reaching 263386689.18.",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83028.17,
+          "change_pct": 0.413,
+          "volume": 7178.22285,
+          "quote_volume": 595204926.9236563,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2507.6,
+          "change_pct": 0.506,
+          "volume": 149913.2638,
+          "quote_volume": 375702626.918521,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.61,
+          "change_pct": -0.218,
+          "volume": 873471.072,
+          "quote_volume": 96128264.43221,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 748.44,
+          "change_pct": 0.149,
+          "volume": 57075.886,
+          "quote_volume": 42783013.9038,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LUMIA": {
+          "price": 0.15,
+          "change_pct": 80.288,
+          "volume": 263386689.18,
+          "quote_volume": 31651274.636722,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.1066,
+          "change_pct": 49.551,
+          "volume": 1086514516.87,
+          "quote_volume": 106470917.8280536,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
