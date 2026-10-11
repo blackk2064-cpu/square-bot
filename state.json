@@ -1,288 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789117374.8550453,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Blockstream rejects ransom as Liquid hackers hold nearly 600 BTC",
-      "text_hash": "2ff0251ab8df857fc87d465b4c771a546233fbec90620e7604fec47e2274f227",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77364.94,
-          "change_pct": -0.964,
-          "volume": 15245.50699,
-          "quote_volume": 1177298488.3935533,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2476.72,
-          "change_pct": 0.207,
-          "volume": 383113.1962,
-          "quote_volume": 937321506.724831,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.92,
-          "change_pct": -1.236,
-          "volume": 1951294.151,
-          "quote_volume": 194718838.85377,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 714.1,
-          "change_pct": -0.621,
-          "volume": 150323.448,
-          "quote_volume": 106985526.73539,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789121019.0249376,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "SBF asks Supreme Court to overturn conviction, $11B forfeiture: Report",
-      "text_hash": "57c4efb0e1aed33b1e0a77a9ca889d218d6a0dff6161b30e81b34ff583f1636f",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77044.55,
-          "change_pct": -1.184,
-          "volume": 15192.03735,
-          "quote_volume": 1172594788.5430498,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2469.76,
-          "change_pct": 0.075,
-          "volume": 382869.5066,
-          "quote_volume": 936720132.912913,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.42,
-          "change_pct": -1.642,
-          "volume": 1932356.495,
-          "quote_volume": 192719335.99813,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 713.03,
-          "change_pct": -0.617,
-          "volume": 149926.719,
-          "quote_volume": 106681434.87053,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789128086.3599381,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "ad6951914418d17ff578de69a367323cae76941dc2ab0b048b3fe6113ed45f37",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77020.85,
-          "change_pct": -1.096,
-          "volume": 14748.55675,
-          "quote_volume": 1137234956.1091485,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2457.69,
-          "change_pct": -0.246,
-          "volume": 381278.4036,
-          "quote_volume": 932715544.275957,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.54,
-          "change_pct": -1.592,
-          "volume": 1960121.641,
-          "quote_volume": 195185147.8105,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 713.4,
-          "change_pct": -0.513,
-          "volume": 146584.051,
-          "quote_volume": 104252474.43635,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789131740.256083,
-      "category": "education",
-      "symbol": "ETH",
-      "topic": "education",
-      "text_hash": "c5bb16cf12ae896aa240368012b83eac39d64d0ad864bfa0d4f145f0ad5f348a",
-      "ai_provider": "groq",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77908.86,
-          "change_pct": 1.278,
-          "volume": 15416.37211,
-          "quote_volume": 1188167291.1473098,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2506.26,
-          "change_pct": 3.767,
-          "volume": 406472.7871,
-          "quote_volume": 997838633.168859,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.45,
-          "change_pct": 2.464,
-          "volume": 2042397.711,
-          "quote_volume": 203538285.96222,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 722.26,
-          "change_pct": 2.245,
-          "volume": 134564.039,
-          "quote_volume": 95863829.94348,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789138951.3610377,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78777.26,
-          "change_pct": 1.837,
-          "volume": 17357.3509,
-          "quote_volume": 1344262423.5358274,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2607.87,
-          "change_pct": 6.797,
-          "volume": 549414.9453,
-          "quote_volume": 1382458588.126058,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.27,
-          "change_pct": 3.136,
-          "volume": 2674990.022,
-          "quote_volume": 270104037.16062,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 732.38,
-          "change_pct": 3.223,
-          "volume": 168325.133,
-          "quote_volume": 121050576.84324,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789142508.1881413,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
-      "text_hash": "5c7c3da6a89a518a9fc07f235f8b75d0723a2f9680c18293d79bb563d5edff7a",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77897.86,
-          "change_pct": 0.849,
-          "volume": 18035.90395,
-          "quote_volume": 1398052250.0364954,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2570.06,
-          "change_pct": 5.256,
-          "volume": 595327.5984,
-          "quote_volume": 1504326072.145135,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.95,
-          "change_pct": 2.226,
-          "volume": 2822803.262,
-          "quote_volume": 285487435.54823,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 730.77,
-          "change_pct": 3.22,
-          "volume": 176449.92,
-          "quote_volume": 127219135.0982,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789160566.6495416,
       "category": "macro_news",
       "symbol": "ETH",
@@ -15913,6 +15631,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791738166.0371416,
+      "category": "general_news",
+      "symbol": "S",
+      "topic": "Bitcoin, Ethereum and Solana ETFs All in the Red for October",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83874.26,
+          "change_pct": 1.024,
+          "volume": 6928.44939,
+          "quote_volume": 576536064.3791718,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2548.82,
+          "change_pct": 1.73,
+          "volume": 205997.6656,
+          "quote_volume": 517698949.928348,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 112.15,
+          "change_pct": 1.927,
+          "volume": 1010601.393,
+          "quote_volume": 111383520.1203,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 756.24,
+          "change_pct": 0.866,
+          "volume": 47570.782,
+          "quote_volume": 35687121.24255,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "S": {
+          "price": 0.064,
+          "change_pct": 42.985,
+          "volume": 379270535.1,
+          "quote_volume": 20261740.487849,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.12105,
+          "change_pct": 29.868,
+          "volume": 1101521768.5,
+          "quote_volume": 119603202.0520589,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
