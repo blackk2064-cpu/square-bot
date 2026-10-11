@@ -15782,6 +15782,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791691320.7510402,
+      "category": "macro_news",
+      "symbol": "MAGIC",
+      "topic": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82814.01,
+          "change_pct": 0.262,
+          "volume": 6975.42051,
+          "quote_volume": 578332959.8947572,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2499.44,
+          "change_pct": 0.297,
+          "volume": 143623.4621,
+          "quote_volume": 359925366.866453,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.13,
+          "change_pct": -0.538,
+          "volume": 874449.824,
+          "quote_volume": 96250541.32157,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.2,
+          "change_pct": -0.066,
+          "volume": 57323.402,
+          "quote_volume": 42966250.74732,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.10701,
+          "change_pct": 45.02,
+          "volume": 1024339833.07,
+          "quote_volume": 99497816.8763336,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MAGIC": {
+          "price": 0.0979,
+          "change_pct": -35.592,
+          "volume": 363262554.2,
+          "quote_volume": 42902074.44027,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
