@@ -15573,6 +15573,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791676937.135515,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82990.01,
+          "change_pct": 0.448,
+          "volume": 7433.14882,
+          "quote_volume": 615869248.310441,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2506.6,
+          "change_pct": 0.76,
+          "volume": 123678.9033,
+          "quote_volume": 309728663.255548,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 110.08,
+          "change_pct": 0.861,
+          "volume": 888311.7,
+          "quote_volume": 97741493.60518,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.16,
+          "change_pct": 1.062,
+          "volume": 56899.549,
+          "quote_volume": 42616891.31141,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.10363,
+          "change_pct": 41.455,
+          "volume": 857785845.71,
+          "quote_volume": 77757307.3234786,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.06823,
+          "change_pct": 31.338,
+          "volume": 249278636.0,
+          "quote_volume": 15481129.74887,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
