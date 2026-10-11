@@ -15696,6 +15696,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791741778.6827116,
+      "category": "binance_news",
+      "symbol": "S",
+      "topic": "Bitcoin, Ethereum and Solana ETFs All in the Red for October",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83832.0,
+          "change_pct": 0.869,
+          "volume": 7139.88468,
+          "quote_volume": 594471445.8209112,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2540.34,
+          "change_pct": 1.277,
+          "volume": 209098.9143,
+          "quote_volume": 525864208.694936,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 112.28,
+          "change_pct": 2.119,
+          "volume": 1048829.996,
+          "quote_volume": 115741783.01995,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 754.47,
+          "change_pct": 0.533,
+          "volume": 50007.588,
+          "quote_volume": 37536251.34054,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "S": {
+          "price": 0.06426,
+          "change_pct": 43.022,
+          "volume": 479993469.6,
+          "quote_volume": 26832385.828485,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MAGIC": {
+          "price": 0.1342,
+          "change_pct": 28.915,
+          "volume": 238690528.5,
+          "quote_volume": 28395941.51316,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
