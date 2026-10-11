@@ -15637,6 +15637,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791680533.3968453,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis_SOL",
+      "text_hash": "0347650218c3ebea9285652f843462d024ab1462c81ae3c775d03c1d16caa4e6",
+      "text_for_similarity": "Are you watching the latest movement on $SOL today?\n\n$SOL is currently trading at 109.92 after a 0.457% increase over the last 24 hours, with a 24-hour volume of 885941.304.\n\nDo you expect $SOL to break above 110 next or pull back below 108? #SOL #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82968.04,
+          "change_pct": 0.489,
+          "volume": 7043.50646,
+          "quote_volume": 583741076.6082809,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2504.73,
+          "change_pct": 0.621,
+          "volume": 128912.0531,
+          "quote_volume": 322894621.823616,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.92,
+          "change_pct": 0.457,
+          "volume": 885941.304,
+          "quote_volume": 97512532.68408,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 747.79,
+          "change_pct": 0.63,
+          "volume": 57773.57,
+          "quote_volume": 43284798.64726,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.10224,
+          "change_pct": 40.575,
+          "volume": 860742031.71,
+          "quote_volume": 78696844.950316,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.06838,
+          "change_pct": 31.652,
+          "volume": 263503722.0,
+          "quote_volume": 16478128.11707,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
