@@ -15850,6 +15850,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791709321.206057,
+      "category": "education",
+      "symbol": "ETH",
+      "topic": "education",
+      "text_hash": "9d8cdae265c2b9f9fe83d97f9a52b1b12baca407cd5ebaa00515f8d91ede8865",
+      "text_for_similarity": "Are you wondering how $ETH is performing over the last 24 hours?\nEthereum is currently trading at $2501.07 with a 24-hour change of 0.191%.\nTrading volume for the day has reached 173125.6466 ETH. #ETH #crypto",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83044.25,
+          "change_pct": 0.234,
+          "volume": 6301.83458,
+          "quote_volume": 522931542.315957,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2501.07,
+          "change_pct": 0.191,
+          "volume": 173125.6466,
+          "quote_volume": 433892133.873542,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 109.5,
+          "change_pct": -0.464,
+          "volume": 883979.222,
+          "quote_volume": 97225684.19381,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 747.56,
+          "change_pct": -0.316,
+          "volume": 49586.712,
+          "quote_volume": 37165761.28935,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.10875,
+          "change_pct": 53.58,
+          "volume": 1197916451.82,
+          "quote_volume": 119896177.2853008,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LUMIA": {
+          "price": 0.1665,
+          "change_pct": 50.271,
+          "volume": 219314500.19,
+          "quote_volume": 28956957.498711,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
