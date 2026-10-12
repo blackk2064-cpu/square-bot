@@ -15845,6 +15845,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791838940.6744106,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
+      "text_hash": "1a363a3ee647e00b1796d21fbe43513e0c2d897592df93e30b9495a9a1a7e508",
+      "text_for_similarity": "Is $BNB holding its ground today?\n\n$BNB is trading at 747.06 with a 24-hour drop of -0.907% on 98853.402 in volume.\n\nWill $BNB bounce back above 750 next, or slide toward lower support? 📊\n\n#BNB #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83088.01,
+          "change_pct": -0.688,
+          "volume": 12206.94125,
+          "quote_volume": 1017824061.1674289,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2518.99,
+          "change_pct": -0.743,
+          "volume": 252524.8305,
+          "quote_volume": 642662880.319816,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.43,
+          "change_pct": -2.57,
+          "volume": 1864681.642,
+          "quote_volume": 206172372.40717,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 747.06,
+          "change_pct": -0.907,
+          "volume": 98853.402,
+          "quote_volume": 74193377.34098,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.29676,
+          "change_pct": 64.903,
+          "volume": 75262129.0,
+          "quote_volume": 22457214.97896,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RSR": {
+          "price": 0.002285,
+          "change_pct": 38.234,
+          "volume": 14270690813.7,
+          "quote_volume": 34756260.2808906,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
