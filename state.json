@@ -15926,6 +15926,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791853340.0603406,
+      "category": "analysis",
+      "symbol": "BTC",
+      "topic": "analysis_BTC",
+      "text_hash": "5784ddfd53c665bb3c501e5412e76552fa863709a383544d3eda079eb4bb3180",
+      "text_for_similarity": "$BTC is down -2.992% at 81438.23 despite seeing 14144.0267 in 24-hour trading volume. 📉\n\nWill the price rebound above 82k next, or continue lower?\n\n#Bitcoin #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81438.23,
+          "change_pct": -2.992,
+          "volume": 14144.0267,
+          "quote_volume": 1174694953.358649,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2422.06,
+          "change_pct": -4.896,
+          "volume": 311631.1985,
+          "quote_volume": 785440799.414004,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.94,
+          "change_pct": -7.801,
+          "volume": 2540718.609,
+          "quote_volume": 276196835.07176,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 726.18,
+          "change_pct": -3.636,
+          "volume": 117608.972,
+          "quote_volume": 87750685.05995,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OSMO": {
+          "price": 0.0555,
+          "change_pct": 50.0,
+          "volume": 165156186.75,
+          "quote_volume": 7653474.561918,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BOME": {
+          "price": 0.000752,
+          "change_pct": -31.356,
+          "volume": 12706843379.0,
+          "quote_volume": 11251187.1413081,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 89,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
