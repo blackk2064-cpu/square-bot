@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789300921.1470525,
-      "category": "sarcastic",
-      "symbol": "ETH",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 76779.07,
-          "change_pct": -0.751,
-          "volume": 7671.1278,
-          "quote_volume": 591981228.6113944,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2480.57,
-          "change_pct": -2.188,
-          "volume": 182299.9599,
-          "quote_volume": 458240803.337289,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.81,
-          "change_pct": -2.281,
-          "volume": 1189091.967,
-          "quote_volume": 120482650.69523,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 716.23,
-          "change_pct": -2.814,
-          "volume": 81549.823,
-          "quote_volume": 59235439.31038,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789344104.6054173,
       "category": "macro_news",
       "symbol": "SOL",
@@ -16407,6 +16360,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791896586.5386791,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "ENS seeks DAO approval to activate upgraded Ethereum naming system",
+      "text_hash": "2330166535fe1dcf368a302a512a9efa593a1e40a7512998b5893c0007413b6c",
+      "text_for_similarity": "$BTC is trading at $83364.0?\n24h change: 0.731%.\n24h volume: 15515.3151 📈\nAre you ready to trade or hold? #trading #crypto",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83364.0,
+          "change_pct": 0.731,
+          "volume": 15515.3151,
+          "quote_volume": 1286847954.5347466,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2505.72,
+          "change_pct": -0.981,
+          "volume": 309334.5389,
+          "quote_volume": 771106122.484517,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.68,
+          "change_pct": -3.238,
+          "volume": 3033841.411,
+          "quote_volume": 324065802.49275,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.37,
+          "change_pct": -0.902,
+          "volume": 108595.029,
+          "quote_volume": 80425486.81535,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BLUR": {
+          "price": 0.01183,
+          "change_pct": -35.531,
+          "volume": 783506297.1,
+          "quote_volume": 10632367.884,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "W": {
+          "price": 0.01863,
+          "change_pct": -25.865,
+          "volume": 1063664038.4,
+          "quote_volume": 22279978.658727,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
