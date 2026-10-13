@@ -16152,6 +16152,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791878547.4927227,
+      "category": "analysis",
+      "symbol": "W",
+      "topic": "analysis_W",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83876.93,
+          "change_pct": -0.057,
+          "volume": 15327.09441,
+          "quote_volume": 1270630843.589911,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2528.34,
+          "change_pct": -1.316,
+          "volume": 329188.9032,
+          "quote_volume": 824009284.310988,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.55,
+          "change_pct": -3.554,
+          "volume": 2768325.396,
+          "quote_volume": 297381725.36474,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.41,
+          "change_pct": -1.154,
+          "volume": 111317.828,
+          "quote_volume": 82648277.24793,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.23979,
+          "change_pct": 43.047,
+          "volume": 102433209.1,
+          "quote_volume": 29887567.390121,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "W": {
+          "price": 0.01929,
+          "change_pct": -35.977,
+          "volume": 1432339999.7,
+          "quote_volume": 34244043.066548,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
