@@ -16344,6 +16344,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791889392.9378579,
+      "category": "macro_news",
+      "symbol": "BLUR",
+      "topic": "Ledger details LTE-enabled spy implants in wallets sold by CryptoBilis",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83292.86,
+          "change_pct": -0.249,
+          "volume": 15471.5172,
+          "quote_volume": 1282854002.9186337,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2497.4,
+          "change_pct": -2.297,
+          "volume": 315276.7656,
+          "quote_volume": 787079213.576644,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.37,
+          "change_pct": -4.712,
+          "volume": 2925372.818,
+          "quote_volume": 313207966.99135,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.23,
+          "change_pct": -1.508,
+          "volume": 110868.158,
+          "quote_volume": 82189559.48911,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BLUR": {
+          "price": 0.01193,
+          "change_pct": -35.339,
+          "volume": 701307244.6,
+          "quote_volume": 9669338.321548,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "W": {
+          "price": 0.01916,
+          "change_pct": -32.583,
+          "volume": 1184883839.3,
+          "quote_volume": 25961016.74021,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
