@@ -16681,6 +16681,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791921751.4708152,
+      "category": "binance_news",
+      "symbol": "BLUR",
+      "topic": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83296.95,
+          "change_pct": 0.516,
+          "volume": 15807.92766,
+          "quote_volume": 1313678895.0395558,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2508.4,
+          "change_pct": -0.542,
+          "volume": 305062.8577,
+          "quote_volume": 759723926.188543,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 107.55,
+          "change_pct": -0.729,
+          "volume": 2982786.616,
+          "quote_volume": 317668967.82774,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 742.33,
+          "change_pct": -0.596,
+          "volume": 104296.124,
+          "quote_volume": 77156274.77864,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.825,
+          "change_pct": 121.774,
+          "volume": 11420923.99,
+          "quote_volume": 7580410.09664,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BLUR": {
+          "price": 0.01183,
+          "change_pct": -33.39,
+          "volume": 976246046.6,
+          "quote_volume": 12864671.717014,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
