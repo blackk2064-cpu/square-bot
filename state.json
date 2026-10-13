@@ -16088,6 +16088,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791871351.34939,
+      "category": "binance_news",
+      "symbol": "GTC",
+      "topic": "Solana Treasury Firm DeFi Development Keeps Buying SOL as CHAD Preferred Stock Hits Record",
+      "text_hash": "016c11c0d95874e594a241c6d26fb2ff1e63a664cb4ec7f67a67192c787c20d8",
+      "text_for_similarity": "$GTC surged past the $0.20 level to reach $0.24323 today. 🚀\nThe token is up 52.019% over the past 24 hours with daily volume topping $100,266,785.\nWill $GTC break above $0.25 next, or pull back below $0.20? #crypto",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83647.42,
+          "change_pct": -0.439,
+          "volume": 15091.28009,
+          "quote_volume": 1251171162.5807567,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2529.99,
+          "change_pct": -1.372,
+          "volume": 333538.6858,
+          "quote_volume": 835946011.642916,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.4,
+          "change_pct": -3.943,
+          "volume": 2733802.585,
+          "quote_volume": 294170695.29806,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.63,
+          "change_pct": -1.046,
+          "volume": 115969.857,
+          "quote_volume": 86217034.14284,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.24323,
+          "change_pct": 52.019,
+          "volume": 100266785.3,
+          "quote_volume": 29246152.906398,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OSMO": {
+          "price": 0.0501,
+          "change_pct": 35.04,
+          "volume": 195758326.52,
+          "quote_volume": 9224376.67724,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
