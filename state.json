@@ -16216,6 +16216,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791882091.9699852,
+      "category": "binance_news",
+      "symbol": "OSMO",
+      "topic": "Ledger details LTE-enabled spy implants in wallets sold by CryptoBilis",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83560.25,
+          "change_pct": 0.041,
+          "volume": 15224.26602,
+          "quote_volume": 1262228579.5511086,
+          "funding_rate": 7.711e-05,
+          "open_interest": 94174.478
+        },
+        "ETH": {
+          "price": 2517.97,
+          "change_pct": -1.361,
+          "volume": 338934.4528,
+          "quote_volume": 848339574.438943,
+          "funding_rate": 6.671e-05,
+          "open_interest": 2311716.289
+        },
+        "SOL": {
+          "price": 107.68,
+          "change_pct": -3.659,
+          "volume": 2757597.258,
+          "quote_volume": 295879287.70142,
+          "funding_rate": 3.036e-05,
+          "open_interest": 8537692.14
+        },
+        "BNB": {
+          "price": 743.45,
+          "change_pct": -1.098,
+          "volume": 112477.503,
+          "quote_volume": 83472061.51749,
+          "funding_rate": 0.0,
+          "open_interest": 558260.5
+        },
+        "GTC": {
+          "price": 0.24709,
+          "change_pct": 49.029,
+          "volume": 104157717.6,
+          "quote_volume": 30350015.457397,
+          "funding_rate": -0.00046537,
+          "open_interest": 40484947.4
+        },
+        "OSMO": {
+          "price": 0.0506,
+          "change_pct": 38.63,
+          "volume": 202982922.43,
+          "quote_volume": 9597656.684582,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
