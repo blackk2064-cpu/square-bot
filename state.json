@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789275698.6432323,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis",
-      "text_hash": "3aed36a3b2dd727362690536fe8eeeca7986fd50664e71d78b995872a40645fc",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77210.01,
-          "change_pct": -0.016,
-          "volume": 7717.50595,
-          "quote_volume": 596337153.411099,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2520.04,
-          "change_pct": 0.309,
-          "volume": 152956.8517,
-          "quote_volume": 386751006.657636,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.69,
-          "change_pct": 0.089,
-          "volume": 1070570.004,
-          "quote_volume": 109036405.80111,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 726.34,
-          "change_pct": -0.973,
-          "volume": 74930.214,
-          "quote_volume": 54882467.54373,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789300921.1470525,
       "category": "sarcastic",
       "symbol": "ETH",
@@ -16070,6 +16023,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791867756.508972,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Solana Treasury Firm DeFi Development Keeps Buying SOL as CHAD Preferred Stock Hits Record",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83453.86,
+          "change_pct": -0.837,
+          "volume": 14970.1603,
+          "quote_volume": 1241240889.9889233,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2517.46,
+          "change_pct": -1.926,
+          "volume": 346945.4931,
+          "quote_volume": 870718716.31158,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.07,
+          "change_pct": -4.422,
+          "volume": 2767936.986,
+          "quote_volume": 298394324.12425,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 744.76,
+          "change_pct": -1.359,
+          "volume": 120074.596,
+          "quote_volume": 89342835.04243,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.23872,
+          "change_pct": 43.143,
+          "volume": 100204572.8,
+          "quote_volume": 29099728.024883,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OSMO": {
+          "price": 0.0507,
+          "change_pct": 37.398,
+          "volume": 193466315.01,
+          "quote_volume": 9097412.500652,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
