@@ -15990,6 +15990,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791860542.1741655,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Solana Treasury Firm DeFi Development Keeps Buying SOL as CHAD Preferred Stock Hits Record",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82913.96,
+          "change_pct": -1.064,
+          "volume": 14598.67479,
+          "quote_volume": 1210797395.0139513,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2490.16,
+          "change_pct": -2.211,
+          "volume": 338221.7076,
+          "quote_volume": 849567389.660851,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.65,
+          "change_pct": -4.717,
+          "volume": 2769776.375,
+          "quote_volume": 299488446.61651,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.21,
+          "change_pct": -1.696,
+          "volume": 121134.895,
+          "quote_volume": 90215105.03146,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "W": {
+          "price": 0.01861,
+          "change_pct": -35.606,
+          "volume": 1998173885.4,
+          "quote_volume": 51984548.333959,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.2379,
+          "change_pct": 33.892,
+          "volume": 96949203.1,
+          "quote_volume": 28206205.679938,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
