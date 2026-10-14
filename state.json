@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789416138.349293,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "Strive adds 469 Bitcoin to reach 25,000 BTC treasury",
-      "text_hash": "3d63f4e9b0b1de4da2c974cb18359288c5db79b87c2333f9e9d4592f48c0eb58",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78998.0,
-          "change_pct": 2.212,
-          "volume": 14700.8064,
-          "quote_volume": 1145787526.4785311,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2540.81,
-          "change_pct": 1.364,
-          "volume": 296526.6004,
-          "quote_volume": 745280589.359139,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 103.25,
-          "change_pct": 2.248,
-          "volume": 2099772.838,
-          "quote_volume": 213179712.50675,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 725.46,
-          "change_pct": 0.581,
-          "volume": 131525.316,
-          "quote_volume": 95025370.55862,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789462924.4220362,
       "category": "education",
       "symbol": "BTC",
@@ -17601,6 +17554,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792011735.8819618,
+      "category": "general_news",
+      "symbol": "EPIC",
+      "topic": "Solana Sets a Date for Its Next Major Upgrade",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81802.37,
+          "change_pct": -1.93,
+          "volume": 17737.53417,
+          "quote_volume": 1468809531.246464,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2416.98,
+          "change_pct": -3.734,
+          "volume": 289247.8895,
+          "quote_volume": 713109194.031692,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.13,
+          "change_pct": -2.791,
+          "volume": 2154292.42,
+          "quote_volume": 228519187.20655,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 728.0,
+          "change_pct": -2.024,
+          "volume": 83311.178,
+          "quote_volume": 61401290.55926,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.06062,
+          "change_pct": 58.194,
+          "volume": 710482950.6,
+          "quote_volume": 37055445.986317,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.2673,
+          "change_pct": -39.36,
+          "volume": 19705639.3,
+          "quote_volume": 6958404.51926,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
