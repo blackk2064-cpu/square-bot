@@ -17538,6 +17538,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792004560.6258435,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Standard Chartered Opens Bitcoin and Ethereum Trading to Wealthy UAE Clients",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81748.4,
+          "change_pct": -1.71,
+          "volume": 17297.22016,
+          "quote_volume": 1433703879.539533,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2433.0,
+          "change_pct": -3.055,
+          "volume": 260625.9495,
+          "quote_volume": 644279529.332784,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.39,
+          "change_pct": -3.217,
+          "volume": 2158546.82,
+          "quote_volume": 229383347.76778,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 729.68,
+          "change_pct": -1.589,
+          "volume": 74544.652,
+          "quote_volume": 55048456.88235,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.06013,
+          "change_pct": 57.822,
+          "volume": 681387293.7,
+          "quote_volume": 35234614.211864,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AVA": {
+          "price": 0.309,
+          "change_pct": 35.645,
+          "volume": 31395980.6,
+          "quote_volume": 8670056.94166,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
