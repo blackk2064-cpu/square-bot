@@ -17018,6 +17018,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791946935.4733915,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83660.47,
+          "change_pct": 0.9,
+          "volume": 13915.75541,
+          "quote_volume": 1161700684.523188,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2513.91,
+          "change_pct": 0.947,
+          "volume": 197677.7397,
+          "quote_volume": 497118517.801849,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 107.73,
+          "change_pct": 1.013,
+          "volume": 2029925.312,
+          "quote_volume": 217962964.60159,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.79,
+          "change_pct": 0.599,
+          "volume": 72058.461,
+          "quote_volume": 53546472.73049,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.733,
+          "change_pct": 101.928,
+          "volume": 14068793.87,
+          "quote_volume": 9665304.46671,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OP": {
+          "price": 0.1593,
+          "change_pct": 20.317,
+          "volume": 146367831.58,
+          "quote_volume": 21948481.69179,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
