@@ -17180,6 +17180,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791968570.2869816,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83450.55,
+          "change_pct": -0.114,
+          "volume": 12460.28687,
+          "quote_volume": 1039900754.7468424,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2507.15,
+          "change_pct": -0.405,
+          "volume": 155769.9673,
+          "quote_volume": 390950775.538991,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 107.08,
+          "change_pct": -0.529,
+          "volume": 2065998.904,
+          "quote_volume": 221588997.70276,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.54,
+          "change_pct": -0.256,
+          "volume": 62718.883,
+          "quote_volume": 46581464.40865,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.709,
+          "change_pct": 93.188,
+          "volume": 15812123.05,
+          "quote_volume": 10906645.85931,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.04845,
+          "change_pct": 26.238,
+          "volume": 286851496.8,
+          "quote_volume": 12894631.162894,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
