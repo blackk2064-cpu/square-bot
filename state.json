@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789344104.6054173,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal",
-      "text_hash": "6d022e18b09a4c11b5c66087b163bd1fedf1b2a680d9c03376d6442219df7163",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76855.85,
-          "change_pct": -0.533,
-          "volume": 6957.86226,
-          "quote_volume": 535950769.2005069,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2477.68,
-          "change_pct": -1.905,
-          "volume": 216515.5482,
-          "quote_volume": 540182881.539932,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.34,
-          "change_pct": -2.378,
-          "volume": 1382260.336,
-          "quote_volume": 139134503.11924,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 716.59,
-          "change_pct": -1.498,
-          "volume": 75137.437,
-          "quote_volume": 54154020.56245,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789365702.9189942,
       "category": "education",
       "symbol": "ETH",
@@ -16872,6 +16825,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791936176.9441204,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83196.22,
+          "change_pct": 1.55,
+          "volume": 14779.75928,
+          "quote_volume": 1230248353.1492944,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2498.72,
+          "change_pct": 1.955,
+          "volume": 261529.3177,
+          "quote_volume": 652261294.652017,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.8,
+          "change_pct": 0.907,
+          "volume": 2686070.065,
+          "quote_volume": 285960361.86244,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.71,
+          "change_pct": 1.104,
+          "volume": 90608.097,
+          "quote_volume": 67043235.01874,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.717,
+          "change_pct": 94.837,
+          "volume": 13130227.24,
+          "quote_volume": 8917394.68349,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BAT": {
+          "price": 0.1976,
+          "change_pct": 28.814,
+          "volume": 121792899.0,
+          "quote_volume": 22409501.265,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
