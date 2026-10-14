@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789380142.9291084,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "10df6f92bad4273ffc2c67eef997e6af47f29fe5b4c92c7c661468e42d1c06a5",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 78132.8,
-          "change_pct": 1.743,
-          "volume": 10160.34774,
-          "quote_volume": 785362187.1611602,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2523.87,
-          "change_pct": 1.578,
-          "volume": 257636.563,
-          "quote_volume": 643951737.613951,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.96,
-          "change_pct": 2.113,
-          "volume": 1526496.732,
-          "quote_volume": 153660990.30061,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 725.0,
-          "change_pct": 1.248,
-          "volume": 90606.539,
-          "quote_volume": 65300946.33091,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789387368.4036257,
       "category": "binance_news",
       "symbol": "ETH",
@@ -17260,6 +17213,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791975820.8320043,
+      "category": "binance_news",
+      "symbol": "GNS",
+      "topic": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+      "text_hash": "59dbc904f5efc7cbf9c64a84ad57076374fe079f77535a344323bfaa49253b5f",
+      "text_for_similarity": "85.792% 24h change, $GNS spikes 🚀\n$GNS trades at 0.68 with 16453076.77 volume\nWill you buy the dip or hold? #crypto #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83426.01,
+          "change_pct": 0.136,
+          "volume": 12679.32239,
+          "quote_volume": 1057939460.1805038,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2505.53,
+          "change_pct": 0.304,
+          "volume": 159968.1419,
+          "quote_volume": 401272878.835659,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 107.09,
+          "change_pct": 0.639,
+          "volume": 1894990.402,
+          "quote_volume": 203308979.82267,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 742.7,
+          "change_pct": 0.448,
+          "volume": 59647.735,
+          "quote_volume": 44305667.15227,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.68,
+          "change_pct": 85.792,
+          "volume": 16453076.77,
+          "quote_volume": 11343807.13561,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.05515,
+          "change_pct": 45.515,
+          "volume": 367658677.3,
+          "quote_volume": 17241068.748884,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
