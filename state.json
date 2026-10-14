@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789401714.3895702,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Morning Minute: Clarity Act Odds Soar as Trump Agrees to Ethics Provisions",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 78598.0,
-          "change_pct": 1.874,
-          "volume": 12686.60195,
-          "quote_volume": 985616749.5701861,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2509.99,
-          "change_pct": 0.738,
-          "volume": 276748.5797,
-          "quote_volume": 693783776.020922,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 102.06,
-          "change_pct": 1.775,
-          "volume": 1827264.759,
-          "quote_volume": 184703524.34147,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 723.08,
-          "change_pct": 0.569,
-          "volume": 114746.461,
-          "quote_volume": 82819976.48792,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789416138.349293,
       "category": "general_news",
       "symbol": "BNB",
@@ -17392,6 +17345,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791993749.5419183,
+      "category": "analysis",
+      "symbol": "WAL",
+      "topic": "analysis_WAL",
+      "text_hash": "10cc6ee165e27f7f4d3f4a43b4dd46682aa870071897054d4e684c1f45d9ebef",
+      "text_for_similarity": "Did you see $WAL surge 37.86% in 24 hours?\nTrading at $0.05269 with 24h volume of 521343767.1.\nThe bullish momentum is accelerating fast.\nWould you join the rally or wait for a dip?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81678.0,
+          "change_pct": -2.165,
+          "volume": 16769.65863,
+          "quote_volume": 1392848637.2867956,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2431.69,
+          "change_pct": -3.468,
+          "volume": 245770.3227,
+          "quote_volume": 609631746.763807,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.95,
+          "change_pct": -3.356,
+          "volume": 2136499.113,
+          "quote_volume": 227798915.75305,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 729.24,
+          "change_pct": -2.071,
+          "volume": 72602.673,
+          "quote_volume": 53739441.47563,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.05269,
+          "change_pct": 37.86,
+          "volume": 521343767.1,
+          "quote_volume": 25486973.53378,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.2979,
+          "change_pct": -32.571,
+          "volume": 15383971.7,
+          "quote_volume": 5744129.63387,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
