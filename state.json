@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789376584.3880959,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "Bitcoin ETFs shed $463M in weekly reversal as Ether ETFs gain $197M",
-      "text_hash": "8de35d178037a99e18eb0fc549be162eaec2187ee27fffd35cf6b5dd342c14ec",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77742.01,
-          "change_pct": 1.203,
-          "volume": 9974.93335,
-          "quote_volume": 770221197.6668267,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2518.91,
-          "change_pct": 0.958,
-          "volume": 260930.6592,
-          "quote_volume": 651642491.466038,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.52,
-          "change_pct": 1.449,
-          "volume": 1504362.412,
-          "quote_volume": 151242585.51581,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 724.32,
-          "change_pct": 0.868,
-          "volume": 87766.235,
-          "quote_volume": 63187358.23783,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789380142.9291084,
       "category": "analysis",
       "symbol": "SOL",
@@ -17243,6 +17196,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791972116.7907083,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "5bafc21c5dbd4e2ea3fb4796f4dce707f3e3d616a636d03511e115ba2df80eb7",
+      "text_for_similarity": "$ETH price is down -0.677% to 2497.57 despite a 24h volume of 157103.9027. 📉\nIs this a temporary dip or a trend reversal? #ETH #trading 🚀",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83256.86,
+          "change_pct": -0.439,
+          "volume": 12763.82207,
+          "quote_volume": 1065035568.7226845,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2497.57,
+          "change_pct": -0.677,
+          "volume": 157103.9027,
+          "quote_volume": 394194756.848881,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.66,
+          "change_pct": -0.374,
+          "volume": 2038713.043,
+          "quote_volume": 218636414.835,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.97,
+          "change_pct": -0.059,
+          "volume": 60971.488,
+          "quote_volume": 45282318.37859,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.639,
+          "change_pct": 73.641,
+          "volume": 16146044.68,
+          "quote_volume": 11132118.94713,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.05094,
+          "change_pct": 33.841,
+          "volume": 327425466.1,
+          "quote_volume": 15019708.808941,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
