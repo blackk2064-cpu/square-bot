@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789387368.4036257,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Symbiosis says recovered 15 BTC from bridge hack, offers 20% bounty",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77758.01,
-          "change_pct": 1.275,
-          "volume": 10398.96146,
-          "quote_volume": 804506596.697504,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2508.24,
-          "change_pct": 1.116,
-          "volume": 245469.5011,
-          "quote_volume": 614356892.3435,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.37,
-          "change_pct": 1.553,
-          "volume": 1585317.966,
-          "quote_volume": 159818851.89317,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 721.95,
-          "change_pct": 0.799,
-          "volume": 95216.024,
-          "quote_volume": 68677289.30751,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789390948.7760773,
       "category": "sarcastic",
       "symbol": "BTC",
@@ -17341,6 +17294,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1791982945.8246026,
+      "category": "binance_news",
+      "symbol": "WAL",
+      "topic": "Standard Chartered expands Bitcoin and Ether trading to professional investors in UAE",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 82778.98,
+          "change_pct": -0.673,
+          "volume": 13783.67969,
+          "quote_volume": 1149512606.8625064,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2476.91,
+          "change_pct": -1.138,
+          "volume": 168823.3197,
+          "quote_volume": 423155516.198414,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.53,
+          "change_pct": -1.078,
+          "volume": 1945937.066,
+          "quote_volume": 208774839.75895,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 737.27,
+          "change_pct": -0.537,
+          "volume": 64278.526,
+          "quote_volume": 47737911.11042,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.584,
+          "change_pct": 58.266,
+          "volume": 17423082.51,
+          "quote_volume": 11944107.99495,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.0536,
+          "change_pct": 40.498,
+          "volume": 432879902.1,
+          "quote_volume": 20790103.491109,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
