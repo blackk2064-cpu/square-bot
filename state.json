@@ -17082,6 +17082,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791950522.0779786,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 83718.1,
+          "change_pct": 0.467,
+          "volume": 13573.22106,
+          "quote_volume": 1133518998.845352,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2513.6,
+          "change_pct": 0.228,
+          "volume": 187402.2973,
+          "quote_volume": 471501249.130562,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 107.82,
+          "change_pct": 0.363,
+          "volume": 1984441.485,
+          "quote_volume": 213145627.47865,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.08,
+          "change_pct": 0.272,
+          "volume": 70127.565,
+          "quote_volume": 52119202.39318,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.729,
+          "change_pct": 101.381,
+          "volume": 14229061.71,
+          "quote_volume": 9789006.51569,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OP": {
+          "price": 0.1581,
+          "change_pct": 17.024,
+          "volume": 149154650.48,
+          "quote_volume": 22445868.584472,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
