@@ -17278,6 +17278,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791979351.5822291,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Standard Chartered expands Bitcoin and Ether trading to professional investors in UAE",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 83480.0,
+          "change_pct": 0.16,
+          "volume": 12172.91564,
+          "quote_volume": 1015689518.8540791,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2505.28,
+          "change_pct": 0.24,
+          "volume": 147080.5494,
+          "quote_volume": 368961692.118823,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 107.22,
+          "change_pct": 0.951,
+          "volume": 1771658.275,
+          "quote_volume": 190182982.25289,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 742.74,
+          "change_pct": 0.434,
+          "volume": 57290.827,
+          "quote_volume": 42567524.89528,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.65,
+          "change_pct": 77.596,
+          "volume": 16742337.77,
+          "quote_volume": 11540870.73623,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.05397,
+          "change_pct": 43.461,
+          "volume": 395299942.5,
+          "quote_volume": 18753489.185259,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
