@@ -17410,6 +17410,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1791997330.9539263,
+      "category": "binance_news",
+      "symbol": "EPIC",
+      "topic": "Standard Chartered pushes $2T stablecoin forecast to 2030 as transaction volumes grow",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 82022.0,
+          "change_pct": -1.591,
+          "volume": 16991.19828,
+          "quote_volume": 1410085028.6471891,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2450.2,
+          "change_pct": -2.477,
+          "volume": 251622.917,
+          "quote_volume": 623347580.046056,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.07,
+          "change_pct": -2.251,
+          "volume": 2152366.54,
+          "quote_volume": 229210244.04791,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 732.7,
+          "change_pct": -1.562,
+          "volume": 74001.945,
+          "quote_volume": 54722495.86737,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.06001,
+          "change_pct": 56.725,
+          "volume": 594092762.5,
+          "quote_volume": 29749468.289718,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.2926,
+          "change_pct": -33.485,
+          "volume": 16154917.2,
+          "quote_volume": 5971317.19846,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
