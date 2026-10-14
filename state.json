@@ -17619,6 +17619,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792018951.7649097,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Solana Sets a Date for Its Next Major Upgrade",
+      "text_hash": "985d46c5b3534addfb65abba35047e9437efd9e2ff44889666c386d48da7eb73",
+      "text_for_similarity": "unmatched_percent_claim:3.63",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81662.98,
+          "change_pct": -2.207,
+          "volume": 18160.18283,
+          "quote_volume": 1502264605.0583358,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2418.89,
+          "change_pct": -3.63,
+          "volume": 316359.6459,
+          "quote_volume": 777977442.88753,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.53,
+          "change_pct": -2.272,
+          "volume": 2205915.847,
+          "quote_volume": 233721183.72646,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 729.81,
+          "change_pct": -1.771,
+          "volume": 86486.469,
+          "quote_volume": 63685429.11891,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.06274,
+          "change_pct": 63.428,
+          "volume": 769840860.9,
+          "quote_volume": 40880602.664181,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GNS": {
+          "price": 0.524,
+          "change_pct": -28.707,
+          "volume": 7867105.18,
+          "quote_volume": 5060893.41373,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
