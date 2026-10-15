@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789502531.791232,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76166.56,
-          "change_pct": -3.584,
-          "volume": 21617.24217,
-          "quote_volume": 1660298761.5580478,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2414.52,
-          "change_pct": -4.97,
-          "volume": 485595.6115,
-          "quote_volume": 1198109790.413736,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.89,
-          "change_pct": -5.2,
-          "volume": 2847046.92,
-          "quote_volume": 285834508.47247,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 719.53,
-          "change_pct": -0.816,
-          "volume": 144448.093,
-          "quote_volume": 103942953.00534,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789513300.2046487,
       "category": "general_news",
       "symbol": "BTC",
@@ -18330,6 +18283,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792094538.335676,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Ethereum, Altcoins See 'Outsized Drawdowns' Due to Macro Pressures",
+      "text_hash": "4193d0dffef56d2d16b52affea8a4dfe38a6e473e0f39a5dddd53228d4ae6b31",
+      "text_for_similarity": "$BTC is trading at $82,384.74, up 0.644% in the last 24 hours.\n\n24h volume reached 22,690.63, reflecting sustained momentum above $82K.\n\n#trading #market",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82384.74,
+          "change_pct": 0.644,
+          "volume": 22690.62864,
+          "quote_volume": 1845790772.1058023,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2453.87,
+          "change_pct": 0.865,
+          "volume": 491327.0983,
+          "quote_volume": 1173395479.205174,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.02,
+          "change_pct": 1.698,
+          "volume": 2948066.56,
+          "quote_volume": 304733340.16814,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 733.04,
+          "change_pct": 0.44,
+          "volume": 155278.743,
+          "quote_volume": 112218122.96986,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OSMO": {
+          "price": 0.0478,
+          "change_pct": 24.804,
+          "volume": 118420331.91,
+          "quote_volume": 5509621.171227,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BAT": {
+          "price": 0.2077,
+          "change_pct": 22.682,
+          "volume": 42004238.0,
+          "quote_volume": 7778733.4357,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
