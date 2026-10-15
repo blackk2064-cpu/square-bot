@@ -18003,6 +18003,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792044137.4173763,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "VanEck seeks to withdraw application for Lido staked Ether ETF",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80589.01,
+          "change_pct": -3.454,
+          "volume": 23396.69032,
+          "quote_volume": 1920442846.2257204,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2349.07,
+          "change_pct": -6.168,
+          "volume": 458029.1417,
+          "quote_volume": 1110388584.553675,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.49,
+          "change_pct": -5.326,
+          "volume": 2974773.724,
+          "quote_volume": 311195494.11221,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 713.65,
+          "change_pct": -4.001,
+          "volume": 140539.857,
+          "quote_volume": 102305918.29039,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 10.2,
+          "change_pct": -26.033,
+          "volume": 1645046.12,
+          "quote_volume": 18709805.199,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.04502,
+          "change_pct": -19.85,
+          "volume": 115349114.0,
+          "quote_volume": 5932994.65062,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
