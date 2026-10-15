@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789462924.4220362,
-      "category": "education",
-      "symbol": "BTC",
-      "topic": "education",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76949.04,
-          "change_pct": -1.023,
-          "volume": 14784.23431,
-          "quote_volume": 1156002461.156515,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2475.57,
-          "change_pct": -1.721,
-          "volume": 369224.3857,
-          "quote_volume": 931464958.297836,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.61,
-          "change_pct": -0.896,
-          "volume": 2290062.234,
-          "quote_volume": 234112018.71454,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 717.16,
-          "change_pct": -0.987,
-          "volume": 140814.294,
-          "quote_volume": 101750802.98377,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789470135.3519402,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "c61d34e7f2c02132e24896bed6037568fa3b63ea70bb2c6bb58663b41ffef0dc",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77053.8,
-          "change_pct": -1.05,
-          "volume": 14772.24477,
-          "quote_volume": 1153961100.6231883,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2483.95,
-          "change_pct": -1.145,
-          "volume": 366229.1533,
-          "quote_volume": 923255056.214746,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.96,
-          "change_pct": -0.767,
-          "volume": 2240896.049,
-          "quote_volume": 228991932.89064,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 719.56,
-          "change_pct": -0.466,
-          "volume": 132841.125,
-          "quote_volume": 95930384.7552,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789477339.6042094,
       "category": "general_news",
       "symbol": "BNB",
@@ -18194,6 +18100,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792062183.477279,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81036.14,
+          "change_pct": -2.883,
+          "volume": 23209.87645,
+          "quote_volume": 1897528468.7833664,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2368.03,
+          "change_pct": -5.512,
+          "volume": 502481.6334,
+          "quote_volume": 1209922341.424911,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.35,
+          "change_pct": -4.471,
+          "volume": 2883237.498,
+          "quote_volume": 299474677.30846,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 720.83,
+          "change_pct": -2.959,
+          "volume": 148937.77,
+          "quote_volume": 108035032.32362,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.2737,
+          "change_pct": -30.285,
+          "volume": 20418723.2,
+          "quote_volume": 6322222.82793,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 10.42,
+          "change_pct": -25.518,
+          "volume": 1873757.6,
+          "quote_volume": 20863942.2819,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
