@@ -17939,6 +17939,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792040553.7189977,
+      "category": "sarcastic",
+      "symbol": "SOL",
+      "topic": "sarcastic",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81620.0,
+          "change_pct": -2.508,
+          "volume": 22727.53006,
+          "quote_volume": 1867260025.5907829,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2383.0,
+          "change_pct": -5.216,
+          "volume": 444963.2006,
+          "quote_volume": 1080342442.726226,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.84,
+          "change_pct": -3.763,
+          "volume": 2927245.766,
+          "quote_volume": 306723584.36449,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 723.13,
+          "change_pct": -2.967,
+          "volume": 137455.462,
+          "quote_volume": 100136657.76217,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.05637,
+          "change_pct": 38.535,
+          "volume": 880462817.6,
+          "quote_volume": 49028691.943657,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.3211,
+          "change_pct": -25.843,
+          "volume": 27468862.7,
+          "quote_volume": 9370077.1942,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
