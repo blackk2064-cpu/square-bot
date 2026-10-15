@@ -18131,6 +18131,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792051330.602154,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "VanEck seeks to withdraw application for Lido staked Ether ETF",
+      "text_hash": "f1d69bfded13d6085449def4aa387e7b8a87c656074ede13d3eb051acfbf7e50",
+      "text_for_similarity": "Solana's $SOL price is up 24h volume down as the network prepares for its next major upgrade.",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81520.64,
+          "change_pct": -2.478,
+          "volume": 23889.60046,
+          "quote_volume": 1957819434.5198188,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2379.61,
+          "change_pct": -5.253,
+          "volume": 486265.4564,
+          "quote_volume": 1175643302.469696,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.22,
+          "change_pct": -3.981,
+          "volume": 2955466.233,
+          "quote_volume": 308057903.7553,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 721.03,
+          "change_pct": -2.975,
+          "volume": 143781.057,
+          "quote_volume": 104501814.11963,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.303,
+          "change_pct": -24.288,
+          "volume": 23376811.1,
+          "quote_volume": 7535825.01611,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 10.8,
+          "change_pct": -23.295,
+          "volume": 1808036.72,
+          "quote_volume": 20272451.6321,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
