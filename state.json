@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789513300.2046487,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
-      "text_hash": "7e33860003cd192cc79f2a47640e3c8d6ea0b22e97bb6fbd3e78925633fbdf64",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75695.52,
-          "change_pct": -3.654,
-          "volume": 21704.12182,
-          "quote_volume": 1661461494.3811617,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2397.56,
-          "change_pct": -5.402,
-          "volume": 443517.0893,
-          "quote_volume": 1083645585.463513,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.15,
-          "change_pct": -5.625,
-          "volume": 2769326.483,
-          "quote_volume": 275623627.8896,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 713.4,
-          "change_pct": -1.223,
-          "volume": 131932.96,
-          "quote_volume": 94715041.51097,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789516895.394904,
       "category": "sarcastic",
       "symbol": "ETH",
@@ -18347,6 +18300,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792105332.1928973,
+      "category": "education",
+      "symbol": "BAT",
+      "topic": "education",
+      "text_hash": "2f627e69a88651eb0abdb6b3edae31983f9697eb80ef7268cffa011b724a9f18",
+      "text_for_similarity": "You might be wondering whether to take profits as $BAT rallies 27.534% in 24 hours. 📈\n\nThe token is currently trading at 0.2177 with a 24-hour volume reaching 50502184.0.\n\nAre you securing gains now, or letting it ride?\n\n#trading #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82449.85,
+          "change_pct": 0.952,
+          "volume": 22616.14369,
+          "quote_volume": 1840575213.1456566,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2455.57,
+          "change_pct": 1.489,
+          "volume": 449815.7354,
+          "quote_volume": 1073636964.925428,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.77,
+          "change_pct": 1.167,
+          "volume": 2861963.902,
+          "quote_volume": 295932166.41442,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 729.7,
+          "change_pct": -0.036,
+          "volume": 155877.934,
+          "quote_volume": 112680942.45555,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BAT": {
+          "price": 0.2177,
+          "change_pct": 27.534,
+          "volume": 50502184.0,
+          "quote_volume": 9694370.5998,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.05062,
+          "change_pct": -19.292,
+          "volume": 501345088.5,
+          "quote_volume": 28438356.267043,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
