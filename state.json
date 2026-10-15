@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789480906.983706,
-      "category": "education",
-      "symbol": "ETH",
-      "topic": "education",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 76684.0,
-          "change_pct": -1.996,
-          "volume": 16091.21901,
-          "quote_volume": 1252569459.25017,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2457.2,
-          "change_pct": -1.788,
-          "volume": 385401.7756,
-          "quote_volume": 968567103.911425,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.69,
-          "change_pct": -0.749,
-          "volume": 2319048.818,
-          "quote_volume": 236641630.86968,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 721.35,
-          "change_pct": 0.021,
-          "volume": 127674.874,
-          "quote_volume": 92170104.47408,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789488112.1026106,
       "category": "macro_news",
       "symbol": "BTC",
@@ -18181,6 +18134,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792072930.3152053,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80144.02,
+          "change_pct": -2.733,
+          "volume": 22215.01301,
+          "quote_volume": 1806057219.0845673,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2338.01,
+          "change_pct": -4.774,
+          "volume": 482668.219,
+          "quote_volume": 1153710649.472837,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.48,
+          "change_pct": -3.343,
+          "volume": 2771957.409,
+          "quote_volume": 285854422.83874,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 714.35,
+          "change_pct": -2.982,
+          "volume": 148912.503,
+          "quote_volume": 107618286.90697,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.04285,
+          "change_pct": -22.345,
+          "volume": 151723015.0,
+          "quote_volume": 7246578.83577,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 10.73,
+          "change_pct": -20.341,
+          "volume": 1979031.01,
+          "quote_volume": 21693690.7602,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
