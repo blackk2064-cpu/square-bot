@@ -17747,6 +17747,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792026133.9989858,
+      "category": "general_news",
+      "symbol": "EPIC",
+      "topic": "Solana Sets a Date for Its Next Major Upgrade",
+      "text_hash": "85ead64136485862acae783710f59f36c6872da356b310bf62c305f75d01b730",
+      "text_for_similarity": "Are you looking at the sharp pullback on $EPIC today?\nThe token is currently trading at $0.3172 after a steep 24-hour drop of -27.514%.\nTrading activity remains strong with a 24-hour volume reaching 25,134,790.6.\nKeep a close watch on #EPIC as volatility spikes across the market.",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81682.0,
+          "change_pct": -2.073,
+          "volume": 18788.80585,
+          "quote_volume": 1552206027.4063087,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2420.43,
+          "change_pct": -3.465,
+          "volume": 333382.8851,
+          "quote_volume": 818464952.253297,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.47,
+          "change_pct": -2.737,
+          "volume": 2212711.743,
+          "quote_volume": 234196485.75482,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 730.32,
+          "change_pct": -1.816,
+          "volume": 89448.692,
+          "quote_volume": 65808645.53543,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "WAL": {
+          "price": 0.05604,
+          "change_pct": 38.37,
+          "volume": 798491003.7,
+          "quote_volume": 42985223.397534,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.3172,
+          "change_pct": -27.514,
+          "volume": 25134790.6,
+          "quote_volume": 8648679.03709,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
