@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789491753.8388944,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 76381.97,
-          "change_pct": -3.001,
-          "volume": 17767.65131,
-          "quote_volume": 1373402346.222575,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2421.83,
-          "change_pct": -4.206,
-          "volume": 411644.5185,
-          "quote_volume": 1026784084.358342,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 99.11,
-          "change_pct": -3.354,
-          "volume": 2384779.906,
-          "quote_volume": 242094914.86598,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 719.57,
-          "change_pct": -0.694,
-          "volume": 125354.507,
-          "quote_volume": 90356173.43431,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789495339.7250314,
       "category": "macro_news",
       "symbol": "BTC",
@@ -18279,6 +18232,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792083772.0301054,
+      "category": "binance_news",
+      "symbol": "STRK",
+      "topic": "Ethereum, Altcoins See 'Outsized Drawdowns' Due to Macro Pressures",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82112.98,
+          "change_pct": 0.111,
+          "volume": 22675.06815,
+          "quote_volume": 1843431292.4941297,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2434.67,
+          "change_pct": -0.64,
+          "volume": 497271.3866,
+          "quote_volume": 1187395589.25578,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.63,
+          "change_pct": 0.504,
+          "volume": 2966827.518,
+          "quote_volume": 306410837.28254,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 731.61,
+          "change_pct": -0.15,
+          "volume": 157436.934,
+          "quote_volume": 113751682.81564,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PYTH": {
+          "price": 0.09456,
+          "change_pct": 16.253,
+          "volume": 245484544.1,
+          "quote_volume": 21789956.551115,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.08889,
+          "change_pct": 15.277,
+          "volume": 664126968.03,
+          "quote_volume": 55039845.2936448,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
