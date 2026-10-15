@@ -18199,6 +18199,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792076550.3922722,
+      "category": "binance_news",
+      "symbol": "NIL",
+      "topic": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
+      "text_hash": "dcd9616304471c969880b4b28da6651676929ed8ea34a03a14f8fda9b4cce8bd",
+      "text_for_similarity": "$NIL is up 15.948% to $0.08899, reversing from recent lows as 24h volume hits $163.7M.\n\nThe quantum-risk vote chatter on Starknet and broader macro pressure are adding fuel to small-cap momentum.\n\n$NIL #trading #memecoins\n\nIs the next leg up already priced in or is $0.10 the real target?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81858.06,
+          "change_pct": -0.109,
+          "volume": 22176.73342,
+          "quote_volume": 1801646561.6338916,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2398.02,
+          "change_pct": -1.399,
+          "volume": 466321.2821,
+          "quote_volume": 1112429918.067655,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.78,
+          "change_pct": 0.489,
+          "volume": 2855827.69,
+          "quote_volume": 294400818.80671,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 729.5,
+          "change_pct": -0.545,
+          "volume": 155766.903,
+          "quote_volume": 112527427.61988,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NIL": {
+          "price": 0.08899,
+          "change_pct": 15.948,
+          "volume": 163652739.3,
+          "quote_volume": 14279332.791822,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 11.54,
+          "change_pct": -15.147,
+          "volume": 2031976.08,
+          "quote_volume": 22241610.9958,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
