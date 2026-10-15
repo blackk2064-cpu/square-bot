@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789477339.6042094,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "Ethereum, Base wallet standards talks fail, Ethlabs researcher says",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76978.91,
-          "change_pct": -0.908,
-          "volume": 15009.45089,
-          "quote_volume": 1171586066.7335112,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2480.7,
-          "change_pct": -0.969,
-          "volume": 365583.7557,
-          "quote_volume": 921034511.406737,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 101.03,
-          "change_pct": -0.326,
-          "volume": 2284547.605,
-          "quote_volume": 233290489.07442,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 720.6,
-          "change_pct": 0.086,
-          "volume": 129363.349,
-          "quote_volume": 93402649.59636,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789480906.983706,
       "category": "education",
       "symbol": "ETH",
@@ -18164,6 +18117,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792069342.8697526,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80619.09,
+          "change_pct": -2.621,
+          "volume": 22257.79026,
+          "quote_volume": 1814923274.8891366,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2352.06,
+          "change_pct": -5.049,
+          "volume": 501146.0605,
+          "quote_volume": 1202405209.353024,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.85,
+          "change_pct": -3.524,
+          "volume": 2820382.236,
+          "quote_volume": 291630221.36468,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 718.22,
+          "change_pct": -2.6,
+          "volume": 147338.279,
+          "quote_volume": 106648299.45134,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.2592,
+          "change_pct": -25.26,
+          "volume": 24541292.6,
+          "quote_volume": 7169298.3798,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.0431,
+          "change_pct": -21.665,
+          "volume": 148319926.0,
+          "quote_volume": 7166733.52026,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
