@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789578133.7434888,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Anchorage expands institutional custody to Etherlink, tokenized uranium",
-      "text_hash": "fed752d4246a81923598a2ed2097e2fa84f28db369bbb41e67329d2aca267329",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75756.01,
-          "change_pct": -0.82,
-          "volume": 16359.91386,
-          "quote_volume": 1241724897.5878077,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2391.58,
-          "change_pct": -1.249,
-          "volume": 333261.2802,
-          "quote_volume": 800507131.200814,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.22,
-          "change_pct": -1.877,
-          "volume": 2522256.405,
-          "quote_volume": 245916959.55036,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 713.34,
-          "change_pct": -0.866,
-          "volume": 127248.768,
-          "quote_volume": 90792170.99193,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789581746.7448032,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "Anchorage expands institutional custody to Etherlink, tokenized uranium",
-      "text_hash": "aebdf56609ee55327e89cdd9a6461e8fafb781b5bc05e6890e64a03a6b8e31f2",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75554.98,
-          "change_pct": -1.798,
-          "volume": 16054.05742,
-          "quote_volume": 1217364878.4809268,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2381.17,
-          "change_pct": -2.423,
-          "volume": 335085.6435,
-          "quote_volume": 803914572.907022,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 96.73,
-          "change_pct": -3.434,
-          "volume": 2554887.664,
-          "quote_volume": 248737585.0937,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 712.37,
-          "change_pct": -1.477,
-          "volume": 129015.303,
-          "quote_volume": 92006754.25848,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789599699.073926,
       "category": "analysis",
       "symbol": "BTC",
@@ -18278,6 +18184,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792173752.9598129,
+      "category": "general_news",
+      "symbol": "ZIL",
+      "topic": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
+      "text_hash": "031e0de1f165b218a6cab31c9c3182d6ef86f745c46e00687335901582315009",
+      "text_for_similarity": "Holding a $ZIL position today means facing a steep 24-hour drop of -22.134%. 📉\n\nWith the price currently down to 0.002554 on 24-hour volume of 2027270777.9, a decision has to be made.\n\nAre you cutting losses here, or buying",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81197.48,
+          "change_pct": -1.445,
+          "volume": 14998.30881,
+          "quote_volume": 1231102784.1740751,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2410.07,
+          "change_pct": -1.375,
+          "volume": 286608.3449,
+          "quote_volume": 702873342.029788,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.67,
+          "change_pct": -2.004,
+          "volume": 1786284.216,
+          "quote_volume": 188572674.97535,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 721.43,
+          "change_pct": -1.704,
+          "volume": 103718.004,
+          "quote_volume": 75677316.7361,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NXPC": {
+          "price": 0.1895,
+          "change_pct": -24.532,
+          "volume": 26735550.1,
+          "quote_volume": 5756256.21234,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ZIL": {
+          "price": 0.002554,
+          "change_pct": -22.134,
+          "volume": 2027270777.9,
+          "quote_volume": 5607731.6098118,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
