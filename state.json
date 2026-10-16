@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789599699.073926,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75706.01,
-          "change_pct": 0.014,
-          "volume": 14811.96696,
-          "quote_volume": 1123338612.261477,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2393.4,
-          "change_pct": -0.174,
-          "volume": 318103.5199,
-          "quote_volume": 763437578.530165,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.52,
-          "change_pct": 0.371,
-          "volume": 2345549.209,
-          "quote_volume": 228579679.69453,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 719.05,
-          "change_pct": 0.793,
-          "volume": 121078.814,
-          "quote_volume": 86373873.84921,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789603298.152978,
       "category": "analysis",
       "symbol": "ETH",
@@ -18312,6 +18265,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792191788.8117824,
+      "category": "binance_news",
+      "symbol": "ZIL",
+      "topic": "Solana’s Liu says Shanghai event postponed over registration surge",
+      "text_hash": "6b2181cd5a3722f5e67d8c8b9d3f17e496e844b5c03072a714319d6c7610be17",
+      "text_for_similarity": "A sharp decline of -24.201% has hit $ZIL as its price drops to $0.002515.\nTrading activity remains intense with 24-hour volume reaching 2,297,796,451.7.\nMarket participants are monitoring the volatility closely.\nKeep track of key levels on #ZIL.",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81788.32,
+          "change_pct": -0.802,
+          "volume": 14829.26186,
+          "quote_volume": 1214818281.0414512,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2425.92,
+          "change_pct": -1.198,
+          "volume": 284715.6512,
+          "quote_volume": 696956362.192355,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.45,
+          "change_pct": -1.22,
+          "volume": 1895929.701,
+          "quote_volume": 199445752.94302,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 722.85,
+          "change_pct": -0.933,
+          "volume": 97108.745,
+          "quote_volume": 70711860.09988,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ZIL": {
+          "price": 0.002515,
+          "change_pct": -24.201,
+          "volume": 2297796451.7,
+          "quote_volume": 6283865.0369582,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.07307,
+          "change_pct": -15.672,
+          "volume": 378026946.36,
+          "quote_volume": 29495133.2571626,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
