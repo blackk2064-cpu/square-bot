@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789563740.3577569,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Deutsche Bank awaits regulatory nod to launch institutional crypto custody solutions",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 75944.01,
-          "change_pct": -1.328,
-          "volume": 20770.81815,
-          "quote_volume": 1579447470.901168,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2406.61,
-          "change_pct": -2.951,
-          "volume": 410901.5124,
-          "quote_volume": 991197424.811264,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.58,
-          "change_pct": -3.396,
-          "volume": 2775645.381,
-          "quote_volume": 272013737.7726,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 712.91,
-          "change_pct": -1.047,
-          "volume": 142070.576,
-          "quote_volume": 101534675.05166,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789574515.9269097,
       "category": "analysis",
       "symbol": "BTC",
@@ -18244,6 +18197,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792159385.01904,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 82004.0,
+          "change_pct": 2.334,
+          "volume": 15804.03562,
+          "quote_volume": 1298445450.4209726,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2458.27,
+          "change_pct": 5.166,
+          "volume": 320129.8428,
+          "quote_volume": 782390976.430887,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.71,
+          "change_pct": 4.189,
+          "volume": 1986665.269,
+          "quote_volume": 209751816.47238,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 727.27,
+          "change_pct": 1.829,
+          "volume": 113258.044,
+          "quote_volume": 82700305.75557,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TIA": {
+          "price": 0.705,
+          "change_pct": 31.456,
+          "volume": 50012027.35,
+          "quote_volume": 32351243.217462,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INJ": {
+          "price": 9.112,
+          "change_pct": 28.338,
+          "volume": 5644599.06,
+          "quote_volume": 49276629.50695,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
