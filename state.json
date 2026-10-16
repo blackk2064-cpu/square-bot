@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789574515.9269097,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 75812.0,
-          "change_pct": -0.899,
-          "volume": 16584.96638,
-          "quote_volume": 1259161628.2421706,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2393.65,
-          "change_pct": -1.216,
-          "volume": 337176.3779,
-          "quote_volume": 810182166.05914,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.15,
-          "change_pct": -2.195,
-          "volume": 2527709.907,
-          "quote_volume": 246543397.64909,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 711.94,
-          "change_pct": -0.91,
-          "volume": 128508.488,
-          "quote_volume": 91715674.70752,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789578133.7434888,
       "category": "macro_news",
       "symbol": "SOL",
@@ -18261,6 +18214,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792166533.189403,
+      "category": "binance_news",
+      "symbol": "ZIL",
+      "topic": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81343.33,
+          "change_pct": -1.321,
+          "volume": 14120.71646,
+          "quote_volume": 1161043664.019053,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2430.41,
+          "change_pct": -0.422,
+          "volume": 277327.3861,
+          "quote_volume": 680898894.014734,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.82,
+          "change_pct": -2.057,
+          "volume": 1737830.183,
+          "quote_volume": 183907883.30849,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 723.25,
+          "change_pct": -1.384,
+          "volume": 104905.935,
+          "quote_volume": 76628509.79735,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.07414,
+          "change_pct": -22.947,
+          "volume": 513309439.94,
+          "quote_volume": 43522652.0564229,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ZIL": {
+          "price": 0.00256,
+          "change_pct": -21.521,
+          "volume": 1903994665.2,
+          "quote_volume": 5298529.5267884,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
