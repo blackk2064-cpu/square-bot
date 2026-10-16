@@ -18249,6 +18249,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792184587.1234233,
+      "category": "sarcastic",
+      "symbol": "BNB",
+      "topic": "sarcastic",
+      "text_hash": "d4ac0c18b17457faf8c107efbc340bab9009b918b8855ae976fb502cf796ff57",
+      "text_for_similarity": "unmatched_percent_claim:1.272",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81722.0,
+          "change_pct": -0.461,
+          "volume": 15216.39204,
+          "quote_volume": 1247054546.3315625,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2415.39,
+          "change_pct": -1.544,
+          "volume": 286825.3657,
+          "quote_volume": 702432941.917299,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.05,
+          "change_pct": -1.514,
+          "volume": 1885477.835,
+          "quote_volume": 198465600.83921,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 721.31,
+          "change_pct": -1.272,
+          "volume": 99933.264,
+          "quote_volume": 72821898.55039,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ZIL": {
+          "price": 0.002539,
+          "change_pct": -23.037,
+          "volume": 2183031972.3,
+          "quote_volume": 5995653.7460237,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "STRK": {
+          "price": 0.07276,
+          "change_pct": -17.186,
+          "volume": 371238984.34,
+          "quote_volume": 29217701.3470629,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
