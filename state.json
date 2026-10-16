@@ -1,241 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789531319.7065816,
-      "category": "education",
-      "symbol": "BTC",
-      "topic": "education",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75822.62,
-          "change_pct": -2.387,
-          "volume": 21706.92599,
-          "quote_volume": 1657192713.346583,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2402.08,
-          "change_pct": -3.864,
-          "volume": 425519.0388,
-          "quote_volume": 1034392351.806253,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.25,
-          "change_pct": -4.263,
-          "volume": 2875738.355,
-          "quote_volume": 284444087.123,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 714.23,
-          "change_pct": -0.973,
-          "volume": 134275.664,
-          "quote_volume": 96250031.52983,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789534919.066164,
-      "category": "macro_news",
-      "symbol": "BTC",
-      "topic": "Clarity Act preliminary vote falls short in Senate amid ethics fight over Trump’s crypto wealth",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75877.33,
-          "change_pct": -2.185,
-          "volume": 21254.8986,
-          "quote_volume": 1621526434.3827367,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2404.74,
-          "change_pct": -3.483,
-          "volume": 420085.2131,
-          "quote_volume": 1020308947.711687,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.32,
-          "change_pct": -3.891,
-          "volume": 2885610.699,
-          "quote_volume": 285135885.31087,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 715.53,
-          "change_pct": -0.698,
-          "volume": 134057.636,
-          "quote_volume": 96074836.07808,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789538532.0254211,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Clarity Act preliminary vote falls short in Senate amid ethics fight over Trump’s crypto wealth",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75976.01,
-          "change_pct": -2.184,
-          "volume": 21158.37668,
-          "quote_volume": 1613458648.4916296,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2407.8,
-          "change_pct": -3.591,
-          "volume": 411633.5432,
-          "quote_volume": 998781016.057785,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.24,
-          "change_pct": -4.093,
-          "volume": 2849177.663,
-          "quote_volume": 281164927.82346,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 715.37,
-          "change_pct": -0.891,
-          "volume": 133390.661,
-          "quote_volume": 95581592.36647,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789542074.13502,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Clarity Act preliminary vote falls short in Senate amid ethics fight over Trump’s crypto wealth",
-      "text_hash": "3a374cafa601a4fb25e217220ed64451c3a8ee8ed722241c502ee54cd52cdd62",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75993.97,
-          "change_pct": -1.661,
-          "volume": 21197.51696,
-          "quote_volume": 1615898166.5013165,
-          "funding_rate": 4.66e-05,
-          "open_interest": 107581.34
-        },
-        "ETH": {
-          "price": 2405.54,
-          "change_pct": -3.223,
-          "volume": 402899.8399,
-          "quote_volume": 976567800.511831,
-          "funding_rate": -1.517e-05,
-          "open_interest": 2335643.995
-        },
-        "SOL": {
-          "price": 97.35,
-          "change_pct": -3.528,
-          "volume": 2828079.923,
-          "quote_volume": 278864398.43487,
-          "funding_rate": -1.87e-06,
-          "open_interest": 8078539.09
-        },
-        "BNB": {
-          "price": 714.17,
-          "change_pct": -0.628,
-          "volume": 132645.102,
-          "quote_volume": 95027570.41204,
-          "funding_rate": 3.497e-05,
-          "open_interest": 597058.52
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789549308.228918,
-      "category": "sarcastic",
-      "symbol": "SOL",
-      "topic": "sarcastic",
-      "text_hash": "989d04e49ed07f2c6af6ffb97bed9277b249efd803236eb7401656a78589cc4f",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 75730.01,
-          "change_pct": -1.584,
-          "volume": 20964.7181,
-          "quote_volume": 1596168504.5843961,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2402.53,
-          "change_pct": -2.943,
-          "volume": 406750.384,
-          "quote_volume": 983512171.708663,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 97.04,
-          "change_pct": -3.539,
-          "volume": 2790133.385,
-          "quote_volume": 274506116.79912,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 707.03,
-          "change_pct": -1.413,
-          "volume": 139197.694,
-          "quote_volume": 99576173.42634,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789552998.9408484,
       "category": "binance_news",
       "symbol": "ETH",
@@ -18378,6 +18143,70 @@
         }
       },
       "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792144929.869945,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82001.0,
+          "change_pct": 0.897,
+          "volume": 16516.06344,
+          "quote_volume": 1350185551.6409671,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2449.35,
+          "change_pct": 3.121,
+          "volume": 311250.7281,
+          "quote_volume": 752958013.5413,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.24,
+          "change_pct": 2.996,
+          "volume": 2098872.493,
+          "quote_volume": 219508142.40306,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 730.83,
+          "change_pct": 1.08,
+          "volume": 112013.449,
+          "quote_volume": 81500236.56557,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INJ": {
+          "price": 9.201,
+          "change_pct": 26.701,
+          "volume": 5091388.13,
+          "quote_volume": 43502822.47396,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TIA": {
+          "price": 0.6849,
+          "change_pct": 26.786,
+          "volume": 41577514.93,
+          "quote_volume": 26003587.58894,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
