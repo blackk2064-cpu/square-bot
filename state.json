@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789650145.848581,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Bitcoin treasuries buy just 5.9K BTC in three months as paper losses linger",
-      "text_hash": "493d53152ffca610b13f1cc921beffcf545d65e2f65bf8f41305abaa1b7a5302",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76761.59,
-          "change_pct": 1.077,
-          "volume": 14580.46695,
-          "quote_volume": 1109618178.1823387,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2461.17,
-          "change_pct": 2.267,
-          "volume": 331126.0886,
-          "quote_volume": 799786025.440816,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.83,
-          "change_pct": 3.331,
-          "volume": 2440257.268,
-          "quote_volume": 240736349.99416,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 729.15,
-          "change_pct": 2.277,
-          "volume": 133489.571,
-          "quote_volume": 96287430.71752,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789653696.1406708,
-      "category": "sarcastic",
-      "symbol": "BTC",
-      "topic": "sarcastic",
-      "text_hash": "3b01bc57485a6e530f49a20748df09cdf68a07c02399217246a3383ace566c08",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76758.0,
-          "change_pct": 1.48,
-          "volume": 14866.6674,
-          "quote_volume": 1131980721.4805336,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2465.17,
-          "change_pct": 3.005,
-          "volume": 333962.9295,
-          "quote_volume": 807450238.724889,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.83,
-          "change_pct": 3.756,
-          "volume": 2471281.482,
-          "quote_volume": 244212897.26695,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 727.53,
-          "change_pct": 2.309,
-          "volume": 138261.388,
-          "quote_volume": 99824364.49105,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789660921.1384912,
       "category": "analysis",
       "symbol": "BNB",
@@ -18619,6 +18525,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792249325.8426251,
+      "category": "analysis",
+      "symbol": "EPIC",
+      "topic": "analysis_EPIC",
+      "text_hash": "92468f496e049508c9feff3df275309f3f0d4bb34ba8e2d834c5bf3f99431a96",
+      "text_for_similarity": "30.497% gains have propelled $EPIC to $0.3021 over the past 24 hours.\nThe token saw significant market participation with a 24-hour trading volume of 36847540.9.\nMomentum remains strong as buyers continue to drive active interest in $EPIC.\n#EPIC #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81574.01,
+          "change_pct": -0.461,
+          "volume": 9868.94529,
+          "quote_volume": 804327671.305418,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2427.18,
+          "change_pct": -1.277,
+          "volume": 152716.2247,
+          "quote_volume": 370445470.90816,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.31,
+          "change_pct": -1.231,
+          "volume": 1228781.413,
+          "quote_volume": 128037002.13661,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 721.63,
+          "change_pct": -0.815,
+          "volume": 68872.026,
+          "quote_volume": 49727933.46321,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.3021,
+          "change_pct": 30.497,
+          "volume": 36847540.9,
+          "quote_volume": 10291943.15189,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.2313,
+          "change_pct": 21.354,
+          "volume": 40901349.5,
+          "quote_volume": 9444984.830693,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
