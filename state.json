@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789632115.4343927,
-      "category": "education",
-      "symbol": "SOL",
-      "topic": "education",
-      "text_hash": "3d81d0404ca892548805490efc985c680cacb1a44dc90d3afee2037a811d4ef7",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76471.67,
-          "change_pct": 0.955,
-          "volume": 14600.20462,
-          "quote_volume": 1109250856.8641844,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2445.11,
-          "change_pct": 1.998,
-          "volume": 335967.766,
-          "quote_volume": 808867692.511668,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.06,
-          "change_pct": 3.197,
-          "volume": 2360882.5,
-          "quote_volume": 231587053.63526,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 724.47,
-          "change_pct": 2.08,
-          "volume": 131899.369,
-          "quote_volume": 94695334.02268,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789650145.848581,
       "category": "macro_news",
       "symbol": "SOL",
@@ -18602,6 +18555,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792227744.5055647,
+      "category": "binance_news",
+      "symbol": "GTC",
+      "topic": "How Ethereum Works",
+      "text_hash": "63e320aa6c372475ace19ab008d07ac78669c90d1d96d4e52cfde2937500afdd",
+      "text_for_similarity": "$GTC is holding above the 0.24 level as it trades at 0.24552. 📈\n\nThe token has gained 23.85% in the last 24 hours with a trading volume of 33543399.8.\n\nWill $GTC push toward the 0.25 mark next, or will it pull back below 0.24?\n\n#crypto #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81718.32,
+          "change_pct": -0.627,
+          "volume": 13030.17362,
+          "quote_volume": 1065193723.380807,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2436.59,
+          "change_pct": -0.832,
+          "volume": 232566.394,
+          "quote_volume": 568590003.91536,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.08,
+          "change_pct": -1.62,
+          "volume": 1577396.864,
+          "quote_volume": 165445843.55892,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 722.53,
+          "change_pct": -1.138,
+          "volume": 84933.39,
+          "quote_volume": 61620420.67559,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.24552,
+          "change_pct": 23.85,
+          "volume": 33543399.8,
+          "quote_volume": 7568359.545093,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PROM": {
+          "price": 4.632,
+          "change_pct": -16.78,
+          "volume": 2567013.77,
+          "quote_volume": 12745674.28666,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 88,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
