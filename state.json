@@ -18475,6 +18475,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792209720.3796453,
+      "category": "analysis",
+      "symbol": "TIA",
+      "topic": "analysis_TIA",
+      "text_hash": "00cdffb73578c1f1c1307e7b25f005a8aec43fb513417f84a4c3ee17e7c4505f",
+      "text_for_similarity": "Do you want to know $TIA's latest price?\nPrice: $0.7321\n24h Change: +21.551%\n24h Volume: 65,412,126.67",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81563.29,
+          "change_pct": -0.615,
+          "volume": 13434.84104,
+          "quote_volume": 1099126594.481398,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2427.4,
+          "change_pct": -0.47,
+          "volume": 268783.5921,
+          "quote_volume": 657803049.136203,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.94,
+          "change_pct": -0.276,
+          "volume": 1778218.114,
+          "quote_volume": 186956725.07921,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 722.35,
+          "change_pct": -0.897,
+          "volume": 93673.8,
+          "quote_volume": 68078780.18252,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ZIL": {
+          "price": 0.002348,
+          "change_pct": -30.43,
+          "volume": 2698243102.8,
+          "quote_volume": 7152058.6116196,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TIA": {
+          "price": 0.7321,
+          "change_pct": 21.551,
+          "volume": 65412126.67,
+          "quote_volume": 44749143.024621,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
