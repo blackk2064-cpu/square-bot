@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789603298.152978,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 76208.36,
-          "change_pct": 0.757,
-          "volume": 14888.40686,
-          "quote_volume": 1129274294.7501566,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2417.25,
-          "change_pct": 0.778,
-          "volume": 321903.4994,
-          "quote_volume": 772681442.76583,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 98.59,
-          "change_pct": 1.713,
-          "volume": 2342274.877,
-          "quote_volume": 228363441.96552,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 726.2,
-          "change_pct": 1.976,
-          "volume": 125997.719,
-          "quote_volume": 89969584.39291,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789632115.4343927,
       "category": "education",
       "symbol": "SOL",
@@ -18329,6 +18282,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792195328.8412054,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "574984a70d8a36ab9d81c33164ca8893b5edf371b8d18f14f20a769d30a0c2b1",
+      "text_for_similarity": "$ETH is holding near $2423.06 despite a slight 24h dip of -0.805%, yet 24h trading volume remains heavy at 279965.5423. 📉\n\nWill $ETH rebound back above $2450 next, or drop under $2400?\n\n#ETH #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81610.01,
+          "change_pct": -0.766,
+          "volume": 14740.19169,
+          "quote_volume": 1207255987.4382324,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2423.06,
+          "change_pct": -0.805,
+          "volume": 279965.5423,
+          "quote_volume": 685291894.019976,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.42,
+          "change_pct": -0.977,
+          "volume": 1889326.441,
+          "quote_volume": 198723388.06486,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 721.49,
+          "change_pct": -1.109,
+          "volume": 94485.774,
+          "quote_volume": 68787604.4175,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ZIL": {
+          "price": 0.002508,
+          "change_pct": -24.161,
+          "volume": 2360684726.1,
+          "quote_volume": 6440192.8145522,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TIA": {
+          "price": 0.6888,
+          "change_pct": 16.568,
+          "volume": 60472045.11,
+          "quote_volume": 40820764.069397,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
