@@ -18411,6 +18411,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792206052.4858327,
+      "category": "analysis",
+      "symbol": "BTC",
+      "topic": "analysis_BTC",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81462.01,
+          "change_pct": -0.682,
+          "volume": 13668.60911,
+          "quote_volume": 1118430639.8638935,
+          "funding_rate": 0.0001,
+          "open_interest": 93944.461
+        },
+        "ETH": {
+          "price": 2421.85,
+          "change_pct": -0.68,
+          "volume": 270978.1079,
+          "quote_volume": 663216420.625986,
+          "funding_rate": 3.839e-05,
+          "open_interest": 2254099.217
+        },
+        "SOL": {
+          "price": 104.54,
+          "change_pct": -0.703,
+          "volume": 1847971.867,
+          "quote_volume": 194276206.13696,
+          "funding_rate": 3.36e-06,
+          "open_interest": 8921005.51
+        },
+        "BNB": {
+          "price": 721.23,
+          "change_pct": -0.998,
+          "volume": 94080.284,
+          "quote_volume": 68400678.56993,
+          "funding_rate": 0.0,
+          "open_interest": 560292.64
+        },
+        "ZIL": {
+          "price": 0.002361,
+          "change_pct": -28.757,
+          "volume": 2617277858.2,
+          "quote_volume": 6971878.5123451,
+          "funding_rate": -0.00048517,
+          "open_interest": 1832489226.0
+        },
+        "TIA": {
+          "price": 0.7041,
+          "change_pct": 17.213,
+          "volume": 62970395.71,
+          "quote_volume": 42777634.887021,
+          "funding_rate": -7.77e-06,
+          "open_interest": 51437731.0
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
