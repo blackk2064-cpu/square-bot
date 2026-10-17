@@ -18607,6 +18607,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792260187.0057597,
+      "category": "sarcastic",
+      "symbol": "AVA",
+      "topic": "sarcastic",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81383.82,
+          "change_pct": 0.224,
+          "volume": 7821.48018,
+          "quote_volume": 637597963.9110214,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2412.39,
+          "change_pct": 0.078,
+          "volume": 121017.5373,
+          "quote_volume": 293025609.170435,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.49,
+          "change_pct": -0.174,
+          "volume": 980207.235,
+          "quote_volume": 102037000.62998,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 715.01,
+          "change_pct": -0.89,
+          "volume": 69471.673,
+          "quote_volume": 50020320.31809,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AVA": {
+          "price": 0.3892,
+          "change_pct": 38.802,
+          "volume": 21937913.5,
+          "quote_volume": 7413227.80049,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.2946,
+          "change_pct": 26.438,
+          "volume": 38790852.2,
+          "quote_volume": 11017887.38496,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
