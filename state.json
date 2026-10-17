@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789675344.0472784,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "Bitcoin treasury firms can outperform BTC... but is the risk worth taking?",
-      "text_hash": "4248cab1a47ebb29620a2a8e451b7ff3ed0dd30e08a99c9dc0539d88f92a50ca",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 76555.24,
-          "change_pct": 0.627,
-          "volume": 11832.33911,
-          "quote_volume": 904959329.956858,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2448.86,
-          "change_pct": 1.693,
-          "volume": 256640.2215,
-          "quote_volume": 627419680.522664,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 100.96,
-          "change_pct": 2.884,
-          "volume": 2144064.384,
-          "quote_volume": 214624097.94327,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 732.69,
-          "change_pct": 1.856,
-          "volume": 126077.915,
-          "quote_volume": 91563692.67004,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789704140.3814733,
       "category": "general_news",
       "symbol": "BNB",
@@ -18668,6 +18621,70 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792270932.5972567,
+      "category": "macro_news",
+      "symbol": "AVA",
+      "topic": "Solana shows resilience, but some areas need continued observation, Fidelity says",
+      "text_hash": "43a2bc48a9d2159d290fbc63fa609082e82d5e1b3f214cde17cd50b928d32e06",
+      "text_for_similarity": "$AVA is up 28.811% to $0.3836 despite a modest 24h volume of $26.6 million.\n\nThe sharp price rally contrasts with lighter volume, hinting momentum may be stretched. #trading #education\n\nIs the trend set to resume or pause here?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81657.87,
+          "change_pct": -0.078,
+          "volume": 6885.92272,
+          "quote_volume": 561745696.121076,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2421.84,
+          "change_pct": 0.267,
+          "volume": 105462.9717,
+          "quote_volume": 255575563.027656,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.2,
+          "change_pct": 0.144,
+          "volume": 807511.863,
+          "quote_volume": 84221933.48752,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 719.9,
+          "change_pct": -0.195,
+          "volume": 72953.886,
+          "quote_volume": 52489610.00557,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AVA": {
+          "price": 0.3836,
+          "change_pct": 28.811,
+          "volume": 26612547.4,
+          "quote_volume": 9307367.99199,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.22656,
+          "change_pct": 18.037,
+          "volume": 41993873.6,
+          "quote_volume": 9821251.095915,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
