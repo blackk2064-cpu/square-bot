@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789704140.3814733,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "Ethereum Founder Vitalik Buterin Says AI Won’t Doom Crypto Security",
-      "text_hash": "a3977fc0812c4f2b5485e1190147dd977b1430eb303316ef92af7c8d34d5fc60",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 77383.46,
-          "change_pct": 1.237,
-          "volume": 11609.15999,
-          "quote_volume": 890055493.3245153,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2480.04,
-          "change_pct": 1.805,
-          "volume": 241508.9046,
-          "quote_volume": 593318642.405424,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 104.76,
-          "change_pct": 4.802,
-          "volume": 2491745.254,
-          "quote_volume": 252528359.3963,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 751.82,
-          "change_pct": 3.625,
-          "volume": 144765.23,
-          "quote_volume": 106174889.3661,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789740128.5824797,
       "category": "binance_news",
       "symbol": "SOL",
@@ -18815,6 +18768,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792306945.8052034,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Tether backs AIsa as strategic investor, completing seed extension round",
+      "text_hash": "39c8eaea25cc5ff954d10f7e18e3005dcfa25678efff8dcf36e8c20de30ad17d",
+      "text_for_similarity": "$BNB is holding above the 720 mark, currently trading at 720.55 after a slight -0.264% dip over the past 24 hours.\n\nWith 24h volume at 72216.829, will $BNB push back upward toward 730 or drop below 720 next? 📊\n\n#BNB #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81723.88,
+          "change_pct": 0.104,
+          "volume": 7427.55531,
+          "quote_volume": 605776428.2085716,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2411.91,
+          "change_pct": -0.878,
+          "volume": 135412.8638,
+          "quote_volume": 326531018.331417,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.7,
+          "change_pct": -1.191,
+          "volume": 1064489.686,
+          "quote_volume": 110292151.3445,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 720.55,
+          "change_pct": -0.264,
+          "volume": 72216.829,
+          "quote_volume": 51867943.84718,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AVA": {
+          "price": 0.4079,
+          "change_pct": 32.22,
+          "volume": 37107403.1,
+          "quote_volume": 13804433.11553,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.26,
+          "change_pct": -18.265,
+          "volume": 30747112.3,
+          "quote_volume": 8921645.09081,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
