@@ -1,194 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789740128.5824797,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 80300.0,
-          "change_pct": 4.628,
-          "volume": 16946.0611,
-          "quote_volume": 1317283414.7534628,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2561.53,
-          "change_pct": 3.941,
-          "volume": 338147.9675,
-          "quote_volume": 842094361.493511,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 108.8,
-          "change_pct": 7.894,
-          "volume": 3443137.544,
-          "quote_volume": 358974195.56489,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 759.61,
-          "change_pct": 4.43,
-          "volume": 202785.631,
-          "quote_volume": 151288658.39088,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789743754.05825,
-      "category": "education",
-      "symbol": "BNB",
-      "topic": "education",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 80963.37,
-          "change_pct": 5.843,
-          "volume": 19642.36468,
-          "quote_volume": 1537911595.4948711,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2581.61,
-          "change_pct": 4.868,
-          "volume": 366978.1116,
-          "quote_volume": 918777321.205578,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 110.71,
-          "change_pct": 9.495,
-          "volume": 3817187.049,
-          "quote_volume": 401470760.28292,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 760.07,
-          "change_pct": 4.713,
-          "volume": 206032.52,
-          "quote_volume": 154101585.16653,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789747358.8538947,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 80757.45,
-          "change_pct": 5.173,
-          "volume": 21069.46612,
-          "quote_volume": 1655287165.3153608,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2584.74,
-          "change_pct": 4.622,
-          "volume": 383302.1899,
-          "quote_volume": 962934937.288017,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 111.43,
-          "change_pct": 10.011,
-          "volume": 4122596.905,
-          "quote_volume": 436195681.97145,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 757.05,
-          "change_pct": 4.026,
-          "volume": 214850.546,
-          "quote_volume": 160912176.20223,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1789750942.1969066,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 80853.96,
-          "change_pct": 5.336,
-          "volume": 21601.44156,
-          "quote_volume": 1700968229.4794047,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2595.31,
-          "change_pct": 5.058,
-          "volume": 409424.0441,
-          "quote_volume": 1032101247.988517,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 111.62,
-          "change_pct": 10.079,
-          "volume": 4288198.969,
-          "quote_volume": 455740239.2848,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 758.52,
-          "change_pct": 4.085,
-          "volume": 221770.205,
-          "quote_volume": 166299468.94861,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789758099.6639478,
       "category": "sarcastic",
       "symbol": "BNB",
@@ -18896,6 +18708,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792342949.4913063,
+      "category": "education",
+      "symbol": "ETH",
+      "topic": "education",
+      "text_hash": "2a0abc44d85931a015166e83b741e0b18ef5cff302e90516b8608c7c051d0664",
+      "text_for_similarity": "Traders holding $ETH are facing a tough decision as the price slips -1.466% to 2368.79.\n24h volume has reached 147594.8106 amid",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81125.88,
+          "change_pct": -0.169,
+          "volume": 8821.40045,
+          "quote_volume": 719828338.0102025,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2368.79,
+          "change_pct": -1.466,
+          "volume": 147594.8106,
+          "quote_volume": 353799586.260989,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.26,
+          "change_pct": -0.901,
+          "volume": 1410674.501,
+          "quote_volume": 145592633.72836,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 712.23,
+          "change_pct": -0.217,
+          "volume": 75318.706,
+          "quote_volume": 54069329.35588,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.25476,
+          "change_pct": 13.156,
+          "volume": 37933613.2,
+          "quote_volume": 9688596.705028,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ERA": {
+          "price": 0.0697,
+          "change_pct": 10.987,
+          "volume": 164046549.4,
+          "quote_volume": 11653380.23324,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
