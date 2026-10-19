@@ -19131,6 +19131,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792450940.1841402,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback",
+      "text_hash": "8faaff979adff6c1bcd022c679f45a49335ebd766f538741c01c463decbf1564",
+      "text_for_similarity": "0.552% is the 24-hour gain for $ETH as price holds at 2407.48. 📊\n\nTrading volume has reached 175814.97 over the last day.\n\nWill $ETH push higher toward 2500 next, or consolidate around 2400?\n\n#ETH #CryptoAnalysis",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82058.0,
+          "change_pct": 0.377,
+          "volume": 13132.49506,
+          "quote_volume": 1082001742.334383,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2407.48,
+          "change_pct": 0.552,
+          "volume": 175814.97,
+          "quote_volume": 424676080.716196,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.2,
+          "change_pct": 1.3,
+          "volume": 1915904.663,
+          "quote_volume": 200824424.38413,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 731.78,
+          "change_pct": 1.636,
+          "volume": 104534.714,
+          "quote_volume": 75983396.3832,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.35572,
+          "change_pct": 36.521,
+          "volume": 61761422.4,
+          "quote_volume": 19363184.249869,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PHA": {
+          "price": 0.0655,
+          "change_pct": 35.892,
+          "volume": 192254606.0,
+          "quote_volume": 11416179.5866,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
