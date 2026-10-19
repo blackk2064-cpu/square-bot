@@ -18777,6 +18777,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792404266.7837412,
+      "category": "binance_news",
+      "symbol": "KORUB",
+      "topic": "JPMorgan takes JPM Coin to Ethereum for institutional clients: Report",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 82754.01,
+          "change_pct": 0.746,
+          "volume": 12968.31705,
+          "quote_volume": 1063562412.9367774,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2436.18,
+          "change_pct": 0.505,
+          "volume": 196265.2558,
+          "quote_volume": 469667561.625512,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.46,
+          "change_pct": 1.55,
+          "volume": 1713240.371,
+          "quote_volume": 177536456.38553,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 726.66,
+          "change_pct": 0.502,
+          "volume": 98647.0,
+          "quote_volume": 71082743.09315,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AMP": {
+          "price": 0.000885,
+          "change_pct": 17.843,
+          "volume": 10241132453.0,
+          "quote_volume": 8427976.038377,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 12.37,
+          "change_pct": 16.808,
+          "volume": 1430509.14,
+          "quote_volume": 15645682.5077,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
