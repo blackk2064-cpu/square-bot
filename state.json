@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789851702.0383866,
-      "category": "sarcastic",
-      "symbol": "BTC",
-      "topic": "sarcastic",
-      "text_hash": "0afe4d4d107d7e0dd7ab4239b30f288f49414491ab35e1e9833851221ec7a79c",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 81170.88,
-          "change_pct": 0.036,
-          "volume": 10744.92951,
-          "quote_volume": 874143658.1171045,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2636.46,
-          "change_pct": 0.103,
-          "volume": 208384.8203,
-          "quote_volume": 548668321.440717,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 111.16,
-          "change_pct": -2.148,
-          "volume": 2076498.975,
-          "quote_volume": 233081639.45371,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 762.34,
-          "change_pct": -0.262,
-          "volume": 117269.627,
-          "quote_volume": 89734762.97161,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789880496.0042794,
       "category": "analysis",
       "symbol": "SOL",
@@ -19113,6 +19066,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792443773.0279775,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Metaplanet to take 93.7% stake in Super League through 2,100 BTC deal",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 82067.3,
+          "change_pct": 1.346,
+          "volume": 14006.05494,
+          "quote_volume": 1152795714.19453,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2402.87,
+          "change_pct": 2.208,
+          "volume": 192368.6316,
+          "quote_volume": 463951605.175071,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.65,
+          "change_pct": 3.338,
+          "volume": 1971855.859,
+          "quote_volume": 206343320.29391,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 728.98,
+          "change_pct": 2.875,
+          "volume": 107129.26,
+          "quote_volume": 77764518.1459,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PHA": {
+          "price": 0.0645,
+          "change_pct": 37.527,
+          "volume": 158277385.0,
+          "quote_volume": 9143966.0112,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AVA": {
+          "price": 0.4326,
+          "change_pct": 32.781,
+          "volume": 26409984.2,
+          "quote_volume": 10279438.42733,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
