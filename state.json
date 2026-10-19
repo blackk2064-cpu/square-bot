@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789840897.269438,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
-      "text_hash": "67210502f55b0b3798809839ec59e59c0564334e2eadde7fefbb71bc590488ee",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 81457.85,
-          "change_pct": 0.642,
-          "volume": 11987.08629,
-          "quote_volume": 974604686.9627309,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2643.9,
-          "change_pct": 1.507,
-          "volume": 267746.4313,
-          "quote_volume": 704285064.501794,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 111.42,
-          "change_pct": -0.872,
-          "volume": 2271589.336,
-          "quote_volume": 255823286.50355,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 762.79,
-          "change_pct": 0.198,
-          "volume": 128575.604,
-          "quote_volume": 98401850.81084,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789851702.0383866,
       "category": "sarcastic",
       "symbol": "BTC",
@@ -18966,6 +18919,70 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792432927.1106796,
+      "category": "analysis",
+      "symbol": "BTC",
+      "topic": "analysis_BTC",
+      "text_hash": "49251c6455c918ef26f620bc8ace0a4263c24588cedbda0ca3c82026f18393da",
+      "text_for_similarity": "$BTC is holding green with a 0.937% gain to reach 81981.14, yet 24h volume sits at just 14598.61969.\n\nDoes this light volume signal a push toward 83000 next, or will sellers step in to test 80000?\n\n#BTC #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81981.14,
+          "change_pct": 0.937,
+          "volume": 14598.61969,
+          "quote_volume": 1199823192.796232,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2400.87,
+          "change_pct": 1.271,
+          "volume": 217277.4345,
+          "quote_volume": 521752835.037571,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.16,
+          "change_pct": 1.908,
+          "volume": 2038029.962,
+          "quote_volume": 212511234.8973,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 727.18,
+          "change_pct": 1.99,
+          "volume": 114119.424,
+          "quote_volume": 82621175.24748,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "GTC": {
+          "price": 0.35473,
+          "change_pct": 32.451,
+          "volume": 64424879.2,
+          "quote_volume": 19492778.564186,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "OSMO": {
+          "price": 0.0561,
+          "change_pct": 29.561,
+          "volume": 128515945.06,
+          "quote_volume": 7071178.353363,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
