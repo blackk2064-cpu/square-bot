@@ -18713,6 +18713,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792396939.284319,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Bitcoin, Ether ETFs shed $549M as October ETH outflows near $1B",
+      "text_hash": "950e102999166e713ccc6e0fd387f62775a017e84f8b88af53bd6991b958ab44",
+      "text_for_similarity": "BNB is up 0.83% to $726.85 with $91,884.57 in 24h volume.\n\nWith crypto markets reacting to macro news like the $549M ETF outflow, are you holding or hedging your BNB position? #trading #BNB",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82734.02,
+          "change_pct": 1.295,
+          "volume": 12814.7618,
+          "quote_volume": 1050059026.0170279,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2430.3,
+          "change_pct": 0.921,
+          "volume": 192364.6766,
+          "quote_volume": 460000551.76383,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.69,
+          "change_pct": 2.343,
+          "volume": 1690082.48,
+          "quote_volume": 174873835.92313,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 726.85,
+          "change_pct": 0.83,
+          "volume": 91884.57,
+          "quote_volume": 66141833.91089,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AMP": {
+          "price": 0.000882,
+          "change_pct": 23.013,
+          "volume": 9875888702.0,
+          "quote_volume": 7996928.224617,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 12.19,
+          "change_pct": 15.875,
+          "volume": 1402285.9,
+          "quote_volume": 15281558.8492,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
