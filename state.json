@@ -18841,6 +18841,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792407745.3149493,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "JPMorgan takes JPM Coin to Ethereum for institutional clients: Report",
+      "text_hash": "5807c0a1c169db6e6c184001ab17088767c9cdbb4d25b3e1acabe1fd43d3ef57",
+      "text_for_similarity": "Can $SOL maintain its upward momentum after today's move?\n\n$SOL is trading at 104.88, marking a 0.807% increase over the last 24 hours with a trading volume of 1717543.913.\n\nDo you expect $SOL to push past 105 next or pull back toward 100?\n\n#crypto #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82382.0,
+          "change_pct": 0.351,
+          "volume": 13312.09901,
+          "quote_volume": 1091976047.2847695,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2424.03,
+          "change_pct": 0.202,
+          "volume": 203020.303,
+          "quote_volume": 486058343.715363,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.88,
+          "change_pct": 0.807,
+          "volume": 1717543.913,
+          "quote_volume": 178075643.81375,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 725.13,
+          "change_pct": 0.247,
+          "volume": 100165.204,
+          "quote_volume": 72188308.52556,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 12.52,
+          "change_pct": 18.225,
+          "volume": 1446660.95,
+          "quote_volume": 15857768.5464,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AMP": {
+          "price": 0.000903,
+          "change_pct": 18.194,
+          "volume": 10190100374.0,
+          "quote_volume": 8492431.689393,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
