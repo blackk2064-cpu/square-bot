@@ -18986,6 +18986,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792436577.0143826,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Metaplanet to take 93.7% stake in Super League through 2,100 BTC deal",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81955.6,
+          "change_pct": 0.938,
+          "volume": 14602.72151,
+          "quote_volume": 1200448568.1711116,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2400.29,
+          "change_pct": 1.357,
+          "volume": 218530.8606,
+          "quote_volume": 524931674.665368,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.96,
+          "change_pct": 1.672,
+          "volume": 2070610.384,
+          "quote_volume": 215943011.43591,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 726.9,
+          "change_pct": 2.03,
+          "volume": 114617.653,
+          "quote_volume": 83009284.02577,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PHA": {
+          "price": 0.0619,
+          "change_pct": 28.157,
+          "volume": 116920807.0,
+          "quote_volume": 6487366.6281,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "AVA": {
+          "price": 0.4269,
+          "change_pct": 25.044,
+          "volume": 28219190.4,
+          "quote_volume": 10732340.44207,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
