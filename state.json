@@ -19421,6 +19421,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792505070.3858414,
+      "category": "general_news",
+      "symbol": "EPIC",
+      "topic": "Drift exploiter sends $61M ETH to Tornado Cash, holds $194M",
+      "text_hash": "e44f1c05c25d246eabd689f98275bd7635891ad909b740c9309130d19ee6c1f7",
+      "text_for_similarity": "$EPIC is down -29.727% to a price of 0.1851, yet trading activity remains elevated with 24h volume reaching 26712449.6.\n\nAre you buying this sharp dip, or waiting for more downside?\n\n#EPIC #trading",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82100.01,
+          "change_pct": -0.012,
+          "volume": 12073.35967,
+          "quote_volume": 987770346.8571076,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2409.12,
+          "change_pct": 0.395,
+          "volume": 166164.7981,
+          "quote_volume": 398386013.851958,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.21,
+          "change_pct": 0.911,
+          "volume": 1552278.69,
+          "quote_volume": 162201185.77133,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 733.31,
+          "change_pct": 0.892,
+          "volume": 80860.444,
+          "quote_volume": 58912406.50422,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.1851,
+          "change_pct": -29.727,
+          "volume": 26712449.6,
+          "quote_volume": 5760733.10577,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02075,
+          "change_pct": 26.217,
+          "volume": 350833597.8,
+          "quote_volume": 6594236.742749,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
