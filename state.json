@@ -19485,6 +19485,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792515773.2737012,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Ethereum staking hits record as yields fall and Solana activity grows: Bitwise",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 82777.7,
+          "change_pct": 0.96,
+          "volume": 13722.0535,
+          "quote_volume": 1126081040.5503032,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2451.76,
+          "change_pct": 2.052,
+          "volume": 208512.793,
+          "quote_volume": 503887626.807697,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.51,
+          "change_pct": 1.962,
+          "volume": 1993562.153,
+          "quote_volume": 210114014.00142,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 737.44,
+          "change_pct": 1.446,
+          "volume": 90376.069,
+          "quote_volume": 66130206.64575,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.188,
+          "change_pct": -30.806,
+          "volume": 25306801.1,
+          "quote_volume": 5308278.77438,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "COMP": {
+          "price": 27.42,
+          "change_pct": 27.357,
+          "volume": 239734.305,
+          "quote_volume": 5819818.98674,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
