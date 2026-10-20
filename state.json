@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789880496.0042794,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 80444.11,
-          "change_pct": -0.716,
-          "volume": 11742.55613,
-          "quote_volume": 953282445.0793684,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2579.68,
-          "change_pct": -1.537,
-          "volume": 195872.0359,
-          "quote_volume": 514336833.682937,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 109.06,
-          "change_pct": -2.954,
-          "volume": 2115713.317,
-          "quote_volume": 234613881.8089,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 749.21,
-          "change_pct": -1.478,
-          "volume": 116254.814,
-          "quote_volume": 88643689.25591,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789887723.833332,
       "category": "analysis",
       "symbol": "SOL",
@@ -19258,6 +19211,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792472558.3352728,
+      "category": "analysis",
+      "symbol": "EPIC",
+      "topic": "analysis_EPIC",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 82092.07,
+          "change_pct": -0.797,
+          "volume": 12104.15984,
+          "quote_volume": 995580952.1749979,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2412.97,
+          "change_pct": -0.598,
+          "volume": 168112.6777,
+          "quote_volume": 405411428.94103,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.26,
+          "change_pct": -0.331,
+          "volume": 1827879.7,
+          "quote_volume": 191586159.25519,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 731.76,
+          "change_pct": 0.43,
+          "volume": 98669.622,
+          "quote_volume": 71787306.41258,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PHA": {
+          "price": 0.0635,
+          "change_pct": 31.743,
+          "volume": 266243048.0,
+          "quote_volume": 15998878.607,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.2092,
+          "change_pct": -28.307,
+          "volume": 19850495.9,
+          "quote_volume": 5221201.17135,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
