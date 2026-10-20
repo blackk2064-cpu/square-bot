@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789934508.0586674,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 81188.01,
-          "change_pct": -0.219,
-          "volume": 11737.16772,
-          "quote_volume": 948278849.0456344,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2634.42,
-          "change_pct": -0.026,
-          "volume": 205268.9744,
-          "quote_volume": 533790198.442025,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 110.49,
-          "change_pct": -0.612,
-          "volume": 2347299.117,
-          "quote_volume": 256448710.64918,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 769.95,
-          "change_pct": 0.899,
-          "volume": 111731.207,
-          "quote_volume": 84451672.26088,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789938111.9748847,
       "category": "macro_news",
       "symbol": "BNB",
@@ -19676,6 +19629,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792526573.7165568,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Ethereum staking hits record as yields fall and Solana activity grows: Bitwise",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82578.01,
+          "change_pct": 0.867,
+          "volume": 13357.77559,
+          "quote_volume": 1096765309.4033008,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2437.09,
+          "change_pct": 1.771,
+          "volume": 206876.588,
+          "quote_volume": 500631262.971796,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.09,
+          "change_pct": 2.01,
+          "volume": 2023638.388,
+          "quote_volume": 213660820.39009,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 738.96,
+          "change_pct": 1.662,
+          "volume": 91835.835,
+          "quote_volume": 67276159.26483,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.000968,
+          "change_pct": 30.108,
+          "volume": 6069983115.0,
+          "quote_volume": 5508937.323966,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.1868,
+          "change_pct": -27.031,
+          "volume": 24676232.7,
+          "quote_volume": 5034718.72143,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
