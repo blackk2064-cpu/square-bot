@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1789887723.833332,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "11655a6918b436aa7094bc3d1cd49979cf8fe0bb8c376a307cf310967f70722d",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 80320.01,
-          "change_pct": -0.928,
-          "volume": 12576.57689,
-          "quote_volume": 1020156870.7209646,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2574.66,
-          "change_pct": -2.03,
-          "volume": 205239.2813,
-          "quote_volume": 537996945.261438,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 108.51,
-          "change_pct": -3.021,
-          "volume": 2108179.985,
-          "quote_volume": 233243050.67248,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 751.69,
-          "change_pct": -1.38,
-          "volume": 118906.517,
-          "quote_volume": 90541988.96839,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1789934508.0586674,
       "category": "binance_news",
       "symbol": "BNB",
@@ -19275,6 +19228,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792486986.4509888,
+      "category": "macro_news",
+      "symbol": "ALT",
+      "topic": "BlackRock files for third Bitcoin ETF, still no Solana or XRP",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81530.01,
+          "change_pct": -1.531,
+          "volume": 12229.04409,
+          "quote_volume": 1002840359.1737651,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2384.9,
+          "change_pct": -2.024,
+          "volume": 181448.5896,
+          "quote_volume": 436227727.138292,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.1,
+          "change_pct": -1.439,
+          "volume": 1816636.405,
+          "quote_volume": 190116904.41256,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 728.24,
+          "change_pct": 0.309,
+          "volume": 89969.68,
+          "quote_volume": 65488947.91398,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.1869,
+          "change_pct": -31.689,
+          "volume": 24089193.0,
+          "quote_volume": 5588046.38538,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.01065,
+          "change_pct": 23.693,
+          "volume": 842267846.0,
+          "quote_volume": 8392674.82985,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
