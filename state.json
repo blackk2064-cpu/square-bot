@@ -19293,6 +19293,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792490524.7010107,
+      "category": "analysis",
+      "symbol": "ERA",
+      "topic": "analysis_ERA",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81516.01,
+          "change_pct": -1.501,
+          "volume": 12091.05121,
+          "quote_volume": 990811236.7590457,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2384.84,
+          "change_pct": -2.135,
+          "volume": 179375.0989,
+          "quote_volume": 430923792.915558,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.05,
+          "change_pct": -1.346,
+          "volume": 1781042.714,
+          "quote_volume": 186300944.76204,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 727.9,
+          "change_pct": 0.162,
+          "volume": 88200.742,
+          "quote_volume": 64205582.93719,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "EPIC": {
+          "price": 0.1818,
+          "change_pct": -29.861,
+          "volume": 24986916.2,
+          "quote_volume": 5622440.23977,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ERA": {
+          "price": 0.0809,
+          "change_pct": 21.471,
+          "volume": 105252358.2,
+          "quote_volume": 7618490.18122,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
