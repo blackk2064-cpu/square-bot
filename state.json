@@ -19711,6 +19711,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792533777.1734135,
+      "category": "binance_news",
+      "symbol": "IOST",
+      "topic": "Ethereum staking hits record as yields fall and Solana activity grows: Bitwise",
+      "text_hash": "535fa43f993ae15fda3adf4a96b0ffb6e665ab4cafe8f74c3e3e0dbc58298925",
+      "text_for_similarity": "$IOST has crossed above the 0.001 level to trade at 0.001061.\n\nThe token is up 41.845% over the past 24 hours with a trading volume of 7817448835.0.\n\nWill $IOST hold above 0.001 or drop back below it? 📈\n\n#IOST #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82990.59,
+          "change_pct": 1.09,
+          "volume": 13632.23837,
+          "quote_volume": 1119860267.4655066,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2458.85,
+          "change_pct": 2.247,
+          "volume": 225227.6873,
+          "quote_volume": 545879134.725541,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 106.83,
+          "change_pct": 1.83,
+          "volume": 2051702.543,
+          "quote_volume": 216839720.94809,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.3,
+          "change_pct": 1.444,
+          "volume": 91759.532,
+          "quote_volume": 67263673.85143,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.001061,
+          "change_pct": 41.845,
+          "volume": 7817448835.0,
+          "quote_volume": 7351222.372517,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "COMP": {
+          "price": 26.71,
+          "change_pct": 23.715,
+          "volume": 464202.143,
+          "quote_volume": 11838233.50504,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
