@@ -19800,6 +19800,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792612930.1464531,
+      "category": "general_news",
+      "symbol": "IOST",
+      "topic": "Solana Alpenglow Goes Live in 'Most Ambitious' Upgrade Since Ethereum's Merge",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84482.75,
+          "change_pct": 2.307,
+          "volume": 15997.70535,
+          "quote_volume": 1339825776.2481463,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2493.77,
+          "change_pct": 2.326,
+          "volume": 356587.7173,
+          "quote_volume": 881530615.456095,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.26,
+          "change_pct": 2.055,
+          "volume": 1874929.859,
+          "quote_volume": 201074139.14969,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 748.75,
+          "change_pct": 1.325,
+          "volume": 103214.531,
+          "quote_volume": 77003393.62623,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.001808,
+          "change_pct": 86.777,
+          "volume": 37389430118.0,
+          "quote_volume": 51083383.289508,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.01259,
+          "change_pct": 27.817,
+          "volume": 1672103412.0,
+          "quote_volume": 20180285.54098,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
