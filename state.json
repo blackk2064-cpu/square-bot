@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790024539.6201546,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86937.42,
-          "change_pct": 7.223,
-          "volume": 31081.58942,
-          "quote_volume": 2620902178.02918,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2781.13,
-          "change_pct": 5.565,
-          "volume": 572436.2765,
-          "quote_volume": 1553944736.440055,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.11,
-          "change_pct": 8.183,
-          "volume": 4561272.748,
-          "quote_volume": 526486269.06852,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 804.67,
-          "change_pct": 4.735,
-          "volume": 287597.953,
-          "quote_volume": 226159132.05259,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790028111.7473965,
       "category": "analysis",
       "symbol": "ETH",
@@ -19863,6 +19816,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792616608.850633,
+      "category": "education",
+      "symbol": "IOST",
+      "topic": "education",
+      "text_hash": "1245a8bea96eb46fe5ab2cd9789b3d7f4c7b1f50d7f92ce7f23db944444cbb6d",
+      "text_for_similarity": "too_short",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84685.39,
+          "change_pct": 2.219,
+          "volume": 16278.09241,
+          "quote_volume": 1364171776.625589,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2491.84,
+          "change_pct": 1.747,
+          "volume": 366328.3997,
+          "quote_volume": 906003704.831776,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.03,
+          "change_pct": 1.199,
+          "volume": 1885839.812,
+          "quote_volume": 202334803.68995,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 749.73,
+          "change_pct": 1.252,
+          "volume": 103040.528,
+          "quote_volume": 76896531.35878,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.001673,
+          "change_pct": 51.815,
+          "volume": 37146162617.0,
+          "quote_volume": 51220719.812152,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.01364,
+          "change_pct": 38.477,
+          "volume": 1794877501.0,
+          "quote_volume": 21849702.67329,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
