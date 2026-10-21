@@ -19608,6 +19608,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792602130.949661,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Solana Alpenglow Goes Live in 'Most Ambitious' Upgrade Since Ethereum's Merge",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84553.0,
+          "change_pct": 2.145,
+          "volume": 14363.25368,
+          "quote_volume": 1200335362.523582,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2509.61,
+          "change_pct": 2.36,
+          "volume": 329717.0713,
+          "quote_volume": 813424707.625302,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.34,
+          "change_pct": 1.728,
+          "volume": 1767952.52,
+          "quote_volume": 189046319.48046,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 749.23,
+          "change_pct": 1.599,
+          "volume": 100100.473,
+          "quote_volume": 74577428.09162,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.00171,
+          "change_pct": 87.912,
+          "volume": 35228437617.0,
+          "quote_volume": 45688527.531156,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.01405,
+          "change_pct": 37.207,
+          "volume": 1190135168.0,
+          "quote_volume": 13401887.27265,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
