@@ -19736,6 +19736,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792609369.81883,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Solana Alpenglow Goes Live in 'Most Ambitious' Upgrade Since Ethereum's Merge",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84353.15,
+          "change_pct": 2.202,
+          "volume": 15021.6504,
+          "quote_volume": 1257118333.5575368,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2495.77,
+          "change_pct": 2.364,
+          "volume": 337340.3554,
+          "quote_volume": 833261976.787274,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 107.95,
+          "change_pct": 1.868,
+          "volume": 1815768.644,
+          "quote_volume": 194545306.32344,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 748.16,
+          "change_pct": 1.473,
+          "volume": 101396.823,
+          "quote_volume": 75628938.07998,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.001725,
+          "change_pct": 75.305,
+          "volume": 37437023054.0,
+          "quote_volume": 50530595.173308,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.01298,
+          "change_pct": 31.244,
+          "volume": 1605318634.0,
+          "quote_volume": 19280937.37065,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
