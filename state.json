@@ -19672,6 +19672,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792605735.08339,
+      "category": "general_news",
+      "symbol": "IOST",
+      "topic": "Solana Alpenglow Goes Live in 'Most Ambitious' Upgrade Since Ethereum's Merge",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84680.57,
+          "change_pct": 2.237,
+          "volume": 14488.63595,
+          "quote_volume": 1211570840.6900325,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2514.89,
+          "change_pct": 2.598,
+          "volume": 331345.4647,
+          "quote_volume": 817931403.454377,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.63,
+          "change_pct": 1.704,
+          "volume": 1759544.572,
+          "quote_volume": 188276064.66349,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.99,
+          "change_pct": 1.647,
+          "volume": 102500.638,
+          "quote_volume": 76410742.89075,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.001807,
+          "change_pct": 95.351,
+          "volume": 37181508058.0,
+          "quote_volume": 49648833.044416,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.01309,
+          "change_pct": 30.249,
+          "volume": 1513234218.0,
+          "quote_volume": 18026995.77513,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
