@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790006497.4405692,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Kyle Samani predicts SOL flippening, claims ‘no one’ uses ETH",
-      "text_hash": "1114ec514f296c216cb115519686c48b593abbbc81660520d5f5fdc1135524ea",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 85934.04,
-          "change_pct": 6.209,
-          "volume": 28238.05431,
-          "quote_volume": 2363339231.9151444,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2754.98,
-          "change_pct": 5.467,
-          "volume": 501212.1011,
-          "quote_volume": 1350660177.488057,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.95,
-          "change_pct": 8.53,
-          "volume": 4514296.284,
-          "quote_volume": 515155829.84746,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 802.91,
-          "change_pct": 6.045,
-          "volume": 279277.511,
-          "quote_volume": 218605628.29802,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790024539.6201546,
       "category": "analysis",
       "symbol": "SOL",
@@ -19590,6 +19543,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792598538.841755,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Solana Alpenglow Goes Live in 'Most Ambitious' Upgrade Since Ethereum's Merge",
+      "text_hash": "001ac2aa06c48c05818415ffbcbaf33189103d2fb4f571120919e0fb04ceab49",
+      "text_for_similarity": "unmatched_percent_claim:99",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 84534.59,
+          "change_pct": 2.32,
+          "volume": 14131.74297,
+          "quote_volume": 1179524407.8168972,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2511.55,
+          "change_pct": 2.888,
+          "volume": 323312.6834,
+          "quote_volume": 796639169.645594,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.5,
+          "change_pct": 2.426,
+          "volume": 1842042.444,
+          "quote_volume": 196705079.59478,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 749.36,
+          "change_pct": 2.031,
+          "volume": 100858.872,
+          "quote_volume": 75058030.51969,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.001466,
+          "change_pct": 55.461,
+          "volume": 33835281835.0,
+          "quote_volume": 42824294.94406,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MITO": {
+          "price": 0.01001,
+          "change_pct": -25.742,
+          "volume": 769240244.0,
+          "quote_volume": 8001346.544571,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
