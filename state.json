@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790028111.7473965,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis",
-      "text_hash": "208e4e9c98d687f96b3910e92c050ca2106aa73dcbeed7e2c01c89e14dace3da",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86619.09,
-          "change_pct": 6.942,
-          "volume": 31295.51526,
-          "quote_volume": 2641526747.9879613,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2771.62,
-          "change_pct": 5.123,
-          "volume": 569836.0242,
-          "quote_volume": 1548902368.219137,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.22,
-          "change_pct": 8.283,
-          "volume": 4604665.618,
-          "quote_volume": 532731633.10697,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 804.64,
-          "change_pct": 4.932,
-          "volume": 290550.081,
-          "quote_volume": 228678692.3818,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790053325.778498,
       "category": "macro_news",
       "symbol": "ETH",
@@ -19880,6 +19833,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792620176.0859094,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Solana Alpenglow Goes Live in 'Most Ambitious' Upgrade Since Ethereum's Merge",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 84796.01,
+          "change_pct": 2.155,
+          "volume": 16413.8981,
+          "quote_volume": 1376454707.7083976,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2497.0,
+          "change_pct": 1.533,
+          "volume": 352413.5249,
+          "quote_volume": 872115592.660719,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 108.14,
+          "change_pct": 1.226,
+          "volume": 1855222.926,
+          "quote_volume": 199136221.25211,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.57,
+          "change_pct": 1.233,
+          "volume": 104928.429,
+          "quote_volume": 78328052.16996,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.001662,
+          "change_pct": 56.792,
+          "volume": 36682405634.0,
+          "quote_volume": 50996897.07634,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.01321,
+          "change_pct": 34.796,
+          "volume": 1878863470.0,
+          "quote_volume": 23036017.25968,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
