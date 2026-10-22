@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790085743.997654,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "Binance takes $100M stake in Circle under expanded USDC deal",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 86179.52,
-          "change_pct": 0.814,
-          "volume": 23834.0277,
-          "quote_volume": 2048906495.1653469,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2753.07,
-          "change_pct": 0.728,
-          "volume": 390491.1678,
-          "quote_volume": 1074593214.793898,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.68,
-          "change_pct": -0.591,
-          "volume": 3759667.749,
-          "quote_volume": 442451850.37603,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 790.7,
-          "change_pct": -0.436,
-          "volume": 239474.578,
-          "quote_volume": 190195043.91704,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790089313.0259674,
       "category": "binance_news",
       "symbol": "BTC",
@@ -19997,6 +19950,70 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792677769.0239425,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Starknet voters back research into life beyond Ethereum",
+      "text_hash": "4a803fc36c2af52216bb9f29d49a50c6bb8e16ca310c996c808f7cddcad9f396",
+      "text_for_similarity": "$SOL is dipping with a -1.443% move to 105.21, but trading activity remains robust with a 24h volume of 2130851.435. 📉\n\nWill $SOL rebound above 110 next or slide under 100?\n\n#crypto #solana",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81787.79,
+          "change_pct": -2.449,
+          "volume": 22714.67018,
+          "quote_volume": 1892661303.8770392,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2412.89,
+          "change_pct": -2.465,
+          "volume": 288317.1609,
+          "quote_volume": 710456872.193489,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.21,
+          "change_pct": -1.443,
+          "volume": 2130851.435,
+          "quote_volume": 226849961.44429,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 734.29,
+          "change_pct": -1.541,
+          "volume": 114433.357,
+          "quote_volume": 85010366.6174,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.000904,
+          "change_pct": -45.868,
+          "volume": 22487254002.0,
+          "quote_volume": 29907180.808633,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02715,
+          "change_pct": 21.043,
+          "volume": 602365862.2,
+          "quote_volume": 13748289.143336,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
