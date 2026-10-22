@@ -20017,6 +20017,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792681244.1851904,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81866.01,
+          "change_pct": -3.341,
+          "volume": 21279.64555,
+          "quote_volume": 1769425264.029355,
+          "funding_rate": -1.122e-05,
+          "open_interest": 95042.113
+        },
+        "ETH": {
+          "price": 2413.18,
+          "change_pct": -3.49,
+          "volume": 271155.0655,
+          "quote_volume": 667065542.898088,
+          "funding_rate": 2.648e-05,
+          "open_interest": 2341646.398
+        },
+        "SOL": {
+          "price": 104.69,
+          "change_pct": -2.912,
+          "volume": 2048153.946,
+          "quote_volume": 217670902.41126,
+          "funding_rate": 1.342e-05,
+          "open_interest": 8429633.49
+        },
+        "BNB": {
+          "price": 734.27,
+          "change_pct": -1.891,
+          "volume": 109119.457,
+          "quote_volume": 81007721.62411,
+          "funding_rate": 0.0,
+          "open_interest": 547913.57
+        },
+        "IOST": {
+          "price": 0.000885,
+          "change_pct": -44.164,
+          "volume": 20908132558.0,
+          "quote_volume": 27032574.428479,
+          "funding_rate": -0.00043573,
+          "open_interest": 11566636759.0
+        },
+        "ALT": {
+          "price": 0.00762,
+          "change_pct": -20.954,
+          "volume": 3553131015.0,
+          "quote_volume": 40025786.80727,
+          "funding_rate": -0.00039184,
+          "open_interest": 1023989936.0
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
