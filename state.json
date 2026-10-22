@@ -19962,6 +19962,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792638132.5065358,
+      "category": "education",
+      "symbol": "BNB",
+      "topic": "education",
+      "text_hash": "7dbf1ef1efb11dda73d26211240f6fd874bca79397da22a86f7537c527260c6b",
+      "text_for_similarity": "$BNB is holding above the $740 mark at $741.86 after a modest 24-hour gain of 0.111%.\nTrading volume currently stands at 116402.571 $BNB.\nWill $BNB push toward $750 next or drop back below $740? 📈\n#BNB #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 82910.2,
+          "change_pct": 0.14,
+          "volume": 18588.34285,
+          "quote_volume": 1559991077.1129992,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2442.1,
+          "change_pct": -0.247,
+          "volume": 356409.8055,
+          "quote_volume": 882315886.090169,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.57,
+          "change_pct": -0.659,
+          "volume": 1928928.618,
+          "quote_volume": 207016971.372,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.86,
+          "change_pct": 0.111,
+          "volume": 116402.571,
+          "quote_volume": 86938165.67607,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MITO": {
+          "price": 0.00986,
+          "change_pct": -25.92,
+          "volume": 933322695.4,
+          "quote_volume": 9628075.51608,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02402,
+          "change_pct": 19.443,
+          "volume": 705319631.3,
+          "quote_volume": 16050252.481886,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
