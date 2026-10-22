@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790103709.2034862,
-      "category": "education",
-      "symbol": "SOL",
-      "topic": "education",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 86479.75,
-          "change_pct": 0.494,
-          "volume": 22605.31524,
-          "quote_volume": 1945890495.1285245,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2752.89,
-          "change_pct": -0.15,
-          "volume": 327950.1441,
-          "quote_volume": 902615451.4271,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.13,
-          "change_pct": 0.357,
-          "volume": 3293098.37,
-          "quote_volume": 387023091.01617,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 787.96,
-          "change_pct": -1.607,
-          "volume": 199077.328,
-          "quote_volume": 157423864.31375,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790107342.4059103,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Binance takes $100M stake in Circle under expanded USDC deal",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86231.73,
-          "change_pct": -0.392,
-          "volume": 22386.39449,
-          "quote_volume": 1926898706.1768534,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2751.9,
-          "change_pct": -0.455,
-          "volume": 318541.0882,
-          "quote_volume": 876458941.048854,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.23,
-          "change_pct": -0.051,
-          "volume": 3282056.086,
-          "quote_volume": 385757914.84353,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 786.33,
-          "change_pct": -1.758,
-          "volume": 198149.679,
-          "quote_volume": 156625169.17939,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790110959.8700824,
       "category": "macro_news",
       "symbol": "SOL",
@@ -20114,6 +20020,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792699361.4448113,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis_SOL",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81472.02,
+          "change_pct": -3.564,
+          "volume": 20465.0795,
+          "quote_volume": 1688327287.9222631,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2387.01,
+          "change_pct": -4.281,
+          "volume": 268428.931,
+          "quote_volume": 649504354.389688,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.65,
+          "change_pct": -4.258,
+          "volume": 1863760.895,
+          "quote_volume": 195820230.50736,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 731.94,
+          "change_pct": -2.245,
+          "volume": 107584.527,
+          "quote_volume": 79369489.65476,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.000843,
+          "change_pct": -53.271,
+          "volume": 14223812076.0,
+          "quote_volume": 15010024.113803,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.00823,
+          "change_pct": -34.579,
+          "volume": 2755770022.0,
+          "quote_volume": 27791624.99325,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
