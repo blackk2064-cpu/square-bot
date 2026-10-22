@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790110959.8700824,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "OpenAI Launches GPT-6 Sol and Luna Minutes After Anthropic Drops Claude Opus 5.5",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 86274.18,
-          "change_pct": -0.78,
-          "volume": 21766.82347,
-          "quote_volume": 1872483357.854959,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2751.43,
-          "change_pct": -1.086,
-          "volume": 294211.1749,
-          "quote_volume": 808261386.268953,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.0,
-          "change_pct": -0.924,
-          "volume": 3160933.928,
-          "quote_volume": 371301108.27555,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 784.91,
-          "change_pct": -2.48,
-          "volume": 196549.135,
-          "quote_volume": 155257244.9156,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790118132.137098,
       "category": "education",
       "symbol": "SOL",
@@ -20081,6 +20034,70 @@
         }
       },
       "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792706550.9300141,
+      "category": "sarcastic",
+      "symbol": "SOL",
+      "topic": "sarcastic",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81458.01,
+          "change_pct": -3.936,
+          "volume": 19952.2584,
+          "quote_volume": 1642790407.1843023,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2392.08,
+          "change_pct": -4.202,
+          "volume": 325719.231,
+          "quote_volume": 784427282.317358,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.62,
+          "change_pct": -4.18,
+          "volume": 1838695.759,
+          "quote_volume": 192754432.88739,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 732.24,
+          "change_pct": -2.442,
+          "volume": 104825.026,
+          "quote_volume": 77246075.88932,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.000836,
+          "change_pct": -49.729,
+          "volume": 13546312584.0,
+          "quote_volume": 13559529.735754,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.00829,
+          "change_pct": -37.197,
+          "volume": 2593376492.0,
+          "quote_volume": 25266224.61111,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
