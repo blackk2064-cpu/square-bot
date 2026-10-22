@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790075211.234307,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Crypto’s wild boom-and-bust cycles are fading, Solstice CEO says",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 85957.95,
-          "change_pct": 1.805,
-          "volume": 26403.84358,
-          "quote_volume": 2265062143.1537166,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2744.31,
-          "change_pct": 1.072,
-          "volume": 430325.8008,
-          "quote_volume": 1182449801.207693,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 116.9,
-          "change_pct": 0.828,
-          "volume": 4119321.234,
-          "quote_volume": 484467670.7784,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 787.34,
-          "change_pct": 0.339,
-          "volume": 250321.515,
-          "quote_volume": 198803022.49161,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790078514.4676073,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Crypto’s wild boom-and-bust cycles are fading, Solstice CEO says",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 85992.82,
-          "change_pct": 1.337,
-          "volume": 25908.97002,
-          "quote_volume": 2223986090.279296,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2742.44,
-          "change_pct": 0.664,
-          "volume": 410836.301,
-          "quote_volume": 1129513866.934904,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.32,
-          "change_pct": 0.488,
-          "volume": 4026362.477,
-          "quote_volume": 473685843.84356,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 786.86,
-          "change_pct": -0.297,
-          "volume": 242233.389,
-          "quote_volume": 192390760.54186,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790082114.8301868,
       "category": "binance_news",
       "symbol": "BTC",
@@ -20012,6 +19918,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792670578.533911,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Starknet voters back research into life beyond Ethereum",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81785.64,
+          "change_pct": -2.037,
+          "volume": 22103.35138,
+          "quote_volume": 1845885378.165588,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2401.91,
+          "change_pct": -2.679,
+          "volume": 304471.2473,
+          "quote_volume": 752116495.191985,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.54,
+          "change_pct": -2.153,
+          "volume": 2181058.304,
+          "quote_volume": 232599780.4355,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 733.32,
+          "change_pct": -1.789,
+          "volume": 123276.655,
+          "quote_volume": 91701048.19032,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.00091,
+          "change_pct": -38.721,
+          "volume": 25529928746.0,
+          "quote_volume": 35067104.217177,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LUMIA": {
+          "price": 0.0746,
+          "change_pct": -17.203,
+          "volume": 68474400.42,
+          "quote_volume": 6104875.086093,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
