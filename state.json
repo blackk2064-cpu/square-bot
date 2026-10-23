@@ -20426,6 +20426,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792767794.0993977,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81760.0,
+          "change_pct": -0.134,
+          "volume": 13188.28811,
+          "quote_volume": 1075463488.9136274,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2406.97,
+          "change_pct": -0.266,
+          "volume": 312071.4163,
+          "quote_volume": 747277691.630789,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.69,
+          "change_pct": -0.01,
+          "volume": 1515859.079,
+          "quote_volume": 157863159.59641,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 748.93,
+          "change_pct": 1.985,
+          "volume": 124508.809,
+          "quote_volume": 92195548.84122,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ARK": {
+          "price": 0.2123,
+          "change_pct": 19.471,
+          "volume": 25034140.0,
+          "quote_volume": 5175198.7346,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02328,
+          "change_pct": -12.842,
+          "volume": 631657930.0,
+          "quote_volume": 16790588.999664,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
