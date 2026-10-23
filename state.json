@@ -20200,6 +20200,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792739094.4470482,
+      "category": "education",
+      "symbol": "BTC",
+      "topic": "education",
+      "text_hash": "5d19b587e48a2b3e6ade42b176018bd583aa55041f7e6b21bbbfd16ce9d75782",
+      "text_for_similarity": "🤔 $BTC is trading at $81891.97, down 0.734% in the last 24h?\nVolume stands at 16432.81074 #trading #crypto 🚀\nAre you buying the dip or waiting for a rebound?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81891.97,
+          "change_pct": -0.734,
+          "volume": 16432.81074,
+          "quote_volume": 1342121569.707922,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2409.62,
+          "change_pct": -0.987,
+          "volume": 307301.7317,
+          "quote_volume": 736341227.83858,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.72,
+          "change_pct": 0.115,
+          "volume": 1517340.341,
+          "quote_volume": 157997098.48063,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 744.7,
+          "change_pct": 0.827,
+          "volume": 90593.935,
+          "quote_volume": 66492034.78533,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LUMIA": {
+          "price": 0.0684,
+          "change_pct": -31.873,
+          "volume": 76878496.95,
+          "quote_volume": 5963582.776002,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02725,
+          "change_pct": 29.454,
+          "volume": 656351556.8,
+          "quote_volume": 17209468.203298,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 83,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
