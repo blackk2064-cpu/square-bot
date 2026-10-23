@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790164914.3113933,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 85675.03,
-          "change_pct": -0.37,
-          "volume": 19661.22374,
-          "quote_volume": 1696392488.8433552,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2729.89,
-          "change_pct": -0.457,
-          "volume": 296998.5078,
-          "quote_volume": 816965313.380451,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.18,
-          "change_pct": -0.119,
-          "volume": 3053543.748,
-          "quote_volume": 360163993.78237,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 783.0,
-          "change_pct": -0.492,
-          "volume": 158645.651,
-          "quote_volume": 125122129.50095,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790179312.6671758,
       "category": "binance_news",
       "symbol": "ETH",
@@ -20344,6 +20297,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792757000.4521203,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Ethereum delays Glamsterdam Hoodi testnet launch over security risks",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81719.35,
+          "change_pct": -0.085,
+          "volume": 13977.90673,
+          "quote_volume": 1140012347.4859364,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2401.89,
+          "change_pct": -0.017,
+          "volume": 309551.2425,
+          "quote_volume": 741350466.656641,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.5,
+          "change_pct": -0.038,
+          "volume": 1430381.053,
+          "quote_volume": 148972799.62029,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 747.63,
+          "change_pct": 1.929,
+          "volume": 111626.629,
+          "quote_volume": 82445216.64191,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PEPE": {
+          "price": 5.05e-06,
+          "change_pct": 12.222,
+          "volume": 15779378824049.0,
+          "quote_volume": 74668987.59224503,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "IOST": {
+          "price": 0.000805,
+          "change_pct": -11.732,
+          "volume": 6187678203.0,
+          "quote_volume": 5198251.118969,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
