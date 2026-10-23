@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790179312.6671758,
-      "category": "binance_news",
-      "symbol": "ETH",
-      "topic": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 84050.41,
-          "change_pct": -2.76,
-          "volume": 23170.72057,
-          "quote_volume": 1987236328.1895478,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2656.03,
-          "change_pct": -3.238,
-          "volume": 355738.5154,
-          "quote_volume": 970493042.590689,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 113.92,
-          "change_pct": -2.956,
-          "volume": 3594015.417,
-          "quote_volume": 420904970.0777,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 761.32,
-          "change_pct": -3.365,
-          "volume": 207902.135,
-          "quote_volume": 162271689.04369,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790182910.1039422,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 84040.01,
-          "change_pct": -2.705,
-          "volume": 23578.80369,
-          "quote_volume": 2019041376.6089184,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2660.9,
-          "change_pct": -3.031,
-          "volume": 368067.1758,
-          "quote_volume": 1002291886.289123,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 114.34,
-          "change_pct": -2.623,
-          "volume": 3703214.956,
-          "quote_volume": 433077831.86655,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 765.08,
-          "change_pct": -3.045,
-          "volume": 210877.385,
-          "quote_volume": 164377228.97375,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790193706.252925,
       "category": "binance_news",
       "symbol": "ETH",
@@ -20481,6 +20387,70 @@
           "change_pct": -12.842,
           "volume": 631657930.0,
           "quote_volume": 16790588.999664,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792778528.2902944,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "US senator probes Tether after reported deal with ex-Trump crypto adviser",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81610.71,
+          "change_pct": 0.493,
+          "volume": 11837.14655,
+          "quote_volume": 965848146.3484616,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2408.04,
+          "change_pct": 1.168,
+          "volume": 288203.079,
+          "quote_volume": 690788776.470177,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.43,
+          "change_pct": 0.762,
+          "volume": 1385599.983,
+          "quote_volume": 144412150.85149,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.14,
+          "change_pct": 2.232,
+          "volume": 116826.932,
+          "quote_volume": 86809739.64978,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ARK": {
+          "price": 0.2305,
+          "change_pct": 29.494,
+          "volume": 35378675.0,
+          "quote_volume": 7513554.0026,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02312,
+          "change_pct": -15.28,
+          "volume": 607912769.0,
+          "quote_volume": 15917319.327358,
           "funding_rate": null,
           "open_interest": null
         }
