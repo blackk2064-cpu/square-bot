@@ -20362,6 +20362,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792764193.855118,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 82002.0,
+          "change_pct": 0.262,
+          "volume": 13127.42733,
+          "quote_volume": 1070676979.2731959,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2414.94,
+          "change_pct": 0.085,
+          "volume": 301625.3119,
+          "quote_volume": 722319832.620714,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 105.1,
+          "change_pct": -0.095,
+          "volume": 1443384.137,
+          "quote_volume": 150331188.36335,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 748.55,
+          "change_pct": 1.942,
+          "volume": 111638.537,
+          "quote_volume": 82552453.51695,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEB": {
+          "price": 192.29,
+          "change_pct": -16.122,
+          "volume": 23799.785,
+          "quote_volume": 5048230.4201,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02336,
+          "change_pct": -13.353,
+          "volume": 668842844.8,
+          "quote_volume": 17848135.177023,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
