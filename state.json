@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790150523.3186255,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Bitcoin ETFs take in $1.7B in 2 days as BTC tops holder cost basis",
-      "text_hash": "72c86d025e7afdfd93d60f3c36a9438b798494e81be879fd1aea694775c1aa03",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86143.51,
-          "change_pct": 0.92,
-          "volume": 20332.5764,
-          "quote_volume": 1754301038.3222032,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2743.52,
-          "change_pct": 0.632,
-          "volume": 297934.3027,
-          "quote_volume": 819897041.830317,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.91,
-          "change_pct": 1.402,
-          "volume": 2873285.927,
-          "quote_volume": 338807394.0057,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 788.71,
-          "change_pct": 0.452,
-          "volume": 160080.281,
-          "quote_volume": 126313605.65797,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790164914.3113933,
       "category": "sarcastic",
       "symbol": "BNB",
@@ -20263,6 +20216,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792742602.8541803,
+      "category": "binance_news",
+      "symbol": "BMT",
+      "topic": "Ethereum delays Glamsterdam Hoodi testnet launch over security risks",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81566.35,
+          "change_pct": -0.789,
+          "volume": 15641.2307,
+          "quote_volume": 1276704508.8134947,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2400.38,
+          "change_pct": -1.182,
+          "volume": 308648.3753,
+          "quote_volume": 739316641.248737,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 104.29,
+          "change_pct": -0.086,
+          "volume": 1464055.731,
+          "quote_volume": 152443138.04451,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 744.83,
+          "change_pct": 1.06,
+          "volume": 95425.551,
+          "quote_volume": 70127688.85503,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02682,
+          "change_pct": 29.315,
+          "volume": 654291293.7,
+          "quote_volume": 17295839.01335,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ALT": {
+          "price": 0.0078,
+          "change_pct": -15.676,
+          "volume": 1743883656.0,
+          "quote_volume": 14450703.89677,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
