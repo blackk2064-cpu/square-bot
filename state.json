@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790262105.248774,
-      "category": "education",
-      "symbol": "BNB",
-      "topic": "education",
-      "text_hash": "8057967e0d9e8e1191c82e31e69ef64892b11ffd9b3ac69881c919b98ebd0a44",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83555.36,
-          "change_pct": -1.125,
-          "volume": 20133.49192,
-          "quote_volume": 1692030416.9293816,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2654.76,
-          "change_pct": -0.771,
-          "volume": 254440.8967,
-          "quote_volume": 678577090.983444,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 114.53,
-          "change_pct": -0.53,
-          "volume": 2617867.622,
-          "quote_volume": 299824719.9613,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 777.28,
-          "change_pct": 1.327,
-          "volume": 134806.568,
-          "quote_volume": 103725615.18636,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790265706.378657,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Solana Foundation Hires Binance's Former Global CMO for Institutional Push",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 84413.17,
-          "change_pct": 0.432,
-          "volume": 19212.18809,
-          "quote_volume": 1613948600.880045,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2682.95,
-          "change_pct": 1.013,
-          "volume": 249749.2706,
-          "quote_volume": 666096415.387189,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 116.23,
-          "change_pct": 2.037,
-          "volume": 2487578.738,
-          "quote_volume": 284924615.45347,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 780.4,
-          "change_pct": 2.508,
-          "volume": 126870.524,
-          "quote_volume": 97751971.21027,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790283802.150625,
       "category": "analysis",
       "symbol": "BNB",
@@ -20215,6 +20121,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792857729.1705453,
+      "category": "analysis",
+      "symbol": "BMT",
+      "topic": "analysis_BMT",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 79756.24,
+          "change_pct": -2.323,
+          "volume": 12556.70579,
+          "quote_volume": 1012600655.3613268,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2304.15,
+          "change_pct": -4.252,
+          "volume": 205656.9665,
+          "quote_volume": 484126056.278558,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 99.68,
+          "change_pct": -4.822,
+          "volume": 1910686.099,
+          "quote_volume": 194468944.24504,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 721.08,
+          "change_pct": -3.602,
+          "volume": 139780.085,
+          "quote_volume": 102632855.82052,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.03648,
+          "change_pct": 55.764,
+          "volume": 1429374250.3,
+          "quote_volume": 55089394.355536,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PHA": {
+          "price": 0.0502,
+          "change_pct": -24.169,
+          "volume": 109071342.0,
+          "quote_volume": 6072697.412,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
