@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790244145.7861824,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Bitcoin ETFs add $347M as BTC falls below $84K after topping $87K",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83276.0,
-          "change_pct": -2.986,
-          "volume": 22566.2043,
-          "quote_volume": 1904238412.5660775,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2642.66,
-          "change_pct": -3.312,
-          "volume": 315936.6073,
-          "quote_volume": 846685777.077461,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 113.14,
-          "change_pct": -3.629,
-          "volume": 3130543.827,
-          "quote_volume": 359793964.38693,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 766.77,
-          "change_pct": -2.049,
-          "volume": 189904.703,
-          "quote_volume": 146178948.03565,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790247701.476505,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Bitcoin ETFs add $347M as BTC falls below $84K after topping $87K",
-      "text_hash": "d4bafd8a20cb85f40a9b586b778361cd56c5b088040e75b0b254c1810b2302f9",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83553.78,
-          "change_pct": -2.782,
-          "volume": 22927.17792,
-          "quote_volume": 1932899061.1469293,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2649.84,
-          "change_pct": -3.222,
-          "volume": 317254.5697,
-          "quote_volume": 849366449.951283,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 113.43,
-          "change_pct": -3.546,
-          "volume": 3138221.143,
-          "quote_volume": 360139491.8039,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 768.82,
-          "change_pct": -2.114,
-          "volume": 189012.706,
-          "quote_volume": 145404481.64248,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790251298.9544158,
       "category": "education",
       "symbol": "BNB",
@@ -20220,6 +20126,70 @@
           "change_pct": 22.616,
           "volume": 249747873.2,
           "quote_volume": 21269952.03648,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792839767.4187686,
+      "category": "education",
+      "symbol": "ETH",
+      "topic": "education",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80667.46,
+          "change_pct": -1.213,
+          "volume": 11585.88116,
+          "quote_volume": 940778488.6649671,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2369.99,
+          "change_pct": -1.089,
+          "volume": 159127.6289,
+          "quote_volume": 380236544.234885,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.73,
+          "change_pct": -2.164,
+          "volume": 1715569.648,
+          "quote_volume": 177167889.6471,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 732.83,
+          "change_pct": -1.767,
+          "volume": 125316.097,
+          "quote_volume": 92818191.54009,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.03596,
+          "change_pct": 53.807,
+          "volume": 1223847377.8,
+          "quote_volume": 45645260.077537,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TREE": {
+          "price": 0.0592,
+          "change_pct": 48.744,
+          "volume": 264519366.4,
+          "quote_volume": 13689452.53404,
           "funding_rate": null,
           "open_interest": null
         }
