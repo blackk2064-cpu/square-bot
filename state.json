@@ -20186,6 +20186,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792872149.7248197,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "e632c793b13b38bc8e0e6d190f8d8b40abac55818ed0bae4bd45e28394014f13",
+      "text_for_similarity": "$ETH is down -2.123% to 2343.06 despite absorbing a heavy 24h volume of 217871",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80509.54,
+          "change_pct": -0.938,
+          "volume": 12864.15632,
+          "quote_volume": 1035323711.3667175,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2343.06,
+          "change_pct": -2.123,
+          "volume": 217871.7184,
+          "quote_volume": 510306716.50965,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.28,
+          "change_pct": -2.145,
+          "volume": 1917131.843,
+          "quote_volume": 194288799.50029,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 730.35,
+          "change_pct": -1.465,
+          "volume": 130601.228,
+          "quote_volume": 95586824.81469,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.0385,
+          "change_pct": 75.719,
+          "volume": 1476933763.6,
+          "quote_volume": 58073374.427325,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ANIME": {
+          "price": 0.00349,
+          "change_pct": 23.759,
+          "volume": 2324262877.6,
+          "quote_volume": 7690676.240536,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
