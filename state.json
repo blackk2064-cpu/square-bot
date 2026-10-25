@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790373701.784599,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
-      "text_hash": "12e8df4fef9549d7f2210eee9b06b12324825e5be9ac7611589f8d674585ec89",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83798.01,
-          "change_pct": -0.628,
-          "volume": 18089.61684,
-          "quote_volume": 1523224563.0508175,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2682.22,
-          "change_pct": -0.137,
-          "volume": 242992.737,
-          "quote_volume": 654745735.93327,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.0,
-          "change_pct": 3.605,
-          "volume": 4083408.448,
-          "quote_volume": 488306109.77684,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 773.05,
-          "change_pct": -0.663,
-          "volume": 132675.305,
-          "quote_volume": 102996657.60097,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790388107.515251,
       "category": "sarcastic",
       "symbol": "SOL",
@@ -20517,6 +20470,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792965761.7875946,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80249.92,
+          "change_pct": -0.221,
+          "volume": 5604.91536,
+          "quote_volume": 451916126.8867751,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2332.56,
+          "change_pct": -0.351,
+          "volume": 107600.4492,
+          "quote_volume": 252476660.457536,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.12,
+          "change_pct": -0.296,
+          "volume": 847899.524,
+          "quote_volume": 86125569.84787,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 738.66,
+          "change_pct": 0.73,
+          "volume": 83409.732,
+          "quote_volume": 61903935.23478,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ANIME": {
+          "price": 0.0029,
+          "change_pct": -31.442,
+          "volume": 1806468123.7,
+          "quote_volume": 6019922.134097,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "T": {
+          "price": 0.00543,
+          "change_pct": 18.559,
+          "volume": 2833809071.6,
+          "quote_volume": 18256519.455663,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
