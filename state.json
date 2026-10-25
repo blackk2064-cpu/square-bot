@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790294509.5764077,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Sequans exits Bitcoin treasury strategy after selling remaining 314 BTC",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 84410.25,
-          "change_pct": 0.015,
-          "volume": 18700.54401,
-          "quote_volume": 1571782585.2305768,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2688.08,
-          "change_pct": 0.114,
-          "volume": 266798.4794,
-          "quote_volume": 713379873.899103,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.04,
-          "change_pct": 1.765,
-          "volume": 2591171.096,
-          "quote_volume": 299069233.55898,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 776.8,
-          "change_pct": 1.218,
-          "volume": 127436.382,
-          "quote_volume": 98711710.36526,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790298104.3613567,
       "category": "general_news",
       "symbol": "BTC",
@@ -20234,6 +20187,70 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792886578.6598186,
+      "category": "analysis",
+      "symbol": "BMT",
+      "topic": "analysis_BMT",
+      "text_hash": "94b6c52188e56064adcdb22fb315aa3d67d5a07b1b8ef01f7a70a53f1399eee5",
+      "text_for_similarity": "BMT is trading at 0.03739?\nUp 64.496% with 1548767870.9 volume.\nAre you ready to trade or hold?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80860.01,
+          "change_pct": -0.39,
+          "volume": 11717.16695,
+          "quote_volume": 941809884.0955671,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2357.3,
+          "change_pct": -1.27,
+          "volume": 199810.2234,
+          "quote_volume": 466739756.962727,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.27,
+          "change_pct": -0.525,
+          "volume": 1733781.546,
+          "quote_volume": 175257171.56169,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.29,
+          "change_pct": -0.057,
+          "volume": 116528.777,
+          "quote_volume": 85171841.10756,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.03739,
+          "change_pct": 64.496,
+          "volume": 1548767870.9,
+          "quote_volume": 61423370.263495,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ANIME": {
+          "price": 0.00367,
+          "change_pct": 29.225,
+          "volume": 3375187891.6,
+          "quote_volume": 11666212.339401,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
