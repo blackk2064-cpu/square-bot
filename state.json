@@ -20211,6 +20211,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1792933373.8733358,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80454.0,
+          "change_pct": -0.408,
+          "volume": 9652.47455,
+          "quote_volume": 774606184.5451987,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2334.89,
+          "change_pct": -1.471,
+          "volume": 207997.4814,
+          "quote_volume": 484539217.119666,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.01,
+          "change_pct": -0.6,
+          "volume": 1415429.787,
+          "quote_volume": 142531624.39942,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.1,
+          "change_pct": 0.934,
+          "volume": 119474.825,
+          "quote_volume": 87738976.52491,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TREE": {
+          "price": 0.0366,
+          "change_pct": -25.911,
+          "volume": 137137266.0,
+          "quote_volume": 5792061.07978,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "T": {
+          "price": 0.00566,
+          "change_pct": 21.199,
+          "volume": 2395529419.6,
+          "quote_volume": 15763442.33337,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
