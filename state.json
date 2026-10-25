@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790359307.6691086,
-      "category": "education",
-      "symbol": "SOL",
-      "topic": "education",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83818.0,
-          "change_pct": -0.304,
-          "volume": 18937.97552,
-          "quote_volume": 1595447004.2272189,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2687.02,
-          "change_pct": 0.703,
-          "volume": 268082.4381,
-          "quote_volume": 722167186.349275,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.0,
-          "change_pct": 3.64,
-          "volume": 3948909.222,
-          "quote_volume": 470166372.0289,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 773.54,
-          "change_pct": -0.601,
-          "volume": 136024.251,
-          "quote_volume": 105654714.42195,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790362911.0383296,
       "category": "sarcastic",
       "symbol": "ETH",
@@ -20458,6 +20411,70 @@
           "change_pct": -20.863,
           "volume": 575028752.7,
           "quote_volume": 19505751.205041,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792951394.5507548,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80785.46,
+          "change_pct": 0.622,
+          "volume": 5810.9733,
+          "quote_volume": 468378727.993975,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2357.16,
+          "change_pct": 1.46,
+          "volume": 117631.9337,
+          "quote_volume": 275834528.533282,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.91,
+          "change_pct": 1.373,
+          "volume": 887871.536,
+          "quote_volume": 90129523.18854,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 742.85,
+          "change_pct": 2.401,
+          "volume": 83717.859,
+          "quote_volume": 62038183.45755,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "T": {
+          "price": 0.00567,
+          "change_pct": 24.615,
+          "volume": 2749812345.0,
+          "quote_volume": 17792929.051519,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.03122,
+          "change_pct": -15.117,
+          "volume": 549515467.1,
+          "quote_volume": 18493293.274764,
           "funding_rate": null,
           "open_interest": null
         }
