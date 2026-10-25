@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790305307.852969,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84197.84,
-          "change_pct": -0.199,
-          "volume": 18688.97636,
-          "quote_volume": 1571491311.706921,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2674.71,
-          "change_pct": -0.436,
-          "volume": 269930.7568,
-          "quote_volume": 721951784.642418,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 116.81,
-          "change_pct": 1.327,
-          "volume": 2653326.607,
-          "quote_volume": 306958375.09433,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 773.67,
-          "change_pct": 0.153,
-          "volume": 121700.866,
-          "quote_volume": 94390372.7802,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790308918.73502,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84230.01,
-          "change_pct": 0.341,
-          "volume": 18732.51,
-          "quote_volume": 1575203949.9233143,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2678.07,
-          "change_pct": 0.064,
-          "volume": 270788.2381,
-          "quote_volume": 724235697.905519,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 116.87,
-          "change_pct": 1.919,
-          "volume": 2656207.945,
-          "quote_volume": 307437831.59015,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 772.95,
-          "change_pct": 0.824,
-          "volume": 120772.164,
-          "quote_volume": 93692367.44596,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790319719.2823534,
       "category": "macro_news",
       "symbol": "BNB",
@@ -20270,6 +20176,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792908186.7422183,
+      "category": "education",
+      "symbol": "BTC",
+      "topic": "education",
+      "text_hash": "61ed2080370d9f11d0e507ab99d829d0c672422b4e7faf087614b758aa3cd0ef",
+      "text_for_similarity": "$BTC is trading at $80,616.01, down -0.171% over 24 hours.\n\n24h volume hit 10,703.14156 BTC — a striking figure for a coin in a near-flat daily session.\n\nThat's a tight -0.171% range despite solid volume backing. #trading #BTC",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80616.01,
+          "change_pct": -0.171,
+          "volume": 10703.14156,
+          "quote_volume": 859819610.2087829,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2353.47,
+          "change_pct": -1.04,
+          "volume": 200266.9414,
+          "quote_volume": 467412886.893236,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.97,
+          "change_pct": -0.362,
+          "volume": 1613020.377,
+          "quote_volume": 162850361.98891,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 743.92,
+          "change_pct": 0.718,
+          "volume": 128667.757,
+          "quote_volume": 94326948.882,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "T": {
+          "price": 0.00612,
+          "change_pct": 31.049,
+          "volume": 1449011765.1,
+          "quote_volume": 9611876.020945,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ERA": {
+          "price": 0.0752,
+          "change_pct": -23.344,
+          "volume": 214594000.0,
+          "quote_volume": 18404195.95801,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 85,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
