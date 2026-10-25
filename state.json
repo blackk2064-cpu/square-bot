@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790370112.567888,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 83882.0,
-          "change_pct": -0.583,
-          "volume": 18152.25159,
-          "quote_volume": 1528740748.9217598,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2684.61,
-          "change_pct": -0.145,
-          "volume": 244290.0693,
-          "quote_volume": 658276058.33425,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.61,
-          "change_pct": 4.091,
-          "volume": 4082500.095,
-          "quote_volume": 487869595.60235,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 773.14,
-          "change_pct": -0.811,
-          "volume": 132855.478,
-          "quote_volume": 103153505.30625,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790373701.784599,
       "category": "binance_news",
       "symbol": "BTC",
@@ -20500,6 +20453,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792962393.8568347,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+      "text_hash": "56c3a8889bbee99857b4c990d4275159e44044fa5c9b584d35164942bac5ba6c",
+      "text_for_similarity": "$SOL is trading at 101.68, just nudging past the 100 handle with a slim 0.128% 24h gain.\n\nIs this whisper-thin rally a setup for a move toward 102 or a trap to lure buyers before a slip back under 100? #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80492.85,
+          "change_pct": -0.041,
+          "volume": 5677.98742,
+          "quote_volume": 457785478.5936188,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2347.41,
+          "change_pct": 0.035,
+          "volume": 106734.5512,
+          "quote_volume": 250453172.571064,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.68,
+          "change_pct": 0.128,
+          "volume": 837908.793,
+          "quote_volume": 85110345.84469,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 740.63,
+          "change_pct": 1.056,
+          "volume": 83091.481,
+          "quote_volume": 61655499.24024,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ANIME": {
+          "price": 0.00292,
+          "change_pct": -20.867,
+          "volume": 2061784564.2,
+          "quote_volume": 7054411.583957,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "T": {
+          "price": 0.00543,
+          "change_pct": 18.818,
+          "volume": 2816198184.6,
+          "quote_volume": 18160246.677404,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
