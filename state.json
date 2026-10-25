@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790298104.3613567,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Sequans exits Bitcoin treasury strategy after selling remaining 314 BTC",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84583.78,
-          "change_pct": 0.306,
-          "volume": 18787.2214,
-          "quote_volume": 1579248847.731752,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2690.31,
-          "change_pct": 0.281,
-          "volume": 267616.2043,
-          "quote_volume": 715608516.650429,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.37,
-          "change_pct": 1.901,
-          "volume": 2600399.38,
-          "quote_volume": 300306602.63135,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 777.31,
-          "change_pct": 1.309,
-          "volume": 127121.668,
-          "quote_volume": 98505799.62304,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790305307.852969,
       "category": "binance_news",
       "symbol": "BTC",
@@ -20253,6 +20206,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792890168.1468244,
+      "category": "analysis",
+      "symbol": "ERA",
+      "topic": "analysis_ERA",
+      "text_hash": "ad987c563679389b055e3d65b7bb7adc03beb77ce5b75c62be02381fd9e55b12",
+      "text_for_similarity": "ERA is trading at 0.0733, down from the round 0.07 level. 🚀\nThe 24h change is -18.374%.\nVolume stands at 260740298.7.\nDo you think ERA will recover or keep falling? 🤔",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80877.25,
+          "change_pct": 0.284,
+          "volume": 11473.81502,
+          "quote_volume": 922141952.0157876,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2360.62,
+          "change_pct": -0.63,
+          "volume": 197636.3652,
+          "quote_volume": 461499272.454246,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.45,
+          "change_pct": 0.088,
+          "volume": 1709689.15,
+          "quote_volume": 172791647.6902,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.8,
+          "change_pct": 0.768,
+          "volume": 115288.883,
+          "quote_volume": 84270383.22453,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.03214,
+          "change_pct": 42.024,
+          "volume": 1591632434.4,
+          "quote_volume": 63047044.789316,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ERA": {
+          "price": 0.0733,
+          "change_pct": -18.374,
+          "volume": 260740298.7,
+          "quote_volume": 23184693.56617,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
