@@ -1,100 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790319719.2823534,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
-      "text_hash": "ef8f0324cbe8f7f999a17ec89d73b68eef59aebf90c465e2e528dccca6ff80db",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84036.0,
-          "change_pct": -0.067,
-          "volume": 18768.49916,
-          "quote_volume": 1578329657.4949539,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2674.55,
-          "change_pct": -0.398,
-          "volume": 267868.6109,
-          "quote_volume": 716256784.899325,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 116.28,
-          "change_pct": 1.28,
-          "volume": 2696028.565,
-          "quote_volume": 312359985.08212,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 773.17,
-          "change_pct": 0.11,
-          "volume": 122347.18,
-          "quote_volume": 94939911.79187,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790330512.4494333,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "KelpDAO sues LayerZero, CEO over $292M rsETH bridge exploit",
-      "text_hash": "449d89b153a09cf6284f568a1857ac5464185bb7f1a879f77418654483c21e2d",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84566.01,
-          "change_pct": 1.537,
-          "volume": 17159.72412,
-          "quote_volume": 1444856417.359331,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2703.81,
-          "change_pct": 2.28,
-          "volume": 254519.1518,
-          "quote_volume": 681761731.075132,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.35,
-          "change_pct": 4.577,
-          "volume": 2707004.17,
-          "quote_volume": 315011448.31184,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 776.79,
-          "change_pct": 1.284,
-          "volume": 118542.235,
-          "quote_volume": 92081802.28194,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790359307.6691086,
       "category": "education",
       "symbol": "SOL",
@@ -20240,6 +20146,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792929758.6051378,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80575.96,
+          "change_pct": -0.016,
+          "volume": 9683.97691,
+          "quote_volume": 777213018.243167,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2339.72,
+          "change_pct": -1.074,
+          "volume": 206148.1248,
+          "quote_volume": 480348166.139993,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.3,
+          "change_pct": -0.187,
+          "volume": 1412922.943,
+          "quote_volume": 142301962.81882,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 743.25,
+          "change_pct": 1.581,
+          "volume": 118550.534,
+          "quote_volume": 87041533.15806,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "T": {
+          "price": 0.00599,
+          "change_pct": 29.095,
+          "volume": 2279251979.7,
+          "quote_volume": 15111062.691061,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TREE": {
+          "price": 0.0368,
+          "change_pct": -23.173,
+          "volume": 157645945.5,
+          "quote_volume": 6846276.22173,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
