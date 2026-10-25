@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790362911.0383296,
-      "category": "sarcastic",
-      "symbol": "ETH",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 83984.0,
-          "change_pct": -0.564,
-          "volume": 18762.84121,
-          "quote_volume": 1580556349.573051,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2694.21,
-          "change_pct": 0.193,
-          "volume": 261949.0019,
-          "quote_volume": 705812517.370703,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.95,
-          "change_pct": 3.946,
-          "volume": 4036001.417,
-          "quote_volume": 481330786.24287,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 775.15,
-          "change_pct": -0.828,
-          "volume": 135392.357,
-          "quote_volume": 105151039.92382,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790370112.567888,
       "category": "general_news",
       "symbol": "ETH",
@@ -20483,6 +20436,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1792954929.61922,
+      "category": "general_news",
+      "symbol": "T",
+      "topic": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80658.69,
+          "change_pct": 0.189,
+          "volume": 5851.80412,
+          "quote_volume": 471785757.4685131,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2354.14,
+          "change_pct": 0.73,
+          "volume": 111504.014,
+          "quote_volume": 261592682.627898,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.76,
+          "change_pct": 0.474,
+          "volume": 853321.958,
+          "quote_volume": 86658670.61028,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 742.78,
+          "change_pct": 1.876,
+          "volume": 84521.767,
+          "quote_volume": 62665272.16609,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "T": {
+          "price": 0.00555,
+          "change_pct": 21.711,
+          "volume": 2767591031.4,
+          "quote_volume": 17892659.734035,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ANIME": {
+          "price": 0.003,
+          "change_pct": -20.0,
+          "volume": 2280151270.8,
+          "quote_volume": 7839665.986072,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
