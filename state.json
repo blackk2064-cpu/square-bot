@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790442169.2276912,
-      "category": "sarcastic",
-      "symbol": "SOL",
-      "topic": "sarcastic",
-      "text_hash": "2f566009c6568e36e9ad5e20d4469a22624e4892c9e1ca411e4561a5a6a2b430",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84119.99,
-          "change_pct": 0.413,
-          "volume": 7908.51287,
-          "quote_volume": 664336484.5850261,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2691.53,
-          "change_pct": 0.255,
-          "volume": 94535.2494,
-          "quote_volume": 254196659.607981,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.6,
-          "change_pct": 0.421,
-          "volume": 2129816.326,
-          "quote_volume": 258144161.81373,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 774.35,
-          "change_pct": 0.238,
-          "volume": 58632.608,
-          "quote_volume": 45389297.96047,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790449293.450194,
       "category": "analysis",
       "symbol": "ETH",
@@ -20905,6 +20858,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793037734.6721811,
+      "category": "binance_news",
+      "symbol": "CHIP",
+      "topic": "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks",
+      "text_hash": "f0fb176ba99defbcccbb92e7f9b6d52300b42956b231d09e6c2993e7bd5dc071",
+      "text_for_similarity": "CHIP is trading at 0.05567, up 22.137% in 24h on 206.5M volume.\n\nThat rally has it testing levels well above the round 0.05000 mark.\n\nAre alt-season flows favoring small-cap tokens like $CHIP, or will Bitcoin's FOMC risk drag momentum back below support? #trading #crypto",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80381.64,
+          "change_pct": -0.49,
+          "volume": 15041.39228,
+          "quote_volume": 1205390849.43476,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2327.79,
+          "change_pct": -1.251,
+          "volume": 196460.5416,
+          "quote_volume": 456335571.062511,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.46,
+          "change_pct": -0.442,
+          "volume": 1562332.957,
+          "quote_volume": 158310459.41964,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.37,
+          "change_pct": 0.338,
+          "volume": 99009.155,
+          "quote_volume": 73338155.13169,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.05567,
+          "change_pct": 22.137,
+          "volume": 206510115.0,
+          "quote_volume": 10267419.71191,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.00333,
+          "change_pct": 15.947,
+          "volume": 1856760804.0,
+          "quote_volume": 6007488.219444,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
