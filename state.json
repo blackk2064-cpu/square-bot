@@ -20650,6 +20650,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793023397.8070955,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 79731.55,
+          "change_pct": -0.783,
+          "volume": 11911.03727,
+          "quote_volume": 954603617.8945287,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2305.1,
+          "change_pct": -1.213,
+          "volume": 166655.4678,
+          "quote_volume": 387513904.705172,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.93,
+          "change_pct": 0.238,
+          "volume": 1301241.186,
+          "quote_volume": 131737622.70527,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 738.27,
+          "change_pct": 0.171,
+          "volume": 83863.41,
+          "quote_volume": 62049588.05595,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.01947,
+          "change_pct": -18.57,
+          "volume": 488632109.0,
+          "quote_volume": 9847230.53931,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KAT": {
+          "price": 0.00464,
+          "change_pct": 15.711,
+          "volume": 1451586001.0,
+          "quote_volume": 6447753.53333,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
