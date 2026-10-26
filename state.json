@@ -20842,6 +20842,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793034119.8592823,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80260.0,
+          "change_pct": -0.682,
+          "volume": 14774.18204,
+          "quote_volume": 1184065483.9234412,
+          "funding_rate": 0.0001,
+          "open_interest": 93328.848
+        },
+        "ETH": {
+          "price": 2322.53,
+          "change_pct": -1.425,
+          "volume": 190427.2457,
+          "quote_volume": 442420542.525486,
+          "funding_rate": 7.095e-05,
+          "open_interest": 2357485.498
+        },
+        "SOL": {
+          "price": 101.37,
+          "change_pct": -0.579,
+          "volume": 1444811.778,
+          "quote_volume": 146394665.19086,
+          "funding_rate": 0.0001,
+          "open_interest": 8730933.67
+        },
+        "BNB": {
+          "price": 744.68,
+          "change_pct": 0.167,
+          "volume": 93880.197,
+          "quote_volume": 69513085.32975,
+          "funding_rate": 9.74e-05,
+          "open_interest": 555206.23
+        },
+        "CHIP": {
+          "price": 0.05307,
+          "change_pct": 19.419,
+          "volume": 176877222.0,
+          "quote_volume": 8595297.53621,
+          "funding_rate": -4.244e-05,
+          "open_interest": 246959343.0
+        },
+        "BEAMX": {
+          "price": 0.003348,
+          "change_pct": 17.063,
+          "volume": 1840824315.0,
+          "quote_volume": 5945937.250382,
+          "funding_rate": 5e-05,
+          "open_interest": 4355214574.0
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
