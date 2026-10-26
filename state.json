@@ -20458,6 +20458,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793012581.9306366,
+      "category": "general_news",
+      "symbol": "T",
+      "topic": "Senate Democrat Probes Tether Payments to Ex-White House Crypto Adviser’s Firm",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80356.76,
+          "change_pct": 0.015,
+          "volume": 9504.53491,
+          "quote_volume": 762175262.310686,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2327.13,
+          "change_pct": -0.11,
+          "volume": 154143.1868,
+          "quote_volume": 358830602.056908,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.29,
+          "change_pct": 0.396,
+          "volume": 1231001.283,
+          "quote_volume": 124563007.08122,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.83,
+          "change_pct": 0.112,
+          "volume": 75552.589,
+          "quote_volume": 55882354.60889,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "T": {
+          "price": 0.00474,
+          "change_pct": -28.073,
+          "volume": 1109297348.3,
+          "quote_volume": 6057633.079335,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ERA": {
+          "price": 0.088,
+          "change_pct": 17.805,
+          "volume": 186629067.5,
+          "quote_volume": 16301002.0121,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
