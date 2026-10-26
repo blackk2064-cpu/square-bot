@@ -1,147 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790388107.515251,
-      "category": "sarcastic",
-      "symbol": "SOL",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 84079.69,
-          "change_pct": -0.617,
-          "volume": 17683.81675,
-          "quote_volume": 1488251261.1093917,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2692.71,
-          "change_pct": 0.095,
-          "volume": 233413.2599,
-          "quote_volume": 629020854.988869,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 122.06,
-          "change_pct": 3.907,
-          "volume": 3989142.019,
-          "quote_volume": 478370821.45323,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 776.01,
-          "change_pct": -0.304,
-          "volume": 131113.896,
-          "quote_volume": 101775313.64119,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790402503.1059058,
-      "category": "education",
-      "symbol": "SOL",
-      "topic": "education",
-      "text_hash": "3a5aa8138bbbac6418ce93e98b937793958a673de91adb60553072a2eaa6cdb5",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83919.68,
-          "change_pct": -0.326,
-          "volume": 17040.68136,
-          "quote_volume": 1433616501.787498,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2686.19,
-          "change_pct": 0.232,
-          "volume": 217978.2539,
-          "quote_volume": 587682414.025842,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 120.5,
-          "change_pct": 3.478,
-          "volume": 3864913.911,
-          "quote_volume": 464820137.85467,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 772.98,
-          "change_pct": -0.23,
-          "volume": 118482.329,
-          "quote_volume": 92010310.65211,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790416891.360128,
-      "category": "analysis",
-      "symbol": "BNB",
-      "topic": "analysis",
-      "text_hash": "f93c6833defc51ee80e7f9b204921beeea6bb39b3a993e0d9fe578229b71aed4",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84021.96,
-          "change_pct": -0.643,
-          "volume": 15158.44042,
-          "quote_volume": 1274970822.682463,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2682.91,
-          "change_pct": -0.78,
-          "volume": 190579.8232,
-          "quote_volume": 514057048.653904,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.98,
-          "change_pct": 1.352,
-          "volume": 3778074.423,
-          "quote_volume": 455695523.85553,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 771.51,
-          "change_pct": -0.68,
-          "volume": 111139.57,
-          "quote_volume": 86292024.76534,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790442169.2276912,
       "category": "sarcastic",
       "symbol": "SOL",
@@ -20534,6 +20393,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793008973.8389547,
+      "category": "education",
+      "symbol": "ERA",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80527.72,
+          "change_pct": 0.224,
+          "volume": 9437.37491,
+          "quote_volume": 756749704.7528094,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2334.86,
+          "change_pct": 0.242,
+          "volume": 153273.1017,
+          "quote_volume": 356792324.387674,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.64,
+          "change_pct": 0.664,
+          "volume": 1186219.739,
+          "quote_volume": 119994410.92462,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.79,
+          "change_pct": 0.257,
+          "volume": 73672.466,
+          "quote_volume": 54489469.15967,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "T": {
+          "price": 0.00482,
+          "change_pct": -28.487,
+          "volume": 1193977191.6,
+          "quote_volume": 6665337.162641,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ERA": {
+          "price": 0.0893,
+          "change_pct": 18.908,
+          "volume": 182462937.2,
+          "quote_volume": 15886231.69501,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
