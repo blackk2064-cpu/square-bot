@@ -20940,6 +20940,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793052128.623005,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "CZ pitches BNB Chain’s role in AI as BNB Standard rings Nasdaq bell",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80032.24,
+          "change_pct": -0.271,
+          "volume": 15695.55263,
+          "quote_volume": 1257253900.945323,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2308.69,
+          "change_pct": -1.026,
+          "volume": 205569.8373,
+          "quote_volume": 477086816.356134,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.39,
+          "change_pct": -0.732,
+          "volume": 1669491.258,
+          "quote_volume": 168991925.29647,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 742.53,
+          "change_pct": 0.525,
+          "volume": 99457.448,
+          "quote_volume": 73681938.41702,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.05126,
+          "change_pct": 16.341,
+          "volume": 247693468.0,
+          "quote_volume": 12534159.1014,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KAT": {
+          "price": 0.00444,
+          "change_pct": 12.977,
+          "volume": 1697805122.0,
+          "quote_volume": 7571390.88248,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
