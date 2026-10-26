@@ -20714,6 +20714,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793026980.8582597,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80411.37,
+          "change_pct": -0.324,
+          "volume": 13178.54626,
+          "quote_volume": 1055927239.4877657,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2328.0,
+          "change_pct": -0.713,
+          "volume": 178576.696,
+          "quote_volume": 415047237.239965,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.16,
+          "change_pct": 0.69,
+          "volume": 1368001.782,
+          "quote_volume": 138537963.26027,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.43,
+          "change_pct": 0.477,
+          "volume": 88516.667,
+          "quote_volume": 65510987.62048,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.05246,
+          "change_pct": 18.742,
+          "volume": 132226275.0,
+          "quote_volume": 6251022.43646,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ERA": {
+          "price": 0.0871,
+          "change_pct": 18.022,
+          "volume": 195899920.9,
+          "quote_volume": 17228621.4599,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
