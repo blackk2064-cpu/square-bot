@@ -21759,6 +21759,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793120542.7376258,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "OpenAI Proves ETH Is False, and Crypto Twitter Has Questions",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80652.01,
+          "change_pct": 0.488,
+          "volume": 12617.90159,
+          "quote_volume": 1010694603.1656917,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2351.66,
+          "change_pct": 1.254,
+          "volume": 162860.3559,
+          "quote_volume": 378492271.169166,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.1,
+          "change_pct": -0.266,
+          "volume": 1488335.235,
+          "quote_volume": 149574477.00311,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 751.68,
+          "change_pct": 0.939,
+          "volume": 111603.202,
+          "quote_volume": 82939514.55455,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.02777,
+          "change_pct": 32.112,
+          "volume": 456635099.0,
+          "quote_volume": 12516643.815867,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SYN": {
+          "price": 0.17822,
+          "change_pct": 13.17,
+          "volume": 37764500.0,
+          "quote_volume": 7062080.07857,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
