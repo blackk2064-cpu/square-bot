@@ -21358,6 +21358,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793091764.2087996,
+      "category": "binance_news",
+      "symbol": "HUMA",
+      "topic": "CZ pitches BNB Chain’s role in AI as BNB Standard rings Nasdaq bell",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79871.15,
+          "change_pct": -0.45,
+          "volume": 14916.7597,
+          "quote_volume": 1194700418.369743,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2313.7,
+          "change_pct": -0.513,
+          "volume": 161908.5299,
+          "quote_volume": 375588497.239195,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 99.93,
+          "change_pct": -1.118,
+          "volume": 1589212.629,
+          "quote_volume": 160442471.10855,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 737.01,
+          "change_pct": 0.012,
+          "volume": 104508.106,
+          "quote_volume": 77453953.60517,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.02603,
+          "change_pct": 37.289,
+          "volume": 795073919.0,
+          "quote_volume": 17166136.7106,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SYN": {
+          "price": 0.18307,
+          "change_pct": 18.538,
+          "volume": 31642383.2,
+          "quote_volume": 5912741.46977,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
