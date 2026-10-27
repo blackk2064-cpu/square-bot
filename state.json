@@ -21004,6 +21004,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793059453.460036,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "a5e8a7db163852f3c6c8b69674ca0a6383ceb7518515e3607e0a3542a95bbc84",
+      "text_for_similarity": "$BNB is trading at 742.89, up 0.574% while volume stays at 101644.113.\nThe modest gain meets strong volume, leaving the next move uncertain.\nWill BNB keep climbing or stall? 📈",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80150.56,
+          "change_pct": 0.018,
+          "volume": 15367.20621,
+          "quote_volume": 1230662179.4948664,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2324.28,
+          "change_pct": -0.226,
+          "volume": 192366.2684,
+          "quote_volume": 446174052.326609,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.91,
+          "change_pct": -0.434,
+          "volume": 1645841.76,
+          "quote_volume": 166489901.8884,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 742.89,
+          "change_pct": 0.574,
+          "volume": 101644.113,
+          "quote_volume": 75315804.29669,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.05115,
+          "change_pct": 16.171,
+          "volume": 255584199.0,
+          "quote_volume": 12960120.88318,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.003365,
+          "change_pct": 12.919,
+          "volume": 1757082510.0,
+          "quote_volume": 5826257.869812,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
