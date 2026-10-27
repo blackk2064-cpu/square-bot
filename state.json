@@ -21567,6 +21567,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793106144.630738,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "d04865b0aceffffa6649790a1b83d3a542fc3463c3080d688107658653e6f924",
+      "text_for_similarity": "Is Ethereum breaking out or just consolidating? $ETH is trading at $2335.23, up 0.518% over 24h on $174491.5489 volume. #trading #ETH",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80365.66,
+          "change_pct": 0.065,
+          "volume": 14907.49877,
+          "quote_volume": 1193231419.258919,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2335.23,
+          "change_pct": 0.518,
+          "volume": 174491.5489,
+          "quote_volume": 404514688.976842,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.94,
+          "change_pct": -0.679,
+          "volume": 1628300.383,
+          "quote_volume": 164027798.45751,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 742.91,
+          "change_pct": 0.142,
+          "volume": 101056.982,
+          "quote_volume": 74875374.13178,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.02676,
+          "change_pct": 17.009,
+          "volume": 720286763.0,
+          "quote_volume": 17160978.13742,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SYN": {
+          "price": 0.17732,
+          "change_pct": 14.054,
+          "volume": 35097907.4,
+          "quote_volume": 6572807.177258,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
