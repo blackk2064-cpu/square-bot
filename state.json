@@ -21149,6 +21149,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793070151.1549184,
+      "category": "analysis",
+      "symbol": "CHIP",
+      "topic": "analysis_CHIP",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 79795.53,
+          "change_pct": 0.257,
+          "volume": 15250.52663,
+          "quote_volume": 1221883489.1767564,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2313.97,
+          "change_pct": 0.361,
+          "volume": 174364.127,
+          "quote_volume": 404559149.489988,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.26,
+          "change_pct": -0.368,
+          "volume": 1570382.957,
+          "quote_volume": 158818382.66461,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 739.92,
+          "change_pct": 0.594,
+          "volume": 99842.785,
+          "quote_volume": 74039769.30115,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "CHIP": {
+          "price": 0.0508,
+          "change_pct": 18.222,
+          "volume": 274547299.0,
+          "quote_volume": 13967794.28075,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BANK": {
+          "price": 0.0277,
+          "change_pct": 17.872,
+          "volume": 258301443.1,
+          "quote_volume": 6895420.07415,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
