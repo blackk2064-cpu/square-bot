@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790539316.7323961,
-      "category": "analysis",
-      "symbol": "AUDIO",
-      "topic": "analysis_AUDIO",
-      "text_hash": "4f844698f102415483a2becda3a184bb8cb500d6a8f0e08f5c368d127e5de879",
-      "text_for_similarity": "Holding a winning position is never easy when the chart starts moving fast. $AUDIO is trading at 0.01856 after a 28.978% jump in the last 24 hours, with 24-hour volume reaching 627",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84745.46,
-          "change_pct": 0.867,
-          "volume": 10059.32005,
-          "quote_volume": 851171074.1423281,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2692.2,
-          "change_pct": 0.304,
-          "volume": 147523.8373,
-          "quote_volume": 398336291.333174,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 123.06,
-          "change_pct": 1.602,
-          "volume": 2503487.115,
-          "quote_volume": 306964688.09933,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 778.58,
-          "change_pct": 0.998,
-          "volume": 69112.09,
-          "quote_volume": 53629120.48615,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 185.54,
-          "change_pct": 51.079,
-          "volume": 744074.38,
-          "quote_volume": 126857166.05192,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "AUDIO": {
-          "price": 0.01856,
-          "change_pct": 28.978,
-          "volume": 627526762.2,
-          "quote_volume": 11157902.267212,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 85,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790553716.0025518,
       "category": "analysis",
       "symbol": "QNT",
@@ -21950,6 +21886,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793134929.4727333,
+      "category": "sarcastic",
+      "symbol": "BANK",
+      "topic": "sarcastic",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80797.12,
+          "change_pct": 1.13,
+          "volume": 12961.53387,
+          "quote_volume": 1039392420.826354,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2344.85,
+          "change_pct": 1.584,
+          "volume": 205192.287,
+          "quote_volume": 478718292.488972,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.04,
+          "change_pct": 0.658,
+          "volume": 1357253.94,
+          "quote_volume": 136318694.54127,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 747.57,
+          "change_pct": 0.805,
+          "volume": 108664.985,
+          "quote_volume": 80804294.77855,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.0291,
+          "change_pct": 29.679,
+          "volume": 522497992.6,
+          "quote_volume": 14533882.570043,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BANK": {
+          "price": 0.0318,
+          "change_pct": 24.706,
+          "volume": 282776715.5,
+          "quote_volume": 8087367.35051,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
