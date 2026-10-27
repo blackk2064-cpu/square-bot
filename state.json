@@ -21631,6 +21631,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793113342.8844302,
+      "category": "binance_news",
+      "symbol": "REZ",
+      "topic": "Ark Invest buys $5.2 million of Circle shares, sells $15.9 million of its own Bitcoin ETF as BTC grinds lower",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80419.17,
+          "change_pct": 0.01,
+          "volume": 12832.8897,
+          "quote_volume": 1027715198.6549947,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2336.29,
+          "change_pct": 0.356,
+          "volume": 157611.3359,
+          "quote_volume": 365758496.924587,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.82,
+          "change_pct": -1.321,
+          "volume": 1553476.604,
+          "quote_volume": 156325735.60672,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 744.85,
+          "change_pct": -0.078,
+          "volume": 95513.489,
+          "quote_volume": 70785677.16935,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.0312,
+          "change_pct": 47.657,
+          "volume": 279960344.0,
+          "quote_volume": 7210857.017391,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "REZ": {
+          "price": 0.005101,
+          "change_pct": 13.633,
+          "volume": 1097206841.1,
+          "quote_volume": 5444239.7467934,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
