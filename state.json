@@ -21503,6 +21503,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793102529.0915616,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Ripple wins final US approval for national trust bank",
+      "text_hash": "fb1082316228123195fd6e414a7ad66da36692dcb32f5a69b5eda80700c5533e",
+      "text_for_similarity": "$BTC is trading at 79912.27 despite Ark Invest selling $15.9 million of its Bitcoin ETF. 📉\nThe asset has seen a 24h change of -0.602% with a volume of 14783.07858. 📉\nIs this a short-term dip or a trend reversal?\n#BTC #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79912.27,
+          "change_pct": -0.602,
+          "volume": 14783.07858,
+          "quote_volume": 1183306587.2775612,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2316.28,
+          "change_pct": -0.715,
+          "volume": 168493.271,
+          "quote_volume": 390539680.58061,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.14,
+          "change_pct": -1.553,
+          "volume": 1603749.93,
+          "quote_volume": 161605320.47956,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 740.48,
+          "change_pct": -0.382,
+          "volume": 101791.293,
+          "quote_volume": 75423239.99892,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.02767,
+          "change_pct": 49.164,
+          "volume": 751464315.0,
+          "quote_volume": 17402217.51726,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SYN": {
+          "price": 0.18562,
+          "change_pct": 20.236,
+          "volume": 33958835.7,
+          "quote_volume": 6365575.369208,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
