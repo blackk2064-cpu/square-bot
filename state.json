@@ -21823,6 +21823,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793124148.6831694,
+      "category": "sarcastic",
+      "symbol": "ETH",
+      "topic": "sarcastic",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80532.5,
+          "change_pct": 0.188,
+          "volume": 12714.93069,
+          "quote_volume": 1018712200.482938,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2347.08,
+          "change_pct": 0.823,
+          "volume": 203821.9023,
+          "quote_volume": 475067941.360567,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.82,
+          "change_pct": -0.631,
+          "volume": 1387035.062,
+          "quote_volume": 139267755.69905,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.03,
+          "change_pct": 0.627,
+          "volume": 108226.464,
+          "quote_volume": 80443266.56609,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.02932,
+          "change_pct": 38.432,
+          "volume": 491648259.5,
+          "quote_volume": 13532102.767435,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BANK": {
+          "price": 0.03,
+          "change_pct": 15.385,
+          "volume": 249835575.6,
+          "quote_volume": 6987698.20931,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
