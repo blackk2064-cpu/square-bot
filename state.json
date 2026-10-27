@@ -1,53 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790496100.6575615,
-      "category": "binance_news",
-      "symbol": "BNB",
-      "topic": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
-      "text_hash": "54ba61c81458e9352d387c96a3e035ee55af46cf017857c26f7c64d5efa431db",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84758.98,
-          "change_pct": 0.796,
-          "volume": 7952.18656,
-          "quote_volume": 669931597.9946567,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2717.42,
-          "change_pct": 0.994,
-          "volume": 102419.8958,
-          "quote_volume": 275774426.268935,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 124.36,
-          "change_pct": 3.024,
-          "volume": 1952543.924,
-          "quote_volume": 236558592.03005,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 778.66,
-          "change_pct": 0.658,
-          "volume": 63459.864,
-          "quote_volume": 49054437.94494,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 100,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790506906.2109423,
       "category": "education",
       "symbol": "BTC",
@@ -21340,6 +21293,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793088188.9399862,
+      "category": "binance_news",
+      "symbol": "SYN",
+      "topic": "CZ pitches BNB Chain’s role in AI as BNB Standard rings Nasdaq bell",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 79842.0,
+          "change_pct": -0.216,
+          "volume": 15324.85678,
+          "quote_volume": 1227436190.0220938,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2315.5,
+          "change_pct": -0.1,
+          "volume": 167487.1185,
+          "quote_volume": 388536776.446873,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.07,
+          "change_pct": -0.645,
+          "volume": 1605855.854,
+          "quote_volume": 162158306.03339,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 736.5,
+          "change_pct": -0.255,
+          "volume": 107917.697,
+          "quote_volume": 79961139.49945,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SYN": {
+          "price": 0.19524,
+          "change_pct": 26.796,
+          "volume": 29437201.3,
+          "quote_volume": 5489848.459408,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BANK": {
+          "price": 0.0278,
+          "change_pct": 18.298,
+          "volume": 341526485.3,
+          "quote_volume": 9238249.98794,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
