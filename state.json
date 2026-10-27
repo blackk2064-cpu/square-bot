@@ -21695,6 +21695,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793116942.9140687,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Ark Invest buys $5.2 million of Circle shares, sells $15.9 million of its own Bitcoin ETF as BTC grinds lower",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80579.95,
+          "change_pct": 0.201,
+          "volume": 12708.43882,
+          "quote_volume": 1017580125.1515918,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2347.54,
+          "change_pct": 0.847,
+          "volume": 162375.3353,
+          "quote_volume": 377088305.030565,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.98,
+          "change_pct": -0.913,
+          "volume": 1523768.372,
+          "quote_volume": 153183572.10573,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.46,
+          "change_pct": 0.802,
+          "volume": 109070.978,
+          "quote_volume": 80985010.1174,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.0274,
+          "change_pct": 30.725,
+          "volume": 408956566.4,
+          "quote_volume": 11216461.898075,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SYN": {
+          "price": 0.18182,
+          "change_pct": 14.713,
+          "volume": 37155735.8,
+          "quote_volume": 6951044.565136,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
