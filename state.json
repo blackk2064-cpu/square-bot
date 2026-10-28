@@ -1,198 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790611341.1563594,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis_BTC",
-      "text_hash": "06fbe076f6c82456307ce059258c70ed0785187f92f4fc8b760e3103f652d58f",
-      "text_for_similarity": "unmatched_percent_claim:1.321",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83358.27,
-          "change_pct": -1.321,
-          "volume": 19465.60446,
-          "quote_volume": 1623637337.4322941,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2676.9,
-          "change_pct": -0.48,
-          "volume": 258183.6182,
-          "quote_volume": 688435991.357297,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.68,
-          "change_pct": -2.554,
-          "volume": 2450601.614,
-          "quote_volume": 294195352.99483,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 762.72,
-          "change_pct": -1.54,
-          "volume": 115546.185,
-          "quote_volume": 88751058.44233,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "HBAR": {
-          "price": 0.12584,
-          "change_pct": 34.819,
-          "volume": 1224329875.0,
-          "quote_volume": 137250914.80949,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 221.39,
-          "change_pct": 24.678,
-          "volume": 1241846.703,
-          "quote_volume": 308096806.25039,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790618553.862101,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "Strategy buys 1,665 Bitcoin for $143M as BTC stack hits 847,666",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83851.46,
-          "change_pct": -0.85,
-          "volume": 20824.82337,
-          "quote_volume": 1737225081.1470098,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2693.57,
-          "change_pct": 0.096,
-          "volume": 290452.2249,
-          "quote_volume": 775556397.827227,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.62,
-          "change_pct": -1.999,
-          "volume": 2630320.243,
-          "quote_volume": 315424318.74855,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 769.36,
-          "change_pct": -1.074,
-          "volume": 128387.634,
-          "quote_volume": 98601630.57199,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "HBAR": {
-          "price": 0.12957,
-          "change_pct": 37.899,
-          "volume": 1429343300.0,
-          "quote_volume": 163504341.95999,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 246.63,
-          "change_pct": 33.277,
-          "volume": 1263087.785,
-          "quote_volume": 317144505.33198,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790622144.7197473,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "Strategy buys 1,665 Bitcoin for $143M as BTC stack hits 847,666",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84027.58,
-          "change_pct": -0.948,
-          "volume": 21013.29236,
-          "quote_volume": 1752855178.7474856,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2699.33,
-          "change_pct": 0.024,
-          "volume": 290315.6125,
-          "quote_volume": 775174784.706318,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.95,
-          "change_pct": -2.662,
-          "volume": 2592110.963,
-          "quote_volume": 310596305.62791,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 770.23,
-          "change_pct": -1.142,
-          "volume": 129417.941,
-          "quote_volume": 99383139.4848,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "HBAR": {
-          "price": 0.12742,
-          "change_pct": 33.999,
-          "volume": 1493388152.0,
-          "quote_volume": 171865211.10353,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 246.1,
-          "change_pct": 29.861,
-          "volume": 1271247.681,
-          "quote_volume": 320088705.00435,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790632964.0085275,
       "category": "binance_news",
       "symbol": "NMR",
@@ -22078,6 +21886,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793214171.4753573,
+      "category": "macro_news",
+      "symbol": "SNXXB",
+      "topic": "Mirae Asset Securities issues tokenized notes on Solana",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81012.25,
+          "change_pct": 0.463,
+          "volume": 12398.92052,
+          "quote_volume": 1003662462.3496293,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2355.36,
+          "change_pct": 0.478,
+          "volume": 154939.9144,
+          "quote_volume": 364424011.157421,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.1,
+          "change_pct": 1.129,
+          "volume": 1664965.599,
+          "quote_volume": 169549194.6399,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.57,
+          "change_pct": 0.123,
+          "volume": 119025.321,
+          "quote_volume": 89369259.93736,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BLUR": {
+          "price": 0.00867,
+          "change_pct": 18.443,
+          "volume": 834210528.5,
+          "quote_volume": 7021659.458176,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SNXXB": {
+          "price": 10.33,
+          "change_pct": 15.677,
+          "volume": 551573.32,
+          "quote_volume": 5316984.6118,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
