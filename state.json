@@ -1,134 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790571741.0337074,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83513.99,
-          "change_pct": -0.967,
-          "volume": 12352.37807,
-          "quote_volume": 1042740200.5069592,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2659.84,
-          "change_pct": -1.195,
-          "volume": 192357.8345,
-          "quote_volume": 517034758.430539,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 120.03,
-          "change_pct": -0.083,
-          "volume": 2839639.404,
-          "quote_volume": 347941530.87409,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 771.99,
-          "change_pct": 0.134,
-          "volume": 81628.97,
-          "quote_volume": 63453599.27128,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 260.68,
-          "change_pct": 37.606,
-          "volume": 1034457.015,
-          "quote_volume": 237287101.87902,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ONE": {
-          "price": 0.002684,
-          "change_pct": 20.901,
-          "volume": 6114035300.3,
-          "quote_volume": 15565286.6769233,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790575340.5084155,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83168.66,
-          "change_pct": -1.55,
-          "volume": 13452.18043,
-          "quote_volume": 1133648427.8272967,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2651.65,
-          "change_pct": -1.981,
-          "volume": 199025.5343,
-          "quote_volume": 534329725.05218,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.16,
-          "change_pct": -1.618,
-          "volume": 2888274.809,
-          "quote_volume": 353554324.29256,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 766.15,
-          "change_pct": -0.923,
-          "volume": 88997.084,
-          "quote_volume": 69080761.34391,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 268.17,
-          "change_pct": 56.486,
-          "volume": 1021904.259,
-          "quote_volume": 237220509.03792,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ONE": {
-          "price": 0.002858,
-          "change_pct": 32.56,
-          "volume": 6559812181.7,
-          "quote_volume": 16883299.1862629,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790593343.3637192,
       "category": "macro_news",
       "symbol": "ETH",
@@ -21950,6 +21822,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793178155.0127223,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Bitcoin ETF inflows climb to $176M as BTC rebounds above $80K",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81488.22,
+          "change_pct": 2.025,
+          "volume": 12284.61745,
+          "quote_volume": 990669463.9213544,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2371.44,
+          "change_pct": 2.506,
+          "volume": 210494.0753,
+          "quote_volume": 493713619.144812,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.64,
+          "change_pct": 2.712,
+          "volume": 1404086.662,
+          "quote_volume": 142223676.06573,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.38,
+          "change_pct": 1.814,
+          "volume": 106953.639,
+          "quote_volume": 79859689.4738,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.03189,
+          "change_pct": 38.712,
+          "volume": 820633881.9,
+          "quote_volume": 23593718.184049,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.18472,
+          "change_pct": 22.852,
+          "volume": 39784573.2,
+          "quote_volume": 7034541.047829,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
