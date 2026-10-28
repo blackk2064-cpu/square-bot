@@ -21887,6 +21887,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793181781.9132242,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Bitcoin ETF inflows climb to $176M as BTC rebounds above $80K",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81535.33,
+          "change_pct": 2.169,
+          "volume": 12500.11116,
+          "quote_volume": 1008817691.4598881,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2372.93,
+          "change_pct": 2.537,
+          "volume": 211708.0898,
+          "quote_volume": 496839424.421902,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.97,
+          "change_pct": 3.011,
+          "volume": 1415524.348,
+          "quote_volume": 143528627.36236,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 753.41,
+          "change_pct": 2.181,
+          "volume": 111128.286,
+          "quote_volume": 83043874.02962,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.03214,
+          "change_pct": 36.941,
+          "volume": 848606108.0,
+          "quote_volume": 24534939.339972,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.18625,
+          "change_pct": 15.633,
+          "volume": 40316119.9,
+          "quote_volume": 7169970.953447,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
