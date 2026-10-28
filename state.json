@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790593343.3637192,
-      "category": "macro_news",
-      "symbol": "ETH",
-      "topic": "Scammers steal $2M in ETH as fake GIWA network fools DYORSWAP",
-      "text_hash": "40487bfb94f0c49dfd4b1fbca07caff73c1e3cb1feef03f785d97337bd3fcc27",
-      "text_for_similarity": "Are you monitoring the latest dip",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83051.66,
-          "change_pct": -2.133,
-          "volume": 15463.17319,
-          "quote_volume": 1293645413.315084,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2660.58,
-          "change_pct": -1.825,
-          "volume": 224955.7716,
-          "quote_volume": 600419435.772764,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.67,
-          "change_pct": -4.314,
-          "volume": 2467664.59,
-          "quote_volume": 298934331.01428,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 762.34,
-          "change_pct": -2.12,
-          "volume": 97096.866,
-          "quote_volume": 74926488.41658,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 232.34,
-          "change_pct": 35.562,
-          "volume": 1168320.38,
-          "quote_volume": 280293985.43543,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GLMR": {
-          "price": 0.007728,
-          "change_pct": -24.206,
-          "volume": 727904567.4,
-          "quote_volume": 6257962.736329,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790596937.617536,
       "category": "macro_news",
       "symbol": "BTC",
@@ -21942,6 +21878,70 @@
           "change_pct": 15.633,
           "volume": 40316119.9,
           "quote_volume": 7169970.953447,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793185387.8774946,
+      "category": "analysis",
+      "symbol": "BTC",
+      "topic": "analysis_BTC",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81465.72,
+          "change_pct": 1.832,
+          "volume": 12394.73384,
+          "quote_volume": 1001095678.397998,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2366.9,
+          "change_pct": 2.127,
+          "volume": 204640.4156,
+          "quote_volume": 480785410.026071,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.84,
+          "change_pct": 2.614,
+          "volume": 1350038.498,
+          "quote_volume": 137127699.27321,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 759.93,
+          "change_pct": 2.649,
+          "volume": 120038.422,
+          "quote_volume": 89869669.0195,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.03156,
+          "change_pct": 33.956,
+          "volume": 891846160.4,
+          "quote_volume": 25969144.720385,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.20098,
+          "change_pct": 26.164,
+          "volume": 42444491.7,
+          "quote_volume": 7596490.862905,
           "funding_rate": null,
           "open_interest": null
         }
