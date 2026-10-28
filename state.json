@@ -1,134 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790553716.0025518,
-      "category": "analysis",
-      "symbol": "QNT",
-      "topic": "analysis_QNT",
-      "text_hash": "754af523a5628c85d70de11915c58528b09df57bb52b73134feda2629406f263",
-      "text_for_similarity": "QNT price surged 87.244% to $284.76, yet 24h volume sits at just 1013801.336—defying the usual rally confirmation pattern.\n\nThis decoupling suggests smart money is accumulating quietly, not retail chasing momentum. #QNT #trading $QNT",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84460.01,
-          "change_pct": 0.02,
-          "volume": 9607.0505,
-          "quote_volume": 813294101.4038911,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2688.4,
-          "change_pct": -0.289,
-          "volume": 153498.9574,
-          "quote_volume": 414338661.566683,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.95,
-          "change_pct": 0.445,
-          "volume": 2598185.089,
-          "quote_volume": 318777394.11231,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 778.6,
-          "change_pct": 0.663,
-          "volume": 64611.757,
-          "quote_volume": 50204618.54335,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 284.76,
-          "change_pct": 87.244,
-          "volume": 1013801.336,
-          "quote_volume": 210812678.36285,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GRT": {
-          "price": 0.03583,
-          "change_pct": 29.584,
-          "volume": 265640222.0,
-          "quote_volume": 8683986.96319,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 85,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790557348.2225254,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest",
-      "text_hash": "aeb3c471dc5ff1eb58071aa5f5ad291b4403e0ddab8124702787ade9da629055",
-      "text_for_similarity": "2642554.904 in 24h volume has moved through $SOL as the price sits at 121.7.\nThe asset has recorded a modest gain of 0.695% over the past 24 hours.\nWill $SOL break above 125 next, or consolidate back toward 120? 📊\n\n#SOL #trading",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84113.66,
-          "change_pct": -0.228,
-          "volume": 10235.67224,
-          "quote_volume": 866476802.0867928,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2675.47,
-          "change_pct": -0.681,
-          "volume": 162830.1384,
-          "quote_volume": 439387092.283822,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.7,
-          "change_pct": 0.695,
-          "volume": 2642554.904,
-          "quote_volume": 324248580.86294,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 778.62,
-          "change_pct": 0.762,
-          "volume": 72972.514,
-          "quote_volume": 56756024.75404,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 269.58,
-          "change_pct": 68.994,
-          "volume": 1057049.686,
-          "quote_volume": 227283215.53878,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GRT": {
-          "price": 0.03417,
-          "change_pct": 25.856,
-          "volume": 294170575.0,
-          "quote_volume": 9698035.28892,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790571741.0337074,
       "category": "general_news",
       "symbol": "BNB",
@@ -22014,6 +21886,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793163740.4634202,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis_SOL",
+      "text_hash": "8fa9f213c7a47c4ee8503e53138069f3905401fdc8b11418aeda53e8cdc3adbc",
+      "text_for_similarity": "$SOL is holding gains at 102.01 with a 1.898% rise, but 24h volume sits at just 1321209.525.\n\nWill this rally push higher from 102.01, or will the modest volume trigger a pullback?\n\n#SOL #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80994.01,
+          "change_pct": 1.568,
+          "volume": 12681.89542,
+          "quote_volume": 1020213359.7270898,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2355.6,
+          "change_pct": 1.855,
+          "volume": 210746.1361,
+          "quote_volume": 493008321.00371,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.01,
+          "change_pct": 1.898,
+          "volume": 1321209.525,
+          "quote_volume": 133117038.29337,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 746.51,
+          "change_pct": 1.253,
+          "volume": 108828.38,
+          "quote_volume": 81071908.6706,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.0279,
+          "change_pct": 26.073,
+          "volume": 714928918.1,
+          "quote_volume": 20350153.307006,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "牛来": {
+          "price": 0.06228,
+          "change_pct": 15.248,
+          "volume": 86348181.0,
+          "quote_volume": 5095398.08881,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
