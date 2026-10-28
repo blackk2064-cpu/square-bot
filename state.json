@@ -21951,6 +21951,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793196134.7639136,
+      "category": "analysis",
+      "symbol": "INIT",
+      "topic": "analysis_INIT",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80692.01,
+          "change_pct": 0.839,
+          "volume": 12700.79093,
+          "quote_volume": 1027017731.012151,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2334.28,
+          "change_pct": 0.573,
+          "volume": 202705.6291,
+          "quote_volume": 476759276.039227,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.06,
+          "change_pct": 0.929,
+          "volume": 1378838.205,
+          "quote_volume": 140307593.7685,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 750.09,
+          "change_pct": 1.094,
+          "volume": 133139.947,
+          "quote_volume": 99957525.76962,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.22208,
+          "change_pct": 35.349,
+          "volume": 67005099.4,
+          "quote_volume": 13275378.376387,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.03118,
+          "change_pct": 20.2,
+          "volume": 874682387.1,
+          "quote_volume": 25826831.647982,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
