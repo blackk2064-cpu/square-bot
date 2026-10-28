@@ -22015,6 +22015,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793221361.539643,
+      "category": "analysis",
+      "symbol": "BLUR",
+      "topic": "analysis_BLUR",
+      "text_hash": "2b9eac0dfd44a9a10936e70e0f61f021ccd591b1025f2b8ecfa26ff5b0a9d9ad",
+      "text_for_similarity": "$BLUR is trading at $0.0088 with a +20.219% 24h surge — will this momentum continue?\nWith $913.66 million in trading volume, strong buyer interest is confirmed today.\nReady to dive into NFT market shifts, or prefer staying focused on mainstream coins?",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81287.16,
+          "change_pct": 0.607,
+          "volume": 13199.54391,
+          "quote_volume": 1069314083.3323056,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2358.72,
+          "change_pct": 0.592,
+          "volume": 173303.1657,
+          "quote_volume": 408093381.216268,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.43,
+          "change_pct": 1.366,
+          "volume": 1833962.836,
+          "quote_volume": 187039168.73546,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 755.12,
+          "change_pct": 1.009,
+          "volume": 122936.372,
+          "quote_volume": 92339455.55773,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.21503,
+          "change_pct": 20.769,
+          "volume": 92319074.7,
+          "quote_volume": 19228003.208574,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BLUR": {
+          "price": 0.0088,
+          "change_pct": 20.219,
+          "volume": 913661679.7,
+          "quote_volume": 7724805.768607,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
