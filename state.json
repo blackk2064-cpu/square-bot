@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790632964.0085275,
-      "category": "binance_news",
-      "symbol": "NMR",
-      "topic": "Strategy buys 1,665 Bitcoin for $143M as BTC stack hits 847,666",
-      "text_hash": "e567e87984a9c8f4497deaf0fe4bf174e0a7375fbcc6b3814717db1a78bf6f73",
-      "text_for_similarity": "You are staring at $NMR surging 37.661% in a single day, wondering if it is time to take profit.\n\nThe token is currently priced at 13.89 with a 24-hour volume reaching 1099665.74. 📈\n\nAre you locking in gains now or holding for another push?\n\n#trading #crypto",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83210.01,
-          "change_pct": -1.81,
-          "volume": 21344.53617,
-          "quote_volume": 1779705196.2677195,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2673.52,
-          "change_pct": -0.474,
-          "volume": 297136.7449,
-          "quote_volume": 793326543.189151,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.69,
-          "change_pct": -4.309,
-          "volume": 2635208.689,
-          "quote_volume": 314930411.57134,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 761.56,
-          "change_pct": -2.38,
-          "volume": 131711.555,
-          "quote_volume": 101062580.10738,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NMR": {
-          "price": 13.89,
-          "change_pct": 37.661,
-          "volume": 1099665.74,
-          "quote_volume": 12462930.6619,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "HBAR": {
-          "price": 0.12149,
-          "change_pct": 27.898,
-          "volume": 1672487866.0,
-          "quote_volume": 194232249.66234,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790640157.6719718,
       "category": "analysis",
       "symbol": "ETH",
@@ -22078,6 +22014,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793224964.095358,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Bitcoin Treasury Datavault AI Says It Can’t Access Its BTC, Stock Tanks",
+      "text_hash": "fcdf52a32a8fa58d429a7c4e5dc559c59ad8ba80252848f589f804da7f58080b",
+      "text_for_similarity": "$SOL is trading at $102.67, breaking above the $100 round level with a 1.322% gain.\n24‑hour volume sits at 1,848,738.86.\nDo you think it will hold above $100 or slip lower? #trading #SOL",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 81346.74,
+          "change_pct": 0.552,
+          "volume": 13026.8232,
+          "quote_volume": 1055474683.4306805,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2363.83,
+          "change_pct": 0.574,
+          "volume": 173703.0378,
+          "quote_volume": 409101431.691908,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 102.67,
+          "change_pct": 1.322,
+          "volume": 1848738.863,
+          "quote_volume": 188618910.37179,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 757.66,
+          "change_pct": 1.498,
+          "volume": 122264.734,
+          "quote_volume": 91862074.51981,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.21306,
+          "change_pct": 21.478,
+          "volume": 91753583.0,
+          "quote_volume": 19189146.116722,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BLUR": {
+          "price": 0.00861,
+          "change_pct": 17.302,
+          "volume": 931159369.5,
+          "quote_volume": 7878498.474208,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
