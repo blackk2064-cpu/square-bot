@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790600555.4249544,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Strategy buys 1,665 Bitcoin for $143M as BTC stack hits 847,666",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83482.01,
-          "change_pct": -1.496,
-          "volume": 16955.41133,
-          "quote_volume": 1416941265.7281468,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2687.36,
-          "change_pct": -0.686,
-          "volume": 245076.5271,
-          "quote_volume": 654001489.739483,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.85,
-          "change_pct": -2.743,
-          "volume": 2604110.406,
-          "quote_volume": 314603084.14668,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 768.68,
-          "change_pct": -1.45,
-          "volume": 100860.452,
-          "quote_volume": 77715862.24405,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 233.92,
-          "change_pct": 45.509,
-          "volume": 1238874.104,
-          "quote_volume": 301378859.71414,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "HBAR": {
-          "price": 0.11917,
-          "change_pct": 26.413,
-          "volume": 959326477.0,
-          "quote_volume": 104928707.21253,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790604154.441468,
       "category": "general_news",
       "symbol": "BNB",
@@ -21950,6 +21886,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793192592.7162316,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Mirae Asset Securities issues tokenized notes on Solana",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80760.51,
+          "change_pct": 0.491,
+          "volume": 12432.94133,
+          "quote_volume": 1005095913.7700871,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2340.89,
+          "change_pct": 0.242,
+          "volume": 202557.6855,
+          "quote_volume": 476343161.967849,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.6,
+          "change_pct": 0.664,
+          "volume": 1364649.209,
+          "quote_volume": 138810872.32437,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 754.98,
+          "change_pct": 1.626,
+          "volume": 131319.573,
+          "quote_volume": 98548761.53117,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.24844,
+          "change_pct": 48.048,
+          "volume": 60868815.9,
+          "quote_volume": 11733316.012403,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.03042,
+          "change_pct": 20.095,
+          "volume": 919500933.8,
+          "quote_volume": 26948662.753984,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
