@@ -22015,6 +22015,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793203334.1072652,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "Mirae Asset Securities issues tokenized notes on Solana",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80553.13,
+          "change_pct": -0.033,
+          "volume": 11795.30181,
+          "quote_volume": 954419449.8079925,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2334.2,
+          "change_pct": -0.568,
+          "volume": 186347.3754,
+          "quote_volume": 438396126.531854,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.02,
+          "change_pct": 0.03,
+          "volume": 1346615.242,
+          "quote_volume": 137086100.74968,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 749.35,
+          "change_pct": -0.149,
+          "volume": 119674.452,
+          "quote_volume": 89876761.385,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.19398,
+          "change_pct": 17.649,
+          "volume": 84598380.8,
+          "quote_volume": 17092435.451228,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BLUR": {
+          "price": 0.00829,
+          "change_pct": 13.406,
+          "volume": 666187120.1,
+          "quote_volume": 5553276.650622,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
