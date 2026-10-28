@@ -21951,6 +21951,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793217759.3916526,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Strategy shareholders approve daily dividends for four preferred stocks",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81667.66,
+          "change_pct": 1.047,
+          "volume": 12907.92785,
+          "quote_volume": 1045305013.513411,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2376.66,
+          "change_pct": 1.209,
+          "volume": 159946.0822,
+          "quote_volume": 376365096.72144,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 103.22,
+          "change_pct": 2.016,
+          "volume": 1716225.693,
+          "quote_volume": 174865557.25753,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 755.91,
+          "change_pct": 0.909,
+          "volume": 120547.004,
+          "quote_volume": 90522830.43944,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BLUR": {
+          "price": 0.00872,
+          "change_pct": 18.963,
+          "volume": 868076140.3,
+          "quote_volume": 7321262.010008,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 13.84,
+          "change_pct": 16.793,
+          "volume": 1119504.83,
+          "quote_volume": 14584829.8431,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
