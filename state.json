@@ -22079,6 +22079,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793276013.4375021,
+      "category": "general_news",
+      "symbol": "HAEDAL",
+      "topic": "Your fridge could one day stake Ether, launch memecoins: CFTC chair",
+      "text_hash": "29a6871f1b1eab2cb371c0129ac942042488ed4d9652a2e2b16dd01ed0d8a5a8",
+      "text_for_similarity": "-13.41% $HAEDAL is trading at 0.02499.\nVolume reached 249492619.1 in the last 24 hours.\n#crypto #trading Are you buying the dip or waiting? 🚀",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80186.86,
+          "change_pct": -1.42,
+          "volume": 14198.59015,
+          "quote_volume": 1145021541.4874184,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2326.17,
+          "change_pct": -1.5,
+          "volume": 209132.6081,
+          "quote_volume": 488706720.864096,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.4,
+          "change_pct": -2.268,
+          "volume": 2001386.403,
+          "quote_volume": 202624325.68227,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 740.56,
+          "change_pct": -2.692,
+          "volume": 269333.413,
+          "quote_volume": 201948461.95997,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.02499,
+          "change_pct": -13.41,
+          "volume": 249492619.1,
+          "quote_volume": 6929001.736263,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NIL": {
+          "price": 0.07284,
+          "change_pct": -11.88,
+          "volume": 75439712.2,
+          "quote_volume": 5814150.902362,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
