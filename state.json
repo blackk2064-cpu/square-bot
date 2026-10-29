@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790722936.97883,
-      "category": "general_news",
-      "symbol": "SOL",
-      "topic": "Bitwise launches first US spot NEAR ETF after token’s recent surge",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83613.91,
-          "change_pct": 0.084,
-          "volume": 13347.75631,
-          "quote_volume": 1116482808.9011233,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2681.93,
-          "change_pct": -0.218,
-          "volume": 315440.4785,
-          "quote_volume": 852541075.960682,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.11,
-          "change_pct": 0.405,
-          "volume": 2428763.069,
-          "quote_volume": 289450636.45035,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 758.95,
-          "change_pct": -0.449,
-          "volume": 127817.585,
-          "quote_volume": 97181933.00093,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "PHA": {
-          "price": 0.075,
-          "change_pct": 25.0,
-          "volume": 175499300.0,
-          "quote_volume": 11707521.5021,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 1.203,
-          "change_pct": 24.793,
-          "volume": 5565649.332,
-          "quote_volume": 6316526.293014,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790726522.1395872,
       "category": "analysis",
       "symbol": "MOVR",
@@ -22334,6 +22270,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793314974.004531,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Binance hit by $5.8B hack as Tether and Circle freeze billions",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78996.02,
+          "change_pct": -2.74,
+          "volume": 22061.89761,
+          "quote_volume": 1767660538.8097613,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2272.71,
+          "change_pct": -3.616,
+          "volume": 380530.4015,
+          "quote_volume": 877704805.920831,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 97.07,
+          "change_pct": -5.214,
+          "volume": 3304389.224,
+          "quote_volume": 327590549.20144,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 706.86,
+          "change_pct": -6.54,
+          "volume": 535890.071,
+          "quote_volume": 391067976.40158,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0599,
+          "change_pct": 53.985,
+          "volume": 731611202.1,
+          "quote_volume": 35549746.15791,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTCB": {
+          "price": 71.25,
+          "change_pct": -23.658,
+          "volume": 256532.786,
+          "quote_volume": 20962319.16945,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
