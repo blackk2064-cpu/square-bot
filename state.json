@@ -1,134 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790647368.398304,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Strive Buys $94.5 Million in Bitcoin, Pushing Holdings Past 27,000 BTC",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83087.61,
-          "change_pct": -0.664,
-          "volume": 20455.08077,
-          "quote_volume": 1703008828.0470798,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2666.48,
-          "change_pct": 0.406,
-          "volume": 277153.0895,
-          "quote_volume": 739921557.129263,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.25,
-          "change_pct": -2.762,
-          "volume": 2527841.2,
-          "quote_volume": 300587748.75988,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 757.98,
-          "change_pct": -2.009,
-          "volume": 132766.748,
-          "quote_volume": 101485233.05985,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NMR": {
-          "price": 14.41,
-          "change_pct": 42.11,
-          "volume": 1620227.32,
-          "quote_volume": 20163332.6265,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MARSCOIN": {
-          "price": 0.1561,
-          "change_pct": 31.397,
-          "volume": 430830307.4,
-          "quote_volume": 63197258.39706,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790650943.9094186,
-      "category": "macro_news",
-      "symbol": "MARSCOIN",
-      "topic": "Strive Buys $94.5 Million in Bitcoin, Pushing Holdings Past 27,000 BTC",
-      "text_hash": "76005def99417839d04c70fda7e4376181da5210f8c85c0c8616e98bda750d6e",
-      "text_for_similarity": "$MARSCOIN has surged past the $\n0.15 mark, currently trading at $0.1536 after a massive 28.859% gain over the last 24 hours. The token has witnessed substantial market activity, registering a 24-hour trading volume of $437,344,890.10. Keep a close watch on momentum as high volume continues to drive price action. #MARSCOIN #crypto",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 82966.5,
-          "change_pct": -0.639,
-          "volume": 20038.24042,
-          "quote_volume": 1667922926.845774,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2657.36,
-          "change_pct": 0.051,
-          "volume": 273077.985,
-          "quote_volume": 729136837.443227,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 116.95,
-          "change_pct": -2.785,
-          "volume": 2423836.106,
-          "quote_volume": 287846143.61564,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 756.33,
-          "change_pct": -2.129,
-          "volume": 133158.774,
-          "quote_volume": 101702191.17157,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NMR": {
-          "price": 14.48,
-          "change_pct": 41.406,
-          "volume": 1681959.81,
-          "quote_volume": 21086535.7341,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MARSCOIN": {
-          "price": 0.1536,
-          "change_pct": 28.859,
-          "volume": 437344890.1,
-          "quote_volume": 64370011.55349,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 85,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790661747.6038518,
       "category": "analysis",
       "symbol": "HBAR",
@@ -22142,6 +22014,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793250180.336558,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Your fridge could one day stake Ether, launch memecoins: CFTC chair",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80266.98,
+          "change_pct": -0.895,
+          "volume": 13914.2796,
+          "quote_volume": 1125617868.8436468,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2321.85,
+          "change_pct": -1.41,
+          "volume": 205260.1384,
+          "quote_volume": 481531816.235257,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.18,
+          "change_pct": -1.775,
+          "volume": 2053542.194,
+          "quote_volume": 208909200.60084,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 755.27,
+          "change_pct": 1.206,
+          "volume": 149354.435,
+          "quote_volume": 112436590.17957,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.21732,
+          "change_pct": 23.751,
+          "volume": 103845643.4,
+          "quote_volume": 22227687.340927,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BLUR": {
+          "price": 0.00862,
+          "change_pct": 15.705,
+          "volume": 1144425447.2,
+          "quote_volume": 9713903.610536,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
