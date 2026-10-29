@@ -22143,6 +22143,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793286182.3516526,
+      "category": "binance_news",
+      "symbol": "BNB",
+      "topic": "Private, fast USDT is coming to Bitcoin. Can it compete with Ethereum and Tron?",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 81234.46,
+          "change_pct": 0.733,
+          "volume": 14882.39354,
+          "quote_volume": 1199883273.9140422,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2345.47,
+          "change_pct": 0.473,
+          "volume": 213138.3321,
+          "quote_volume": 497877430.540052,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 101.8,
+          "change_pct": 0.812,
+          "volume": 2090216.516,
+          "quote_volume": 211504324.39806,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 748.39,
+          "change_pct": -0.156,
+          "volume": 293018.969,
+          "quote_volume": 219332230.70494,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0325,
+          "change_pct": -15.803,
+          "volume": 180277389.5,
+          "quote_volume": 6051456.23571,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.0267,
+          "change_pct": -14.805,
+          "volume": 286285661.1,
+          "quote_volume": 8032008.231185,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
