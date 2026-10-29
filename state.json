@@ -22271,6 +22271,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793304244.4739568,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Polygon Extends Its Stablecoin Payments Infrastructure to Solana",
+      "text_hash": "b89e6bddca9be7257298de3bfb25460c2bae0b9f3b65bcf99d79f350d0566047",
+      "text_for_similarity": "unmatched_percent_claim:1.043",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80816.0,
+          "change_pct": -1.043,
+          "volume": 15444.08191,
+          "quote_volume": 1246737653.5825949,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2334.93,
+          "change_pct": -1.761,
+          "volume": 238875.8572,
+          "quote_volume": 558261244.353121,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 99.82,
+          "change_pct": -3.285,
+          "volume": 2008929.213,
+          "quote_volume": 203160503.37948,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 743.14,
+          "change_pct": -1.689,
+          "volume": 300746.227,
+          "quote_volume": 225093950.32571,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0612,
+          "change_pct": 56.122,
+          "volume": 661713787.7,
+          "quote_volume": 31409609.38261,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.195,
+          "change_pct": 16.697,
+          "volume": 55903723.9,
+          "quote_volume": 11237868.40453,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
