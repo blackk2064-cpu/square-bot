@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790715755.5182264,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis_BTC",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83614.69,
-          "change_pct": 0.014,
-          "volume": 13204.84439,
-          "quote_volume": 1104458053.4167137,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2689.22,
-          "change_pct": 0.122,
-          "volume": 305251.7613,
-          "quote_volume": 825169799.907604,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.04,
-          "change_pct": 0.059,
-          "volume": 2466982.218,
-          "quote_volume": 293854246.68742,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 758.0,
-          "change_pct": -1.029,
-          "volume": 128682.029,
-          "quote_volume": 97858848.01304,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "0G": {
-          "price": 0.3308,
-          "change_pct": 19.942,
-          "volume": 97266378.18,
-          "quote_volume": 30740453.322569,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NIGHT": {
-          "price": 0.03249,
-          "change_pct": 16.119,
-          "volume": 278731705.0,
-          "quote_volume": 8518910.9606,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790719331.0233629,
       "category": "binance_news",
       "symbol": "BNB",
@@ -22334,6 +22270,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793307787.754634,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis_SOL",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78772.39,
+          "change_pct": -3.097,
+          "volume": 18844.32172,
+          "quote_volume": 1515154208.2028737,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2257.42,
+          "change_pct": -4.306,
+          "volume": 303883.875,
+          "quote_volume": 704750505.490562,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.19,
+          "change_pct": -6.092,
+          "volume": 2655993.939,
+          "quote_volume": 265294179.37639,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 697.7,
+          "change_pct": -7.604,
+          "volume": 434094.812,
+          "quote_volume": 319433181.08221,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0574,
+          "change_pct": 45.316,
+          "volume": 693854459.3,
+          "quote_volume": 33305753.88898,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTCB": {
+          "price": 76.56,
+          "change_pct": -18.118,
+          "volume": 197759.325,
+          "quote_volume": 16880179.27125,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
