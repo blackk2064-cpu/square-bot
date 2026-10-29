@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790665367.4484367,
-      "category": "analysis",
-      "symbol": "BNB",
-      "topic": "analysis_BNB",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "text_for_similarity": "no_ai_output",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 83926.82,
-          "change_pct": 0.91,
-          "volume": 18455.76132,
-          "quote_volume": 1536551462.4549973,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2703.38,
-          "change_pct": 2.023,
-          "volume": 266770.1276,
-          "quote_volume": 713522908.655238,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.1,
-          "change_pct": 0.278,
-          "volume": 2327114.979,
-          "quote_volume": 275993171.79852,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 765.85,
-          "change_pct": 0.234,
-          "volume": 127319.23,
-          "quote_volume": 97090681.21624,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NMR": {
-          "price": 12.88,
-          "change_pct": 28.159,
-          "volume": 2058602.97,
-          "quote_volume": 26430397.5378,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "HBAR": {
-          "price": 0.11724,
-          "change_pct": 20.0,
-          "volume": 1866518193.0,
-          "quote_volume": 220264140.72622,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790668961.5153794,
       "category": "sarcastic",
       "symbol": "BNB",
@@ -22070,6 +22006,70 @@
           "change_pct": 14.458,
           "volume": 1160068564.8,
           "quote_volume": 9849432.208333,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793257392.8223236,
+      "category": "binance_news",
+      "symbol": "NIL",
+      "topic": "Your fridge could one day stake Ether, launch memecoins: CFTC chair",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 79982.32,
+          "change_pct": -1.12,
+          "volume": 14199.83413,
+          "quote_volume": 1148207244.2413366,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2314.55,
+          "change_pct": -1.631,
+          "volume": 211250.8666,
+          "quote_volume": 495238622.063804,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.13,
+          "change_pct": -1.891,
+          "volume": 2124110.413,
+          "quote_volume": 215867244.10251,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 752.76,
+          "change_pct": 1.081,
+          "volume": 168809.825,
+          "quote_volume": 127169995.38294,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.21205,
+          "change_pct": 21.994,
+          "volume": 111526470.5,
+          "quote_volume": 23920846.839707,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NIL": {
+          "price": 0.07353,
+          "change_pct": -12.651,
+          "volume": 75904195.7,
+          "quote_volume": 6022939.157232,
           "funding_rate": null,
           "open_interest": null
         }
