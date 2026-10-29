@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790690551.8042426,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "text_for_similarity": "no_ai_output",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 84240.0,
-          "change_pct": 0.822,
-          "volume": 14715.3879,
-          "quote_volume": 1230638006.2914371,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2729.06,
-          "change_pct": 1.531,
-          "volume": 312995.0328,
-          "quote_volume": 845409759.158645,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.11,
-          "change_pct": 1.169,
-          "volume": 2378693.954,
-          "quote_volume": 283277178.43968,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 765.21,
-          "change_pct": -0.12,
-          "volume": 129122.17,
-          "quote_volume": 98565952.45652,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "0G": {
-          "price": 0.3456,
-          "change_pct": 38.462,
-          "volume": 83476671.85,
-          "quote_volume": 25457573.259368,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "CRV": {
-          "price": 0.3991,
-          "change_pct": 20.793,
-          "volume": 49739202.8,
-          "quote_volume": 18860625.76927,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790694211.112152,
       "category": "general_news",
       "symbol": "BNB",
@@ -22139,6 +22075,70 @@
         }
       },
       "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793282592.1793091,
+      "category": "binance_news",
+      "symbol": "BMT",
+      "topic": "Private, fast USDT is coming to Bitcoin. Can it compete with Ethereum and Tron?",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80338.0,
+          "change_pct": -0.441,
+          "volume": 13848.8221,
+          "quote_volume": 1115957490.743016,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2327.81,
+          "change_pct": -0.278,
+          "volume": 202441.6061,
+          "quote_volume": 472781094.572709,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.75,
+          "change_pct": -0.307,
+          "volume": 1975095.88,
+          "quote_volume": 199777723.06772,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 745.11,
+          "change_pct": -0.668,
+          "volume": 289118.821,
+          "quote_volume": 216443398.63991,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.02528,
+          "change_pct": -18.74,
+          "volume": 215539625.8,
+          "quote_volume": 5849744.9885,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02603,
+          "change_pct": -14.544,
+          "volume": 348352128.7,
+          "quote_volume": 10034112.834468,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
       "published": false,
       "template_id": null,
       "hook_type": "direct_question",
