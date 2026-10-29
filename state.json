@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790686943.7343664,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis_BTC",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "text_for_similarity": "no_ai_output",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 84344.01,
-          "change_pct": 1.033,
-          "volume": 15027.60502,
-          "quote_volume": 1256127589.551781,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2737.72,
-          "change_pct": 1.881,
-          "volume": 307639.8008,
-          "quote_volume": 830257843.180015,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 120.91,
-          "change_pct": 0.884,
-          "volume": 2324186.476,
-          "quote_volume": 276520720.57544,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 765.66,
-          "change_pct": -0.392,
-          "volume": 131728.704,
-          "quote_volume": 100566792.70492,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "0G": {
-          "price": 0.35,
-          "change_pct": 39.276,
-          "volume": 77236552.07,
-          "quote_volume": 23288506.081738,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "CELO": {
-          "price": 0.11271,
-          "change_pct": 22.698,
-          "volume": 73885545.4,
-          "quote_volume": 7983572.643212,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790690551.8042426,
       "category": "macro_news",
       "symbol": "SOL",
@@ -22142,6 +22078,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793278960.9984488,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Polygon Extends Its Stablecoin Payments Infrastructure to Solana",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80110.01,
+          "change_pct": -0.805,
+          "volume": 13951.63573,
+          "quote_volume": 1124667376.8496802,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2325.0,
+          "change_pct": -0.669,
+          "volume": 203114.4858,
+          "quote_volume": 474457484.09111,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.65,
+          "change_pct": -0.935,
+          "volume": 1978978.338,
+          "quote_volume": 200228653.10337,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 741.78,
+          "change_pct": -1.739,
+          "volume": 280515.069,
+          "quote_volume": 210103902.76265,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.0251,
+          "change_pct": -17.488,
+          "volume": 231248201.7,
+          "quote_volume": 6372238.982277,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NIL": {
+          "price": 0.07308,
+          "change_pct": -12.258,
+          "volume": 73423696.9,
+          "quote_volume": 5631006.952763,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
