@@ -22207,6 +22207,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793300539.4525533,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Polygon Extends Its Stablecoin Payments Infrastructure to Solana",
+      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
+      "text_for_similarity": "User Safety: safe",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80878.01,
+          "change_pct": -0.166,
+          "volume": 15348.7066,
+          "quote_volume": 1239423947.6781514,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2331.76,
+          "change_pct": -0.986,
+          "volume": 234892.3238,
+          "quote_volume": 549272919.953513,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 100.63,
+          "change_pct": -1.44,
+          "volume": 2004997.428,
+          "quote_volume": 203000452.69061,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 744.62,
+          "change_pct": -0.793,
+          "volume": 301447.059,
+          "quote_volume": 225646690.33596,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0573,
+          "change_pct": 48.062,
+          "volume": 591700304.7,
+          "quote_volume": 27282960.66821,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.2024,
+          "change_pct": 22.37,
+          "volume": 53012363.8,
+          "quote_volume": 10656147.48493,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 75,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
