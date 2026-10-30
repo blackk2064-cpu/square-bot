@@ -23039,6 +23039,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793401360.8293042,
+      "category": "binance_news",
+      "symbol": "BEAMX",
+      "topic": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76962.0,
+          "change_pct": -2.586,
+          "volume": 26024.8572,
+          "quote_volume": 2018999465.00566,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2236.35,
+          "change_pct": -1.615,
+          "volume": 495735.1563,
+          "quote_volume": 1105898746.909143,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.89,
+          "change_pct": -1.216,
+          "volume": 3467676.022,
+          "quote_volume": 331309805.82177,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 700.67,
+          "change_pct": -0.898,
+          "volume": 388155.11,
+          "quote_volume": 272779082.13428,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.00222,
+          "change_pct": 55.245,
+          "volume": 4913360368.0,
+          "quote_volume": 9456063.52849,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.004564,
+          "change_pct": 36.852,
+          "volume": 5748686926.0,
+          "quote_volume": 25612717.711518,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
