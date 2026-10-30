@@ -22591,6 +22591,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793351016.087785,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78006.0,
+          "change_pct": -2.602,
+          "volume": 32983.92335,
+          "quote_volume": 2604791313.4940915,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2228.44,
+          "change_pct": -3.952,
+          "volume": 567775.4271,
+          "quote_volume": 1287463782.324609,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 97.32,
+          "change_pct": -2.932,
+          "volume": 4733426.698,
+          "quote_volume": 460908986.42608,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 705.53,
+          "change_pct": -6.272,
+          "volume": 683594.163,
+          "quote_volume": 489594553.73776,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 8.49,
+          "change_pct": -52.034,
+          "volume": 1279567.42,
+          "quote_volume": 12264479.9069,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0539,
+          "change_pct": 38.205,
+          "volume": 875738660.7,
+          "quote_volume": 43881847.63991,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
