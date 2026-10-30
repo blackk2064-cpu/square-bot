@@ -22847,6 +22847,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793379728.0522375,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "What is EIP-7702? The Ethereum Upgrade Behind the $6.4B Binance Hack",
+      "text_hash": "9d20dd460dd117e233c619d7ac5254abf1c42b8a824d09d0107c4c5f36c54457",
+      "text_for_similarity": "unmatched_percent_claim:6.6",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77440.8,
+          "change_pct": -4.671,
+          "volume": 33738.06299,
+          "quote_volume": 2641220164.173031,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2240.48,
+          "change_pct": -4.741,
+          "volume": 650761.3014,
+          "quote_volume": 1463891670.524001,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.1,
+          "change_pct": -6.618,
+          "volume": 4801831.259,
+          "quote_volume": 463027335.5935,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 701.72,
+          "change_pct": -6.375,
+          "volume": 618303.537,
+          "quote_volume": 436345593.57364,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 7.2,
+          "change_pct": -59.459,
+          "volume": 2199473.79,
+          "quote_volume": 19441196.7427,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.004879,
+          "change_pct": 42.286,
+          "volume": 5726391403.0,
+          "quote_volume": 24758967.447407,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
