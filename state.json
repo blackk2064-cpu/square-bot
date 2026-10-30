@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790730139.0952961,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Bitwise launches first US spot NEAR ETF after token’s recent surge",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83404.01,
-          "change_pct": 0.342,
-          "volume": 13302.62271,
-          "quote_volume": 1112795005.5618844,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2670.84,
-          "change_pct": -0.173,
-          "volume": 316242.4825,
-          "quote_volume": 854559669.166953,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.82,
-          "change_pct": 0.652,
-          "volume": 2411693.718,
-          "quote_volume": 287452008.70227,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 759.24,
-          "change_pct": -0.126,
-          "volume": 130854.836,
-          "quote_volume": 99469998.63024,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 1.245,
-          "change_pct": 30.366,
-          "volume": 6825259.006,
-          "quote_volume": 7865248.25105,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 272.27,
-          "change_pct": 22.424,
-          "volume": 656337.283,
-          "quote_volume": 165710110.88321,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790733863.8003008,
       "category": "macro_news",
       "symbol": "SOL",
@@ -22398,6 +22334,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793325766.733348,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76836.24,
+          "change_pct": -3.851,
+          "volume": 28507.77439,
+          "quote_volume": 2262836464.2192745,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2195.64,
+          "change_pct": -4.928,
+          "volume": 509257.692,
+          "quote_volume": 1161340387.945305,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.03,
+          "change_pct": -5.611,
+          "volume": 4412746.85,
+          "quote_volume": 431253328.40991,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 703.68,
+          "change_pct": -5.556,
+          "volume": 647192.567,
+          "quote_volume": 466913243.42644,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 9.32,
+          "change_pct": -46.743,
+          "volume": 487460.66,
+          "quote_volume": 5185930.1205,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0567,
+          "change_pct": 45.758,
+          "volume": 806353443.2,
+          "quote_volume": 40017808.58946,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
