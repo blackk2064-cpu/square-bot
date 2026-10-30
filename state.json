@@ -22335,6 +22335,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793332925.46062,
+      "category": "macro_news",
+      "symbol": "PARTI",
+      "topic": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
+      "text_hash": "96e7b90ff45506779f24c74c802c3d0aa58f48f3e05f3adf2e1409b97c1496b3",
+      "text_for_similarity": "unmatched_percent_claim:8",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78174.01,
+          "change_pct": -2.082,
+          "volume": 30552.09567,
+          "quote_volume": 2418505509.496434,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2234.82,
+          "change_pct": -3.189,
+          "volume": 519298.3628,
+          "quote_volume": 1181298385.77601,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 97.15,
+          "change_pct": -2.509,
+          "volume": 4541456.023,
+          "quote_volume": 442914465.92584,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 719.25,
+          "change_pct": -3.688,
+          "volume": 682575.742,
+          "quote_volume": 491573593.18805,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0574,
+          "change_pct": 47.179,
+          "volume": 823982099.8,
+          "quote_volume": 41062346.43419,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 9.54,
+          "change_pct": -45.734,
+          "volume": 569407.69,
+          "quote_volume": 5962720.3391,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
