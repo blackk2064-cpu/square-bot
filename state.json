@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790791340.2923672,
-      "category": "education",
-      "symbol": "ETH",
-      "topic": "education",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "text_for_similarity": "no_ai_output",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 84078.55,
-          "change_pct": 0.973,
-          "volume": 17777.39755,
-          "quote_volume": 1494954018.4553504,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2684.7,
-          "change_pct": 0.15,
-          "volume": 286519.692,
-          "quote_volume": 771621041.414655,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.33,
-          "change_pct": 1.007,
-          "volume": 2648973.03,
-          "quote_volume": 317208804.56052,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 769.72,
-          "change_pct": 2.151,
-          "volume": 128384.42,
-          "quote_volume": 98283213.94797,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 1.746,
-          "change_pct": 62.268,
-          "volume": 28939282.157,
-          "quote_volume": 45905390.314672,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GLMR": {
-          "price": 0.009025,
-          "change_pct": 20.898,
-          "volume": 703940025.4,
-          "quote_volume": 6392993.5769192,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790798535.2750819,
       "category": "general_news",
       "symbol": "BTC",
@@ -22902,6 +22838,70 @@
           "change_pct": 42.286,
           "volume": 5726391403.0,
           "quote_volume": 24758967.447407,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793383383.3713562,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77192.0,
+          "change_pct": -4.576,
+          "volume": 33374.79476,
+          "quote_volume": 2610174175.7120237,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2244.36,
+          "change_pct": -4.171,
+          "volume": 658096.9997,
+          "quote_volume": 1479185599.771792,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.42,
+          "change_pct": -6.644,
+          "volume": 4781817.195,
+          "quote_volume": 460583121.25835,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 699.88,
+          "change_pct": -6.197,
+          "volume": 618545.149,
+          "quote_volume": 436347555.06696,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 6.87,
+          "change_pct": -60.449,
+          "volume": 2256116.87,
+          "quote_volume": 19836254.4055,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.00243,
+          "change_pct": 59.868,
+          "volume": 3782649088.0,
+          "quote_volume": 6677564.3094,
           "funding_rate": null,
           "open_interest": null
         }
