@@ -22527,6 +22527,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793343782.1165347,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis_SOL",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78639.42,
+          "change_pct": -1.679,
+          "volume": 31625.43828,
+          "quote_volume": 2500590095.0100775,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2253.94,
+          "change_pct": -2.619,
+          "volume": 547093.4957,
+          "quote_volume": 1242306747.504299,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 98.25,
+          "change_pct": -1.887,
+          "volume": 4637992.561,
+          "quote_volume": 451833721.14361,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 715.96,
+          "change_pct": -4.889,
+          "volume": 686766.25,
+          "quote_volume": 493396846.23026,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 9.51,
+          "change_pct": -46.782,
+          "volume": 792223.46,
+          "quote_volume": 8116422.8676,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.053,
+          "change_pct": 36.951,
+          "volume": 848191738.9,
+          "quote_volume": 42433291.6192,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
