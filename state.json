@@ -22783,6 +22783,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793376187.681402,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "What is EIP-7702? The Ethereum Upgrade Behind the $6.4B Binance Hack",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77542.0,
+          "change_pct": -5.211,
+          "volume": 34239.48854,
+          "quote_volume": 2684415701.871404,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2226.07,
+          "change_pct": -6.052,
+          "volume": 637040.7063,
+          "quote_volume": 1435083700.891612,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.76,
+          "change_pct": -7.749,
+          "volume": 4852102.683,
+          "quote_volume": 468816731.38945,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 699.77,
+          "change_pct": -6.743,
+          "volume": 620988.641,
+          "quote_volume": 438680897.25838,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 7.36,
+          "change_pct": -59.56,
+          "volume": 2115049.1,
+          "quote_volume": 18839672.3163,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0489,
+          "change_pct": 40.517,
+          "volume": 758772238.3,
+          "quote_volume": 41252416.61843,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
