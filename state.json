@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790798535.2750819,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Introducing The Information Exchange on Solana, Powered by Decrypt and MYR",
-      "text_hash": "f134bed80010124f0d83b5f04313a842746c0496c1a2665e3eaeda5cef8d559c",
-      "text_for_similarity": "$BTC stays above $83,000 as market shows minimal movement.\nThe asset trades at $83646.01 with a 0.089% 24h gain and $18014.43 in volume.\nLow volatility continues — just another quiet session in crypto’s rollercoaster?\n📈 #trading #education",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83646.01,
-          "change_pct": 0.089,
-          "volume": 18014.42858,
-          "quote_volume": 1515022703.829349,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2670.81,
-          "change_pct": -0.676,
-          "volume": 285460.6799,
-          "quote_volume": 768568544.479836,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.42,
-          "change_pct": -1.12,
-          "volume": 2797717.618,
-          "quote_volume": 334654106.20819,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 765.8,
-          "change_pct": 1.396,
-          "volume": 125327.089,
-          "quote_volume": 96022284.00127,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 1.748,
-          "change_pct": 50.172,
-          "volume": 28828372.163,
-          "quote_volume": 46829079.63075,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NIGHT": {
-          "price": 0.03758,
-          "change_pct": 18.325,
-          "volume": 400755301.0,
-          "quote_volume": 14293900.29094,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790805725.323958,
       "category": "macro_news",
       "symbol": "SOL",
@@ -22974,6 +22910,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793390566.7747476,
+      "category": "analysis",
+      "symbol": "SOPH",
+      "topic": "analysis_SOPH",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76910.01,
+          "change_pct": -4.84,
+          "volume": 33445.41922,
+          "quote_volume": 2609698027.822378,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2240.83,
+          "change_pct": -4.049,
+          "volume": 650760.2699,
+          "quote_volume": 1459371666.29493,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.74,
+          "change_pct": -5.089,
+          "volume": 4825342.994,
+          "quote_volume": 463740228.53975,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 700.63,
+          "change_pct": -5.914,
+          "volume": 624843.387,
+          "quote_volume": 440491597.13028,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 7.38,
+          "change_pct": -58.586,
+          "volume": 2422396.27,
+          "quote_volume": 20972911.721,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.00233,
+          "change_pct": 57.432,
+          "volume": 4469534479.0,
+          "quote_volume": 8333451.2721,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
