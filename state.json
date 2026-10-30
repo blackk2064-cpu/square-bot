@@ -22911,6 +22911,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793386956.7458797,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "What is EIP-7702? The Ethereum Upgrade Behind the $6.4B Binance Hack",
+      "text_hash": "97e7583ac6a2075abe30311d943e450bc9ec0629839dd77088312657ab50ff95",
+      "text_for_similarity": "Where is Ethereum heading after its recent drop?\n$ETH trades at $2231.59 after falling -4.296% with 24h volume hitting 654324.8009.\nAre buyers stepping in here or waiting for lower levels? #ETH #trading",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 76603.64,
+          "change_pct": -5.285,
+          "volume": 33924.04455,
+          "quote_volume": 2650994379.138404,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2231.59,
+          "change_pct": -4.296,
+          "volume": 654324.8009,
+          "quote_volume": 1468957985.365047,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.21,
+          "change_pct": -6.389,
+          "volume": 4847521.734,
+          "quote_volume": 466458216.74785,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 697.59,
+          "change_pct": -6.316,
+          "volume": 623543.902,
+          "quote_volume": 439697577.71793,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 6.75,
+          "change_pct": -61.005,
+          "volume": 2353952.08,
+          "quote_volume": 20500728.9422,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.00235,
+          "change_pct": 57.718,
+          "volume": 4239562491.0,
+          "quote_volume": 7782090.1884,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
