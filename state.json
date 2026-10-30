@@ -1,134 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790733863.8003008,
-      "category": "macro_news",
-      "symbol": "SOL",
-      "topic": "Bitwise launches first US spot NEAR ETF after token’s recent surge",
-      "text_hash": "14d516c0fe0dffe60aeff2c4915018b822eac03c4bd471fe978ad8b026fe3f03",
-      "text_for_similarity": "$SOL is hovering\n at $119.48 as traders decide whether to take profit after a 1.911% bump.\nVolume sits at 2317912.09, keeping the current range tight for both sides.\nAre you holding through this level or setting tight stops?\n#SOL #trading",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83438.01,
-          "change_pct": 0.422,
-          "volume": 12981.66122,
-          "quote_volume": 1086346007.604495,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2672.1,
-          "change_pct": 0.21,
-          "volume": 312683.947,
-          "quote_volume": 845130890.683057,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.48,
-          "change_pct": 1.911,
-          "volume": 2317912.09,
-          "quote_volume": 276604320.0619,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 760.02,
-          "change_pct": 0.266,
-          "volume": 124709.674,
-          "quote_volume": 94827681.43122,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 283.6,
-          "change_pct": 36.787,
-          "volume": 652019.631,
-          "quote_volume": 166312903.31417,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 1.239,
-          "change_pct": 30.696,
-          "volume": 7339492.751,
-          "quote_volume": 8524874.565533,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 80,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790737332.6695302,
-      "category": "analysis",
-      "symbol": "BTC",
-      "topic": "analysis_BTC",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "text_for_similarity": "User Safety: safe",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83408.77,
-          "change_pct": 0.533,
-          "volume": 12874.43434,
-          "quote_volume": 1077592773.2034266,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2675.49,
-          "change_pct": 0.682,
-          "volume": 310931.5684,
-          "quote_volume": 840548701.203858,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.77,
-          "change_pct": 2.403,
-          "volume": 2321234.313,
-          "quote_volume": 277170942.68082,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 762.9,
-          "change_pct": 0.869,
-          "volume": 122284.976,
-          "quote_volume": 93010121.87538,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 1.238,
-          "change_pct": 31.842,
-          "volume": 7657988.167,
-          "quote_volume": 8923070.105461,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "QNT": {
-          "price": 282.51,
-          "change_pct": 25.515,
-          "volume": 696322.84,
-          "quote_volume": 181149550.35287,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790755333.7665706,
       "category": "general_news",
       "symbol": "BTC",
@@ -22398,6 +22270,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793329346.6678512,
+      "category": "education",
+      "symbol": "PARTI",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77397.73,
+          "change_pct": -3.24,
+          "volume": 29688.02481,
+          "quote_volume": 2352042652.7441554,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2210.49,
+          "change_pct": -4.434,
+          "volume": 505829.9792,
+          "quote_volume": 1151759963.040178,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.45,
+          "change_pct": -4.664,
+          "volume": 4431365.245,
+          "quote_volume": 432435254.81196,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 711.26,
+          "change_pct": -5.205,
+          "volume": 669283.117,
+          "quote_volume": 482287923.09165,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PARTI": {
+          "price": 0.0572,
+          "change_pct": 47.044,
+          "volume": 815624087.5,
+          "quote_volume": 40573430.79586,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INTWB": {
+          "price": 9.55,
+          "change_pct": -45.615,
+          "volume": 503162.41,
+          "quote_volume": 5331269.1696,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
