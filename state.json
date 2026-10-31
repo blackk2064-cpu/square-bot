@@ -1,134 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790866955.0835235,
-      "category": "general_news",
-      "symbol": "BTC",
-      "topic": "Bitcoin ETFs draw $6.3B in Q3 as BTC price rises nearly 43%",
-      "text_hash": "dcd7811302f85c4b355c3f07758c1383c65a0a83d6d789270bf471efb412d10d",
-      "text_for_similarity": "Watching $BTC hover near $84,092.44 can be a test of patience.\nThe asset has seen a 24h change of 0.388% with a 24h volume of 14368.14143. 📉\nWill the price reach the $113K target or pull back first? #BTC #trading",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84092.44,
-          "change_pct": 0.388,
-          "volume": 14368.14143,
-          "quote_volume": 1203974278.4089034,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2691.47,
-          "change_pct": 0.485,
-          "volume": 231987.3747,
-          "quote_volume": 624202124.726869,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.47,
-          "change_pct": -1.178,
-          "volume": 2197360.863,
-          "quote_volume": 259743500.27765,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 767.28,
-          "change_pct": 0.074,
-          "volume": 81474.01,
-          "quote_volume": 62626150.05762,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 2.594,
-          "change_pct": 60.52,
-          "volume": 37292458.406,
-          "quote_volume": 89701556.075025,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ARK": {
-          "price": 0.2394,
-          "change_pct": -27.455,
-          "volume": 69569940.0,
-          "quote_volume": 18288229.504,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790870595.50907,
-      "category": "sarcastic",
-      "symbol": "BNB",
-      "topic": "sarcastic",
-      "text_hash": "287374fb0a0ce339319e0f48eaf024f462b03941fb2c7b20b29f8cc697081d92",
-      "text_for_similarity": "unmatched_percent_claim:0.422",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84156.01,
-          "change_pct": -0.001,
-          "volume": 15802.20651,
-          "quote_volume": 1324800580.8640046,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2682.3,
-          "change_pct": -0.045,
-          "volume": 244585.7324,
-          "quote_volume": 658000382.270511,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.35,
-          "change_pct": -1.635,
-          "volume": 2207209.01,
-          "quote_volume": 260711953.82608,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 766.44,
-          "change_pct": -0.422,
-          "volume": 83673.185,
-          "quote_volume": 64304216.77082,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 2.904,
-          "change_pct": 66.514,
-          "volume": 37542005.588,
-          "quote_volume": 92132720.832092,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ALICE": {
-          "price": 0.2078,
-          "change_pct": 26.322,
-          "volume": 41526344.71,
-          "quote_volume": 8566310.75622,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790874149.4495478,
       "category": "macro_news",
       "symbol": "BNB",
@@ -23166,6 +23038,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793466146.753816,
+      "category": "education",
+      "symbol": "SOPH",
+      "topic": "education",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77613.94,
+          "change_pct": 0.226,
+          "volume": 8189.3962,
+          "quote_volume": 632439487.9064552,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2251.87,
+          "change_pct": 0.552,
+          "volume": 106354.7865,
+          "quote_volume": 238419302.817132,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.94,
+          "change_pct": 0.915,
+          "volume": 1166112.666,
+          "quote_volume": 111551055.32482,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 705.87,
+          "change_pct": 0.637,
+          "volume": 91697.602,
+          "quote_volume": 64493807.83207,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.2814,
+          "change_pct": 36.074,
+          "volume": 77213468.3,
+          "quote_volume": 20301552.67818,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.00153,
+          "change_pct": -27.143,
+          "volume": 5636626475.0,
+          "quote_volume": 10835250.87211,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
