@@ -23167,6 +23167,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793408537.1220875,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77568.8,
+          "change_pct": 0.446,
+          "volume": 20954.68153,
+          "quote_volume": 1624186094.7156863,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2249.81,
+          "change_pct": 1.161,
+          "volume": 400314.8346,
+          "quote_volume": 892719752.590603,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.77,
+          "change_pct": 1.917,
+          "volume": 2513037.055,
+          "quote_volume": 240823236.2573,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 708.82,
+          "change_pct": 1.585,
+          "volume": 290852.922,
+          "quote_volume": 205272631.72221,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.00215,
+          "change_pct": 64.122,
+          "volume": 5020554517.0,
+          "quote_volume": 9843529.79958,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.004966,
+          "change_pct": 50.759,
+          "volume": 5887160678.0,
+          "quote_volume": 26411671.954069,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
