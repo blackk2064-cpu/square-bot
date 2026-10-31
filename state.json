@@ -1,198 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790830945.075526,
-      "category": "education",
-      "symbol": "BTC",
-      "topic": "education",
-      "text_hash": "26ce9785a5c05af652429e37e648e440b20322627f1805fb3d4a6fec943137cf",
-      "text_for_similarity": "1.012% is the 24h gain pushing $BTC to $84063.65. 📈\n24h trading volume sits at 18816.19916.\nWill Bitcoin push past $85,000 next, or retest the $83,000 support level?\n#BTC #crypto",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84063.65,
-          "change_pct": 1.012,
-          "volume": 18816.19916,
-          "quote_volume": 1582592124.3724768,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2707.45,
-          "change_pct": 1.39,
-          "volume": 275686.9952,
-          "quote_volume": 742945814.745028,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.08,
-          "change_pct": 0.219,
-          "volume": 2932246.453,
-          "quote_volume": 350062302.61582,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 769.55,
-          "change_pct": 0.958,
-          "volume": 116192.193,
-          "quote_volume": 89265628.32101,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 2.232,
-          "change_pct": 69.605,
-          "volume": 36797546.021,
-          "quote_volume": 69209339.622448,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GLMR": {
-          "price": 0.009795,
-          "change_pct": 28.865,
-          "volume": 1033561274.1,
-          "quote_volume": 9707373.919689,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 86,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790838220.3240755,
-      "category": "analysis",
-      "symbol": "BNB",
-      "topic": "analysis_BNB",
-      "text_hash": "db7be57c5322751efc9aa9fb8698edef7ece3bfe236e5919476b348c01afe523",
-      "text_for_similarity": "$BNB is trading at 770.69, up 1.794% on 109941.987 volume.\nPrice is up 1.794% while volume holds at 109",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84114.0,
-          "change_pct": 1.342,
-          "volume": 18647.63219,
-          "quote_volume": 1569387584.079445,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2715.21,
-          "change_pct": 2.031,
-          "volume": 274133.1194,
-          "quote_volume": 739638548.777501,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.25,
-          "change_pct": 1.008,
-          "volume": 2882856.477,
-          "quote_volume": 344244023.14133,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 770.69,
-          "change_pct": 1.794,
-          "volume": 109941.987,
-          "quote_volume": 84544299.17679,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 2.921,
-          "change_pct": 79.643,
-          "volume": 38960087.926,
-          "quote_volume": 78678149.947522,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "STX": {
-          "price": 0.4114,
-          "change_pct": 32.071,
-          "volume": 31028096.9,
-          "quote_volume": 11321151.75822,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 85,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1790841758.9788375,
-      "category": "general_news",
-      "symbol": "NOM",
-      "topic": "Bitcoin ETFs draw $6.3B in Q3 as BTC price rises nearly 43%",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "text_for_similarity": "no_ai_output",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 83475.71,
-          "change_pct": 0.211,
-          "volume": 19405.78954,
-          "quote_volume": 1633025294.2912242,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2679.15,
-          "change_pct": 0.2,
-          "volume": 290518.2418,
-          "quote_volume": 783920687.44567,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 117.61,
-          "change_pct": -0.692,
-          "volume": 2912856.184,
-          "quote_volume": 347730284.10677,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 764.26,
-          "change_pct": 0.656,
-          "volume": 111998.708,
-          "quote_volume": 86156197.30503,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 2.886,
-          "change_pct": 70.972,
-          "volume": 39257560.588,
-          "quote_volume": 82466816.963085,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NOM": {
-          "price": 0.002925,
-          "change_pct": 38.626,
-          "volume": 5902865236.0,
-          "quote_volume": 14507192.474387,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790863355.0250764,
       "category": "macro_news",
       "symbol": "BNB",
@@ -23294,6 +23102,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793444581.3137846,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77424.18,
+          "change_pct": -0.514,
+          "volume": 11462.2614,
+          "quote_volume": 885167406.3911508,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2244.92,
+          "change_pct": -0.261,
+          "volume": 229960.0447,
+          "quote_volume": 514180189.2291,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.64,
+          "change_pct": -1.706,
+          "volume": 1725729.699,
+          "quote_volume": 164890083.25845,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 704.61,
+          "change_pct": 0.208,
+          "volume": 147820.926,
+          "quote_volume": 103641351.22401,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.17819,
+          "change_pct": -18.735,
+          "volume": 27276037.9,
+          "quote_volume": 5252904.201874,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.2442,
+          "change_pct": 18.028,
+          "volume": 48462582.4,
+          "quote_volume": 10884279.04391,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
