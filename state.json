@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790820153.9801953,
-      "category": "binance_news",
-      "symbol": "GLMR",
-      "topic": "MetaMask exits Ethereum validators amid undisclosed security incident",
-      "text_hash": "6a6ad62f5f5daa30d87a243b275ace3bec3688322da1d249861ba89cabe4982f",
-      "text_for_similarity": "$GLMR is approaching the 0.01 mark after jumping 24.919% to 0.00963. 📈\n\n24-hour trading volume has reached 888761289.8.\n\nWill $GLMR break above 0.01 next, or pull back below 0.009?\n\n#GLMR #crypto",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83550.03,
-          "change_pct": 0.134,
-          "volume": 18500.98945,
-          "quote_volume": 1555892589.0346673,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2691.25,
-          "change_pct": 0.74,
-          "volume": 269086.1342,
-          "quote_volume": 724817509.192172,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.16,
-          "change_pct": -1.088,
-          "volume": 2925660.558,
-          "quote_volume": 349458628.08114,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 769.21,
-          "change_pct": 1.211,
-          "volume": 117524.2,
-          "quote_volume": 90230946.70861,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 2.298,
-          "change_pct": 85.173,
-          "volume": 34289068.382,
-          "quote_volume": 62044474.483648,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GLMR": {
-          "price": 0.00963,
-          "change_pct": 24.919,
-          "volume": 888761289.8,
-          "quote_volume": 8228331.9182314,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790830945.075526,
       "category": "education",
       "symbol": "BTC",
@@ -23230,6 +23166,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793419366.2525885,
+      "category": "education",
+      "symbol": "SOL",
+      "topic": "education",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77176.29,
+          "change_pct": -1.281,
+          "volume": 16541.75093,
+          "quote_volume": 1283339116.4169252,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2240.52,
+          "change_pct": 0.247,
+          "volume": 322942.4864,
+          "quote_volume": 722267501.770011,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.25,
+          "change_pct": -0.926,
+          "volume": 2184750.105,
+          "quote_volume": 209993350.25354,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 704.52,
+          "change_pct": -2.07,
+          "volume": 221966.979,
+          "quote_volume": 156545706.77438,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.005266,
+          "change_pct": 55.707,
+          "volume": 6252287752.0,
+          "quote_volume": 28502325.389071,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.002,
+          "change_pct": 40.845,
+          "volume": 5031211421.0,
+          "quote_volume": 10061992.80039,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
