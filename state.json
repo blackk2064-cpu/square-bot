@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790816544.7026348,
-      "category": "binance_news",
-      "symbol": "MOVR",
-      "topic": "MetaMask exits Ethereum validators as it investigates security incident",
-      "text_hash": "96aad51b32c87b38fad78493354dc4cbdad32dcedffbe551f94b6476f5280112",
-      "text_for_similarity": "Did you catch the massive rally on $MOVR today? 📈\n\n$MOVR is trading at 2.329 after surging 87.52% in the last 24 hours, with trading volume reaching 33210440.711.\n\nAre you taking profits now, or holding for higher targets?\n\n#trading #crypto",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 83520.36,
-          "change_pct": 0.13,
-          "volume": 18567.20539,
-          "quote_volume": 1561365582.7965386,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2684.97,
-          "change_pct": 0.526,
-          "volume": 271756.5219,
-          "quote_volume": 731868740.080797,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.0,
-          "change_pct": -0.698,
-          "volume": 2929698.849,
-          "quote_volume": 350009674.71273,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 770.26,
-          "change_pct": 1.451,
-          "volume": 119786.158,
-          "quote_volume": 91924804.90184,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 2.329,
-          "change_pct": 87.52,
-          "volume": 33210440.711,
-          "quote_volume": 58996060.750089,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NIGHT": {
-          "price": 0.03999,
-          "change_pct": 22.669,
-          "volume": 441130705.0,
-          "quote_volume": 16058989.3194,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790820153.9801953,
       "category": "binance_news",
       "symbol": "GLMR",
@@ -23228,6 +23164,70 @@
       },
       "quality_score": 0,
       "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793412125.478204,
+      "category": "binance_news",
+      "symbol": "BEAMX",
+      "topic": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+      "text_hash": "50868630e191697ccab89b219a5fa599ca0e2cbabddd3865edebd4f30fee21ed",
+      "text_for_similarity": "BEAMX is surging 42.43% to $0.004619 despite a steep drop in trading activity, with 24h volume falling to 6.07B. The rally defies weak liquidity — a classic sign of divergence between price discovery and real market participation. Is this breakout sustainable with such thin volume, or is a reversal imminent once buyers lose momentum? #trading #analysis",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77392.21,
+          "change_pct": 0.724,
+          "volume": 19135.9279,
+          "quote_volume": 1484322809.575525,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2244.45,
+          "change_pct": 2.224,
+          "volume": 355595.4237,
+          "quote_volume": 794576940.223197,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.71,
+          "change_pct": 2.839,
+          "volume": 2363852.297,
+          "quote_volume": 227024677.44383,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 706.42,
+          "change_pct": 0.392,
+          "volume": 266288.442,
+          "quote_volume": 188143694.75339,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.0021,
+          "change_pct": 72.131,
+          "volume": 5034206738.0,
+          "quote_volume": 9933364.04844,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.004619,
+          "change_pct": 42.43,
+          "volume": 6068519860.0,
+          "quote_volume": 27319466.241166,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
