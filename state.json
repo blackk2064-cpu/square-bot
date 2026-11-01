@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790967728.0431406,
-      "category": "general_news",
-      "symbol": "BNB",
-      "topic": "Blast to wind down Ethereum L2 after costs outpace revenue",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "text_for_similarity": "User Safety: safe",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84289.58,
-          "change_pct": -0.6,
-          "volume": 25305.59893,
-          "quote_volume": 2168271034.6184406,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2667.12,
-          "change_pct": -1.245,
-          "volume": 416946.2929,
-          "quote_volume": 1134193607.394087,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.25,
-          "change_pct": -0.118,
-          "volume": 3170826.379,
-          "quote_volume": 383272571.18057,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 764.9,
-          "change_pct": -0.713,
-          "volume": 138972.505,
-          "quote_volume": 107797732.53284,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SAND": {
-          "price": 0.06142,
-          "change_pct": 37.837,
-          "volume": 877897255.0,
-          "quote_volume": 54947785.22836,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 2.012,
-          "change_pct": -36.147,
-          "volume": 17943434.14,
-          "quote_volume": 44206803.820032,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790971346.3941052,
       "category": "binance_news",
       "symbol": "BNB",
@@ -23294,6 +23230,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793559740.6849163,
+      "category": "general_news",
+      "symbol": "牛来",
+      "topic": "Here’s what happened in crypto today",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77892.0,
+          "change_pct": 0.331,
+          "volume": 5834.54386,
+          "quote_volume": 454647054.9241608,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2263.78,
+          "change_pct": 0.356,
+          "volume": 83745.6587,
+          "quote_volume": 189801636.715397,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.34,
+          "change_pct": -1.77,
+          "volume": 643289.364,
+          "quote_volume": 61324213.73771,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 709.64,
+          "change_pct": 0.273,
+          "volume": 95607.777,
+          "quote_volume": 67886619.98324,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.2026,
+          "change_pct": -27.436,
+          "volume": 55743531.5,
+          "quote_volume": 13106490.45356,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "牛来": {
+          "price": 0.0686,
+          "change_pct": 12.792,
+          "volume": 168476948.0,
+          "quote_volume": 11294821.5896,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
