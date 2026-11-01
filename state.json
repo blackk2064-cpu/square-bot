@@ -23231,6 +23231,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793548971.2831306,
+      "category": "binance_news",
+      "symbol": "LSK",
+      "topic": "Trezor reports suspected hardware implant in Safe 5 sold by CryptoBilis",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77999.91,
+          "change_pct": 0.514,
+          "volume": 6400.58869,
+          "quote_volume": 498380625.4006916,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2267.69,
+          "change_pct": 0.753,
+          "volume": 81352.3975,
+          "quote_volume": 184280860.121757,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.84,
+          "change_pct": -1.147,
+          "volume": 612856.401,
+          "quote_volume": 58501940.64042,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 715.16,
+          "change_pct": 1.395,
+          "volume": 91890.858,
+          "quote_volume": 65196298.85438,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.207,
+          "change_pct": -31.046,
+          "volume": 62031797.7,
+          "quote_volume": 15254687.53459,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "牛来": {
+          "price": 0.06812,
+          "change_pct": 15.713,
+          "volume": 169695519.0,
+          "quote_volume": 11277423.36161,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
