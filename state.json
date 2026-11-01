@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790917346.856819,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86637.27,
-          "change_pct": 3.062,
-          "volume": 20036.1313,
-          "quote_volume": 1693926723.4051254,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2741.39,
-          "change_pct": 1.272,
-          "volume": 294389.8338,
-          "quote_volume": 795004772.330169,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 123.48,
-          "change_pct": 3.704,
-          "volume": 2714770.667,
-          "quote_volume": 322964791.71343,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 781.54,
-          "change_pct": 1.558,
-          "volume": 104272.436,
-          "quote_volume": 80377372.88023,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GTC": {
-          "price": 0.14624,
-          "change_pct": 54.05,
-          "volume": 115292969.1,
-          "quote_volume": 16617978.946162,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SCR": {
-          "price": 0.03469,
-          "change_pct": 40.959,
-          "volume": 323151810.8,
-          "quote_volume": 9945766.6959,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790920936.3050714,
       "category": "analysis",
       "symbol": "ETH",
@@ -23094,6 +23030,70 @@
           "change_pct": 14.133,
           "volume": 161240304.0,
           "quote_volume": 10546470.73074,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793512931.4664307,
+      "category": "macro_news",
+      "symbol": "BNB",
+      "topic": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77916.46,
+          "change_pct": 0.821,
+          "volume": 5555.00875,
+          "quote_volume": 430966641.9064614,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2270.53,
+          "change_pct": 1.233,
+          "volume": 61274.5189,
+          "quote_volume": 138257584.84639,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.78,
+          "change_pct": -0.219,
+          "volume": 470247.031,
+          "quote_volume": 45038318.87792,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 705.52,
+          "change_pct": 0.261,
+          "volume": 68259.174,
+          "quote_volume": 48084988.74457,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.005446,
+          "change_pct": 15.04,
+          "volume": 2819255592.0,
+          "quote_volume": 14298295.94346,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ZAMA": {
+          "price": 0.07272,
+          "change_pct": 13.077,
+          "volume": 156196723.0,
+          "quote_volume": 10271683.53634,
           "funding_rate": null,
           "open_interest": null
         }
