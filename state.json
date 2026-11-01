@@ -23039,6 +23039,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793520170.7458189,
+      "category": "binance_news",
+      "symbol": "牛来",
+      "topic": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78020.0,
+          "change_pct": 0.858,
+          "volume": 5899.33069,
+          "quote_volume": 458201528.1690692,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2271.04,
+          "change_pct": 1.205,
+          "volume": 62723.1918,
+          "quote_volume": 141653762.632518,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.65,
+          "change_pct": 0.031,
+          "volume": 480724.956,
+          "quote_volume": 46029758.19892,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 706.89,
+          "change_pct": 0.983,
+          "volume": 69755.376,
+          "quote_volume": 49170084.67614,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "牛来": {
+          "price": 0.06755,
+          "change_pct": 27.045,
+          "volume": 118358736.0,
+          "quote_volume": 7587601.27759,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.005863,
+          "change_pct": 15.664,
+          "volume": 3367906549.0,
+          "quote_volume": 17937787.132926,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
