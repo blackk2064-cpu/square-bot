@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790902937.1624207,
-      "category": "binance_news",
-      "symbol": "SOL",
-      "topic": "Ethereum Foundation launches zkAPI to let users pay for AI models without revealing identity",
-      "text_hash": "b036f4a1d467a67df7ff171cfe7a260c2488ce0db0c8a064391cacc17c2ee76c",
-      "text_for_similarity": "$SOL recorded over 2,150,789.45 in 24-hour trading volume as market activity builds up.\nPrice action holds steady at $118.82, marking a modest 24-hour gain of 0.686%.\nTraders are watching closely for a decisive breakout from this consolidation phase.\nKeep an eye on key support levels as momentum\n develops.",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84781.76,
-          "change_pct": 1.51,
-          "volume": 17111.03946,
-          "quote_volume": 1439379859.3794851,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2707.58,
-          "change_pct": 0.84,
-          "volume": 261107.5439,
-          "quote_volume": 703298410.414018,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.82,
-          "change_pct": 0.686,
-          "volume": 2150789.45,
-          "quote_volume": 253788375.08535,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 771.72,
-          "change_pct": 0.191,
-          "volume": 91707.714,
-          "quote_volume": 70534487.54055,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GTC": {
-          "price": 0.14678,
-          "change_pct": 53.777,
-          "volume": 72287294.3,
-          "quote_volume": 9385085.473204,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ALICE": {
-          "price": 0.2157,
-          "change_pct": 28.623,
-          "volume": 86602808.31,
-          "quote_volume": 18411475.625116,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790906562.0547857,
       "category": "general_news",
       "symbol": "ETH",
@@ -23102,6 +23038,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793498530.9501379,
+      "category": "analysis",
+      "symbol": "SOPH",
+      "topic": "analysis_SOPH",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77731.05,
+          "change_pct": 0.433,
+          "volume": 5958.52261,
+          "quote_volume": 461853599.615052,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2270.88,
+          "change_pct": 1.178,
+          "volume": 58079.953,
+          "quote_volume": 130820171.684842,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.76,
+          "change_pct": -0.993,
+          "volume": 600133.933,
+          "quote_volume": 57623403.37256,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 703.67,
+          "change_pct": -0.406,
+          "volume": 67442.793,
+          "quote_volume": 47506121.87987,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.00145,
+          "change_pct": -30.952,
+          "volume": 4271989548.0,
+          "quote_volume": 7054860.13279,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "MORPHO": {
+          "price": 2.357,
+          "change_pct": 11.6,
+          "volume": 2307358.85,
+          "quote_volume": 5334315.81436,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
