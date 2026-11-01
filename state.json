@@ -23167,6 +23167,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793527374.4121597,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Trezor reports suspected hardware implant in Safe 5 sold by CryptoBilis",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78114.01,
+          "change_pct": 0.85,
+          "volume": 6425.67928,
+          "quote_volume": 499564801.3396761,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2270.04,
+          "change_pct": 1.083,
+          "volume": 70556.1424,
+          "quote_volume": 159552107.057934,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.46,
+          "change_pct": -0.115,
+          "volume": 504181.558,
+          "quote_volume": 48281261.67125,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 711.92,
+          "change_pct": 1.295,
+          "volume": 83965.29,
+          "quote_volume": 59344321.48269,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "牛来": {
+          "price": 0.06959,
+          "change_pct": 30.148,
+          "volume": 138267545.0,
+          "quote_volume": 8974884.12926,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "G": {
+          "price": 0.00396,
+          "change_pct": 20.732,
+          "volume": 1365257152.0,
+          "quote_volume": 5298616.09923,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
