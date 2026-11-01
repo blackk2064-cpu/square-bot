@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790964150.0669763,
-      "category": "education",
-      "symbol": "BNB",
-      "topic": "education",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "text_for_similarity": "no_ai_output",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 84796.01,
-          "change_pct": -0.094,
-          "volume": 24952.86727,
-          "quote_volume": 2139003975.2853892,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2685.04,
-          "change_pct": -0.524,
-          "volume": 396832.4572,
-          "quote_volume": 1080936756.13637,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.74,
-          "change_pct": 1.243,
-          "volume": 3011789.205,
-          "quote_volume": 364526269.70903,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 773.88,
-          "change_pct": 0.199,
-          "volume": 129247.076,
-          "quote_volume": 100372458.12683,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GTC": {
-          "price": 0.16317,
-          "change_pct": 49.191,
-          "volume": 175157483.0,
-          "quote_volume": 25402472.708058,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SAND": {
-          "price": 0.06372,
-          "change_pct": 43.902,
-          "volume": 856074341.0,
-          "quote_volume": 53578413.04244,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790967728.0431406,
       "category": "general_news",
       "symbol": "BNB",
@@ -23294,6 +23230,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793556193.7828088,
+      "category": "binance_news",
+      "symbol": "牛来",
+      "topic": "Trezor reports suspected hardware implant in Safe 5 sold by CryptoBilis",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77980.54,
+          "change_pct": 0.348,
+          "volume": 6014.94812,
+          "quote_volume": 468632266.5253308,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2264.59,
+          "change_pct": 0.435,
+          "volume": 82735.3118,
+          "quote_volume": 187500792.226917,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.61,
+          "change_pct": -1.52,
+          "volume": 627287.692,
+          "quote_volume": 59834735.10407,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 711.24,
+          "change_pct": 0.573,
+          "volume": 95775.682,
+          "quote_volume": 68000093.758,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.2059,
+          "change_pct": -25.614,
+          "volume": 56200216.9,
+          "quote_volume": 13329084.99012,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "牛来": {
+          "price": 0.06713,
+          "change_pct": 13.376,
+          "volume": 170737191.0,
+          "quote_volume": 11407453.90324,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
