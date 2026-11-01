@@ -23103,6 +23103,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793523747.0462453,
+      "category": "binance_news",
+      "symbol": "PROM",
+      "topic": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78264.89,
+          "change_pct": 1.149,
+          "volume": 6107.879,
+          "quote_volume": 474630224.279112,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2276.51,
+          "change_pct": 1.532,
+          "volume": 67202.4156,
+          "quote_volume": 151901319.919638,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.9,
+          "change_pct": 0.566,
+          "volume": 500586.286,
+          "quote_volume": 47934617.70953,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 715.04,
+          "change_pct": 2.031,
+          "volume": 78411.454,
+          "quote_volume": 55361051.99739,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "牛来": {
+          "price": 0.06949,
+          "change_pct": 30.204,
+          "volume": 129534987.0,
+          "quote_volume": 8361223.73973,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "PROM": {
+          "price": 6.068,
+          "change_pct": 19.567,
+          "volume": 1517106.98,
+          "quote_volume": 8676566.85057,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
