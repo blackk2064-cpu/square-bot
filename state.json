@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790910224.5625715,
-      "category": "analysis",
-      "symbol": "GTC",
-      "topic": "analysis_GTC",
-      "text_hash": "8d8d80dc6d3ea22706859a7500ee0937e7dc21e1bc9a069abdfe9b3d70cdd23f",
-      "text_for_similarity": "$GTC surged 79.497% to 0.16993 while the 24h volume of 98988764.0 suggests weak momentum.\nGTC now trades at 0.16993, up 79.497% with a 24h volume of 98988764.0.\nWill GTC push toward 0.20 next, or will it retrace below 0.15?\n#crypto #trading",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 85197.92,
-          "change_pct": 2.048,
-          "volume": 17425.15627,
-          "quote_volume": 1467028372.8247497,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2721.39,
-          "change_pct": 1.267,
-          "volume": 263813.3904,
-          "quote_volume": 710994048.298168,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 120.09,
-          "change_pct": 1.59,
-          "volume": 2226705.465,
-          "quote_volume": 263022760.67181,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 774.29,
-          "change_pct": 0.757,
-          "volume": 92191.223,
-          "quote_volume": 70923742.83385,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GTC": {
-          "price": 0.16993,
-          "change_pct": 79.497,
-          "volume": 98988764.0,
-          "quote_volume": 14036310.995791,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SCR": {
-          "price": 0.03188,
-          "change_pct": 28.912,
-          "volume": 222711943.9,
-          "quote_volume": 6392877.446895,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1790913748.1749632,
       "category": "analysis",
       "symbol": "SOL",
@@ -23102,6 +23038,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793505732.525401,
+      "category": "analysis",
+      "symbol": "SOPH",
+      "topic": "analysis_SOPH",
+      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
+      "text_for_similarity": "too_long",
+      "ai_provider": "openrouter",
+      "data_snapshot": {
+        "BTC": {
+          "price": 77802.01,
+          "change_pct": 0.811,
+          "volume": 5746.24128,
+          "quote_volume": 445565477.5623364,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2268.34,
+          "change_pct": 1.242,
+          "volume": 60635.778,
+          "quote_volume": 136709600.077743,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.64,
+          "change_pct": -0.634,
+          "volume": 512185.516,
+          "quote_volume": 49085754.26938,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 703.72,
+          "change_pct": -0.114,
+          "volume": 65863.38,
+          "quote_volume": 46384675.95092,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.00141,
+          "change_pct": -29.851,
+          "volume": 4323064821.0,
+          "quote_volume": 7011119.27247,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RSR": {
+          "price": 0.001564,
+          "change_pct": 11.954,
+          "volume": 4379809803.9,
+          "quote_volume": 6800740.8140259,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
