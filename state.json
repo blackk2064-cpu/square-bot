@@ -23231,6 +23231,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793534549.7204714,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77990.47,
+          "change_pct": 0.482,
+          "volume": 6516.02891,
+          "quote_volume": 506820619.1560559,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2270.32,
+          "change_pct": 0.995,
+          "volume": 73249.7561,
+          "quote_volume": 165755738.26444,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.33,
+          "change_pct": -0.594,
+          "volume": 522659.67,
+          "quote_volume": 50030684.60562,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 713.64,
+          "change_pct": 1.185,
+          "volume": 89259.454,
+          "quote_volume": 63181542.28827,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "牛来": {
+          "price": 0.06935,
+          "change_pct": 27.811,
+          "volume": 147207399.0,
+          "quote_volume": 9638162.17592,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "G": {
+          "price": 0.00398,
+          "change_pct": 20.606,
+          "volume": 1594274343.0,
+          "quote_volume": 6234633.41836,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
