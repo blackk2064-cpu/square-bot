@@ -23743,6 +23743,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793617376.072001,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77979.37,
+          "change_pct": -0.075,
+          "volume": 8165.53133,
+          "quote_volume": 638359738.7218246,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2287.18,
+          "change_pct": 0.748,
+          "volume": 198093.82,
+          "quote_volume": 452530046.397037,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.22,
+          "change_pct": -1.258,
+          "volume": 1170027.185,
+          "quote_volume": 110767470.3761,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 705.89,
+          "change_pct": -1.108,
+          "volume": 98043.625,
+          "quote_volume": 69759519.83109,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.1484,
+          "change_pct": -19.093,
+          "volume": 33418807.6,
+          "quote_volume": 6117034.180168,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.189,
+          "change_pct": -16.372,
+          "volume": 31295177.3,
+          "quote_volume": 6413036.55244,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
