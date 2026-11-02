@@ -23487,6 +23487,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793595675.1369932,
+      "category": "binance_news",
+      "symbol": "SOL",
+      "topic": "Bank of Korea probes financial firms’ exposure to crypto risks",
+      "text_hash": "fa4c54c09b0bc47a4181fff485f58f3b3185db88839b5421e72050015ca6807f",
+      "text_for_similarity": "$SOL is slipping -0.576% to 95.0, yet the funding rate remains positive at 0.0001 with open interest holding at 9071086.27.\n\nWith 24h volume at 1059542.155, traders are divided on the next move.\n\nWill $SOL rebound above 95.0 or slide lower next?",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78419.99,
+          "change_pct": 0.77,
+          "volume": 7739.95275,
+          "quote_volume": 604702542.6392355,
+          "funding_rate": 7.391e-05,
+          "open_interest": 95398.607
+        },
+        "ETH": {
+          "price": 2293.54,
+          "change_pct": 1.183,
+          "volume": 146443.0757,
+          "quote_volume": 333937751.287476,
+          "funding_rate": -4.034e-05,
+          "open_interest": 2364188.991
+        },
+        "SOL": {
+          "price": 95.0,
+          "change_pct": -0.576,
+          "volume": 1059542.155,
+          "quote_volume": 100550889.0468,
+          "funding_rate": 0.0001,
+          "open_interest": 9071086.27
+        },
+        "BNB": {
+          "price": 711.87,
+          "change_pct": 0.973,
+          "volume": 105674.872,
+          "quote_volume": 75224838.57326,
+          "funding_rate": 0.0,
+          "open_interest": 568123.21
+        },
+        "LSK": {
+          "price": 0.1929,
+          "change_pct": -20.19,
+          "volume": 35982021.2,
+          "quote_volume": 7768801.45203,
+          "funding_rate": -0.00177056,
+          "open_interest": 43759891.0
+        },
+        "牛来": {
+          "price": 0.07094,
+          "change_pct": 12.14,
+          "volume": 188671482.0,
+          "quote_volume": 12987837.98581,
+          "funding_rate": 5e-05,
+          "open_interest": 295922565.0
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
