@@ -23999,6 +23999,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793635338.887255,
+      "category": "general_news",
+      "symbol": "BNB",
+      "topic": "Binance hackers begin swapping stolen Solana tokens for Bitcoin: Chainalysis",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77496.25,
+          "change_pct": -0.646,
+          "volume": 10511.78567,
+          "quote_volume": 820915767.9270502,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2272.69,
+          "change_pct": 0.22,
+          "volume": 231972.9043,
+          "quote_volume": 530525016.571536,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.57,
+          "change_pct": -1.339,
+          "volume": 1449722.283,
+          "quote_volume": 136942267.59674,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 702.01,
+          "change_pct": -1.84,
+          "volume": 108009.194,
+          "quote_volume": 76556920.08766,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.14211,
+          "change_pct": -23.605,
+          "volume": 31282683.3,
+          "quote_volume": 5190622.713039,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NEAR": {
+          "price": 4.013,
+          "change_pct": -7.407,
+          "volume": 18970982.3,
+          "quote_volume": 79009501.5998,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
