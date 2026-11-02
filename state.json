@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791039728.6038315,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis_SOL",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84822.01,
-          "change_pct": -1.08,
-          "volume": 13534.93832,
-          "quote_volume": 1145910600.7225776,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2681.58,
-          "change_pct": -1.087,
-          "volume": 199539.8728,
-          "quote_volume": 535295257.513439,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.68,
-          "change_pct": -0.87,
-          "volume": 1520979.483,
-          "quote_volume": 180981313.4534,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 778.27,
-          "change_pct": 0.311,
-          "volume": 86014.714,
-          "quote_volume": 66118634.91601,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GLMR": {
-          "price": 0.011818,
-          "change_pct": 35.745,
-          "volume": 685609977.4,
-          "quote_volume": 7734582.3646429,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SUPER": {
-          "price": 0.2741,
-          "change_pct": 22.039,
-          "volume": 40903383.0,
-          "quote_volume": 10084885.7367,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791064934.990092,
       "category": "binance_news",
       "symbol": "STRK",
@@ -23990,6 +23926,70 @@
           "change_pct": -14.319,
           "volume": 27198213.4,
           "quote_volume": 5455411.88972,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793631730.3800616,
+      "category": "analysis",
+      "symbol": "SOL",
+      "topic": "analysis_SOL",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77892.0,
+          "change_pct": -0.21,
+          "volume": 9756.64468,
+          "quote_volume": 762251409.4944497,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2292.22,
+          "change_pct": 0.91,
+          "volume": 220686.155,
+          "quote_volume": 504678857.381232,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.44,
+          "change_pct": -0.579,
+          "volume": 1349432.013,
+          "quote_volume": 127557015.3605,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 704.79,
+          "change_pct": -1.662,
+          "volume": 107475.675,
+          "quote_volume": 76240075.78728,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.14688,
+          "change_pct": -24.136,
+          "volume": 30845316.3,
+          "quote_volume": 5207112.602386,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.1911,
+          "change_pct": -9.901,
+          "volume": 25833951.6,
+          "quote_volume": 5144488.0139,
           "funding_rate": null,
           "open_interest": null
         }
