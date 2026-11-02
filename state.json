@@ -23807,6 +23807,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793620989.3862715,
+      "category": "education",
+      "symbol": "BTC",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77889.02,
+          "change_pct": -0.13,
+          "volume": 8188.12129,
+          "quote_volume": 640097424.0982544,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2286.02,
+          "change_pct": 0.692,
+          "volume": 200274.6059,
+          "quote_volume": 457589602.350497,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.07,
+          "change_pct": -1.311,
+          "volume": 1201204.127,
+          "quote_volume": 113668011.12487,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 704.65,
+          "change_pct": -1.261,
+          "volume": 98735.495,
+          "quote_volume": 70196849.95078,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.15635,
+          "change_pct": -18.474,
+          "volume": 34320892.1,
+          "quote_volume": 6166490.887716,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.1877,
+          "change_pct": -13.661,
+          "volume": 29773946.9,
+          "quote_volume": 6049250.40494,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
