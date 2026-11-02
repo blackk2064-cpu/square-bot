@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791003721.362915,
-      "category": "analysis",
-      "symbol": "BNB",
-      "topic": "analysis_BNB",
-      "text_hash": "4311b545dc3aef56e5e20356042e06ba335c721fce37d1d16c4501a53461a8b6",
-      "text_for_similarity": "Traders holding $BNB face a critical decision point as the price pulls back -1.901% to 766.77.\nWith 24-hour volume recorded at 133258.024, market momentum is being tested.\nAre you buying this dip at 766.77 or waiting for lower levels? 📉\n#BNB #trading",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84577.24,
-          "change_pct": -2.378,
-          "volume": 22357.14153,
-          "quote_volume": 1912067730.3823206,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2675.52,
-          "change_pct": -2.418,
-          "volume": 377708.596,
-          "quote_volume": 1025093789.877302,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.16,
-          "change_pct": -3.514,
-          "volume": 2537028.497,
-          "quote_volume": 305955969.53805,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 766.77,
-          "change_pct": -1.901,
-          "volume": 133258.024,
-          "quote_volume": 103132388.46067,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SAND": {
-          "price": 0.08088,
-          "change_pct": 75.673,
-          "volume": 1294222393.0,
-          "quote_volume": 85013203.71243,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 1.908,
-          "change_pct": -27.946,
-          "volume": 14243120.183,
-          "quote_volume": 30345738.839043,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791039728.6038315,
       "category": "analysis",
       "symbol": "SOL",
@@ -23550,6 +23486,70 @@
       "published": true,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793599390.7634487,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "BTCPay Server warns of hot wallet thefts running on outdated software",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78376.82,
+          "change_pct": 0.591,
+          "volume": 7901.52145,
+          "quote_volume": 617436701.7064681,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2291.65,
+          "change_pct": 0.93,
+          "volume": 149197.5004,
+          "quote_volume": 340307542.079761,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.89,
+          "change_pct": -0.94,
+          "volume": 1087660.661,
+          "quote_volume": 103207747.92229,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 710.68,
+          "change_pct": 0.729,
+          "volume": 106279.157,
+          "quote_volume": 75671108.83433,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.1869,
+          "change_pct": -22.737,
+          "volume": 34891963.7,
+          "quote_volume": 7428566.51965,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.004973,
+          "change_pct": -8.618,
+          "volume": 3576210827.0,
+          "quote_volume": 19526167.095952,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
