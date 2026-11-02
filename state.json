@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791064934.990092,
-      "category": "binance_news",
-      "symbol": "STRK",
-      "topic": "Blast to wind down Ethereum L2 after costs outpace revenue",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84715.86,
-          "change_pct": 0.214,
-          "volume": 6673.06867,
-          "quote_volume": 565150695.3349121,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2684.93,
-          "change_pct": 0.72,
-          "volume": 84627.5736,
-          "quote_volume": 226769077.625212,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.61,
-          "change_pct": 1.193,
-          "volume": 911493.198,
-          "quote_volume": 108803358.46098,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 785.11,
-          "change_pct": 2.444,
-          "volume": 99294.764,
-          "quote_volume": 77260738.05571,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GLMR": {
-          "price": 0.0129,
-          "change_pct": 50.736,
-          "volume": 1019580241.0,
-          "quote_volume": 12250713.5149929,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "STRK": {
-          "price": 0.05188,
-          "change_pct": 22.042,
-          "volume": 275702320.27,
-          "quote_volume": 13614643.3991391,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791068537.0370097,
       "category": "general_news",
       "symbol": "ETH",
@@ -24382,6 +24318,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793656936.8042386,
+      "category": "analysis",
+      "symbol": "BEAMX",
+      "topic": "analysis_BEAMX",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76859.39,
+          "change_pct": -1.35,
+          "volume": 12662.24202,
+          "quote_volume": 985685722.6879156,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2258.98,
+          "change_pct": -0.265,
+          "volume": 261471.8729,
+          "quote_volume": 596969435.011594,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 92.37,
+          "change_pct": -2.182,
+          "volume": 1945184.834,
+          "quote_volume": 182168812.82498,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 699.97,
+          "change_pct": -1.15,
+          "volume": 116845.659,
+          "quote_volume": 82525842.99298,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.004466,
+          "change_pct": -21.235,
+          "volume": 1813192604.0,
+          "quote_volume": 9210261.981911,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HOT": {
+          "price": 0.000444,
+          "change_pct": 18.085,
+          "volume": 13381289112.0,
+          "quote_volume": 5691901.620617,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
       "whale_events": null
     }
   ],
