@@ -24063,6 +24063,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793638953.390813,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77540.06,
+          "change_pct": -0.78,
+          "volume": 10804.54462,
+          "quote_volume": 843446867.3562802,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2270.98,
+          "change_pct": 0.055,
+          "volume": 235165.6642,
+          "quote_volume": 537786498.516111,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.53,
+          "change_pct": -1.319,
+          "volume": 1517456.399,
+          "quote_volume": 143239380.75788,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 703.7,
+          "change_pct": -1.127,
+          "volume": 103307.557,
+          "quote_volume": 73174268.58387,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.13763,
+          "change_pct": -27.821,
+          "volume": 30800866.2,
+          "quote_volume": 5026912.008591,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "NEAR": {
+          "price": 3.986,
+          "change_pct": -7.796,
+          "volume": 20388429.1,
+          "quote_volume": 84554881.2532,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
