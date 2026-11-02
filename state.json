@@ -23551,6 +23551,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793606613.099125,
+      "category": "macro_news",
+      "symbol": "ETH",
+      "topic": "BTCPay Server warns of hot wallet thefts running on outdated software",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78082.58,
+          "change_pct": 0.088,
+          "volume": 7633.32724,
+          "quote_volume": 596670829.1304667,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2286.43,
+          "change_pct": 0.695,
+          "volume": 169954.6598,
+          "quote_volume": 387786149.832666,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.26,
+          "change_pct": -1.412,
+          "volume": 1144986.378,
+          "quote_volume": 108552463.88327,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 707.85,
+          "change_pct": 0.156,
+          "volume": 107259.32,
+          "quote_volume": 76385786.25332,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOPH": {
+          "price": 0.00169,
+          "change_pct": 19.014,
+          "volume": 3212844760.0,
+          "quote_volume": 5079781.20456,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.1926,
+          "change_pct": -16.443,
+          "volume": 32782544.6,
+          "quote_volume": 6849208.37974,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
