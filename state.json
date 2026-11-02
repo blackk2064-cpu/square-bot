@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791068537.0370097,
-      "category": "general_news",
-      "symbol": "ETH",
-      "topic": "Blast to wind down Ethereum L2 after costs outpace revenue",
-      "text_hash": "9f520d2af45693fc6c6e53fd5b317b5bf951b2f0adb204e8afe132e2dbce3bf9",
-      "text_for_similarity": "User Safety: safe",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84776.02,
-          "change_pct": 0.254,
-          "volume": 6395.68237,
-          "quote_volume": 541808609.709184,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2686.59,
-          "change_pct": 0.696,
-          "volume": 81670.2351,
-          "quote_volume": 218928181.903048,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 119.72,
-          "change_pct": 1.03,
-          "volume": 902574.191,
-          "quote_volume": 107813671.20325,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 789.22,
-          "change_pct": 2.929,
-          "volume": 98810.501,
-          "quote_volume": 76931562.23565,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GLMR": {
-          "price": 0.012487,
-          "change_pct": 47.304,
-          "volume": 1044874053.9,
-          "quote_volume": 12587682.744077,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "STRK": {
-          "price": 0.05411,
-          "change_pct": 27.288,
-          "volume": 294893341.88,
-          "quote_volume": 14649413.6048081,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 75,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791072179.2626803,
       "category": "analysis",
       "symbol": "BTC",
@@ -24374,6 +24310,70 @@
           "change_pct": 18.085,
           "volume": 13381289112.0,
           "quote_volume": 5691901.620617,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793660559.4693618,
+      "category": "general_news",
+      "symbol": "SOL",
+      "topic": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76830.49,
+          "change_pct": -1.391,
+          "volume": 12718.11812,
+          "quote_volume": 989710509.3788975,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2252.9,
+          "change_pct": -0.47,
+          "volume": 259843.9182,
+          "quote_volume": 593286735.345222,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 91.88,
+          "change_pct": -2.151,
+          "volume": 1910662.232,
+          "quote_volume": 178870483.74078,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 698.53,
+          "change_pct": -1.261,
+          "volume": 116874.648,
+          "quote_volume": 82531718.09645,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.13477,
+          "change_pct": -28.283,
+          "volume": 32481409.4,
+          "quote_volume": 5014131.773573,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HAEDAL": {
+          "price": 0.02922,
+          "change_pct": 21.346,
+          "volume": 204970726.4,
+          "quote_volume": 5576115.356313,
           "funding_rate": null,
           "open_interest": null
         }
