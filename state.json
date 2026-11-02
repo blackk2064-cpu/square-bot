@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1790996515.895013,
-      "category": "analysis",
-      "symbol": "SAND",
-      "topic": "analysis_SAND",
-      "text_hash": "88a2765b0b43c8e3f7721e0b24b406acc4f50a587475fe9c8024e7c1ffc29af1",
-      "text_for_similarity": "$SAND surged 66.875% in 24 hours, with volume reaching $1.137 billion. 🚀\n\nThe token is trading at $0.07476, reflecting strong buying interest.\n\nCould this momentum continue, or is a pullback overdue? #trading #SAND",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 84600.01,
-          "change_pct": -0.702,
-          "volume": 25448.7032,
-          "quote_volume": 2178946961.028777,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2677.14,
-          "change_pct": -1.626,
-          "volume": 417414.4752,
-          "quote_volume": 1133827542.049859,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 118.9,
-          "change_pct": -0.991,
-          "volume": 3113410.794,
-          "quote_volume": 376335499.98877,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 768.25,
-          "change_pct": -0.779,
-          "volume": 142876.935,
-          "quote_volume": 110706715.98475,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SAND": {
-          "price": 0.07476,
-          "change_pct": 66.875,
-          "volume": 1137632328.0,
-          "quote_volume": 72511651.84213,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "MOVR": {
-          "price": 1.829,
-          "change_pct": -36.049,
-          "volume": 15070617.526,
-          "quote_volume": 33097518.692013,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791003721.362915,
       "category": "analysis",
       "symbol": "BNB",
@@ -23422,6 +23358,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793588564.7906356,
+      "category": "general_news",
+      "symbol": "LSK",
+      "topic": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78472.44,
+          "change_pct": 0.938,
+          "volume": 7046.60301,
+          "quote_volume": 549944235.2939507,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2296.24,
+          "change_pct": 1.361,
+          "volume": 124569.9782,
+          "quote_volume": 283403338.430817,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.02,
+          "change_pct": -0.492,
+          "volume": 935976.019,
+          "quote_volume": 88750618.83674,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 712.18,
+          "change_pct": 1.376,
+          "volume": 101297.59,
+          "quote_volume": 72044386.82077,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LSK": {
+          "price": 0.1944,
+          "change_pct": -14.923,
+          "volume": 38892847.4,
+          "quote_volume": 8528180.26567,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "XPL": {
+          "price": 0.07086,
+          "change_pct": -13.9,
+          "volume": 357776856.5,
+          "quote_volume": 26224788.69563,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
