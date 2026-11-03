@@ -24831,6 +24831,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793710985.783905,
+      "category": "analysis",
+      "symbol": "BTC",
+      "topic": "analysis_BTC",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77408.0,
+          "change_pct": -0.525,
+          "volume": 14565.86534,
+          "quote_volume": 1123713187.4208615,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2282.47,
+          "change_pct": -0.13,
+          "volume": 166845.5316,
+          "quote_volume": 377966108.450953,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.07,
+          "change_pct": -1.095,
+          "volume": 1719378.872,
+          "quote_volume": 159157952.09971,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 701.4,
+          "change_pct": -0.453,
+          "volume": 102793.665,
+          "quote_volume": 71828663.88862,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HOT": {
+          "price": 0.000559,
+          "change_pct": 41.162,
+          "volume": 23684089876.0,
+          "quote_volume": 11214766.10589,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02805,
+          "change_pct": 34.468,
+          "volume": 373016769.3,
+          "quote_volume": 8942415.330317,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
