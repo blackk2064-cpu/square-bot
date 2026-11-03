@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791122528.63166,
-      "category": "macro_news",
-      "symbol": "BNB",
-      "topic": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
-      "text_hash": "ae1c22367edbd7468813b4088f69816921fc68530dda3b97e1c640133f1e0d77",
-      "text_for_similarity": "BNB is up 1.955% at $789.68, but its $108,025.9 24h volume is barely moving. Meanwhile, Ethereum news swings between privacy‑preserving AI payments and the $2.3 billion Layer‑2 Blast shutting down—and Trump taps Jay Clayton to lead a new Super Intelligence Force.\n\nIs the market pricing in strength or just noise? $BNB #trading",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 85241.14,
-          "change_pct": 0.437,
-          "volume": 7120.76335,
-          "quote_volume": 604812527.9217058,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2699.31,
-          "change_pct": 0.646,
-          "volume": 73452.6156,
-          "quote_volume": 197773278.17239,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.72,
-          "change_pct": 1.909,
-          "volume": 1045382.201,
-          "quote_volume": 125920076.53568,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 789.68,
-          "change_pct": 1.955,
-          "volume": 108025.9,
-          "quote_volume": 84973982.68973,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BEAMX": {
-          "price": 0.002709,
-          "change_pct": 28.632,
-          "volume": 5784783787.0,
-          "quote_volume": 16038218.786239,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "STRK": {
-          "price": 0.05582,
-          "change_pct": 26.72,
-          "volume": 522450362.08,
-          "quote_volume": 27361548.9000694,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791133325.2376385,
       "category": "analysis",
       "symbol": "SOL",
@@ -24894,6 +24830,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793718153.7025898,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77330.01,
+          "change_pct": -0.723,
+          "volume": 14422.83802,
+          "quote_volume": 1111697300.4970987,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2285.13,
+          "change_pct": -0.312,
+          "volume": 164821.5909,
+          "quote_volume": 373344575.12942,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.37,
+          "change_pct": -1.154,
+          "volume": 1706482.261,
+          "quote_volume": 157702361.85664,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 698.83,
+          "change_pct": -0.846,
+          "volume": 102867.173,
+          "quote_volume": 71781503.86134,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02588,
+          "change_pct": 24.065,
+          "volume": 466353631.0,
+          "quote_volume": 11546190.040238,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HOT": {
+          "price": 0.000531,
+          "change_pct": 21.789,
+          "volume": 24729630184.0,
+          "quote_volume": 12055099.603703,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
