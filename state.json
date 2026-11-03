@@ -25087,6 +25087,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793739737.9904456,
+      "category": "binance_news",
+      "symbol": "BMT",
+      "topic": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77862.15,
+          "change_pct": 1.419,
+          "volume": 12845.89444,
+          "quote_volume": 990644163.1698955,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2290.75,
+          "change_pct": 1.861,
+          "volume": 146489.443,
+          "quote_volume": 332869109.540513,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.57,
+          "change_pct": 2.128,
+          "volume": 1218122.995,
+          "quote_volume": 112797398.33228,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 700.03,
+          "change_pct": 0.601,
+          "volume": 91797.549,
+          "quote_volume": 64008469.71012,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02627,
+          "change_pct": 26.42,
+          "volume": 556463177.2,
+          "quote_volume": 13980503.798449,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RUNE": {
+          "price": 0.643,
+          "change_pct": 17.55,
+          "volume": 13801041.1,
+          "quote_volume": 8470726.4726,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
