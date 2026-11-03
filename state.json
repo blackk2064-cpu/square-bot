@@ -24767,6 +24767,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793707390.9656203,
+      "category": "binance_news",
+      "symbol": "LITEB",
+      "topic": "Bitmine adds 8,573 ETH as Tom Lee flags muted Binance hack reaction",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77044.79,
+          "change_pct": -1.07,
+          "volume": 14483.19875,
+          "quote_volume": 1117622123.2824533,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2265.06,
+          "change_pct": -0.917,
+          "volume": 168807.6069,
+          "quote_volume": 382524518.352096,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 92.48,
+          "change_pct": -1.68,
+          "volume": 1712460.046,
+          "quote_volume": 158599869.89296,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 697.02,
+          "change_pct": -1.06,
+          "volume": 104326.6,
+          "quote_volume": 72931066.23367,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HOT": {
+          "price": 0.00054,
+          "change_pct": 41.361,
+          "volume": 20717564840.0,
+          "quote_volume": 9485649.563325,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LITEB": {
+          "price": 688.43,
+          "change_pct": -20.45,
+          "volume": 7723.163,
+          "quote_volume": 6020963.80277,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
