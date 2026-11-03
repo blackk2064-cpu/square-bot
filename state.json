@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791140531.7884953,
-      "category": "analysis",
-      "symbol": "SOL",
-      "topic": "analysis_SOL",
-      "text_hash": "b468d06fb8b2131481bcf42e34278ad5089bc1febe9cd9f276e8278b463cb4e0",
-      "text_for_similarity": "A 1.242% gain has pushed $SOL to $121.46. 📈\n24-hour trading volume currently sits at 1080648.963.\nWill $SOL break higher from here, or are we heading back down?\n\n#SOL #crypto",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 85338.83,
-          "change_pct": 0.458,
-          "volume": 6803.53394,
-          "quote_volume": 578326174.45733,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2701.03,
-          "change_pct": 0.591,
-          "volume": 69222.0551,
-          "quote_volume": 186668614.251392,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.46,
-          "change_pct": 1.242,
-          "volume": 1080648.963,
-          "quote_volume": 130644083.72535,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 789.29,
-          "change_pct": -0.025,
-          "volume": 68430.235,
-          "quote_volume": 53954487.17848,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GTC": {
-          "price": 0.1593,
-          "change_pct": 40.489,
-          "volume": 47643783.5,
-          "quote_volume": 6468380.694827,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BEAMX": {
-          "price": 0.002592,
-          "change_pct": 22.207,
-          "volume": 6767805683.0,
-          "quote_volume": 18665308.24858,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791183736.1591992,
       "category": "education",
       "symbol": "BNB",
@@ -25022,6 +24958,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793732599.0114617,
+      "category": "education",
+      "symbol": "SOL",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77569.26,
+          "change_pct": 0.718,
+          "volume": 13364.49464,
+          "quote_volume": 1030156143.191081,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2291.28,
+          "change_pct": 1.654,
+          "volume": 148849.2779,
+          "quote_volume": 337757085.837694,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.44,
+          "change_pct": 1.268,
+          "volume": 1413399.038,
+          "quote_volume": 130546025.64952,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 697.19,
+          "change_pct": -0.209,
+          "volume": 99046.987,
+          "quote_volume": 69052472.61207,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.026,
+          "change_pct": 24.402,
+          "volume": 533665615.6,
+          "quote_volume": 13370365.212562,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HOT": {
+          "price": 0.000516,
+          "change_pct": 20.561,
+          "volume": 24168151525.0,
+          "quote_volume": 12126667.157705,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
