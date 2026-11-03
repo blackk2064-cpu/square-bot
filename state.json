@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791104535.4995618,
-      "category": "analysis",
-      "symbol": "BNB",
-      "topic": "analysis_BNB",
-      "text_hash": "4553f18f28d4bf602c92a3d3db16361261cde683b6d83b35b5be3d5f2ea9efde",
-      "text_for_similarity": "Traders watching $BNB face a key decision as the price pushes up to 790.02.\nWith a 24h gain of 3.051% and volume reaching 98808.739, momentum is testing your targets. 📈\nAre you taking profits at",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 85106.47,
-          "change_pct": 0.572,
-          "volume": 6955.4537,
-          "quote_volume": 589989426.0921725,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2700.55,
-          "change_pct": 0.636,
-          "volume": 70702.8153,
-          "quote_volume": 190068362.258994,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 120.98,
-          "change_pct": 1.417,
-          "volume": 964569.403,
-          "quote_volume": 115792805.41251,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 790.02,
-          "change_pct": 3.051,
-          "volume": 98808.739,
-          "quote_volume": 77401936.37341,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BEAMX": {
-          "price": 0.003004,
-          "change_pct": 42.572,
-          "volume": 2628989879.0,
-          "quote_volume": 7071471.554106,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GLMR": {
-          "price": 0.012062,
-          "change_pct": 29.005,
-          "volume": 1392829498.6,
-          "quote_volume": 17200034.7490878,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 85,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791122528.63166,
       "category": "macro_news",
       "symbol": "BNB",
@@ -24702,6 +24638,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793696544.1510594,
+      "category": "analysis",
+      "symbol": "1000CAT",
+      "topic": "analysis_1000CAT",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76630.82,
+          "change_pct": -2.136,
+          "volume": 14364.98897,
+          "quote_volume": 1109741410.724974,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2257.13,
+          "change_pct": -1.834,
+          "volume": 195216.0182,
+          "quote_volume": 443327556.782894,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 91.88,
+          "change_pct": -3.009,
+          "volume": 1742498.601,
+          "quote_volume": 161655930.16346,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 693.57,
+          "change_pct": -2.48,
+          "volume": 113740.075,
+          "quote_volume": 79670241.16919,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.01939,
+          "change_pct": -23.177,
+          "volume": 270301030.0,
+          "quote_volume": 5999305.7095,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "1000CAT": {
+          "price": 0.001532,
+          "change_pct": -20.949,
+          "volume": 4236473846.3,
+          "quote_volume": 7503269.824185,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
       "whale_events": null
     }
   ],
