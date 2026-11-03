@@ -24511,6 +24511,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793685730.5325274,
+      "category": "analysis",
+      "symbol": "HUMA",
+      "topic": "analysis_HUMA",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76631.49,
+          "change_pct": -2.227,
+          "volume": 14435.98186,
+          "quote_volume": 1117522925.986594,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2247.34,
+          "change_pct": -1.934,
+          "volume": 197938.6948,
+          "quote_volume": 450577012.326607,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 91.72,
+          "change_pct": -3.341,
+          "volume": 1740363.492,
+          "quote_volume": 161892223.2268,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 695.41,
+          "change_pct": -2.147,
+          "volume": 106578.521,
+          "quote_volume": 74915238.86513,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.02102,
+          "change_pct": -22.378,
+          "volume": 217256738.0,
+          "quote_volume": 5046470.31855,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LITEB": {
+          "price": 683.58,
+          "change_pct": -22.279,
+          "volume": 7534.443,
+          "quote_volume": 5911671.96518,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
