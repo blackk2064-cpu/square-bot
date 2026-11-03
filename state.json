@@ -24383,6 +24383,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793671398.1495056,
+      "category": "general_news",
+      "symbol": "INIT",
+      "topic": "Crypto investigators flag suspected $106M theft, $786K Solana bot drain",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77088.01,
+          "change_pct": -1.721,
+          "volume": 12675.51141,
+          "quote_volume": 984828276.4612762,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2256.76,
+          "change_pct": -1.513,
+          "volume": 227552.7584,
+          "quote_volume": 519369569.516602,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 92.25,
+          "change_pct": -2.864,
+          "volume": 1831011.371,
+          "quote_volume": 171042994.91508,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 697.99,
+          "change_pct": -2.257,
+          "volume": 114014.575,
+          "quote_volume": 80402738.24164,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.13205,
+          "change_pct": -30.606,
+          "volume": 34073716.8,
+          "quote_volume": 5188880.631462,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.004315,
+          "change_pct": -20.985,
+          "volume": 1593146283.0,
+          "quote_volume": 7739113.775717,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
