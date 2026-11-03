@@ -24447,6 +24447,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793682153.0660732,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Crypto investigators flag suspected $106M theft, $786K Solana bot drain",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76943.17,
+          "change_pct": -1.883,
+          "volume": 14233.26001,
+          "quote_volume": 1102461227.5646958,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2257.38,
+          "change_pct": -1.583,
+          "volume": 199965.4482,
+          "quote_volume": 455350499.417988,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 92.27,
+          "change_pct": -2.863,
+          "volume": 1737823.498,
+          "quote_volume": 161795070.25211,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 697.28,
+          "change_pct": -2.05,
+          "volume": 107993.028,
+          "quote_volume": 75954140.40527,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "INIT": {
+          "price": 0.13246,
+          "change_pct": -24.973,
+          "volume": 34601367.4,
+          "quote_volume": 5158352.366976,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "LITEB": {
+          "price": 685.33,
+          "change_pct": -21.916,
+          "volume": 7457.111,
+          "quote_volume": 5862074.59229,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
