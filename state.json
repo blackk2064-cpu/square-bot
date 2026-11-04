@@ -25535,6 +25535,70 @@
       "template_id": null,
       "hook_type": "contradiction",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793764944.9235413,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Tether Holds 150,000 Bitcoin, CEO Says—About 50,000 More Than Its Reserve Report Shows",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76490.73,
+          "change_pct": -0.55,
+          "volume": 13336.19855,
+          "quote_volume": 1027700353.4239465,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2249.0,
+          "change_pct": -0.176,
+          "volume": 168978.2635,
+          "quote_volume": 383969159.044046,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 91.04,
+          "change_pct": -1.194,
+          "volume": 1575167.616,
+          "quote_volume": 145457273.31884,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 686.1,
+          "change_pct": -1.506,
+          "volume": 121933.14,
+          "quote_volume": 84657015.98499,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02972,
+          "change_pct": 31.33,
+          "volume": 701120832.0,
+          "quote_volume": 18487236.565997,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RUNE": {
+          "price": 0.624,
+          "change_pct": 12.432,
+          "volume": 20185368.2,
+          "quote_volume": 12563912.8609,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
