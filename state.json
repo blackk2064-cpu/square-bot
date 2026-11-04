@@ -26047,6 +26047,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793826142.3731258,
+      "category": "education",
+      "symbol": "ETH",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80173.89,
+          "change_pct": 2.969,
+          "volume": 21700.30426,
+          "quote_volume": 1709933151.8513253,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2422.86,
+          "change_pct": 5.767,
+          "volume": 332123.8353,
+          "quote_volume": 782961757.518759,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.9,
+          "change_pct": 1.411,
+          "volume": 3039932.817,
+          "quote_volume": 286480424.78952,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 716.87,
+          "change_pct": 2.406,
+          "volume": 186544.181,
+          "quote_volume": 131167261.28841,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.01687,
+          "change_pct": -23.7,
+          "volume": 651351237.0,
+          "quote_volume": 12121685.05491,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TRUMP": {
+          "price": 1.283,
+          "change_pct": -18.591,
+          "volume": 25763184.133,
+          "quote_volume": 35111779.259642,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
