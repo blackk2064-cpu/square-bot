@@ -26111,6 +26111,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793829761.1870062,
+      "category": "binance_news",
+      "symbol": "TRUMP",
+      "topic": "Democratic sweep of Congress forces crypto industry to rethink Washington strategy",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80249.71,
+          "change_pct": 3.013,
+          "volume": 21651.05648,
+          "quote_volume": 1706793611.389615,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2419.27,
+          "change_pct": 5.43,
+          "volume": 333465.4097,
+          "quote_volume": 786797031.297941,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 94.85,
+          "change_pct": 1.217,
+          "volume": 3046744.975,
+          "quote_volume": 287165461.56152,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 717.86,
+          "change_pct": 2.41,
+          "volume": 186741.449,
+          "quote_volume": 131337383.40331,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.01725,
+          "change_pct": -21.662,
+          "volume": 657568417.0,
+          "quote_volume": 12210363.30074,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TRUMP": {
+          "price": 1.269,
+          "change_pct": -20.289,
+          "volume": 26838666.982,
+          "quote_volume": 36452784.17928,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
