@@ -25727,6 +25727,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793800929.8516176,
+      "category": "analysis",
+      "symbol": "ETH",
+      "topic": "analysis_ETH",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78398.02,
+          "change_pct": 1.323,
+          "volume": 14651.48704,
+          "quote_volume": 1135882619.925229,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2319.6,
+          "change_pct": 1.468,
+          "volume": 201743.4054,
+          "quote_volume": 462596305.729635,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.01,
+          "change_pct": -0.268,
+          "volume": 1860309.154,
+          "quote_volume": 172242825.14132,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 701.14,
+          "change_pct": 0.404,
+          "volume": 149361.947,
+          "quote_volume": 104093386.92501,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.01761,
+          "change_pct": -18.397,
+          "volume": 562129538.0,
+          "quote_volume": 10954813.18013,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BEAMX": {
+          "price": 0.00451,
+          "change_pct": 12.553,
+          "volume": 1943153902.0,
+          "quote_volume": 8150022.368375,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
