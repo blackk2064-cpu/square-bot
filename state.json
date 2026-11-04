@@ -25919,6 +25919,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793818935.7274415,
+      "category": "general_news",
+      "symbol": "TRUMP",
+      "topic": "Schroders launches tokenized emerging markets debt fund on Solana with Centrifuge",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80370.01,
+          "change_pct": 3.582,
+          "volume": 21065.45426,
+          "quote_volume": 1657783270.3446343,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2423.89,
+          "change_pct": 5.729,
+          "volume": 327173.5739,
+          "quote_volume": 769579830.33133,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.32,
+          "change_pct": 2.001,
+          "volume": 2880043.326,
+          "quote_volume": 271198921.10622,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 717.07,
+          "change_pct": 2.832,
+          "volume": 185246.391,
+          "quote_volume": 130190136.67691,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.01702,
+          "change_pct": -19.375,
+          "volume": 639820774.0,
+          "quote_volume": 11975520.44289,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TRUMP": {
+          "price": 1.296,
+          "change_pct": -18.078,
+          "volume": 22585318.997,
+          "quote_volume": 31062919.902339,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "direct_question",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
