@@ -25599,6 +25599,70 @@
       "template_id": null,
       "hook_type": "comparison",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793768553.1970525,
+      "category": "binance_news",
+      "symbol": "BMT",
+      "topic": "Tether Holds 150,000 Bitcoin, CEO Says—About 50,000 More Than Its Reserve Report Shows",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 77331.73,
+          "change_pct": 0.505,
+          "volume": 13794.55404,
+          "quote_volume": 1063044184.945571,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2278.66,
+          "change_pct": 0.943,
+          "volume": 177312.0662,
+          "quote_volume": 402916576.527242,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 92.25,
+          "change_pct": -0.022,
+          "volume": 1666718.833,
+          "quote_volume": 153847481.94467,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 694.13,
+          "change_pct": -0.452,
+          "volume": 124949.667,
+          "quote_volume": 86726900.01265,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02948,
+          "change_pct": 21.367,
+          "volume": 667239846.4,
+          "quote_volume": 17805429.324573,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RUNE": {
+          "price": 0.631,
+          "change_pct": 13.899,
+          "volume": 21548189.1,
+          "quote_volume": 13432670.8544,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
