@@ -25471,6 +25471,70 @@
       "template_id": null,
       "hook_type": "scenario",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793761373.1131206,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Tether Holds 150,000 Bitcoin, CEO Says—About 50,000 More Than Its Reserve Report Shows",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76205.1,
+          "change_pct": -0.663,
+          "volume": 12922.26563,
+          "quote_volume": 997079020.4068611,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2243.91,
+          "change_pct": -0.369,
+          "volume": 159325.0057,
+          "quote_volume": 362398557.388592,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 90.88,
+          "change_pct": -0.991,
+          "volume": 1408654.125,
+          "quote_volume": 130432794.72121,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 685.86,
+          "change_pct": -1.457,
+          "volume": 104057.324,
+          "quote_volume": 72456128.34034,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.02925,
+          "change_pct": 35.479,
+          "volume": 703949344.7,
+          "quote_volume": 18393149.539724,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RUNE": {
+          "price": 0.621,
+          "change_pct": 13.115,
+          "volume": 18588644.6,
+          "quote_volume": 11555965.477,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
