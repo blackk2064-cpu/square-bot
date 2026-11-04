@@ -25727,6 +25727,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793782929.6385646,
+      "category": "macro_news",
+      "symbol": "SOL",
+      "topic": "Ethereum dev targets 2028 for quantum resistance, a year early",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78500.0,
+          "change_pct": 2.439,
+          "volume": 14857.58405,
+          "quote_volume": 1148641723.7139287,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2322.53,
+          "change_pct": 2.897,
+          "volume": 195963.7974,
+          "quote_volume": 447575054.291151,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.27,
+          "change_pct": 1.513,
+          "volume": 1794263.581,
+          "quote_volume": 165953494.64092,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 702.8,
+          "change_pct": 1.332,
+          "volume": 139738.073,
+          "quote_volume": 97290743.1842,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.03067,
+          "change_pct": 25.645,
+          "volume": 624315583.0,
+          "quote_volume": 17431145.744841,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HOT": {
+          "price": 0.000541,
+          "change_pct": 20.222,
+          "volume": 24042973712.0,
+          "quote_volume": 12684715.871078,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
