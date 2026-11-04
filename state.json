@@ -1,134 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791183736.1591992,
-      "category": "education",
-      "symbol": "BNB",
-      "topic": "education",
-      "text_hash": "c8df7182c1d54eeb62a1926ec1cc4cd553aff9fc58f656ca2b1a7dadc848b056",
-      "text_for_similarity": "too_long",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86257.93,
-          "change_pct": 1.442,
-          "volume": 11592.4896,
-          "quote_volume": 996436562.5406083,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2726.05,
-          "change_pct": 1.107,
-          "volume": 150353.8924,
-          "quote_volume": 408141093.727376,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.58,
-          "change_pct": 0.479,
-          "volume": 1480416.485,
-          "quote_volume": 179549162.50034,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 794.28,
-          "change_pct": 0.719,
-          "volume": 133449.149,
-          "quote_volume": 106136003.23476,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GTC": {
-          "price": 0.18946,
-          "change_pct": 65.222,
-          "volume": 143353616.7,
-          "quote_volume": 25648138.005831,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NIL": {
-          "price": 0.10614,
-          "change_pct": 20.875,
-          "volume": 96293526.7,
-          "quote_volume": 9369032.7904,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
-      "timestamp": 1791187337.5857317,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis_ETH",
-      "text_hash": "d1c7c1f4dc3e30ee9a768075e414d012d975c0a50c94b98110db57c0ff371551",
-      "text_for_similarity": "$ETH is holding above the $2,700 mark as it trades at 2726.51.\nThe price is up 0.797",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86292.0,
-          "change_pct": 1.377,
-          "volume": 12038.76978,
-          "quote_volume": 1035273151.1711793,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2726.51,
-          "change_pct": 0.797,
-          "volume": 164189.3178,
-          "quote_volume": 445991433.073737,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.67,
-          "change_pct": 0.429,
-          "volume": 1506319.595,
-          "quote_volume": 182727351.43015,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 791.8,
-          "change_pct": 0.514,
-          "volume": 139302.636,
-          "quote_volume": 110791501.28706,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "GTC": {
-          "price": 0.21012,
-          "change_pct": 79.651,
-          "volume": 152978398.8,
-          "quote_volume": 27665111.575567,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SCR": {
-          "price": 0.02994,
-          "change_pct": 18.715,
-          "volume": 213262100.3,
-          "quote_volume": 5953571.126912,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 85,
-      "published": true,
-      "template_id": null,
-      "hook_type": "comparison",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791194526.765719,
       "category": "analysis",
       "symbol": "BTC",
@@ -25790,6 +25662,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793779390.1314566,
+      "category": "analysis",
+      "symbol": "BNB",
+      "topic": "analysis_BNB",
+      "text_hash": "ce5fd8fcb18a838b77df9ad634575c199ecf26e95417bc7cd5c4b0a54ab1e1b6",
+      "text_for_similarity": "1.277% is the 24-hour gain for $BNB as it trades at 703.69.\n\nWith 24-hour volume reaching 131776.282, will $BNB push past this level or retest support next? 📈\n\n#BNB #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 78164.01,
+          "change_pct": 1.734,
+          "volume": 14485.19654,
+          "quote_volume": 1118731034.0937698,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2305.0,
+          "change_pct": 2.047,
+          "volume": 185275.2416,
+          "quote_volume": 422446720.119368,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 93.09,
+          "change_pct": 1.031,
+          "volume": 1764390.354,
+          "quote_volume": 163082675.65732,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 703.69,
+          "change_pct": 1.277,
+          "volume": 131776.282,
+          "quote_volume": 91632374.3601,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BMT": {
+          "price": 0.03036,
+          "change_pct": 24.682,
+          "volume": 620950452.9,
+          "quote_volume": 17221625.409242,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HOT": {
+          "price": 0.000521,
+          "change_pct": 18.95,
+          "volume": 24177419792.0,
+          "quote_volume": 12702691.126429,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
