@@ -26303,6 +26303,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793873000.0153236,
+      "category": "binance_news",
+      "symbol": "HUMA",
+      "topic": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80426.7,
+          "change_pct": 2.597,
+          "volume": 19594.20412,
+          "quote_volume": 1569676788.4860694,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2419.81,
+          "change_pct": 4.228,
+          "volume": 302741.9999,
+          "quote_volume": 728532622.887077,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.87,
+          "change_pct": 4.038,
+          "volume": 2573696.702,
+          "quote_volume": 246351885.59065,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 715.86,
+          "change_pct": 1.993,
+          "volume": 148761.253,
+          "quote_volume": 106173353.5507,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SNXXB": {
+          "price": 5.17,
+          "change_pct": -21.429,
+          "volume": 1214234.34,
+          "quote_volume": 6756780.6138,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.01572,
+          "change_pct": -20.686,
+          "volume": 634314185.0,
+          "quote_volume": 11065843.84182,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
