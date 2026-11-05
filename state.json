@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791277348.1865878,
-      "category": "analysis",
-      "symbol": "RAD",
-      "topic": "analysis_RAD",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "text_for_similarity": "no_ai_output",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 86026.89,
-          "change_pct": -0.216,
-          "volume": 13731.82587,
-          "quote_volume": 1177476105.6426773,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2716.99,
-          "change_pct": -0.159,
-          "volume": 227250.3734,
-          "quote_volume": 614605530.714342,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 120.53,
-          "change_pct": -0.462,
-          "volume": 1288093.292,
-          "quote_volume": 154923638.89163,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 783.23,
-          "change_pct": -0.682,
-          "volume": 87860.053,
-          "quote_volume": 69030868.65193,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RLC": {
-          "price": 0.9047,
-          "change_pct": 135.293,
-          "volume": 79647236.1,
-          "quote_volume": 54771952.21762,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RAD": {
-          "price": 0.412,
-          "change_pct": 53.731,
-          "volume": 49520686.2,
-          "quote_volume": 17051274.4516,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791284569.486281,
       "category": "education",
       "symbol": "RLC",
@@ -26302,6 +26238,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793869352.51353,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80487.55,
+          "change_pct": 2.548,
+          "volume": 19030.22445,
+          "quote_volume": 1523512010.097231,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2420.01,
+          "change_pct": 4.231,
+          "volume": 298241.5482,
+          "quote_volume": 716962344.076667,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.8,
+          "change_pct": 3.818,
+          "volume": 2599287.608,
+          "quote_volume": 248567338.70213,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 715.35,
+          "change_pct": 1.797,
+          "volume": 151353.429,
+          "quote_volume": 107962478.84032,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SNXXB": {
+          "price": 5.14,
+          "change_pct": -21.166,
+          "volume": 1207378.94,
+          "quote_volume": 6766523.9478,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOXLB": {
+          "price": 62.1,
+          "change_pct": -18.214,
+          "volume": 812546.525,
+          "quote_volume": 53349923.45628,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
