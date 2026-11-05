@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791241341.8719604,
-      "category": "sarcastic",
-      "symbol": "RAD",
-      "topic": "sarcastic",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "text_for_similarity": "no_ai_output",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 85928.01,
-          "change_pct": -0.631,
-          "volume": 16634.34823,
-          "quote_volume": 1430789784.800458,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2716.0,
-          "change_pct": -0.6,
-          "volume": 275412.1489,
-          "quote_volume": 746594559.223064,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.03,
-          "change_pct": -0.567,
-          "volume": 1617151.196,
-          "quote_volume": 195119122.09751,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 788.31,
-          "change_pct": -0.945,
-          "volume": 143740.431,
-          "quote_volume": 114141377.05719,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RLC": {
-          "price": 0.693,
-          "change_pct": 91.12,
-          "volume": 49951015.8,
-          "quote_volume": 30029501.46096,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RAD": {
-          "price": 0.347,
-          "change_pct": 32.443,
-          "volume": 30162244.4,
-          "quote_volume": 9562426.3615,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791244955.9976478,
       "category": "binance_news",
       "symbol": "RAD",
@@ -26230,6 +26166,70 @@
           "change_pct": -20.175,
           "volume": 27432310.515,
           "quote_volume": 37193328.40996,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "scenario",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793836939.9022799,
+      "category": "general_news",
+      "symbol": "ETH",
+      "topic": "Democratic sweep of Congress forces crypto industry to rethink Washington strategy",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80526.01,
+          "change_pct": 3.886,
+          "volume": 22151.40652,
+          "quote_volume": 1748188872.7369707,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2424.94,
+          "change_pct": 6.457,
+          "volume": 342255.3051,
+          "quote_volume": 809115100.28235,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.63,
+          "change_pct": 2.872,
+          "volume": 3105955.717,
+          "quote_volume": 293001662.04055,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 720.05,
+          "change_pct": 3.054,
+          "volume": 188800.01,
+          "quote_volume": 132962753.63411,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.01702,
+          "change_pct": -23.195,
+          "volume": 668448663.0,
+          "quote_volume": 12349813.05324,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "TRUMP": {
+          "price": 1.268,
+          "change_pct": -20.201,
+          "volume": 27815231.345,
+          "quote_volume": 37653848.128796,
           "funding_rate": null,
           "open_interest": null
         }
