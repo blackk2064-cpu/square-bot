@@ -26431,6 +26431,70 @@
       "template_id": null,
       "hook_type": "direct_question",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793901741.4277678,
+      "category": "binance_news",
+      "symbol": "ETH",
+      "topic": "Blockchain is ‘perfect solution’ for AI agent trust, VeChain CEO says",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 75852.0,
+          "change_pct": -5.802,
+          "volume": 23914.89624,
+          "quote_volume": 1876260336.2008095,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2251.67,
+          "change_pct": -7.245,
+          "volume": 323221.4318,
+          "quote_volume": 760541832.729741,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 88.98,
+          "change_pct": -7.167,
+          "volume": 2561259.417,
+          "quote_volume": 240035439.76295,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 690.9,
+          "change_pct": -3.644,
+          "volume": 169982.721,
+          "quote_volume": 119864975.86857,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SNXXB": {
+          "price": 3.31,
+          "change_pct": -40.036,
+          "volume": 3439644.46,
+          "quote_volume": 13604896.7747,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOXLB": {
+          "price": 44.05,
+          "change_pct": -35.173,
+          "volume": 1452040.361,
+          "quote_volume": 79228568.87944,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
