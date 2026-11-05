@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791255744.4879618,
-      "category": "analysis",
-      "symbol": "RLC",
-      "topic": "analysis_RLC",
-      "text_hash": "cf0d2469fcf9644a0959c3a381b198239507512c89b51fc9bdbf5adc7733101b",
-      "text_for_similarity": "Did you catch the massive surge on $RLC today? 📈\n\n$RLC is trading at 0.698 after gaining 80.129% over the last 24 hours, with trading volume reaching 59075665.3.\n\nAre you taking profits here, or are you holding for further upside?\n\n#RLC #trading",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 85536.01,
-          "change_pct": -1.137,
-          "volume": 14942.64605,
-          "quote_volume": 1282903334.107448,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2702.46,
-          "change_pct": -1.02,
-          "volume": 254230.1385,
-          "quote_volume": 688492453.244808,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 120.2,
-          "change_pct": -0.768,
-          "volume": 1538766.921,
-          "quote_volume": 185494692.30929,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 781.36,
-          "change_pct": -2.445,
-          "volume": 119090.065,
-          "quote_volume": 94066896.93026,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RLC": {
-          "price": 0.698,
-          "change_pct": 80.129,
-          "volume": 59075665.3,
-          "quote_volume": 36826497.83341,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RAD": {
-          "price": 0.367,
-          "change_pct": 39.015,
-          "volume": 36311597.2,
-          "quote_volume": 11781424.2031,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791277348.1865878,
       "category": "analysis",
       "symbol": "RAD",
@@ -26238,6 +26174,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793847782.2507813,
+      "category": "general_news",
+      "symbol": "RAY",
+      "topic": "Democratic sweep of Congress forces crypto industry to rethink Washington strategy",
+      "text_hash": "1c681213c73e7735eed1e6b661b22e1887cda07d1ca1d5d5b22457e48ba6b15f",
+      "text_for_similarity": "Did you catch the massive move on $RAY today?\n\nThe token is trading at 1.7941 after surging 19.983% in the last 24 hours on a volume of 3345991.8.\n\nAre you locking in profits now, or holding for another push higher? 📈\n\n#RAY #crypto",
+      "ai_provider": "gemini",
+      "data_snapshot": {
+        "BTC": {
+          "price": 80575.08,
+          "change_pct": 5.725,
+          "volume": 21719.36181,
+          "quote_volume": 1721556323.7223473,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2428.64,
+          "change_pct": 8.211,
+          "volume": 337481.7559,
+          "quote_volume": 801269308.816756,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.37,
+          "change_pct": 6.006,
+          "volume": 2941246.464,
+          "quote_volume": 278640575.68212,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 716.35,
+          "change_pct": 4.438,
+          "volume": 189474.13,
+          "quote_volume": 133956932.31312,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "RAY": {
+          "price": 1.7941,
+          "change_pct": 19.983,
+          "volume": 3345991.8,
+          "quote_volume": 5660592.8717,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "HUMA": {
+          "price": 0.01658,
+          "change_pct": -19.122,
+          "volume": 649025048.0,
+          "quote_volume": 11802368.29962,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 90,
+      "published": true,
+      "template_id": null,
+      "hook_type": "direct_question",
       "whale_events": null
     }
   ],
