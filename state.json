@@ -26495,6 +26495,70 @@
       "template_id": null,
       "hook_type": "striking_number",
       "whale_events": null
+    },
+    {
+      "timestamp": 1793905338.715897,
+      "category": "general_news",
+      "symbol": "BTC",
+      "topic": "Europe’s largest asset manager Amundi tokenizes equity index fund on Ethereum",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 76056.01,
+          "change_pct": -5.368,
+          "volume": 23897.67788,
+          "quote_volume": 1871538347.1069262,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2249.84,
+          "change_pct": -7.181,
+          "volume": 326916.6567,
+          "quote_volume": 767429302.824939,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 89.52,
+          "change_pct": -6.085,
+          "volume": 2574509.795,
+          "quote_volume": 240482432.47137,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 691.94,
+          "change_pct": -3.507,
+          "volume": 170249.391,
+          "quote_volume": 119961628.85473,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SNXXB": {
+          "price": 3.38,
+          "change_pct": -36.822,
+          "volume": 3541651.36,
+          "quote_volume": 13906436.5918,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 7.12,
+          "change_pct": -32.384,
+          "volume": 2029621.59,
+          "quote_volume": 17788182.3779,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
     }
   ],
   "whale_watch": {}
