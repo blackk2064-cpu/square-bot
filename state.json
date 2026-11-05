@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791284569.486281,
-      "category": "education",
-      "symbol": "RLC",
-      "topic": "education",
-      "text_hash": "adeaabe2f4f4676e6bea116e44b4804c679b6c7d833326acf3768cf36f2b5a06",
-      "text_for_similarity": "$RLC is surging with a massive 91.696% gain in the last 24 hours, yet its\n price remains below the 1.00 mark at 0.9372.\n\nTrading volume has expanded sharply to 78526281.5 during this move.\n\nWill $RLC break past 1.00 next, or will it pull back below 0.90? #RLC #trading",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86174.51,
-          "change_pct": 0.087,
-          "volume": 13666.79548,
-          "quote_volume": 1171906932.168183,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2713.99,
-          "change_pct": -0.063,
-          "volume": 239224.3587,
-          "quote_volume": 647010763.011708,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 120.3,
-          "change_pct": -0.298,
-          "volume": 1429442.414,
-          "quote_volume": 171743076.74847,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 783.74,
-          "change_pct": -0.781,
-          "volume": 87100.205,
-          "quote_volume": 68401582.96451,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RLC": {
-          "price": 0.9372,
-          "change_pct": 91.696,
-          "volume": 78526281.5,
-          "quote_volume": 56584830.2903,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RAD": {
-          "price": 0.395,
-          "change_pct": 49.621,
-          "volume": 52441524.9,
-          "quote_volume": 18225099.3521,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "contradiction",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791288207.3666644,
       "category": "analysis",
       "symbol": "ETH",
@@ -26422,6 +26358,70 @@
           "change_pct": -21.454,
           "volume": 618708593.0,
           "quote_volume": 10641634.97988,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793880158.5753462,
+      "category": "education",
+      "symbol": "ETH",
+      "topic": "education",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 80305.58,
+          "change_pct": 2.313,
+          "volume": 19458.36345,
+          "quote_volume": 1560306155.084785,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2418.29,
+          "change_pct": 3.835,
+          "volume": 295167.6154,
+          "quote_volume": 711802862.427225,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 96.33,
+          "change_pct": 2.862,
+          "volume": 2487839.737,
+          "quote_volume": 238518884.12673,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 716.11,
+          "change_pct": 1.968,
+          "volume": 139072.066,
+          "quote_volume": 99420183.9701,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SNXXB": {
+          "price": 4.98,
+          "change_pct": -21.821,
+          "volume": 1195094.61,
+          "quote_volume": 6604777.925,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOXLB": {
+          "price": 61.13,
+          "change_pct": -18.818,
+          "volume": 823159.189,
+          "quote_volume": 53257423.89624,
           "funding_rate": null,
           "open_interest": null
         }
