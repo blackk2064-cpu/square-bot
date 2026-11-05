@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791298965.6422937,
-      "category": "binance_news",
-      "symbol": "RLC",
-      "topic": "Ethereum’s Glamsterdam upgrade launches on Sepolia testnet",
-      "text_hash": "083783dfec20b26aa72aea27b5f955b368c31374c500a41b1ef4ad17c9088fbf",
-      "text_for_similarity": "53.422% $RLC is trading at $0.8742.\n$RLC price $0.8742 with 24h volume $80,444,026.8.\nBuy or hold $RLC?",
-      "ai_provider": "openrouter",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86623.92,
-          "change_pct": 1.136,
-          "volume": 12544.61947,
-          "quote_volume": 1076054037.8228767,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2722.5,
-          "change_pct": 0.65,
-          "volume": 237748.91,
-          "quote_volume": 643027350.967551,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.83,
-          "change_pct": 1.941,
-          "volume": 1397423.508,
-          "quote_volume": 168043396.21137,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 786.36,
-          "change_pct": -0.259,
-          "volume": 83065.053,
-          "quote_volume": 65134065.90397,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RLC": {
-          "price": 0.8742,
-          "change_pct": 53.422,
-          "volume": 80444026.8,
-          "quote_volume": 64682028.60783,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NMR": {
-          "price": 16.58,
-          "change_pct": 40.508,
-          "volume": 1353484.34,
-          "quote_volume": 22216925.4228,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 90,
-      "published": true,
-      "template_id": null,
-      "hook_type": "striking_number",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791320534.1164281,
       "category": "binance_news",
       "symbol": "BTC",
@@ -26366,6 +26302,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "contradiction",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793890982.5441692,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Blockchain is ‘perfect solution’ for AI agent trust, VeChain CEO says",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 78209.75,
+          "change_pct": -1.446,
+          "volume": 19251.03562,
+          "quote_volume": 1545766214.4373648,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2340.71,
+          "change_pct": -1.735,
+          "volume": 305132.7088,
+          "quote_volume": 737404740.847837,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 92.89,
+          "change_pct": -2.498,
+          "volume": 2534706.463,
+          "quote_volume": 243314479.35422,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 701.76,
+          "change_pct": -1.181,
+          "volume": 141382.121,
+          "quote_volume": 101176915.33256,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SNXXB": {
+          "price": 3.98,
+          "change_pct": -35.073,
+          "volume": 1606980.06,
+          "quote_volume": 7851996.9788,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOXLB": {
+          "price": 52.31,
+          "change_pct": -27.579,
+          "volume": 907541.599,
+          "quote_volume": 55948792.16311,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "striking_number",
       "whale_events": null
     }
   ],
