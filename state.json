@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791320534.1164281,
-      "category": "binance_news",
-      "symbol": "BTC",
-      "topic": "Pudgy Penguins' Ethereum Layer-2 Abstract Is Shutting Down",
-      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
-      "text_for_similarity": "no_ai_output",
-      "ai_provider": null,
-      "data_snapshot": {
-        "BTC": {
-          "price": 85621.49,
-          "change_pct": -0.189,
-          "volume": 12795.47721,
-          "quote_volume": 1099070432.6960635,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2698.46,
-          "change_pct": -0.52,
-          "volume": 231149.9515,
-          "quote_volume": 624998249.281103,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 121.02,
-          "change_pct": 0.315,
-          "volume": 1512051.334,
-          "quote_volume": 182267156.04582,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 779.68,
-          "change_pct": -1.033,
-          "volume": 86874.535,
-          "quote_volume": 68012049.26891,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ORCA": {
-          "price": 3.034,
-          "change_pct": 37.534,
-          "volume": 15425452.61,
-          "quote_volume": 41054681.21176,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NMR": {
-          "price": 15.57,
-          "change_pct": 29.858,
-          "volume": 1854711.23,
-          "quote_volume": 30574344.1956,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 0,
-      "published": false,
-      "template_id": null,
-      "hook_type": "direct_question",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791327731.6930327,
       "category": "binance_news",
       "symbol": "BNB",
@@ -26614,6 +26550,70 @@
           "change_pct": -30.153,
           "volume": 2140217.49,
           "quote_volume": 18540126.7136,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "comparison",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793916171.3480809,
+      "category": "binance_news",
+      "symbol": "BTC",
+      "topic": "Europe’s largest asset manager Amundi tokenizes equity index fund on Ethereum",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 75836.75,
+          "change_pct": -5.499,
+          "volume": 24753.24947,
+          "quote_volume": 1930703447.5380344,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2228.38,
+          "change_pct": -7.89,
+          "volume": 346753.4768,
+          "quote_volume": 808089977.001158,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 89.91,
+          "change_pct": -5.208,
+          "volume": 2521158.435,
+          "quote_volume": 234318677.45056,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 688.15,
+          "change_pct": -4.139,
+          "volume": 175145.651,
+          "quote_volume": 123200532.42242,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SNXXB": {
+          "price": 3.28,
+          "change_pct": -40.472,
+          "volume": 4422417.03,
+          "quote_volume": 16651182.095,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 6.38,
+          "change_pct": -40.206,
+          "volume": 2525579.52,
+          "quote_volume": 20939701.9932,
           "funding_rate": null,
           "open_interest": null
         }
