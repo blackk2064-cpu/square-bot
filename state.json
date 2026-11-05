@@ -1,70 +1,6 @@
 {
   "posts": [
     {
-      "timestamp": 1791288207.3666644,
-      "category": "analysis",
-      "symbol": "ETH",
-      "topic": "analysis_ETH",
-      "text_hash": "dd54d361f65c31cb67fedc95a363748b86f180d35bbee4a5e8d5e94cde908ec3",
-      "text_for_similarity": "Holding your position through sideways action requires serious\n patience.\n\n$ETH is hovering at 2715.08 after a tiny 24h change of -0.096% on 240000.9594 volume.\n\nAre you taking profits at this level or holding for the next breakout? 📊\n\n#ETH #crypto",
-      "ai_provider": "gemini",
-      "data_snapshot": {
-        "BTC": {
-          "price": 86280.01,
-          "change_pct": 0.111,
-          "volume": 13805.78659,
-          "quote_volume": 1183968086.7058444,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "ETH": {
-          "price": 2715.08,
-          "change_pct": -0.096,
-          "volume": 240000.9594,
-          "quote_volume": 649107170.301019,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "SOL": {
-          "price": 120.36,
-          "change_pct": -0.315,
-          "volume": 1439659.803,
-          "quote_volume": 172947506.07477,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "BNB": {
-          "price": 783.83,
-          "change_pct": -0.908,
-          "volume": 88107.952,
-          "quote_volume": 69173775.68685,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "RLC": {
-          "price": 1.0157,
-          "change_pct": 112.09,
-          "volume": 83253524.3,
-          "quote_volume": 62498806.21923,
-          "funding_rate": null,
-          "open_interest": null
-        },
-        "NMR": {
-          "price": 16.79,
-          "change_pct": 41.568,
-          "volume": 782680.59,
-          "quote_volume": 12403520.7519,
-          "funding_rate": null,
-          "open_interest": null
-        }
-      },
-      "quality_score": 80,
-      "published": true,
-      "template_id": null,
-      "hook_type": "scenario",
-      "whale_events": null
-    },
-    {
       "timestamp": 1791291794.5410814,
       "category": "binance_news",
       "symbol": "SOL",
@@ -26430,6 +26366,70 @@
       "published": false,
       "template_id": null,
       "hook_type": "striking_number",
+      "whale_events": null
+    },
+    {
+      "timestamp": 1793883793.1305609,
+      "category": "macro_news",
+      "symbol": "BTC",
+      "topic": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
+      "text_hash": "ddb26a1adedafba6cd2a00e7ea4142353764a56ba9d2479cde918aeffd6ea393",
+      "text_for_similarity": "no_ai_output",
+      "ai_provider": null,
+      "data_snapshot": {
+        "BTC": {
+          "price": 79694.01,
+          "change_pct": 1.723,
+          "volume": 19501.80869,
+          "quote_volume": 1565094799.1241205,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "ETH": {
+          "price": 2394.52,
+          "change_pct": 3.376,
+          "volume": 302236.4385,
+          "quote_volume": 729557243.183766,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SOL": {
+          "price": 95.38,
+          "change_pct": 2.88,
+          "volume": 2537691.303,
+          "quote_volume": 243489992.37416,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "BNB": {
+          "price": 711.23,
+          "change_pct": 1.661,
+          "volume": 141667.529,
+          "quote_volume": 101340229.48143,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "SNXXB": {
+          "price": 4.74,
+          "change_pct": -21.262,
+          "volume": 1218197.53,
+          "quote_volume": 6644554.3586,
+          "funding_rate": null,
+          "open_interest": null
+        },
+        "KORUB": {
+          "price": 9.07,
+          "change_pct": -16.483,
+          "volume": 1298602.67,
+          "quote_volume": 12704064.9427,
+          "funding_rate": null,
+          "open_interest": null
+        }
+      },
+      "quality_score": 0,
+      "published": false,
+      "template_id": null,
+      "hook_type": "contradiction",
       "whale_events": null
     }
   ],
